@@ -19,26 +19,27 @@ def get_urls(session, url, content_type, retries=3):
         try:
             response = session.get(url, headers=headers, timeout=10)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, "html.parser")
+            soup = BeautifulSoup(response.text, "lxml")
             urls = []
             cards = soup.find_all("div", class_="card style_1")
-
+            
             for card in cards:
                 link = card.find("a", class_="image")
                 if link and link.get("href"):
                     full_url = BASE_URL + link["href"]
+                    title = link.get("title")
+
                     urls.append({
                         "type": content_type,
+                        "title": title,
                         "url": full_url
                     })
             return urls
-        except requests.exceptions.RequestException as e:
-            print(f"Error on {url}")
-            print(f"Attempt {attempt+1}/{retries}")
-            time.sleep(3)
-    print(f"Skipping page: {url}")
+        except requests.exceptions.RequestException:
+            print(f"Retry {attempt+1} for {url}")
+            time.sleep(2)
+    print(f"Skipping {url}")
     return []
-
 
 def scrape_category(base_url, content_type):
     collected = {}
