@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda / environments
+env/
+venv/
+.venv/
+*.conda
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# Data
+data/
+datasets/
+
+# Models
+models/
+*.pt
+*.pth
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
