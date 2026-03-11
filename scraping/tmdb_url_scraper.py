@@ -8,7 +8,7 @@ BASE_URL = "https://www.themoviedb.org"
 MOVIE_URL = "https://www.themoviedb.org/movie?page={}"
 TV_URL = "https://www.themoviedb.org/tv?page={}"
 
-TARGET = 1000
+TARGET = 10000
 
 headers = {
     "User-Agent": "Mozilla/5.0"
@@ -50,7 +50,6 @@ def scrape_category(base_url, content_type):
         page_urls = get_urls(session, url, content_type)
         for item in page_urls:
             collected[item["url"]] = item
-        print(f"Collected: {len(collected)}")
         page += 1
         time.sleep(1)
     return list(collected.values())[:TARGET]
