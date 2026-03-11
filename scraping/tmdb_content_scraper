@@ -9,8 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 INPUT_CSV = "data\\raw\\tmdb_urls.csv"
 OUTPUT_CSV = "data\\raw\\tmdb_movies_dataset.csv"
 
-MAX_WORKERS = 2  # importante bajar esto
-
+MAX_WORKERS = 5  # importante bajar esto
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -20,13 +19,11 @@ headers = {
 session = requests.Session()
 session.headers.update(headers)
 
-
 # -----------------------------
 # Cleaning
 # -----------------------------
 
 def convert_runtime_to_minutes(runtime_text):
-
     hours = 0
     minutes = 0
 
@@ -35,68 +32,49 @@ def convert_runtime_to_minutes(runtime_text):
 
     if h_match:
         hours = int(h_match.group(1))
-
     if m_match:
         minutes = int(m_match.group(1))
-
     return hours * 60 + minutes
 
 
 def clean_release_date(text):
-
     match = re.search(r"\d{2}/\d{2}/\d{4}", text)
-
     return match.group() if match else None
-
 
 # -----------------------------
 # Request with retry
 # -----------------------------
 
 def get_page(url):
-
     retries = 5
-
-    for i in range(retries):
-
-        response = session.get(url, timeout=15)
-
-        if response.status_code == 200:
-            return response
-
-        if response.status_code == 429:
-
-            wait = (i + 1) * 5
-            print(f"429 detected → waiting {wait}s")
-
-            time.sleep(wait)
-            continue
-
-        print("Error:", response.status_code, url)
-        return None
-
-    return None
-
+    while True:
+        for i in range(retries):
+            response = session.get(url, timeout=15)
+            if response.status_code == 200:
+                return response
+            if response.status_code == 429:
+                wait = (i + 1) * 5
+                print(f"429 detected → waiting {wait}s")
+                time.sleep(wait)
+                continue
+            print("Error:", response.status_code, url)
+            return None
+        print("Max retries reached → waiting 60s before retrying")
+        time.sleep(60)
 
 # -----------------------------
 # Scraper
 # -----------------------------
 
 def scrape_tmdb_page(url):
-
     try:
-
         response = get_page(url)
-
         if not response:
             return None
-
         soup = BeautifulSoup(response.text, "lxml")
-
         data = {}
-
+        
         data["url"] = url
-
         title = soup.select_one("h2 a")
         data["title"] = title.text.strip() if title else None
 
@@ -121,61 +99,69 @@ def scrape_tmdb_page(url):
         keywords = [k.text.strip() for k in soup.select("section.keywords li a")]
         data["keywords"] = "|".join(keywords)
 
-        time.sleep(random.uniform(1, 2))  # delay obligatorio
-
+        time.sleep(random.uniform(1, 2)) 
         return data
 
     except Exception as e:
-
         print("Failed:", url, e)
         return None
 
+# -----------------------------
+# Scraper
+# -----------------------------
+
+def run_scraper(urls):
+    results = []
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = [executor.submit(scrape_tmdb_page, url) for url in urls]
+        for i, future in enumerate(as_completed(futures), 1):
+            result = future.result()
+            if result:
+                results.append(result)
+            if i % 10 == 0:
+                print(f"Processed {i} pages")
+            # guardar cada 1000
+            if len(results) >= 1000:
+                df = pd.DataFrame(results)
+                df.to_csv(
+                    OUTPUT_CSV,
+                    mode="a",
+                    header=not pd.io.common.file_exists(OUTPUT_CSV),
+                    index=False
+                )
+                print(f"Saved {len(results)} rows to CSV")
+                results = []
+
+    # guardar remanente final
+    if results:
+        df = pd.DataFrame(results)
+        df.to_csv(
+            OUTPUT_CSV,
+            mode="a",
+            header=not pd.io.common.file_exists(OUTPUT_CSV),
+            index=False
+        )
+        print(f"Saved final {len(results)} rows")
 
 # -----------------------------
 # Main
 # -----------------------------
 
 def main():
-
     print("\nLoading URLs...")
 
     df = pd.read_csv(INPUT_CSV)
-
     urls = df["url"].dropna().tolist()
-    urls= urls[:10]  # para pruebas, quitar esto después
+    urls = urls[:10000]  # para pruebas
+
     print("Total URLs:", len(urls))
-
-    results = []
-
     start = time.time()
-
     print("\nStarting scraping...\n")
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-
-        futures = [executor.submit(scrape_tmdb_page, url) for url in urls]
-
-        for i, future in enumerate(as_completed(futures)):
-
-            result = future.result()
-
-            if result:
-                results.append(result)
-
-            if i % 10 == 0:
-                print(f"Processed {i} pages")
-
-    dataset = pd.DataFrame(results)
-
-    dataset.to_csv(OUTPUT_CSV, index=False)
-
+    run_scraper(urls)
     end = time.time()
-
     print("\nDataset saved:", OUTPUT_CSV)
-    print("Total movies scraped:", len(dataset))
     print("Time elapsed:", round((end - start) / 60, 2), "minutes")
 
-
 if __name__ == "__main__":
-
     main()
