@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import os
 import re
 import time
 import random
@@ -9,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 INPUT_CSV = "data\\raw\\tmdb_urls.csv"
 OUTPUT_CSV = "data\\raw\\tmdb_movies_dataset.csv"
 
-MAX_WORKERS = 5  # importante bajar esto
+MAX_WORKERS = 2  # importante bajar esto
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -142,26 +143,44 @@ def run_scraper(urls):
             index=False
         )
         print(f"Saved final {len(results)} rows")
+        
+# -----------------------------
+# Remaining URLs
+# -----------------------------        
+
+def get_remaining_urls():
+
+    print("\nLoading URLs...")
+    df_input = pd.read_csv(INPUT_CSV)
+    all_urls = df_input["url"].dropna()
+    print("Total URLs in input:", len(all_urls))
+    # si el dataset ya existe
+    if os.path.exists(OUTPUT_CSV):
+        df_output = pd.read_csv(OUTPUT_CSV)
+        scraped_urls = set(df_output["url"].dropna())
+        print("Already scraped:", len(scraped_urls))
+        remaining_urls = all_urls[~all_urls.isin(scraped_urls)]
+        print("Remaining URLs:", len(remaining_urls))
+        return remaining_urls.tolist()
+    else:
+        print("No previous dataset found")
+        return all_urls.tolist()
 
 # -----------------------------
 # Main
 # -----------------------------
 
 def main():
-    print("\nLoading URLs...")
 
-    df = pd.read_csv(INPUT_CSV)
-    urls = df["url"].dropna().tolist()
-    urls = urls[:10000]  # para pruebas
-
-    print("Total URLs:", len(urls))
+    urls = get_remaining_urls()
+    #urls = urls[:10000]  # para pruebas
+    print("\nURLs to scrape:", len(urls))
     start = time.time()
     print("\nStarting scraping...\n")
-
     run_scraper(urls)
     end = time.time()
     print("\nDataset saved:", OUTPUT_CSV)
     print("Time elapsed:", round((end - start) / 60, 2), "minutes")
-
+    
 if __name__ == "__main__":
     main()
