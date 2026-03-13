@@ -16,8 +16,12 @@ venv/
 .env
 
 # Data
-data/
-datasets/
+data/*
+datasets/*
+
+# Allow raw datasets (CSV)
+!data/raw/
+!data/raw/*.csv
 
 # Models
 models/

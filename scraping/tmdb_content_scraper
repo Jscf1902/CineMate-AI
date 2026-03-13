@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 INPUT_CSV = "data\\raw\\tmdb_urls.csv"
 OUTPUT_CSV = "data\\raw\\tmdb_movies_dataset.csv"
 
-MAX_WORKERS = 2  # importante bajar esto
+MAX_WORKERS = 1  # importante bajar esto
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
