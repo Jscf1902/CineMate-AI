@@ -1,12 +1,24 @@
 import os
+import logging
+import warnings
 from src.data.load_data import load_and_prepare_dataset
+from src.retrieval.hybrid_search import hybrid_search_faiss
 from src.embeddings.embeddings_faiss import (
     generate_field_embeddings,
     build_faiss_index,
     save_embeddings_and_index,
     load_embeddings_and_index,
 )
-from src.retrieval.hybrid_search import hybrid_search_faiss
+
+# Silence transformers logs
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
+
+# Silence warnings
+warnings.filterwarnings("ignore")
+
+# Disable tqdm globally
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 DATA_PATH = r"C:\Users\juans\OneDrive\Documentos\Maestria en Ingenieria y Analitica de Datos\Proyecto de Grado\CineMate AI\data\raw\tmdb_movies_dataset.csv"
 EMB_PATH = "data/processed"

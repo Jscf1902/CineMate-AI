@@ -32,10 +32,10 @@ def generate_field_embeddings(df, model_name="all-MiniLM-L6-v2"):
     genres = df["genres"].apply(
         lambda x: " ".join(x) if isinstance(x, list) else ""
     ).tolist()
-    emb_title = model.encode(titles, batch_size=64, show_progress_bar=True)
-    emb_overview = model.encode(overviews, batch_size=64, show_progress_bar=True)
-    emb_keywords = model.encode(keywords, batch_size=64, show_progress_bar=True)
-    emb_genres = model.encode(genres, batch_size=64, show_progress_bar=True)
+    emb_title = model.encode(titles, batch_size=64, show_progress_bar=False)
+    emb_overview = model.encode(overviews, batch_size=64, show_progress_bar=False)
+    emb_keywords = model.encode(keywords, batch_size=64, show_progress_bar=False)
+    emb_genres = model.encode(genres, batch_size=64, show_progress_bar=False)
     return {
         "title": np.array(emb_title),
         "overview": np.array(emb_overview),

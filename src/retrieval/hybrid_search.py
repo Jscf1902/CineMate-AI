@@ -64,17 +64,17 @@ def hybrid_search_faiss(
         # Dynamic weighting based on keyword availability
         if not df.iloc[i]["keywords"]:
             weights = {
-                "title": 0.45,
-                "genres": 0.20,
-                "overview": 0.35,
+                "title": 0.625,
+                "genres": 0.125,
+                "overview": 0.25,
                 "keywords": 0.0,
             }
         else:
             weights = {
                 "title": 0.25,
-                "genres": 0.10,
-                "overview": 0.15,
-                "keywords": 0.50,
+                "genres": 0.05,
+                "overview": 0.10,
+                "keywords": 0.60,
             }
 
         score = (
