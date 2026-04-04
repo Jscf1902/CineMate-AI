@@ -1,109 +1,89 @@
 import re
 from typing import Tuple
-
 import pandas as pd
 
-from src.retrieval.hybrid_search import hybrid_search_faiss
+from src.retrieval.hybrid_search import hybrid_search
 
 
-# -------------------------
-# TITLE SEARCH
-# -------------------------
-def search_by_title(query: str, df: pd.DataFrame, top_k: int = 5):
-    """
-    Search movies by title using simple string matching.
-    """
-    query = query.lower()
-
-    matches = df[df["title"].str.lower().str.contains(query, na=False)]
-
-    if matches.empty:
-        return None
-
-    return matches.head(top_k)
-
-
-# -------------------------
-# QUERY TYPE DETECTION
-# -------------------------
+# detecta si es búsqueda por título
 def is_title_query(query: str) -> bool:
-    """
-    Detect if query is likely a title search.
-    """
-    query = query.strip()
+    q = query.strip()
 
-    if len(query.split()) <= 3:
+    if len(q.split()) <= 3:
         return True
 
-    if re.match(r"^[A-Z][a-z]+", query):
+    if re.match(r"^[A-Z][a-z]+", q):
         return True
 
     return False
 
 
-# -------------------------
-# CONTEXT BUILDER
-# -------------------------
+# búsqueda por título
+def search_by_title(
+    query: str,
+    df: pd.DataFrame,
+    top_k: int
+):
+    q = query.lower()
+
+    results = df[df["title"].str.lower().str.contains(q, na=False)]
+
+    if results.empty:
+        return None
+
+    return results.head(top_k)
+
+
+# construye contexto
 def build_context(results: pd.DataFrame) -> str:
-    """
-    Convert retrieved results into a text context.
-    """
-    context = ""
+    if results is None or results.empty:
+        return ""
+
+    lines = []
 
     for _, row in results.iterrows():
-        context += (
+        genres = row.get("genres", [])
+        keywords = row.get("keywords", [])
+
+        genres_str = ", ".join(genres) if isinstance(genres, list) else ""
+        keywords_str = ", ".join(keywords) if isinstance(keywords, list) else ""
+
+        text = (
             f"Title: {row.get('title', '')}\n"
             f"Overview: {row.get('overview', '')}\n"
-            f"Genres: {', '.join(row.get('genres', []))}\n"
-            f"Keywords: {', '.join(row.get('keywords', []))}\n"
-            f"---\n"
+            f"Genres: {genres_str}\n"
+            f"Keywords: {keywords_str}"
         )
 
-    return context
+        lines.append(text)
+
+    return "\n---\n".join(lines)
 
 
-# -------------------------
-# HYBRID SEARCH WRAPPER
-# -------------------------
-def search_hybrid(query, df, embeddings, faiss_index, top_k=5):
-    """
-    Wrapper for hybrid search.
-    """
-    return hybrid_search_faiss(
-        query=query,
-        df=df,
-        embeddings=embeddings,
-        faiss_index=faiss_index,
-        top_k=top_k,
-    )
-
-
-# -------------------------
-# MAIN RAG RETRIEVAL
-# -------------------------
+# retrieval principal
 def rag_retrieve(
     query: str,
     df: pd.DataFrame,
+    embedding_service,
     embeddings: dict,
-    faiss_index,
     top_k: int = 5
 ) -> Tuple[str, pd.DataFrame]:
-    """
-    Retrieve relevant documents for RAG.
 
-    Returns
-    -------
-    context : str
-    results : pandas.DataFrame
-    """
+    results = None
 
+    # intento por título
     if is_title_query(query):
-        results = search_by_title(query, df, top_k=top_k)
+        results = search_by_title(query, df, top_k)
 
-        if results is None:
-            results = search_hybrid(query, df, embeddings, faiss_index, top_k=top_k)
-    else:
-        results = search_hybrid(query, df, embeddings, faiss_index, top_k=top_k)
+    # fallback a hybrid
+    if results is None or results.empty:
+        results = hybrid_search(
+            query=query,
+            df=df,
+            embedding_service=embedding_service,
+            embeddings=embeddings,
+            top_k=top_k,
+        )
 
     context = build_context(results)
 

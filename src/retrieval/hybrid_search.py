@@ -1,97 +1,71 @@
-import faiss
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
-def hybrid_search_faiss(
-    query,
+
+def hybrid_search(
+    query: str,
     df,
-    embeddings,
-    faiss_index,
-    top_k=10,
-    candidate_k=100,
-    model_name="all-MiniLM-L6-v2",
+    embedding_service,
+    embeddings: dict,
+    top_k: int = 10,
+    candidate_k: int = 100,
 ):
     """
-    Perform hybrid search using FAISS for candidate retrieval and
-    dynamic multi-criteria scoring for final ranking.
-
-    The scoring adapts based on the presence of keywords:
-    - If keywords exist → higher weight on keywords
-    - If keywords are missing → redistribute weight to title, genres, and overview
-
-    Parameters
-    ----------
-    query : str
-        User query text.
-    df : pandas.DataFrame
-        Dataset containing movie information.
-    embeddings : dict
-        Dictionary with embeddings per field.
-    faiss_index : faiss.Index
-        FAISS index built on overview embeddings.
-    top_k : int, optional
-        Number of final results to return.
-    candidate_k : int, optional
-        Number of candidates retrieved from FAISS.
-    model_name : str, optional
-        SentenceTransformer model name.
-
-    Returns
-    -------
-    pandas.DataFrame
-        Top-k results with associated scores.
+    faiss + rerank con pesos dinámicos
     """
 
-    model = SentenceTransformer(model_name)
+    query_emb = embedding_service.encode_query(query)[0]
 
-    # Encode query
-    query_emb = model.encode([query]).astype("float32")
-    faiss.normalize_L2(query_emb)
+    # candidatos con faiss (embedding combinado)
+    scores, indices = embedding_service.index.search(
+        np.array([query_emb]).astype("float32"),
+        min(candidate_k, len(df))
+    )
 
-    # Retrieve candidates from FAISS
-    _, indices = faiss_index.search(query_emb, candidate_k)
     candidate_indices = indices[0]
 
-    def cosine_sim(a, b):
-        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-    scores = []
-    for i in candidate_indices:
-        sim_title = cosine_sim(query_emb[0], embeddings["title"][i])
-        sim_overview = cosine_sim(query_emb[0], embeddings["overview"][i])
-        sim_keywords = cosine_sim(query_emb[0], embeddings["keywords"][i])
-        sim_genres = cosine_sim(query_emb[0], embeddings["genres"][i])
+    results = []
 
-        # Dynamic weighting based on keyword availability
-        if not df.iloc[i]["keywords"]:
-            weights = {
-                "title": 0.625,
-                "genres": 0.125,
-                "overview": 0.25, 
-                "keywords": 0.0,
-            }
+    for i in candidate_indices:
+        if i == -1:
+            continue
+
+        # similitudes por campo (dot = cosine)
+        sim_title = np.dot(query_emb, embeddings["title"][i])
+        sim_overview = np.dot(query_emb, embeddings["overview"][i])
+        sim_keywords = np.dot(query_emb, embeddings["keywords"][i])
+        sim_genres = np.dot(query_emb, embeddings["genres"][i])
+
+        # check keywords
+        keywords = df.iloc[i]["keywords"]
+        has_keywords = isinstance(keywords, list) and len(keywords) > 0
+
+        if has_keywords:
+            w_title = 0.25
+            w_overview = 0.10
+            w_keywords = 0.60
+            w_genres = 0.05
         else:
-            weights = {
-                "title": 0.25,
-                "genres": 0.05,
-                "overview": 0.10,
-                "keywords": 0.60,
-            }
+            w_title = 0.625
+            w_overview = 0.25
+            w_keywords = 0.0
+            w_genres = 0.125
 
         score = (
-            weights["title"] * sim_title
-            + weights["overview"] * sim_overview
-            + weights["keywords"] * sim_keywords
-            + weights["genres"] * sim_genres
+            w_title * sim_title +
+            w_overview * sim_overview +
+            w_keywords * sim_keywords +
+            w_genres * sim_genres
         )
-        scores.append((i, score))
 
-    # Rank results 
-    scores_sorted = sorted(scores, key=lambda x: x[1], reverse=True)[:top_k]
+        results.append((i, float(score)))
 
-    final_indices = [i for i, _ in scores_sorted]
-    final_scores = [s for _, s in scores_sorted]
+    # ordenar
+    results = sorted(results, key=lambda x: x[1], reverse=True)[:top_k]
 
-    results = df.iloc[final_indices].copy()
-    results["score"] = final_scores
+    final_indices = [i for i, _ in results]
+    final_scores = [s for _, s in results]
 
-    return results
+    output = df.iloc[final_indices].copy()
+    output["score"] = final_scores
+
+    return output
