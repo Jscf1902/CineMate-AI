@@ -60,7 +60,7 @@ def build_faiss_index(embeddings):
     dimension = emb.shape[1]
     index = faiss.IndexFlatIP(dimension)
     faiss.normalize_L2(emb)
-    index.add(emb)
+    index.add(emb) # type: ignore
     return index
 
 def save_embeddings_and_index(embeddings, faiss_index, path="data/processed"):

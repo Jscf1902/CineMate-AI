@@ -2,6 +2,7 @@ import os
 import logging
 import warnings
 from src.data.load_data import load_and_prepare_dataset
+
 from src.retrieval.hybrid_search import hybrid_search_faiss
 from src.embeddings.embeddings_faiss import (
     generate_field_embeddings,

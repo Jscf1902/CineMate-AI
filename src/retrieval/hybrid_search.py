@@ -66,7 +66,7 @@ def hybrid_search_faiss(
             weights = {
                 "title": 0.625,
                 "genres": 0.125,
-                "overview": 0.25,
+                "overview": 0.25, 
                 "keywords": 0.0,
             }
         else:
@@ -85,7 +85,7 @@ def hybrid_search_faiss(
         )
         scores.append((i, score))
 
-    # Rank results
+    # Rank results 
     scores_sorted = sorted(scores, key=lambda x: x[1], reverse=True)[:top_k]
 
     final_indices = [i for i, _ in scores_sorted]
