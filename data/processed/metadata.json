@@ -1,0 +1,7 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "weights": null,
+  "normalized": true,
+  "dim": 384,
+  "size": 20000
+}

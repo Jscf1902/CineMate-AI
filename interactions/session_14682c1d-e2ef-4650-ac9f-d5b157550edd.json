@@ -1,0 +1,68 @@
+{
+  "session_id": "14682c1d-e2ef-4650-ac9f-d5b157550edd",
+  "created_at": "2026-04-04 16:04:40.082286",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hola como estas?"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"language\": \"es\",\n  \"query_detected_title\": false,\n  \"recommendations\": [],\n  \"fallback\": \"¿Te gustaría que te recomiende películas?\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "recomiendame una pelicula parecida a transformers"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"language\": \"es\",\n  \"query_detected_title\": true,\n  \"recommendations\": [\n    {\n      \"title\": \"Transformers: Rise of the Beasts\",\n      \"reason\": \"Esta película sigue la misma trama de Transformers, con una amenaza global que lleva a los Autobots a unirse a un grupo poderoso para salvar la Tierra.\",\n      \"confidence\": \"high\",\n      \"source_ids\": [\"ctx_7\"]\n    },\n    {\n      \"title\": \"Transformers: EarthSpark\",\n      \"reason\": \"Esta versión alternativa de Transformers aborda la aparición de robots terrestres que unen a los humanos y a los Autobots en una misión colectiva.\",\n      \"confidence\": \"high\",\n      \"source_ids\": [\"ctx_4\"]\n    }\n  ],\n  \"fallback\": \"Si te gustaría, puedo recomendarte películas de ciencia ficción o aventuras con robots.\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "si me parece"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"language\": \"es\",\n  \"query_detected_title\": false,\n  \"recommendations\": [],\n  \"fallback\": \"¿Podrías especificar una película o tema que te guste para recomendarte algo más relevante?\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "algo como de terror con robots, y que sea de anime"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"language\": \"es\",\n  \"query_detected_title\": false,\n  \"recommendations\": [\n    {\n      \"title\": \"Mingo y Aníbal contra los fantasmas\",\n      \"reason\": \"Esta película anime de horror aborda un caso misterioso con un fantasma que busca venganza, inspirado en el género de terror con elementos de ficción científica.\",\n      \"confidence\": \"high\",\n      \"source_ids\": [\"ctx_12\", \"ctx_7\"]\n    },\n    {\n      \"title\": \"Los superagentes y el tesoro maldito\",\n      \"reason\": \"Esta película anime de horror sigue la trama de biónicos que luchan contra un gang de robos, con una trama de misterio y acción que se adapta a la temática de terror y aventuras.\",\n      \"confidence\": \"high\",\n      \"source_ids\": [\"ctx_12\", \"ctx_7\"]\n    }\n  ],\n  \"fallback\": \"¿Podrías especificar una película o tema que te guste para recomendarte algo más relevante?\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "algo parecido a Avatar"
+    },
+    {
+      "role": "assistant",
+      "content": "{\n  \"language\": \"es\",\n  \"query_detected_title\": false,\n  \"recommendations\": [],\n  \"fallback\": \"¿Podrías especificar una película o tema que te guste para recomendarte algo más relevante?\"\n}"
+    }
+  ],
+  "rag_usage": [
+    {
+      "query": "hola como estas?",
+      "used_rag": false
+    },
+    {
+      "query": "recomiendame una pelicula parecida a transformers",
+      "used_rag": true
+    },
+    {
+      "query": "si me parece",
+      "used_rag": false
+    },
+    {
+      "query": "algo como de terror con robots, y que sea de anime",
+      "used_rag": true
+    },
+    {
+      "query": "algo parecido a Avatar",
+      "used_rag": false
+    }
+  ]
+}
