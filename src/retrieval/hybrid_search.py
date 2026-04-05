@@ -1,13 +1,79 @@
 import numpy as np
 
 
-def _is_same_title(query: str, title: str) -> bool:
+# -------------------------
+# maps
+# -------------------------
+GENRE_MAP = {
+    "action": ["accion", "action", "peleas"],
+    "horror": ["terror", "horror", "miedo"],
+    "comedy": ["comedia", "funny"],
+    "drama": ["drama"],
+    "romance": ["romance", "amor"],
+    "sci-fi": ["ciencia ficcion", "sci-fi", "futurista"],
+    "fantasy": ["fantasia", "fantasy"],
+    "anime": ["anime"],
+}
+
+THEME_MAP = {
+    "robots": ["robots", "androides"],
+    "zombies": ["zombies", "muertos vivientes"],
+    "space": ["espacio", "space"],
+    "war": ["guerra", "war"],
+    "magic": ["magia", "magico", "espadas"],
+    "superheroes": ["superheroes", "heroes"],
+}
+
+
+# -------------------------
+# detectar filtros
+# -------------------------
+def _detect_filters(query: str):
+
     q = query.lower()
-    t = str(title).lower()
 
-    return t in q or q in t
+    genres = []
+    themes = []
+
+    for g, words in GENRE_MAP.items():
+        if any(w in q for w in words):
+            genres.append(g)
+
+    for t, words in THEME_MAP.items():
+        if any(w in q for w in words):
+            themes.append(t)
+
+    return {
+        "genres": genres,
+        "themes": themes
+    }
 
 
+# -------------------------
+# match filtros
+# -------------------------
+def _match_filters(row, filters):
+
+    text = " ".join(
+        (row.get("genres", []) or []) +
+        (row.get("keywords", []) or [])
+    ).lower()
+
+    # si hay filtros, deben cumplirse al menos parcialmente
+    if filters["genres"]:
+        if not any(g in text for g in filters["genres"]):
+            return False
+
+    if filters["themes"]:
+        if not any(t in text for t in filters["themes"]):
+            return False
+
+    return True
+
+
+# -------------------------
+# main
+# -------------------------
 def hybrid_search(
     query: str,
     df,
@@ -15,10 +81,11 @@ def hybrid_search(
     embeddings: dict,
     top_k: int = 10,
     candidate_k: int = 100,
+    exclude_titles=None
 ):
-    """
-    faiss + rerank + evita misma pelicula
-    """
+
+    if exclude_titles is None:
+        exclude_titles = []
 
     query_emb = embedding_service.encode_query(query)[0]
 
@@ -29,16 +96,23 @@ def hybrid_search(
 
     candidate_indices = indices[0]
 
+    filters = _detect_filters(query)
+
     results = []
 
     for i in candidate_indices:
         if i == -1:
             continue
 
-        title = df.iloc[i]["title"]
+        row = df.iloc[i]
+        title = row["title"]
 
-        # evitar misma pelicula
-        if _is_same_title(query, title):
+        # excluir ya recomendadas
+        if title in exclude_titles:
+            continue
+
+        # filtro por dominio
+        if not _match_filters(row, filters):
             continue
 
         sim_title = np.dot(query_emb, embeddings["title"][i])
@@ -46,7 +120,7 @@ def hybrid_search(
         sim_keywords = np.dot(query_emb, embeddings["keywords"][i])
         sim_genres = np.dot(query_emb, embeddings["genres"][i])
 
-        keywords = df.iloc[i]["keywords"]
+        keywords = row.get("keywords", [])
         has_keywords = isinstance(keywords, list) and len(keywords) > 0
 
         if has_keywords:

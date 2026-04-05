@@ -18,7 +18,7 @@ Input: "{text}"
 
 Output (solo nombre o null):
 """
-
+    
     result = generate_response(prompt)
     name = result["content"].strip().replace('"', '').replace("'", "")
 
@@ -64,7 +64,12 @@ def chat(df, service, embeddings):
     from agent.orchestrator import run_agent
 
     session_id = create_session()
+    session = load_session(session_id)
 
+    mode = "RAG activado" if session["use_rag"] else "Búsqueda directa"
+
+    print(f"\nModo: {mode}\n")
+    
     while True:
         query = input("usuario: ").strip()
 
@@ -73,6 +78,9 @@ def chat(df, service, embeddings):
             break
 
         try:
+            # mensaje UX
+            print("\nCineMate está buscando recomendaciones... 🔎\n")
+
             result = run_agent(
                 query=query,
                 df=df,
@@ -81,7 +89,7 @@ def chat(df, service, embeddings):
                 session_id=session_id
             )
 
-            print("\nassistant:")
+            print("assistant:")
             print(result["response"])
             print(f"(tiempo: {result['latency_ms']} ms)")
             print("\n---\n")

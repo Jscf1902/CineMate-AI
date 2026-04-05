@@ -5,24 +5,6 @@ import json
 BASE_PATH = "interactions"
 RAG_CONTROL_PATH = os.path.join(BASE_PATH, "rag_control.json")
 
-
-def _use_rag() -> bool:
-    if not os.path.exists(RAG_CONTROL_PATH):
-        data = {"counter": 0}
-    else:
-        with open(RAG_CONTROL_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-    data["counter"] += 1
-
-    os.makedirs(BASE_PATH, exist_ok=True)
-
-    with open(RAG_CONTROL_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-
-    return data["counter"] % 2 == 0
-
-
 def _is_vague(query: str) -> bool:
     q = query.lower().strip()
 
@@ -40,31 +22,43 @@ def _is_vague(query: str) -> bool:
     return False
 
 
-def _is_feedback(query: str) -> bool:
+def _is_feedback_more(query: str) -> bool:
     q = query.lower()
 
     return any(x in q for x in [
-        "ya la vi", "ya las vi", "otra", "dame otra",
-        "no me gusta", "algo diferente"
+        "otra", "dame otra", "algo diferente", "otra recomendacion"
+    ])
+
+
+def _is_feedback_seen(query: str) -> bool:
+    q = query.lower()
+
+    return any(x in q for x in [
+        "ya la vi", "ya las vi", "ya me la vi", "ya me las vi"
     ])
 
 
 def _enrich_query(query: str, memory: dict) -> str:
+
     last_query = memory.get("last_query", "")
-    prefs = memory.get("preferences", {})
 
     # continuidad tipo "sí"
     if _is_vague(query) and last_query:
         return last_query
 
-    # feedback tipo "otra"
-    if _is_feedback(query) and last_query:
+    # pedir otra recomendación
+    if _is_feedback_more(query) and last_query:
         return last_query + " diferente"
+
+    # ya vistas → forzar diversidad
+    if _is_feedback_seen(query) and last_query:
+        return last_query + " diferente no repetir"
 
     return query
 
 
 def route(query: str, memory: dict):
+
     enriched_query = _enrich_query(query, memory)
 
     return {

@@ -13,14 +13,82 @@ from agent.prompt_builder import build_prompt
 from agent.llm_client import generate_response
 
 
-def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, top_k=5):
+# -------------------------
+# extraer preferencias desde query
+# -------------------------
+def _extract_preferences(query: str):
+
+    q = query.lower()
+
+    genres = []
+    themes = []
+
+    GENRE_MAP = {
+        "action": ["accion", "action", "peleas"],
+        "horror": ["terror", "horror"],
+        "comedy": ["comedia"],
+        "drama": ["drama"],
+        "romance": ["amor", "romance"],
+        "sci-fi": ["ciencia ficcion", "futurista"],
+        "fantasy": ["fantasia"],
+        "anime": ["anime"],
+    }
+
+    THEME_MAP = {
+        "robots": ["robots", "androides"],
+        "zombies": ["zombies"],
+        "space": ["espacio"],
+        "war": ["guerra"],
+        "magic": ["magia", "espadas"],
+        "superheroes": ["superheroes"],
+    }
+
+    for g, words in GENRE_MAP.items():
+        if any(w in q for w in words):
+            genres.append(g)
+
+    for t, words in THEME_MAP.items():
+        if any(w in q for w in words):
+            themes.append(t)
+
+    return genres, themes
+
+
+# -------------------------
+# update memory
+# -------------------------
+def _update_memory(session: dict, query: str, results):
+
+    session["memory"]["last_query"] = query
+
+    # guardar últimas películas
+    if results is not None and len(results) > 0:
+        session["memory"]["last_movies"] = results["title"].tolist()
+
+    # actualizar preferencias
+    genres, themes = _extract_preferences(query)
+
+    prev_genres = session["memory"]["preferences"].get("genres", [])
+    prev_themes = session["memory"]["preferences"].get("keywords", [])
+
+    session["memory"]["preferences"]["genres"] = list(set(prev_genres + genres))
+    session["memory"]["preferences"]["keywords"] = list(set(prev_themes + themes))
+
+
+# -------------------------
+# retrieval
+# -------------------------
+def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, session):
+
+    exclude_titles = session["memory"].get("last_movies", [])
+
     if use_rag_flag:
         return rag_retrieve(
             query=query,
             df=df,
             embedding_service=embedding_service,
             embeddings=embeddings,
-            top_k=top_k
+            top_k=5
         )
 
     results = hybrid_search(
@@ -28,7 +96,8 @@ def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, top_k=5):
         df=df,
         embedding_service=embedding_service,
         embeddings=embeddings,
-        top_k=top_k
+        top_k=5,
+        exclude_titles=exclude_titles
     )
 
     context = "\n".join(
@@ -39,14 +108,9 @@ def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, top_k=5):
     return context, results
 
 
-def _update_memory(session: dict, query: str, results):
-    session["memory"]["last_query"] = query
-
-    # guardar últimas películas recomendadas
-    if results is not None and len(results) > 0:
-        session["memory"]["last_movies"] = results["title"].tolist()
-
-
+# -------------------------
+# main
+# -------------------------
 def run_agent(
     query: str,
     df,
@@ -62,19 +126,19 @@ def run_agent(
     session = load_session(session_id)
 
     history_text = build_history(session["messages"])
-    user_name = session.get("user_name")
 
     routing = route(query, session.get("memory", {}))
 
     enriched_query = routing["query"]
-    use_rag_flag = routing["use_rag"]
+    use_rag_flag = session.get("use_rag", True)
 
     context, results = _retrieve(
         query=enriched_query,
         df=df,
         embedding_service=embedding_service,
         embeddings=embeddings,
-        use_rag_flag=use_rag_flag
+        use_rag_flag=use_rag_flag,
+        session=session
     )
 
     prompt = build_prompt(
@@ -82,8 +146,7 @@ def run_agent(
         context=context,
         history_text=history_text,
         session_id=session_id,
-        user_language=user_language,
-        user_name=user_name
+        user_language=user_language
     )
 
     llm_result = generate_response(prompt)

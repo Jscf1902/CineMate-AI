@@ -1,90 +1,99 @@
 import re
-from typing import Tuple
 import pandas as pd
 
-from src.retrieval.hybrid_search import hybrid_search
 
+# -------------------------
+# detectar titulo
+# -------------------------
+def _detect_title(query: str, df: pd.DataFrame):
 
-# detecta si es búsqueda por título
-def is_title_query(query: str) -> bool:
-    q = query.strip()
-
-    if len(q.split()) <= 3:
-        return True
-
-    if re.match(r"^[A-Z][a-z]+", q):
-        return True
-
-    return False
-
-
-# búsqueda por título
-def search_by_title(
-    query: str,
-    df: pd.DataFrame,
-    top_k: int
-):
     q = query.lower()
 
-    results = df[df["title"].str.lower().str.contains(q, na=False)]
+    for idx, title in enumerate(df["title"].astype(str)):
+        if title.lower() in q:
+            return idx
 
-    if results.empty:
-        return None
-
-    return results.head(top_k)
+    return None
 
 
-# construye contexto
-def build_context(results: pd.DataFrame) -> str:
-    if results is None or results.empty:
-        return ""
+# -------------------------
+# construir query desde pelicula
+# -------------------------
+def _build_query_from_movie(row):
 
-    lines = []
+    keywords = row.get("keywords", [])
+    genres = row.get("genres", [])
+
+    kw_text = " ".join(keywords) if isinstance(keywords, list) else ""
+    gen_text = " ".join(genres) if isinstance(genres, list) else ""
+
+    return f"{kw_text} {gen_text}".strip()
+
+
+# -------------------------
+# contexto
+# -------------------------
+def _build_context(results: pd.DataFrame):
+
+    context = ""
 
     for _, row in results.iterrows():
-        genres = row.get("genres", [])
-        keywords = row.get("keywords", [])
-
-        genres_str = ", ".join(genres) if isinstance(genres, list) else ""
-        keywords_str = ", ".join(keywords) if isinstance(keywords, list) else ""
-
-        text = (
-            f"Title: {row.get('title', '')}\n"
-            f"Overview: {row.get('overview', '')}\n"
-            f"Genres: {genres_str}\n"
-            f"Keywords: {keywords_str}"
+        context += (
+            f"Title: {row.get('title','')}\n"
+            f"Overview: {row.get('overview','')}\n"
+            f"Genres: {', '.join(row.get('genres', []))}\n"
+            f"Keywords: {', '.join(row.get('keywords', []))}\n"
+            f"---\n"
         )
 
-        lines.append(text)
-
-    return "\n---\n".join(lines)
+    return context
 
 
-# retrieval principal
+# -------------------------
+# main
+# -------------------------
 def rag_retrieve(
     query: str,
     df: pd.DataFrame,
     embedding_service,
     embeddings: dict,
     top_k: int = 5
-) -> Tuple[str, pd.DataFrame]:
+):
 
-    results = None
+    from src.retrieval.hybrid_search import hybrid_search
 
-    # intento por título
-    if is_title_query(query):
-        results = search_by_title(query, df, top_k)
+    # -------------------------
+    # 1. detectar titulo
+    # -------------------------
+    idx = _detect_title(query, df)
 
-    # fallback a hybrid
-    if results is None or results.empty:
+    if idx is not None:
+        row = df.iloc[idx]
+
+        # construir nueva query desde pelicula
+        new_query = _build_query_from_movie(row)
+
+        results = hybrid_search(
+            query=new_query,
+            df=df,
+            embedding_service=embedding_service,
+            embeddings=embeddings,
+            top_k=top_k + 1
+        )
+
+        # quitar pelicula original
+        results = results[results["title"] != row["title"]]
+
+    else:
+        # flujo normal
         results = hybrid_search(
             query=query,
             df=df,
             embedding_service=embedding_service,
             embeddings=embeddings,
-            top_k=top_k,
+            top_k=top_k
         )
 
-    context = build_context(results)
+    context = _build_context(results)
 
-    return context, results
+    return context, results.head(top_k)

@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 BASE_PATH = "interactions"
-
+COUNTER_PATH = os.path.join(BASE_PATH, "rag_counter.json")
 
 def _session_path(session_id: str) -> str:
     return os.path.join(BASE_PATH, f"session_{session_id}.json")
@@ -18,7 +18,7 @@ def create_session() -> str:
         "session_id": session_id,
         "created_at": str(datetime.now()),
         "messages": [],
-        "rag_usage": [],
+        "use_rag": _get_rag_mode(),
         "user_name": None,
         "memory": {
             "last_query": "",
@@ -60,3 +60,24 @@ def build_history(messages: list, last_k: int = 6) -> str:
         lines.append(f"{role}: {msg['content']}")
 
     return "\n".join(lines)
+
+def _get_rag_mode():
+
+    if not os.path.exists(COUNTER_PATH):
+        data = {"counter": 0}
+    else:
+        with open(COUNTER_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+    counter = data["counter"]
+
+    # alternar
+    use_rag = counter % 2 == 0
+
+    # actualizar
+    data["counter"] += 1
+
+    with open(COUNTER_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+    return use_rag
