@@ -38,11 +38,20 @@ def _build_context(results: pd.DataFrame):
     context = ""
 
     for _, row in results.iterrows():
+        title = str(row.get("title", ""))
+        overview = str(row.get("overview", ""))
+
+        genres = row.get("genres", [])
+        keywords = row.get("keywords", [])
+
+        genres = ", ".join(genres) if isinstance(genres, list) else ""
+        keywords = ", ".join(keywords) if isinstance(keywords, list) else ""
+
         context += (
-            f"Title: {row.get('title','')}\n"
-            f"Overview: {row.get('overview','')}\n"
-            f"Genres: {', '.join(row.get('genres', []))}\n"
-            f"Keywords: {', '.join(row.get('keywords', []))}\n"
+            f"Title: {title}\n"
+            f"Overview: {overview}\n"
+            f"Genres: {genres}\n"
+            f"Keywords: {keywords}\n"
             f"---\n"
         )
 

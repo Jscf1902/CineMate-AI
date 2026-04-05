@@ -101,7 +101,7 @@ def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, session):
     )
 
     context = "\n".join(
-        f"{row['title']} - {row['overview']}"
+        f"{str(row.get('title',''))} - {str(row.get('overview',''))}"
         for _, row in results.iterrows()
     )
 
