@@ -2,6 +2,20 @@ import os
 import warnings
 import pandas as pd
 
+# -------------------------
+# silence HF logs
+# -------------------------
+
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+warnings.filterwarnings("ignore")
+
+# -------------------------
+# imports
+# -------------------------
+
 from sentence_transformers import SentenceTransformer
 
 from src.embeddings.embeddings_faiss import (
@@ -11,8 +25,7 @@ from src.embeddings.embeddings_faiss import (
     load_artifacts
 )
 
-from agent.orchestrator import run_agent
-from agent.session_manager import create_session
+from app.chat_cli import chat
 
 
 # -------------------------
@@ -22,13 +35,6 @@ from agent.session_manager import create_session
 DATA_PATH = "data/raw/tmdb_movies_dataset.csv"
 EMB_PATH = "data/processed"
 MODEL_NAME = "all-MiniLM-L6-v2"
-
-
-# -------------------------
-# silence logs
-# -------------------------
-
-warnings.filterwarnings("ignore")
 
 
 # -------------------------
@@ -48,7 +54,7 @@ class EmbeddingService:
 
 
 # -------------------------
-# check or build embeddings
+# load or create embeddings
 # -------------------------
 
 def load_or_create_embeddings(df):
@@ -70,14 +76,12 @@ def load_or_create_embeddings(df):
     model = SentenceTransformer(MODEL_NAME)
 
     if files_exist:
-        print("cargando embeddings...")
+        print("embeddings listos")
         embeddings, combined, index, _ = load_artifacts(path=EMB_PATH)
-
     else:
         print("creando embeddings...")
 
         embeddings = generate_embeddings(df, model)
-
         combined, index = build_faiss_index(embeddings)
 
         save_artifacts(
@@ -91,40 +95,6 @@ def load_or_create_embeddings(df):
     service = EmbeddingService(model, index)
 
     return service, embeddings
-
-
-# -------------------------
-# chat loop
-# -------------------------
-
-def chat(df, service, embeddings):
-
-    session_id = create_session()
-
-    print("\nchat iniciado (salir para terminar)\n")
-
-    while True:
-        query = input("usuario: ").strip()
-
-        if query.lower() in ["salir", "exit", "quit"]:
-            print("\nfin\n")
-            break
-
-        try:
-            result = run_agent(
-                query=query,
-                df=df,
-                embedding_service=service,
-                embeddings=embeddings,
-                session_id=session_id
-            )
-
-            print("\nassistant:")
-            print(result["response"])
-            print("\n---\n")
-
-        except Exception as e:
-            print("error:", e)
 
 
 # -------------------------

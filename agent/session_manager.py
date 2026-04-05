@@ -19,6 +19,7 @@ def create_session() -> str:
         "created_at": str(datetime.now()),
         "messages": [],
         "rag_usage": [],
+        "user_name": None,
         "memory": {
             "last_query": "",
             "last_intent": "",
@@ -26,9 +27,11 @@ def create_session() -> str:
             "preferences": {
                 "genres": [],
                 "keywords": []
+            },
+            "conversation_state": {
+                "fallback_count": 0
             }
-        },
-        "user_name": None
+        }
     }
 
     os.makedirs(BASE_PATH, exist_ok=True)

@@ -1,0 +1,16 @@
+{
+  "session_id": "ad2a1722-23e8-457f-ad54-8872d53cbca8",
+  "created_at": "2026-04-04 21:43:10.592371",
+  "messages": [],
+  "rag_usage": [],
+  "memory": {
+    "last_query": "",
+    "last_intent": "",
+    "last_movies": [],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "user_name": null
+}

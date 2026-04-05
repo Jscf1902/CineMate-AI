@@ -3,7 +3,7 @@ from ollama import chat
 
 
 # llama modelo y mide latencia
-def generate_response(prompt: str, model: str = "qwen3:1.7b"):
+def generate_response(prompt: str, model: str = "qwen3:4b"):
     start = time.time()
 
     response = chat(

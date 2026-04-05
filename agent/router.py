@@ -6,8 +6,7 @@ BASE_PATH = "interactions"
 RAG_CONTROL_PATH = os.path.join(BASE_PATH, "rag_control.json")
 
 
-# alterna rag
-def use_rag() -> bool:
+def _use_rag() -> bool:
     if not os.path.exists(RAG_CONTROL_PATH):
         data = {"counter": 0}
     else:
@@ -24,7 +23,6 @@ def use_rag() -> bool:
     return data["counter"] % 2 == 0
 
 
-# detecta query vaga
 def _is_vague(query: str) -> bool:
     q = query.lower().strip()
 
@@ -42,7 +40,6 @@ def _is_vague(query: str) -> bool:
     return False
 
 
-# reconstruye query
 def _enrich_query(query: str, memory: dict) -> str:
     if not memory:
         return query
@@ -55,11 +52,10 @@ def _enrich_query(query: str, memory: dict) -> str:
     return query
 
 
-# router principal
 def route(query: str, memory: dict):
     enriched_query = _enrich_query(query, memory)
 
     return {
         "query": enriched_query,
-        "use_rag": use_rag()
+        "use_rag": _use_rag()
     }
