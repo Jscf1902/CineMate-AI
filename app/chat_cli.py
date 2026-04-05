@@ -1,17 +1,18 @@
-import sys
+import os
+import pandas as pd
 
 from sentence_transformers import SentenceTransformer
 
 from agent.orchestrator import run_agent
-from agent.session_manager import create_session
+from agent.session_manager import create_session, load_session, save_session
 from src.embeddings.embeddings_faiss import load_artifacts
 
 
-# carga inicial
+# carga sistema
 def load_system():
     model = SentenceTransformer("all-MiniLM-L6-v2")
 
-    embeddings, combined, index, _ = load_artifacts()
+    embeddings, combined, index, _ = load_artifacts(path="data/processed")
 
     class EmbeddingService:
         def __init__(self, model, index):
@@ -29,19 +30,32 @@ def load_system():
     return service, embeddings
 
 
-# loop principal
-def chat():
-    print("chat iniciado (escribe 'salir' para terminar)\n")
+# chat
+def chat(df):
 
-    service, embeddings = load_system()
+    print("\nSoy CineMate 🎬")
+    print("Puedo recomendarte películas según lo que te guste.")
+    print("Puedes pedirme cosas como:")
+    print("- 'películas de acción con robots'")
+    print("- 'algo parecido a Inception'\n")
+
+    name = input("¿Cómo te llamas?: ").strip()
 
     session_id = create_session()
+    session = load_session(session_id)
+
+    session["user_name"] = name
+    save_session(session_id, session)
+
+    print(f"\nEncantado {name}, ¿qué te gustaría ver?\n")
+
+    service, embeddings = load_system()
 
     while True:
         query = input("usuario: ").strip()
 
         if query.lower() in ["salir", "exit", "quit"]:
-            print("\nfin de la sesión")
+            print("\nfin\n")
             break
 
         try:
@@ -55,17 +69,14 @@ def chat():
 
             print("\nassistant:")
             print(result["response"])
+            print(f"(tiempo: {result['latency_ms']} ms)")
             print("\n---\n")
 
         except Exception as e:
-            print(f"error: {e}")
+            print("error:", e)
 
 
-# entrypoint
+# main
 if __name__ == "__main__":
-    # debes cargar tu dataset aquí
-    import pandas as pd
-
     df = pd.read_csv("data/raw/tmdb_movies_dataset.csv")
-
-    chat()
+    chat(df)

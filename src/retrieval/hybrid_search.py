@@ -1,6 +1,13 @@
 import numpy as np
 
 
+def _is_same_title(query: str, title: str) -> bool:
+    q = query.lower()
+    t = str(title).lower()
+
+    return t in q or q in t
+
+
 def hybrid_search(
     query: str,
     df,
@@ -10,12 +17,11 @@ def hybrid_search(
     candidate_k: int = 100,
 ):
     """
-    faiss + rerank con pesos dinámicos
+    faiss + rerank + evita misma pelicula
     """
 
     query_emb = embedding_service.encode_query(query)[0]
 
-    # candidatos con faiss (embedding combinado)
     scores, indices = embedding_service.index.search(
         np.array([query_emb]).astype("float32"),
         min(candidate_k, len(df))
@@ -29,13 +35,17 @@ def hybrid_search(
         if i == -1:
             continue
 
-        # similitudes por campo (dot = cosine)
+        title = df.iloc[i]["title"]
+
+        # evitar misma pelicula
+        if _is_same_title(query, title):
+            continue
+
         sim_title = np.dot(query_emb, embeddings["title"][i])
         sim_overview = np.dot(query_emb, embeddings["overview"][i])
         sim_keywords = np.dot(query_emb, embeddings["keywords"][i])
         sim_genres = np.dot(query_emb, embeddings["genres"][i])
 
-        # check keywords
         keywords = df.iloc[i]["keywords"]
         has_keywords = isinstance(keywords, list) and len(keywords) > 0
 
@@ -59,7 +69,6 @@ def hybrid_search(
 
         results.append((i, float(score)))
 
-    # ordenar
     results = sorted(results, key=lambda x: x[1], reverse=True)[:top_k]
 
     final_indices = [i for i, _ in results]

@@ -1,4 +1,3 @@
-from typing import Optional
 from src.rag.rag_pipeline import rag_retrieve
 from src.retrieval.hybrid_search import hybrid_search
 
@@ -9,12 +8,11 @@ from agent.session_manager import (
     build_history
 )
 
-from agent.router import use_rag
+from agent.router import route
 from agent.prompt_builder import build_prompt
 from agent.llm_client import generate_response
 
 
-# retrieval
 def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, top_k=5):
     if use_rag_flag:
         return rag_retrieve(
@@ -41,62 +39,70 @@ def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, top_k=5):
     return context, results
 
 
-# main
+def _update_memory(session: dict, query: str):
+    session["memory"]["last_query"] = query
+
+
 def run_agent(
     query: str,
     df,
     embedding_service,
     embeddings,
-    session_id: Optional[str] = None,
+    session_id=None,
     user_language: str = "es"
 ):
 
-    # session
     if session_id is None:
         session_id = create_session()
 
     session = load_session(session_id)
 
-    # history
     history_text = build_history(session["messages"])
+    user_name = session.get("user_name")
 
-    # routing
-    use_rag_flag = use_rag()
+    routing = route(query, session.get("memory", {}))
 
-    # retrieval
+    enriched_query = routing["query"]
+    use_rag_flag = routing["use_rag"]
+
     context, results = _retrieve(
-        query=query,
+        query=enriched_query,
         df=df,
         embedding_service=embedding_service,
         embeddings=embeddings,
         use_rag_flag=use_rag_flag
     )
 
-    # prompt
     prompt = build_prompt(
         query=query,
         context=context,
         history_text=history_text,
         session_id=session_id,
-        user_language=user_language
+        user_language=user_language,
+        user_name=user_name
     )
 
-    # llm
-    answer = generate_response(prompt)
+    llm_result = generate_response(prompt)
 
-    # save
+    answer = llm_result["content"]
+    latency = llm_result["latency_ms"]
+
     session["messages"].append({"role": "user", "content": query})
     session["messages"].append({"role": "assistant", "content": answer})
 
     session["rag_usage"].append({
         "query": query,
-        "used_rag": use_rag_flag
+        "used_rag": use_rag_flag,
+        "latency_ms": latency
     })
+
+    _update_memory(session, enriched_query)
 
     save_session(session_id, session)
 
     return {
         "response": answer,
         "session_id": session_id,
-        "used_rag": use_rag_flag
+        "used_rag": use_rag_flag,
+        "latency_ms": latency
     }
