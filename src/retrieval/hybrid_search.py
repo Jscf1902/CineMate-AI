@@ -54,18 +54,24 @@ def _detect_filters(query: str):
 # -------------------------
 def _match_filters(row, filters):
 
-    text = " ".join(
-        (row.get("genres", []) or []) +
-        (row.get("keywords", []) or [])
-    ).lower()
+    genres = row.get("genres", [])
+    keywords = row.get("keywords", [])
+
+    if not isinstance(genres, list):
+        genres = []
+
+    if not isinstance(keywords, list):
+        keywords = []
+
+    safe_text = " ".join([str(x) for x in genres + keywords]).lower()
 
     # si hay filtros, deben cumplirse al menos parcialmente
     if filters["genres"]:
-        if not any(g in text for g in filters["genres"]):
+        if not any(g in safe_text for g in filters["genres"]):
             return False
 
     if filters["themes"]:
-        if not any(t in text for t in filters["themes"]):
+        if not any(t in safe_text for t in filters["themes"]):
             return False
 
     return True

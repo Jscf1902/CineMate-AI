@@ -3,7 +3,8 @@ from ollama import chat
 
 
 # llama modelo y mide latencia
-def generate_response(prompt: str, model: str = "qwen3:4b"):
+#qwen3:4b
+def generate_response(prompt: str, model: str = "deepseek-r1:1.5b"):
     start = time.time()
 
     response = chat(

@@ -91,7 +91,8 @@ def chat(df, service, embeddings):
 
             print("assistant:")
             print(result["response"])
-            print(f"(tiempo: {result['latency_ms']} ms)")
+            lat_min = result['latency_ms']/60000
+            print(f"(tiempo: {lat_min:.2f} m)")
             print("\n---\n")
 
         except Exception as e:

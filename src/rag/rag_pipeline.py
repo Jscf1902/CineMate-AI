@@ -1,31 +1,55 @@
-import re
 import pandas as pd
+from difflib import SequenceMatcher
 
 
 # -------------------------
-# detectar titulo
+# similitud
 # -------------------------
-def _detect_title(query: str, df: pd.DataFrame):
+def _similar(a: str, b: str):
+    return SequenceMatcher(None, a, b).ratio()
+
+
+# -------------------------
+# detectar titulo (fuzzy)
+# -------------------------
+def _detect_title(query: str, df: pd.DataFrame, threshold=0.6):
 
     q = query.lower()
 
+    best_score = 0
+    best_idx = None
+
     for idx, title in enumerate(df["title"].astype(str)):
-        if title.lower() in q:
-            return idx
+        t = title.lower()
+
+        score = _similar(q, t)
+
+        if score > best_score:
+            best_score = score
+            best_idx = idx
+
+    if best_score >= threshold:
+        return best_idx
 
     return None
 
 
 # -------------------------
-# construir query desde pelicula
+# construir query
 # -------------------------
 def _build_query_from_movie(row):
 
     keywords = row.get("keywords", [])
     genres = row.get("genres", [])
 
-    kw_text = " ".join(keywords) if isinstance(keywords, list) else ""
-    gen_text = " ".join(genres) if isinstance(genres, list) else ""
+    if not isinstance(keywords, list):
+        keywords = []
+
+    if not isinstance(genres, list):
+        genres = []
+
+    kw_text = " ".join([str(x) for x in keywords])
+    gen_text = " ".join([str(x) for x in genres])
 
     return f"{kw_text} {gen_text}".strip()
 
@@ -38,24 +62,63 @@ def _build_context(results: pd.DataFrame):
     context = ""
 
     for _, row in results.iterrows():
+
         title = str(row.get("title", ""))
         overview = str(row.get("overview", ""))
 
         genres = row.get("genres", [])
         keywords = row.get("keywords", [])
 
-        genres = ", ".join(genres) if isinstance(genres, list) else ""
-        keywords = ", ".join(keywords) if isinstance(keywords, list) else ""
+        if not isinstance(genres, list):
+            genres = []
+
+        if not isinstance(keywords, list):
+            keywords = []
 
         context += (
             f"Title: {title}\n"
             f"Overview: {overview}\n"
-            f"Genres: {genres}\n"
-            f"Keywords: {keywords}\n"
+            f"Genres: {', '.join(map(str, genres))}\n"
+            f"Keywords: {', '.join(map(str, keywords))}\n"
             f"---\n"
         )
 
     return context
+
+
+# -------------------------
+# fallback retrieval
+# -------------------------
+def _fallback_retrieval(query, df, embedding_service, embeddings, top_k):
+
+    from src.retrieval.hybrid_search import hybrid_search
+
+    # 1. intento normal
+    results = hybrid_search(
+        query=query,
+        df=df,
+        embedding_service=embedding_service,
+        embeddings=embeddings,
+        top_k=top_k
+    )
+
+    if results is not None and len(results) > 0:
+        return results
+
+    # 2. intento relajado (sin filtros implícitos)
+    results = hybrid_search(
+        query=" ".join(query.split()[:2]),  # query más simple
+        df=df,
+        embedding_service=embedding_service,
+        embeddings=embeddings,
+        top_k=top_k
+    )
+
+    if results is not None and len(results) > 0:
+        return results
+
+    # 3. fallback final → top global
+    return df.sample(n=min(top_k, len(df)))
 
 
 # -------------------------
@@ -71,15 +134,15 @@ def rag_retrieve(
 
     from src.retrieval.hybrid_search import hybrid_search
 
-    # -------------------------
-    # 1. detectar titulo
-    # -------------------------
     idx = _detect_title(query, df)
 
+    # -------------------------
+    # caso con titulo
+    # -------------------------
     if idx is not None:
+
         row = df.iloc[idx]
 
-        # construir nueva query desde pelicula
         new_query = _build_query_from_movie(row)
 
         results = hybrid_search(
@@ -90,17 +153,26 @@ def rag_retrieve(
             top_k=top_k + 1
         )
 
-        # quitar pelicula original
         results = results[results["title"] != row["title"]]
 
+    # -------------------------
+    # caso normal
+    # -------------------------
     else:
-        # flujo normal
         results = hybrid_search(
             query=query,
             df=df,
             embedding_service=embedding_service,
             embeddings=embeddings,
             top_k=top_k
+        )
+
+    # -------------------------
+    # fallback robusto
+    # -------------------------
+    if results is None or len(results) == 0:
+        results = _fallback_retrieval(
+            query, df, embedding_service, embeddings, top_k
         )
 
     context = _build_context(results)

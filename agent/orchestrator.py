@@ -124,7 +124,9 @@ def run_agent(
         session_id = create_session()
 
     session = load_session(session_id)
-
+    if "rag_usage" not in session:
+        session["rag_usage"] = []
+    
     history_text = build_history(session["messages"])
 
     routing = route(query, session.get("memory", {}))
