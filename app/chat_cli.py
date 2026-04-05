@@ -60,8 +60,10 @@ def chat(df, service, embeddings):
     print("\nSoy CineMate 🎬")
     print("Puedo recomendarte películas según lo que te guste.\n")
 
+    from agent.session_manager import create_session
+    from agent.orchestrator import run_agent
+
     session_id = create_session()
-    session = load_session(session_id)
 
     while True:
         query = input("usuario: ").strip()
@@ -70,44 +72,6 @@ def chat(df, service, embeddings):
             print("\nfin\n")
             break
 
-        session = load_session(session_id)
-
-        # -------------------------
-        # detectar nombre
-        # -------------------------
-        if not session.get("user_name"):
-            name = extract_name(query)
-
-            if name:
-                session["user_name"] = name
-                save_session(session_id, session)
-
-                print(f"\nEncantado {name} 👋")
-                print("¿Qué tipo de película te gustaría ver?\n")
-                continue
-
-        # -------------------------
-        # clasificar intención
-        # -------------------------
-        intent = classify_intent(query)
-
-        # -------------------------
-        # respuestas directas
-        # -------------------------
-        if intent == "personal":
-            if "nombre" in query.lower():
-                name = session.get("user_name", "no lo sé")
-                print(f"\nTe llamas {name} 😉\n")
-                continue
-
-        if intent != "movie":
-            print("\nPuedo ayudarte a encontrar películas 🎬")
-            print("¿Buscas acción, terror o ciencia ficción?\n")
-            continue
-
-        # -------------------------
-        # flujo normal (agente)
-        # -------------------------
         try:
             result = run_agent(
                 query=query,

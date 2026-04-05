@@ -40,14 +40,26 @@ def _is_vague(query: str) -> bool:
     return False
 
 
+def _is_feedback(query: str) -> bool:
+    q = query.lower()
+
+    return any(x in q for x in [
+        "ya la vi", "ya las vi", "otra", "dame otra",
+        "no me gusta", "algo diferente"
+    ])
+
+
 def _enrich_query(query: str, memory: dict) -> str:
-    if not memory:
-        return query
-
     last_query = memory.get("last_query", "")
+    prefs = memory.get("preferences", {})
 
+    # continuidad tipo "sí"
     if _is_vague(query) and last_query:
         return last_query
+
+    # feedback tipo "otra"
+    if _is_feedback(query) and last_query:
+        return last_query + " diferente"
 
     return query
 
@@ -57,5 +69,5 @@ def route(query: str, memory: dict):
 
     return {
         "query": enriched_query,
-        "use_rag": _use_rag()
+        "use_rag": True
     }

@@ -39,8 +39,12 @@ def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, top_k=5):
     return context, results
 
 
-def _update_memory(session: dict, query: str):
+def _update_memory(session: dict, query: str, results):
     session["memory"]["last_query"] = query
+
+    # guardar últimas películas recomendadas
+    if results is not None and len(results) > 0:
+        session["memory"]["last_movies"] = results["title"].tolist()
 
 
 def run_agent(
@@ -96,7 +100,7 @@ def run_agent(
         "latency_ms": latency
     })
 
-    _update_memory(session, enriched_query)
+    _update_memory(session, enriched_query, results)
 
     save_session(session_id, session)
 
