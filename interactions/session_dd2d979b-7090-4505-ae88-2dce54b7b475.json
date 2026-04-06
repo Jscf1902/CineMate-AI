@@ -1,0 +1,58 @@
+{
+  "session_id": "dd2d979b-7090-4505-ae88-2dce54b7b475",
+  "created_at": "2026-04-05 19:02:40.095904",
+  "messages": [
+    {
+      "role": "user",
+      "content": "recomiendame algo parecido a transformers"
+    },
+    {
+      "role": "assistant",
+      "content": "```json\n{\n  \"recommendations\": [\n    {\n      \"title\": \"Transformers One\",\n      \"reason\": \"A deep dive into a Transformer movie with complex narrative elements focusing on character transformation.\"\n    },\n    {\n      \"title\": \"The Rise\",\n      \"reason\": \"Focused on the rise of certain characters in a Transformer universe, highlighting intricate story arcs.\"\n    },\n    {\n      \"title\": \"End of Days\",\n      \"reason\": \"A continuation that introduces more complex themes and storytelling within the Transformer framework.\"\n    },\n    {\n      \"title\": \"EarthSpark\",\n      \"reason\": \"Presents a unique narrative approach with elements of transformation and character development.\"\n    },\n    {\n      \"title\": \"Age of Extinction\",\n      \"reason\": \"Explores themes of evolution and the role of Transformers in managing history's challenges.\"\n    }\n  ],\n  \"fallback\": \"\"\n}\n```"
+    },
+    {
+      "role": "user",
+      "content": "dame algo de anime con espadas"
+    },
+    {
+      "role": "assistant",
+      "content": "```json\n{\n  \"recommendations\": [\n    {\n      \"title\": \"Transformers One\",\n      \"reason\": \"La mejor experiencia de Transformers, con ciencia ficción y un enfoque constante.\"\n    }\n  ],\n  \"fallback\": \"\"\n}\n```"
+    }
+  ],
+  "use_rag": false,
+  "user_name": null,
+  "memory": {
+    "last_query": "dame algo de anime con espadas",
+    "last_intent": "",
+    "last_movies": [
+      "Transformers: Rise of the Beasts",
+      "Transformers: EarthSpark",
+      "Transformers One",
+      "Transformers: Age of Extinction",
+      "Transformers: BotBots"
+    ],
+    "preferences": {
+      "genres": [
+        "anime"
+      ],
+      "keywords": [
+        "magic"
+      ]
+    },
+    "conversation_state": {
+      "fallback_count": 0
+    }
+  },
+  "rag_usage": [
+    {
+      "query": "recomiendame algo parecido a transformers",
+      "used_rag": false,
+      "latency_ms": 78727
+    },
+    {
+      "query": "dame algo de anime con espadas",
+      "used_rag": false,
+      "latency_ms": 38901
+    }
+  ]
+}
