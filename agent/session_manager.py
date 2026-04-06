@@ -1,5 +1,6 @@
 import json
 import os
+import uuid
 from datetime import datetime
 
 
@@ -7,6 +8,15 @@ class SessionManager:
     def __init__(self, storage_path="interactions"):
         self.storage_path = storage_path
         os.makedirs(self.storage_path, exist_ok=True)
+
+    # =====================================================
+    # CREATE NEW SESSION
+    # =====================================================
+    def create_session(self):
+        session_id = str(uuid.uuid4())[:8]
+        session = self._init_session(session_id)
+        self._save(session)
+        return session_id
 
     # =====================================================
     # PUBLIC
@@ -39,13 +49,23 @@ class SessionManager:
         self._save(session)
 
     # =====================================================
-    # CANDIDATE CACHE
+    # TRACK INTERACTION
+    # =====================================================
+    def track_interaction(self, session, data):
+        session["interactions"].append({
+            "timestamp": datetime.now().isoformat(),
+            **data
+        })
+
+        self._save(session)
+
+    # =====================================================
+    # CACHE
     # =====================================================
     def save_candidates(self, session, candidates, signature):
         session["candidates"] = candidates
         session["current_index"] = 0
         session["last_query_signature"] = signature
-
         self._save(session)
 
     def get_next_candidate(self, session):
@@ -67,7 +87,7 @@ class SessionManager:
         self._save(session)
 
     # =====================================================
-    # MEMORY MANAGEMENT
+    # MEMORY
     # =====================================================
     def update_memory(self, session, selected_items):
         memory = session["memory"]
@@ -78,7 +98,6 @@ class SessionManager:
             if title and title not in memory["last_movies"]:
                 memory["last_movies"].append(title)
 
-            # actualizar preferencias
             for g in item.get("genres", []):
                 if g not in memory["preferences"]["genres"]:
                     memory["preferences"]["genres"].append(g)
@@ -95,7 +114,10 @@ class SessionManager:
     def _init_session(self, session_id):
         return {
             "session_id": session_id,
+            "mode": None,
+            "use_rag": None,
             "messages": [],
+            "interactions": [],
             "memory": {
                 "last_movies": [],
                 "preferences": {
@@ -109,6 +131,15 @@ class SessionManager:
         }
 
     def _ensure_structure(self, session):
+        if "mode" not in session:
+            session["mode"] = None
+
+        if "use_rag" not in session:
+            session["use_rag"] = None
+
+        if "interactions" not in session:
+            session["interactions"] = []
+
         if "memory" not in session:
             session["memory"] = {}
 

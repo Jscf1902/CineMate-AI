@@ -1,21 +1,12 @@
 import os
 import warnings
-import time
 import pandas as pd
 
-# -------------------------
-# silence HF logs
-# -------------------------
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-# os.environ["TRANSFORMERS_VERBOSITY"] = "error"
-# os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
-# os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
-# warnings.filterwarnings("ignore")
-
-# -------------------------
-# imports
-# -------------------------
+warnings.filterwarnings("ignore")
 
 from sentence_transformers import SentenceTransformer
 
@@ -34,18 +25,10 @@ from src.retrieval.hybrid_search import HybridSearch
 from agent.llm_client import generate_response
 
 
-# -------------------------
-# config
-# -------------------------
-
 DATA_PATH = "data/raw/tmdb_movies_dataset.csv"
 EMB_PATH = "data/processed"
 MODEL_NAME = "all-MiniLM-L6-v2"
 
-
-# -------------------------
-# load or create embeddings
-# -------------------------
 
 def load_or_create_embeddings(df):
 
@@ -85,24 +68,16 @@ def load_or_create_embeddings(df):
     return model, embeddings, index
 
 
-# -------------------------
-# MAIN
-# -------------------------
-
 def main():
 
     df = pd.read_csv(DATA_PATH)
 
     model, embeddings, index = load_or_create_embeddings(df)
 
-    # =========================
-    # INIT COMPONENTS
-    # =========================
-
-    router = route  # 🔥 FIX
+    router = route
     session_manager = SessionManager()
     prompt_builder = PromptBuilder()
-    llm = generate_response  # 🔥 FIX
+    llm = generate_response
 
     retrieval = HybridSearch(
         faiss_index=index,
@@ -119,14 +94,13 @@ def main():
         metadata=df.to_dict(orient="records")
     )
 
-    # =========================
-    # CHAT LOOP
-    # =========================
+    session_id = session_manager.create_session()
 
-    print("\nSoy CineMate 🎬")
+    mode = orchestrator.init_session_mode(session_id)
+
+    print("\nSoy CineMate")
     print("Puedo recomendarte películas según lo que te guste.\n")
-
-    session_id = "default"
+    print(f"[MODO SESIÓN: {mode}]\n")
 
     while True:
         user_input = input("usuario: ")
@@ -135,21 +109,16 @@ def main():
             print("\nfin")
             break
 
-        print("\nCineMate está buscando recomendaciones... 🔎\n")
+        print("\nCineMate está buscando recomendaciones...\n")
 
-        response, latency = orchestrator.handle_message(session_id, user_input)
-
-        # detectar si usó cache o RAG
-        session = session_manager.get_session(session_id)
-        used_cache = session.get("current_index", 0) > 1
-
-        mode = "CACHE" if used_cache else "RAG"
+        response, latency, mode = orchestrator.handle_message(session_id, user_input)
 
         print("assistant:\n")
         print(response)
 
         print(f"\n(modo: {mode})")
-        print(f"(tiempo: {round(latency, 2)} s)\n")
+        time = round(latency, 2)/60
+        print(f"(tiempo: {time} min)\n")
 
 
 if __name__ == "__main__":

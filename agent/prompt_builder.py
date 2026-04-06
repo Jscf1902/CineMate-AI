@@ -6,49 +6,52 @@ class PromptBuilder:
     # MAIN
     # =====================================================
     def build(self, user_input, context, history=None):
-        """
-        Construye prompt controlado para evitar alucinaciones
-        """
-
         system_rules = self._build_system_rules()
         context_block = self._build_context_block(context)
         user_block = self._build_user_block(user_input)
 
-        prompt = (
+        return (
             f"{system_rules}\n\n"
             f"{context_block}\n\n"
             f"{user_block}"
         )
 
-        return prompt
+    # =====================================================
+    # SAFE JOIN
+    # =====================================================
+    def _safe_join(self, value):
+        if isinstance(value, list):
+            return ", ".join([str(v) for v in value if v])
+        if isinstance(value, str):
+            return value
+        return ""
 
     # =====================================================
     # SYSTEM RULES
     # =====================================================
     def _build_system_rules(self):
         return (
-            "Eres CineMate, un asistente de recomendación de películas.\n"
-            "Debes seguir estrictamente estas reglas:\n"
-            "- SOLO puedes recomendar películas que estén en el contexto.\n"
+            "Eres CineMate, un asistente de recomendación.\n"
+            "- SOLO usa el contexto.\n"
             "- NO inventes películas.\n"
-            "- NO uses conocimiento externo.\n"
-            "- Si no hay recomendaciones, usa el campo fallback.\n"
-            "- Responde únicamente en formato JSON.\n"
-            "- Máximo 3 recomendaciones.\n"
+            "- Máximo 2 recomendaciones.\n"
+            "- Responde en texto natural.\n"
         )
 
     # =====================================================
-    # CONTEXT BLOCK
+    # CONTEXT
     # =====================================================
     def _build_context_block(self, context):
         if not context:
             return "CONTEXTO:\nNo hay recomendaciones disponibles."
 
         lines = ["CONTEXTO:"]
+
         for item in context:
-            title = item.get("title")
-            genres = ", ".join(item.get("genres", []))
-            keywords = ", ".join(item.get("keywords", []))
+            title = str(item.get("title", ""))
+
+            genres = self._safe_join(item.get("genres"))
+            keywords = self._safe_join(item.get("keywords"))
 
             lines.append(
                 f"- {title} | géneros: {genres} | keywords: {keywords}"
@@ -57,7 +60,7 @@ class PromptBuilder:
         return "\n".join(lines)
 
     # =====================================================
-    # USER BLOCK
+    # USER
     # =====================================================
     def _build_user_block(self, user_input):
         return f"USUARIO:\n{user_input}"

@@ -1,0 +1,52 @@
+{
+  "session_id": "8575f4dc",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "messages": [],
+  "interactions": [
+    {
+      "timestamp": 1775504247.1296318,
+      "query": "recomiendame algo parecido a transformers",
+      "routed_query": "recomiendame algo parecido a transformers",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "latency": 344.142,
+      "results_count": 2
+    },
+    {
+      "timestamp": 1775504558.0668023,
+      "query": "dame algo de anime",
+      "routed_query": "dame algo de anime",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "latency": 262.857,
+      "results_count": 2
+    },
+    {
+      "timestamp": 1775504799.970758,
+      "query": "si",
+      "routed_query": "si",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "latency": 205.475,
+      "results_count": 2
+    }
+  ],
+  "memory": {
+    "last_movies": [
+      "Babcock Transformers",
+      "Transformers: War for Cybertron: Siege",
+      "Urawa no Usagi-chan",
+      "Straight Title Robot Anime",
+      "Total DramaRama",
+      "Blame"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

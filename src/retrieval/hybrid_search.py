@@ -8,11 +8,14 @@ class HybridSearch:
         self.metadata = metadata
         self.model = embeddings_model
 
-        # Corpus para scoring léxico
+        # Corpus robusto (maneja listas, strings, None)
         self.corpus = [
-            (m["title"] + " " +
-             m.get("overview", "") + " " +
-             " ".join(m.get("keywords", []))).lower()
+            (
+                str(m.get("title", "")) + " " +
+                str(m.get("overview", "")) + " " +
+                self._safe_join(m.get("keywords")) + " " +
+                self._safe_join(m.get("genres"))
+            ).lower()
             for m in metadata
         ]
 
@@ -59,21 +62,31 @@ class HybridSearch:
         ]
 
     # =====================================================
+    # SAFE JOIN (ROBUSTO)
+    # =====================================================
+    def _safe_join(self, value):
+        if isinstance(value, list):
+            return " ".join([str(v) for v in value if v])
+        if isinstance(value, str):
+            return value
+        return ""
+
+    # =====================================================
     # TITLE STRATEGY
     # =====================================================
     def _build_from_title(self, title):
         for m in self.metadata:
-            if m["title"].lower() == title:
-                return " ".join(m.get("keywords", []) + m.get("genres", []))
-        return title
+            if str(m.get("title", "")).lower() == str(title).lower():
+                return self._safe_join(m.get("keywords")) + " " + self._safe_join(m.get("genres"))
+        return title or ""
 
     # =====================================================
-    # 🔥 FIX IMPORTANTE AQUÍ
+    # SEMANTIC SEARCH
     # =====================================================
     def _semantic_search(self, query, top_k=30):
         emb = self.model.encode(
             [query],
-            normalize_embeddings=True  # 🔥 CLAVE
+            normalize_embeddings=True
         )[0]
 
         emb = np.array([emb], dtype="float32")
@@ -120,9 +133,9 @@ class HybridSearch:
         score = 0.0
 
         text = (
-            item["title"].lower() + " " +
-            item.get("overview", "").lower() + " " +
-            " ".join(item.get("keywords", []))
+            str(item.get("title", "")).lower() + " " +
+            str(item.get("overview", "")).lower() + " " +
+            self._safe_join(item.get("keywords")).lower()
         )
 
         for g in analyzed["genres"]:
@@ -145,10 +158,10 @@ class HybridSearch:
             return penalty
 
         seen = memory.get("last_movies", [])
-        if item["title"] in seen:
+        if item.get("title") in seen:
             penalty += 2.0
 
-        text = item.get("overview", "").lower()
+        text = str(item.get("overview", "")).lower()
         noise = ["novel", "book", "series"]
 
         for n in noise:

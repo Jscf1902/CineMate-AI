@@ -1,0 +1,124 @@
+{
+  "session_id": "4902be8c",
+  "mode": "RAG",
+  "use_rag": true,
+  "messages": [],
+  "interactions": [
+    {
+      "timestamp": 1775505160.9437966,
+      "query": "recomiendame algo parecido a transformers",
+      "routed_query": "recomiendame algo parecido a transformers",
+      "mode": "RAG",
+      "use_rag": true,
+      "latency": 212.466,
+      "results_count": 2
+    },
+    {
+      "timestamp": 1775505447.9482925,
+      "query": "dame algo de anime",
+      "routed_query": "dame algo de anime",
+      "mode": "RAG",
+      "use_rag": true,
+      "latency": 208.921,
+      "results_count": 2
+    },
+    {
+      "timestamp": 1775505972.1842072,
+      "query": "un anime de espadas y demonios",
+      "routed_query": "un anime de espadas y demonios",
+      "mode": "RAG",
+      "use_rag": true,
+      "latency": 292.902,
+      "results_count": 2
+    },
+    {
+      "timestamp": 1775506256.9352057,
+      "query": "dame un anime de espadachines que matan demonios",
+      "routed_query": "dame un anime de espadachines que matan demonios",
+      "mode": "RAG",
+      "use_rag": true,
+      "latency": 243.736,
+      "results_count": 2
+    }
+  ],
+  "memory": {
+    "last_movies": [
+      "Babcock Transformers",
+      "Transformers: War for Cybertron: Siege",
+      "Urawa no Usagi-chan",
+      "Straight Title Robot Anime",
+      "Anime Crimes Division",
+      "Scrolls to Screen: A Brief History of Anime",
+      "Pikotaro's Lullaby La La By",
+      "Urusei Yatsura"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Pikotaro's Lullaby La La By",
+      "score": 0.5477,
+      "genres": "Comedy",
+      "keywords": "based on fairy tale|anime|short film"
+    },
+    {
+      "title": "Urusei Yatsura",
+      "score": 0.5438,
+      "genres": "Animation|Comedy|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "remake|romance|alien|based on manga|super power|school life|ecchi|shounen|anime|japanese high school"
+    },
+    {
+      "title": "BONES 25: DREAMING FORWARD",
+      "score": 0.5393,
+      "genres": "Documentary",
+      "keywords": "miniseries|anime"
+    },
+    {
+      "title": "Tokyo Revengers",
+      "score": 0.5378,
+      "genres": "Animation|Drama|Action & Adventure|Crime",
+      "keywords": "time travel|delinquency|based on comic|revenge|romance|school|bromance|aggressive|shounen|anime|furyo"
+    },
+    {
+      "title": "SHIROBAKO",
+      "score": 0.5252,
+      "genres": "Animation|Comedy|Drama",
+      "keywords": "slice of life|anime|workplace comedy|life and career|japanese workplace|teamwork"
+    },
+    {
+      "title": "Ninja Girl & Samurai Master",
+      "score": 0.5198,
+      "genres": "Action & Adventure|Animation|Comedy",
+      "keywords": "martial arts|ninja|based on manga|historical|military|sengoku period|seinen|feudal japan|anime|absurdist|short film|oda nobunaga"
+    },
+    {
+      "title": "Tatsuki Fujimoto 17-26",
+      "score": 0.5186,
+      "genres": "Animation|Drama|Comedy|Sci-Fi & Fantasy",
+      "keywords": "anthology|based on manga|anime"
+    },
+    {
+      "title": "Anime-Gataris",
+      "score": 0.5103,
+      "genres": "Animation|Sci-Fi & Fantasy|Comedy",
+      "keywords": "school|anime|bukatsu"
+    },
+    {
+      "title": "Himote House: A Share House of Super Psychic Girls",
+      "score": 0.5093,
+      "genres": "Animation|Comedy|Sci-Fi & Fantasy",
+      "keywords": "anime"
+    },
+    {
+      "title": "GRANBELM",
+      "score": 0.5072,
+      "genres": "Animation",
+      "keywords": "magic|mecha|anime|magical girl"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "e046315346b25fd84e5516347f52f467"
+}
