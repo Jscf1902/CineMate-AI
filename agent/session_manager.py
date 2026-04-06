@@ -1,83 +1,141 @@
-import os
 import json
-import uuid
+import os
 from datetime import datetime
 
 
-BASE_PATH = "interactions"
-COUNTER_PATH = os.path.join(BASE_PATH, "rag_counter.json")
+class SessionManager:
+    def __init__(self, storage_path="interactions"):
+        self.storage_path = storage_path
+        os.makedirs(self.storage_path, exist_ok=True)
 
-def _session_path(session_id: str) -> str:
-    return os.path.join(BASE_PATH, f"session_{session_id}.json")
+    # =====================================================
+    # PUBLIC
+    # =====================================================
+    def get_session(self, session_id):
+        path = self._get_path(session_id)
 
+        if not os.path.exists(path):
+            session = self._init_session(session_id)
+            self._save(session)
+            return session
 
-def create_session() -> str:
-    session_id = str(uuid.uuid4())
+        with open(path, "r", encoding="utf-8") as f:
+            session = json.load(f)
 
-    data = {
-        "session_id": session_id,
-        "created_at": str(datetime.now()),
-        "messages": [],
-        "use_rag": _get_rag_mode(),
-        "user_name": None,
-        "memory": {
-            "last_query": "",
-            "last_intent": "",
-            "last_movies": [],
-            "preferences": {
+        return self._ensure_structure(session)
+
+    def add_message(self, session_id, role, content):
+        session = self.get_session(session_id)
+
+        session["messages"].append({
+            "role": role,
+            "content": content,
+            "timestamp": datetime.now().isoformat()
+        })
+
+        self._save(session)
+
+    def save_session(self, session):
+        self._save(session)
+
+    # =====================================================
+    # CANDIDATE CACHE
+    # =====================================================
+    def save_candidates(self, session, candidates, signature):
+        session["candidates"] = candidates
+        session["current_index"] = 0
+        session["last_query_signature"] = signature
+
+        self._save(session)
+
+    def get_next_candidate(self, session):
+        idx = session.get("current_index", 0)
+        candidates = session.get("candidates", [])
+
+        if idx >= len(candidates):
+            return None
+
+        session["current_index"] += 1
+        self._save(session)
+
+        return candidates[idx]
+
+    def reset_candidates(self, session):
+        session["candidates"] = []
+        session["current_index"] = 0
+        session["last_query_signature"] = ""
+        self._save(session)
+
+    # =====================================================
+    # MEMORY MANAGEMENT
+    # =====================================================
+    def update_memory(self, session, selected_items):
+        memory = session["memory"]
+
+        for item in selected_items:
+            title = item.get("title")
+
+            if title and title not in memory["last_movies"]:
+                memory["last_movies"].append(title)
+
+            # actualizar preferencias
+            for g in item.get("genres", []):
+                if g not in memory["preferences"]["genres"]:
+                    memory["preferences"]["genres"].append(g)
+
+            for k in item.get("keywords", []):
+                if k not in memory["preferences"]["keywords"]:
+                    memory["preferences"]["keywords"].append(k)
+
+        self._save(session)
+
+    # =====================================================
+    # INTERNAL
+    # =====================================================
+    def _init_session(self, session_id):
+        return {
+            "session_id": session_id,
+            "messages": [],
+            "memory": {
+                "last_movies": [],
+                "preferences": {
+                    "genres": [],
+                    "keywords": []
+                }
+            },
+            "candidates": [],
+            "current_index": 0,
+            "last_query_signature": ""
+        }
+
+    def _ensure_structure(self, session):
+        if "memory" not in session:
+            session["memory"] = {}
+
+        if "last_movies" not in session["memory"]:
+            session["memory"]["last_movies"] = []
+
+        if "preferences" not in session["memory"]:
+            session["memory"]["preferences"] = {
                 "genres": [],
                 "keywords": []
-            },
-            "conversation_state": {
-                "fallback_count": 0
             }
-        }
-    }
 
-    os.makedirs(BASE_PATH, exist_ok=True)
+        if "candidates" not in session:
+            session["candidates"] = []
 
-    with open(_session_path(session_id), "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        if "current_index" not in session:
+            session["current_index"] = 0
 
-    return session_id
+        if "last_query_signature" not in session:
+            session["last_query_signature"] = ""
 
+        return session
 
-def load_session(session_id: str) -> dict:
-    with open(_session_path(session_id), "r", encoding="utf-8") as f:
-        return json.load(f)
+    def _get_path(self, session_id):
+        return os.path.join(self.storage_path, f"session_{session_id}.json")
 
-
-def save_session(session_id: str, data: dict) -> None:
-    with open(_session_path(session_id), "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-
-def build_history(messages: list, last_k: int = 6) -> str:
-    lines = []
-
-    for msg in messages[-last_k:]:
-        role = "User" if msg["role"] == "user" else "Assistant"
-        lines.append(f"{role}: {msg['content']}")
-
-    return "\n".join(lines)
-
-def _get_rag_mode():
-
-    if not os.path.exists(COUNTER_PATH):
-        data = {"counter": 0}
-    else:
-        with open(COUNTER_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-    counter = data["counter"]
-
-    # alternar
-    use_rag = counter % 2 == 0
-
-    # actualizar
-    data["counter"] += 1
-
-    with open(COUNTER_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-
-    return use_rag
+    def _save(self, session):
+        path = self._get_path(session["session_id"])
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(session, f, indent=2, ensure_ascii=False)

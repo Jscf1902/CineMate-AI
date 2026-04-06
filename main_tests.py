@@ -1,16 +1,17 @@
 import os
 import warnings
+import time
 import pandas as pd
 
 # -------------------------
 # silence HF logs
 # -------------------------
 
-os.environ["TRANSFORMERS_VERBOSITY"] = "error"
-os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+# os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+# os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
+# os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-warnings.filterwarnings("ignore")
+# warnings.filterwarnings("ignore")
 
 # -------------------------
 # imports
@@ -25,7 +26,12 @@ from src.embeddings.embeddings_faiss import (
     load_artifacts
 )
 
-from app.chat_cli import chat
+from agent.orchestrator import Orchestrator
+from agent.router import route
+from agent.prompt_builder import PromptBuilder
+from agent.session_manager import SessionManager
+from src.retrieval.hybrid_search import HybridSearch
+from agent.llm_client import generate_response
 
 
 # -------------------------
@@ -35,22 +41,6 @@ from app.chat_cli import chat
 DATA_PATH = "data/raw/tmdb_movies_dataset.csv"
 EMB_PATH = "data/processed"
 MODEL_NAME = "all-MiniLM-L6-v2"
-
-
-# -------------------------
-# embedding service
-# -------------------------
-
-class EmbeddingService:
-    def __init__(self, model, index):
-        self.model = model
-        self.index = index
-
-    def encode_query(self, query: str):
-        return self.model.encode(
-            [query],
-            normalize_embeddings=True
-        )
 
 
 # -------------------------
@@ -92,22 +82,74 @@ def load_or_create_embeddings(df):
             model_name=MODEL_NAME
         )
 
-    service = EmbeddingService(model, index)
-
-    return service, embeddings
+    return model, embeddings, index
 
 
 # -------------------------
-# main
+# MAIN
 # -------------------------
 
 def main():
 
     df = pd.read_csv(DATA_PATH)
 
-    service, embeddings = load_or_create_embeddings(df)
+    model, embeddings, index = load_or_create_embeddings(df)
 
-    chat(df, service, embeddings)
+    # =========================
+    # INIT COMPONENTS
+    # =========================
+
+    router = route  # 🔥 FIX
+    session_manager = SessionManager()
+    prompt_builder = PromptBuilder()
+    llm = generate_response  # 🔥 FIX
+
+    retrieval = HybridSearch(
+        faiss_index=index,
+        metadata=df.to_dict(orient="records"),
+        embeddings_model=model
+    )
+
+    orchestrator = Orchestrator(
+        router=router,
+        retrieval=retrieval,
+        prompt_builder=prompt_builder,
+        llm_client=llm,
+        session_manager=session_manager,
+        metadata=df.to_dict(orient="records")
+    )
+
+    # =========================
+    # CHAT LOOP
+    # =========================
+
+    print("\nSoy CineMate 🎬")
+    print("Puedo recomendarte películas según lo que te guste.\n")
+
+    session_id = "default"
+
+    while True:
+        user_input = input("usuario: ")
+
+        if user_input.lower() in ["salir", "exit", "quit"]:
+            print("\nfin")
+            break
+
+        print("\nCineMate está buscando recomendaciones... 🔎\n")
+
+        response, latency = orchestrator.handle_message(session_id, user_input)
+
+        # detectar si usó cache o RAG
+        session = session_manager.get_session(session_id)
+        used_cache = session.get("current_index", 0) > 1
+
+        mode = "CACHE" if used_cache else "RAG"
+
+        print("assistant:\n")
+        print(response)
+
+        print(f"\n(modo: {mode})")
+        print(f"(tiempo: {round(latency, 2)} s)\n")
 
 
 if __name__ == "__main__":

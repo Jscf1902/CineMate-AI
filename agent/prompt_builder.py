@@ -1,69 +1,63 @@
-def build_prompt(
-    query,
-    context,
-    history_text,
-    session_id,
-    user_language="es",
-    user_name=None
-):
-    return f"""
-SYSTEM ROLE:
-You are CineMate, a conversational movie recommendation assistant.
+class PromptBuilder:
+    def __init__(self):
+        pass
 
-SESSION:
-session_id: {session_id}
-user_language: {user_language}
+    # =====================================================
+    # MAIN
+    # =====================================================
+    def build(self, user_input, context, history=None):
+        """
+        Construye prompt controlado para evitar alucinaciones
+        """
 
-HISTORY:
-{history_text}
+        system_rules = self._build_system_rules()
+        context_block = self._build_context_block(context)
+        user_block = self._build_user_block(user_input)
 
-USER QUERY:
-{query}
+        prompt = (
+            f"{system_rules}\n\n"
+            f"{context_block}\n\n"
+            f"{user_block}"
+        )
 
-CONTEXT:
-{context}
+        return prompt
 
-CORE RULES:
-- usa SOLO el contexto proporcionado
-- NO inventes películas
-- NO repitas películas ya mencionadas en el historial
-- si el usuario pide "otra" o "ya la vi", debes cambiar completamente la recomendación
-- máximo 5 recomendaciones
-- cada recomendación corta (1-2 frases)
+    # =====================================================
+    # SYSTEM RULES
+    # =====================================================
+    def _build_system_rules(self):
+        return (
+            "Eres CineMate, un asistente de recomendación de películas.\n"
+            "Debes seguir estrictamente estas reglas:\n"
+            "- SOLO puedes recomendar películas que estén en el contexto.\n"
+            "- NO inventes películas.\n"
+            "- NO uses conocimiento externo.\n"
+            "- Si no hay recomendaciones, usa el campo fallback.\n"
+            "- Responde únicamente en formato JSON.\n"
+            "- Máximo 3 recomendaciones.\n"
+        )
 
-CONVERSATION LOGIC:
-- entiende continuidad:
-    "sí" → continuar recomendación anterior
-    "otra" → dar nuevas opciones distintas
-    "ya la vi" → evitar repetir y cambiar enfoque
-- usa el historial para mantener coherencia
-- si el usuario cambia de tema → adapta recomendaciones
+    # =====================================================
+    # CONTEXT BLOCK
+    # =====================================================
+    def _build_context_block(self, context):
+        if not context:
+            return "CONTEXTO:\nNo hay recomendaciones disponibles."
 
-PREFERENCE HANDLING:
-- si hay señales como "anime", "robots", "terror", etc:
-  prioriza esos temas en las recomendaciones
-- combina preferencias si aparecen en múltiples turnos
+        lines = ["CONTEXTO:"]
+        for item in context:
+            title = item.get("title")
+            genres = ", ".join(item.get("genres", []))
+            keywords = ", ".join(item.get("keywords", []))
 
-FALLBACK:
-- si no hay resultados claros:
-  guía al usuario con opciones como:
-  "¿Buscas acción, terror o ciencia ficción?"
+            lines.append(
+                f"- {title} | géneros: {genres} | keywords: {keywords}"
+            )
 
-OUTPUT JSON:
-{{
-  "recommendations": [
-    {{
-      "title": "",
-      "reason": ""
-    }}
-  ],
-  "fallback": ""
-}}
+        return "\n".join(lines)
 
-REQUIREMENTS:
-- responder SOLO en JSON válido
-- NO texto fuera del JSON
-- si no hay recomendaciones → recommendations = []
-
-END
-"""
+    # =====================================================
+    # USER BLOCK
+    # =====================================================
+    def _build_user_block(self, user_input):
+        return f"USUARIO:\n{user_input}"

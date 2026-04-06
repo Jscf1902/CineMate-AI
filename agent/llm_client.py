@@ -6,7 +6,7 @@ from ollama import chat
 #qwen3:4b
 #deepseek-r1:1.5b
 #deepseek-r1:8b
-def generate_response(prompt: str, model: str = "deepseek-r1:7b"):
+def generate_response(prompt: str, model: str = "deepseek-r1:8b"):
     start = time.time()
 
     response = chat(

@@ -1,177 +1,122 @@
-from src.rag.rag_pipeline import rag_retrieve
-from src.retrieval.hybrid_search import hybrid_search
+import time
+import hashlib
 
-from agent.session_manager import (
-    create_session,
-    load_session,
-    save_session,
-    build_history
-)
-
-from agent.router import route
-from agent.prompt_builder import build_prompt
-from agent.llm_client import generate_response
+from src.retrieval.query_understanding import QueryUnderstanding
 
 
-# -------------------------
-# extraer preferencias desde query
-# -------------------------
-def _extract_preferences(query: str):
+class Orchestrator:
+    def __init__(self, router, retrieval, prompt_builder, llm_client, session_manager, metadata):
+        self.router = router
+        self.retrieval = retrieval
+        self.prompt_builder = prompt_builder
+        self.llm = llm_client
+        self.session_manager = session_manager
+        self.metadata = metadata
 
-    q = query.lower()
+        self.query_analyzer = QueryUnderstanding(metadata)
 
-    genres = []
-    themes = []
+    # =====================================================
+    # MAIN ENTRY
+    # =====================================================
+    def handle_message(self, session_id, user_input):
+        start_time = time.time()
 
-    GENRE_MAP = {
-        "action": ["accion", "action", "peleas"],
-        "horror": ["terror", "horror"],
-        "comedy": ["comedia"],
-        "drama": ["drama"],
-        "romance": ["amor", "romance"],
-        "sci-fi": ["ciencia ficcion", "futurista"],
-        "fantasy": ["fantasia"],
-        "anime": ["anime"],
-    }
+        session = self.session_manager.get_session(session_id)
 
-    THEME_MAP = {
-        "robots": ["robots", "androides"],
-        "zombies": ["zombies"],
-        "space": ["espacio"],
-        "war": ["guerra"],
-        "magic": ["magia", "espadas"],
-        "superheroes": ["superheroes"],
-    }
+        # 1. ROUTER
+        routed_query = self.router.process(user_input, session)
 
-    for g, words in GENRE_MAP.items():
-        if any(w in q for w in words):
-            genres.append(g)
+        # 2. ANALYZE QUERY
+        analyzed = self.query_analyzer.analyze(routed_query, session.get("memory"))
 
-    for t, words in THEME_MAP.items():
-        if any(w in q for w in words):
-            themes.append(t)
+        # 3. DECIDE CACHE OR NEW SEARCH
+        use_cache = self._should_use_cache(analyzed, session)
 
-    return genres, themes
+        if use_cache:
+            candidates = session.get("candidates", [])
+            current_index = session.get("current_index", 0)
 
+            if current_index < len(candidates):
+                selected = [candidates[current_index]]
+                session["current_index"] += 1
+            else:
+                selected = []
+        else:
+            # 4. NEW RETRIEVAL
+            candidates = self.retrieval.search(
+                analyzed_query=analyzed,
+                memory=session.get("memory"),
+                top_k=10
+            )
 
-# -------------------------
-# update memory
-# -------------------------
-def _update_memory(session: dict, query: str, results):
+            # Save cache
+            session["candidates"] = candidates
+            session["current_index"] = 1
+            session["last_query_signature"] = self._build_query_signature(analyzed)
 
-    session["memory"]["last_query"] = query
+            selected = candidates[:2]  # devolver 2 inicialmente
 
-    # guardar últimas películas
-    if results is not None and len(results) > 0:
-        session["memory"]["last_movies"] = results["title"].tolist()
+        # 5. UPDATE MEMORY
+        self._update_memory(session, selected)
 
-    # actualizar preferencias
-    genres, themes = _extract_preferences(query)
-
-    prev_genres = session["memory"]["preferences"].get("genres", [])
-    prev_themes = session["memory"]["preferences"].get("keywords", [])
-
-    session["memory"]["preferences"]["genres"] = list(set(prev_genres + genres))
-    session["memory"]["preferences"]["keywords"] = list(set(prev_themes + themes))
-
-
-# -------------------------
-# retrieval
-# -------------------------
-def _retrieve(query, df, embedding_service, embeddings, use_rag_flag, session):
-
-    exclude_titles = session["memory"].get("last_movies", [])
-
-    if use_rag_flag:
-        return rag_retrieve(
-            query=query,
-            df=df,
-            embedding_service=embedding_service,
-            embeddings=embeddings,
-            top_k=5
+        # 6. BUILD PROMPT
+        prompt = self.prompt_builder.build(
+            user_input=user_input,
+            context=selected,
+            history=session.get("messages", [])
         )
 
-    results = hybrid_search(
-        query=query,
-        df=df,
-        embedding_service=embedding_service,
-        embeddings=embeddings,
-        top_k=5,
-        exclude_titles=exclude_titles
-    )
+        # 7. LLM CALL
+        response = self.llm.generate(prompt)
 
-    context = "\n".join(
-        f"{str(row.get('title',''))} - {str(row.get('overview',''))}"
-        for _, row in results.iterrows()
-    )
+        # 8. SAVE MESSAGE
+        self.session_manager.add_message(session_id, "user", user_input)
+        self.session_manager.add_message(session_id, "assistant", response)
 
-    return context, results
+        latency = time.time() - start_time
 
+        return response, latency
 
-# -------------------------
-# main
-# -------------------------
-def run_agent(
-    query: str,
-    df,
-    embedding_service,
-    embeddings,
-    session_id=None,
-    user_language: str = "es"
-):
+    # =====================================================
+    # CACHE LOGIC
+    # =====================================================
+    def _should_use_cache(self, analyzed, session):
+        if not session.get("candidates"):
+            return False
 
-    if session_id is None:
-        session_id = create_session()
+        if analyzed["is_followup"]:
+            return True
 
-    session = load_session(session_id)
-    if "rag_usage" not in session:
-        session["rag_usage"] = []
-    
-    history_text = build_history(session["messages"])
+        last_signature = session.get("last_query_signature")
+        current_signature = self._build_query_signature(analyzed)
 
-    routing = route(query, session.get("memory", {}))
+        return last_signature == current_signature
 
-    enriched_query = routing["query"]
-    use_rag_flag = session.get("use_rag", True)
+    # =====================================================
+    # QUERY SIGNATURE
+    # =====================================================
+    def _build_query_signature(self, analyzed):
+        base = (
+            analyzed.get("title", "") or "" +
+            " ".join(analyzed.get("genres", [])) +
+            " ".join(analyzed.get("keywords", []))
+        )
 
-    context, results = _retrieve(
-        query=enriched_query,
-        df=df,
-        embedding_service=embedding_service,
-        embeddings=embeddings,
-        use_rag_flag=use_rag_flag,
-        session=session
-    )
+        return hashlib.md5(base.encode()).hexdigest()
 
-    prompt = build_prompt(
-        query=query,
-        context=context,
-        history_text=history_text,
-        session_id=session_id,
-        user_language=user_language
-    )
+    # =====================================================
+    # MEMORY UPDATE
+    # =====================================================
+    def _update_memory(self, session, selected):
+        if "memory" not in session:
+            session["memory"] = {}
 
-    llm_result = generate_response(prompt)
+        memory = session["memory"]
 
-    answer = llm_result["content"]
-    latency = llm_result["latency_ms"]
+        if "last_movies" not in memory:
+            memory["last_movies"] = []
 
-    session["messages"].append({"role": "user", "content": query})
-    session["messages"].append({"role": "assistant", "content": answer})
-
-    session["rag_usage"].append({
-        "query": query,
-        "used_rag": use_rag_flag,
-        "latency_ms": latency
-    })
-
-    _update_memory(session, enriched_query, results)
-
-    save_session(session_id, session)
-
-    return {
-        "response": answer,
-        "session_id": session_id,
-        "used_rag": use_rag_flag,
-        "latency_ms": latency
-    }
+        for item in selected:
+            title = item.get("title")
+            if title and title not in memory["last_movies"]:
+                memory["last_movies"].append(title)

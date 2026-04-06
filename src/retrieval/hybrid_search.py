@@ -1,160 +1,169 @@
 import numpy as np
+from collections import Counter
 
 
-# -------------------------
-# maps
-# -------------------------
-GENRE_MAP = {
-    "action": ["accion", "action", "peleas"],
-    "horror": ["terror", "horror", "miedo"],
-    "comedy": ["comedia", "funny"],
-    "drama": ["drama"],
-    "romance": ["romance", "amor"],
-    "sci-fi": ["ciencia ficcion", "sci-fi", "futurista"],
-    "fantasy": ["fantasia", "fantasy"],
-    "anime": ["anime"],
-}
+class HybridSearch:
+    def __init__(self, faiss_index, metadata, embeddings_model):
+        self.index = faiss_index
+        self.metadata = metadata
+        self.model = embeddings_model
 
-THEME_MAP = {
-    "robots": ["robots", "androides"],
-    "zombies": ["zombies", "muertos vivientes"],
-    "space": ["espacio", "space"],
-    "war": ["guerra", "war"],
-    "magic": ["magia", "magico", "espadas"],
-    "superheroes": ["superheroes", "heroes"],
-}
+        # Corpus para scoring léxico
+        self.corpus = [
+            (m["title"] + " " +
+             m.get("overview", "") + " " +
+             " ".join(m.get("keywords", []))).lower()
+            for m in metadata
+        ]
 
+        self.doc_freq = self._compute_doc_freq()
+        self.N = len(self.corpus)
 
-# -------------------------
-# detectar filtros
-# -------------------------
-def _detect_filters(query: str):
+    # =====================================================
+    # MAIN
+    # =====================================================
+    def search(self, analyzed_query, memory=None, top_k=10):
+        intent = analyzed_query["intent_type"]
 
-    q = query.lower()
-
-    genres = []
-    themes = []
-
-    for g, words in GENRE_MAP.items():
-        if any(w in q for w in words):
-            genres.append(g)
-
-    for t, words in THEME_MAP.items():
-        if any(w in q for w in words):
-            themes.append(t)
-
-    return {
-        "genres": genres,
-        "themes": themes
-    }
-
-
-# -------------------------
-# match filtros
-# -------------------------
-def _match_filters(row, filters):
-
-    genres = row.get("genres", [])
-    keywords = row.get("keywords", [])
-
-    if not isinstance(genres, list):
-        genres = []
-
-    if not isinstance(keywords, list):
-        keywords = []
-
-    safe_text = " ".join([str(x) for x in genres + keywords]).lower()
-
-    # si hay filtros, deben cumplirse al menos parcialmente
-    if filters["genres"]:
-        if not any(g in safe_text for g in filters["genres"]):
-            return False
-
-    if filters["themes"]:
-        if not any(t in safe_text for t in filters["themes"]):
-            return False
-
-    return True
-
-
-# -------------------------
-# main
-# -------------------------
-def hybrid_search(
-    query: str,
-    df,
-    embedding_service,
-    embeddings: dict,
-    top_k: int = 10,
-    candidate_k: int = 100,
-    exclude_titles=None
-):
-
-    if exclude_titles is None:
-        exclude_titles = []
-
-    query_emb = embedding_service.encode_query(query)[0]
-
-    scores, indices = embedding_service.index.search(
-        np.array([query_emb]).astype("float32"),
-        min(candidate_k, len(df))
-    )
-
-    candidate_indices = indices[0]
-
-    filters = _detect_filters(query)
-
-    results = []
-
-    for i in candidate_indices:
-        if i == -1:
-            continue
-
-        row = df.iloc[i]
-        title = row["title"]
-
-        # excluir ya recomendadas
-        if title in exclude_titles:
-            continue
-
-        # filtro por dominio
-        if not _match_filters(row, filters):
-            continue
-
-        sim_title = np.dot(query_emb, embeddings["title"][i])
-        sim_overview = np.dot(query_emb, embeddings["overview"][i])
-        sim_keywords = np.dot(query_emb, embeddings["keywords"][i])
-        sim_genres = np.dot(query_emb, embeddings["genres"][i])
-
-        keywords = row.get("keywords", [])
-        has_keywords = isinstance(keywords, list) and len(keywords) > 0
-
-        if has_keywords:
-            w_title = 0.25
-            w_overview = 0.10
-            w_keywords = 0.60
-            w_genres = 0.05
+        if intent == "TITLE":
+            base_query = self._build_from_title(analyzed_query["title"])
+        elif intent == "GENRE":
+            base_query = " ".join(analyzed_query["genres"])
         else:
-            w_title = 0.625
-            w_overview = 0.25
-            w_keywords = 0.0
-            w_genres = 0.125
+            base_query = " ".join(analyzed_query["keywords"])
 
-        score = (
-            w_title * sim_title +
-            w_overview * sim_overview +
-            w_keywords * sim_keywords +
-            w_genres * sim_genres
+        candidates = self._semantic_search(base_query, top_k=30)
+
+        scored = []
+        for idx, sim_score in candidates:
+            item = self.metadata[idx]
+
+            lexical = self._lexical_score(analyzed_query["keywords"], idx)
+            intent_score = self._intent_score(analyzed_query, item)
+            penalty = self._penalty(item, memory)
+
+            final_score = (
+                0.5 * sim_score +
+                0.3 * lexical +
+                0.2 * intent_score -
+                penalty
+            )
+
+            scored.append((item, final_score))
+
+        scored.sort(key=lambda x: x[1], reverse=True)
+
+        return [
+            self._format_output(item, score)
+            for item, score in scored[:top_k]
+        ]
+
+    # =====================================================
+    # TITLE STRATEGY
+    # =====================================================
+    def _build_from_title(self, title):
+        for m in self.metadata:
+            if m["title"].lower() == title:
+                return " ".join(m.get("keywords", []) + m.get("genres", []))
+        return title
+
+    # =====================================================
+    # 🔥 FIX IMPORTANTE AQUÍ
+    # =====================================================
+    def _semantic_search(self, query, top_k=30):
+        emb = self.model.encode(
+            [query],
+            normalize_embeddings=True  # 🔥 CLAVE
+        )[0]
+
+        emb = np.array([emb], dtype="float32")
+
+        scores, indices = self.index.search(emb, top_k)
+
+        results = []
+        for i, s in zip(indices[0], scores[0]):
+            if i != -1:
+                results.append((i, float(s)))
+
+        return results
+
+    # =====================================================
+    # LEXICAL SCORING
+    # =====================================================
+    def _compute_doc_freq(self):
+        df = Counter()
+        for doc in self.corpus:
+            for t in set(doc.split()):
+                df[t] += 1
+        return df
+
+    def _lexical_score(self, tokens, doc_idx):
+        doc = self.corpus[doc_idx].split()
+        tf = Counter(doc)
+
+        score = 0.0
+        for t in tokens:
+            if t not in tf:
+                continue
+
+            df = self.doc_freq.get(t, 1)
+            idf = np.log((self.N + 1) / (df + 1))
+
+            score += tf[t] * idf
+
+        return score / (len(doc) + 1)
+
+    # =====================================================
+    # INTENT SCORE
+    # =====================================================
+    def _intent_score(self, analyzed, item):
+        score = 0.0
+
+        text = (
+            item["title"].lower() + " " +
+            item.get("overview", "").lower() + " " +
+            " ".join(item.get("keywords", []))
         )
 
-        results.append((i, float(score)))
+        for g in analyzed["genres"]:
+            if g in text:
+                score += 1.0
 
-    results = sorted(results, key=lambda x: x[1], reverse=True)[:top_k]
+        for kw in analyzed["keywords"]:
+            if kw in text:
+                score += 0.3
 
-    final_indices = [i for i, _ in results]
-    final_scores = [s for _, s in results]
+        return score
 
-    output = df.iloc[final_indices].copy()
-    output["score"] = final_scores
+    # =====================================================
+    # PENALTY
+    # =====================================================
+    def _penalty(self, item, memory):
+        penalty = 0.0
 
-    return output
+        if not memory:
+            return penalty
+
+        seen = memory.get("last_movies", [])
+        if item["title"] in seen:
+            penalty += 2.0
+
+        text = item.get("overview", "").lower()
+        noise = ["novel", "book", "series"]
+
+        for n in noise:
+            if n in text:
+                penalty += 1.0
+
+        return penalty
+
+    # =====================================================
+    # OUTPUT
+    # =====================================================
+    def _format_output(self, item, score):
+        return {
+            "title": item.get("title"),
+            "score": round(score, 4),
+            "genres": item.get("genres", []),
+            "keywords": item.get("keywords", [])
+        }
