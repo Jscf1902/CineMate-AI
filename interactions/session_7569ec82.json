@@ -1,0 +1,132 @@
+{
+  "session_id": "7569ec82",
+  "mode": "RAG",
+  "use_rag": true,
+  "messages": [],
+  "interactions": [
+    {
+      "timestamp": "2026-04-06T22:45:49.963193",
+      "query": "dame recomendaciones para Transformers",
+      "routed_query": "dame recomendaciones para Transformers",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 678.895,
+      "scores": [
+        0.3685,
+        0.3035
+      ],
+      "titles": [
+        "Para Gases... los mios",
+        "Babcock Transformers"
+      ],
+      "results_count": 2
+    },
+    {
+      "timestamp": "2026-04-06T22:51:59.259531",
+      "query": "dame algo de anime, shonen y accio",
+      "routed_query": "dame algo de anime, shonen y accio",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 288.293,
+      "scores": [
+        0.6347,
+        0.5086
+      ],
+      "titles": [
+        "Urawa no Usagi-chan",
+        "Anime Crimes Division"
+      ],
+      "results_count": 2
+    }
+  ],
+  "memory": {
+    "last_movies": [
+      "Para Gases... los mios",
+      "Babcock Transformers",
+      "Urawa no Usagi-chan",
+      "Anime Crimes Division"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Urawa no Usagi-chan",
+      "score": 0.6347,
+      "genres": "Animation",
+      "keywords": "anime"
+    },
+    {
+      "title": "Anime Crimes Division",
+      "score": 0.5086,
+      "genres": "Crime|Drama",
+      "keywords": "parody|fan culture"
+    },
+    {
+      "title": "Scrolls to Screen: A Brief History of Anime",
+      "score": 0.4995,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Ninja Girl & Samurai Master",
+      "score": 0.4747,
+      "genres": "Action & Adventure|Animation|Comedy",
+      "keywords": "martial arts|ninja|based on manga|historical|military|sengoku period|seinen|feudal japan|anime|absurdist|short film|oda nobunaga"
+    },
+    {
+      "title": "GRANBELM",
+      "score": 0.4635,
+      "genres": "Animation",
+      "keywords": "magic|mecha|anime|magical girl"
+    },
+    {
+      "title": "Urusei Yatsura",
+      "score": 0.4464,
+      "genres": "Animation|Comedy|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "remake|romance|alien|based on manga|super power|school life|ecchi|shounen|anime|japanese high school"
+    },
+    {
+      "title": "Katsugeki: Touken Ranbu",
+      "score": 0.4437,
+      "genres": "Action & Adventure|Animation|Sci-Fi & Fantasy",
+      "keywords": "samurai|historical|samurai sword|anime"
+    },
+    {
+      "title": "Tokyo Revengers",
+      "score": 0.4415,
+      "genres": "Animation|Drama|Action & Adventure|Crime",
+      "keywords": "time travel|delinquency|based on comic|revenge|romance|school|bromance|aggressive|shounen|anime|furyo"
+    },
+    {
+      "title": "Monthly Girls' Nozaki-kun",
+      "score": 0.4412,
+      "genres": "Animation|Comedy",
+      "keywords": "romcom|romance|slice of life|school|based on manga|school life|anime|school club|japanese high school|otaku|mangaka|manga artist"
+    },
+    {
+      "title": "Pikotaro's Lullaby La La By",
+      "score": 0.4393,
+      "genres": "Comedy",
+      "keywords": "based on fairy tale|anime|short film"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f8777b6586671aeacd211f94f217dee5",
+  "csat": {
+    "score": 4,
+    "timestamp": "2026-04-06T22:52:56.131627"
+  },
+  "nps": {
+    "score": 8,
+    "category": "passive"
+  },
+  "resolution": {
+    "label": "partial",
+    "numeric": 2
+  }
+}

@@ -23,6 +23,8 @@ from agent.prompt_builder import PromptBuilder
 from agent.session_manager import SessionManager
 from src.retrieval.hybrid_search import HybridSearch
 from agent.llm_client import generate_response
+from evaluation.feedback import FeedbackCollector
+
 
 
 DATA_PATH = "data/raw/tmdb_movies_dataset.csv"
@@ -107,6 +109,9 @@ def main():
 
         if user_input.lower() in ["salir", "exit", "quit"]:
             print("\nfin")
+            feedback = FeedbackCollector(session_manager)
+            feedback.run(session_id)
+            
             break
 
         print("\nCineMate está buscando recomendaciones...\n")

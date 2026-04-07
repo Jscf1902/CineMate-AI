@@ -40,7 +40,7 @@ class Orchestrator:
         return use_rag
 
     # =====================================================
-    # INIT MODE (ANTES DEL CHAT)
+    # INIT MODE
     # =====================================================
     def init_session_mode(self, session_id):
         session = self.session_manager.get_session(session_id)
@@ -75,6 +75,8 @@ class Orchestrator:
         # -------------------------
         analyzed = self.query_analyzer.analyze(routed_query, session.get("memory"))
 
+        used_cache = False
+
         # -------------------------
         # DIRECT MODE
         # -------------------------
@@ -93,6 +95,7 @@ class Orchestrator:
             use_cache = self._should_use_cache(analyzed, session)
 
             if use_cache:
+                used_cache = True
                 candidates = session.get("candidates", [])
                 idx = session.get("current_index", 0)
 
@@ -113,6 +116,12 @@ class Orchestrator:
                 session["last_query_signature"] = self._build_query_signature(analyzed)
 
                 selected = candidates[:2]
+
+        # -------------------------
+        # EXTRAER DATOS PARA MÉTRICAS
+        # -------------------------
+        scores = [item.get("score", 0) for item in selected]
+        titles = [item.get("title", "") for item in selected]
 
         # -------------------------
         # UPDATE MEMORY
@@ -136,16 +145,18 @@ class Orchestrator:
         latency = result["latency_ms"] / 1000
 
         # -------------------------
-        # TRACK INTERACTION
+        # TRACK INTERACTION (CLAVE)
         # -------------------------
         self.session_manager.track_interaction(session, {
             "query": user_input,
             "routed_query": routed_query,
             "mode": mode,
             "use_rag": True if mode == "RAG" else False,
+            "used_cache": used_cache,
             "latency": latency,
-            "results_count": len(selected),
-            "timestamp": time.time()
+            "scores": scores,
+            "titles": titles,
+            "results_count": len(selected)
         })
 
         # -------------------------

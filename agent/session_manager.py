@@ -107,7 +107,16 @@ class SessionManager:
                     memory["preferences"]["keywords"].append(k)
 
         self._save(session)
+    # =====================================================
+    # FEEDBACK
+    # =====================================================
+    def save_feedback(self, session, feedback_data):
+        session["csat"] = feedback_data["csat"]
+        session["nps"] = feedback_data["nps"]
+        session["resolution"] = feedback_data["resolution"]
 
+        self._save(session)
+    
     # =====================================================
     # INTERNAL
     # =====================================================
@@ -170,3 +179,4 @@ class SessionManager:
         path = self._get_path(session["session_id"])
         with open(path, "w", encoding="utf-8") as f:
             json.dump(session, f, indent=2, ensure_ascii=False)
+            
