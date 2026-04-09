@@ -1,0 +1,183 @@
+{
+  "session_id": "whatsapp_573167556912",
+  "mode": "RAG",
+  "use_rag": true,
+  "messages": [],
+  "interactions": [
+    {
+      "timestamp": "2026-04-09T17:55:19.420195",
+      "query": "recomiendame algo similar a harry potter",
+      "routed_query": "recomiendame algo similar a harry potter",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 400.67,
+      "scores": [
+        0.4522,
+        0.4429,
+        0.3963,
+        0.3821,
+        0.3702
+      ],
+      "titles": [
+        "Harry Potter: Wizards of Baking",
+        "Harry Potter: Hogwarts Tournament of Houses",
+        "Harry Potter and the Goblet of Fire",
+        "Harry Potter and the Philosopher's Stone",
+        "Harry Potter and the Chamber of Secrets"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-09T17:57:53.557726",
+      "query": "dame otra recomendación para harry potter",
+      "routed_query": "dame otra recomendación para harry potter",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": true,
+      "latency": 98.788,
+      "scores": [
+        0.4429
+      ],
+      "titles": [
+        "Harry Potter: Hogwarts Tournament of Houses"
+      ],
+      "results_count": 1
+    },
+    {
+      "timestamp": "2026-04-09T18:23:58.846786",
+      "query": "recomiendamr algo de anime, shounen y magia",
+      "routed_query": "recomiendamr algo de anime, shounen y magia",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 244.926,
+      "scores": [
+        0.6718,
+        0.6194,
+        0.5641,
+        0.554,
+        0.5438
+      ],
+      "titles": [
+        "Urawa no Usagi-chan",
+        "Straight Title Robot Anime",
+        "Anime Crimes Division",
+        "Scrolls to Screen: A Brief History of Anime",
+        "Urusei Yatsura"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-09T18:27:57.362717",
+      "query": "dame algo parecido a transformers prime",
+      "routed_query": "dame algo parecido a transformers prime",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 199.949,
+      "scores": [
+        0.4066,
+        0.3798,
+        0.36,
+        0.3121,
+        0.3073
+      ],
+      "titles": [
+        "Transformers One",
+        "Transformers: Rise of the Beasts",
+        "Babcock Transformers",
+        "Transformers: Age of Extinction",
+        "Transformers: War for Cybertron: Siege"
+      ],
+      "results_count": 5
+    }
+  ],
+  "memory": {
+    "last_movies": [
+      "Harry Potter: Wizards of Baking",
+      "Harry Potter: Hogwarts Tournament of Houses",
+      "Harry Potter and the Goblet of Fire",
+      "Harry Potter and the Philosopher's Stone",
+      "Harry Potter and the Chamber of Secrets",
+      "Urawa no Usagi-chan",
+      "Straight Title Robot Anime",
+      "Anime Crimes Division",
+      "Scrolls to Screen: A Brief History of Anime",
+      "Urusei Yatsura",
+      "Transformers One",
+      "Transformers: Rise of the Beasts",
+      "Babcock Transformers",
+      "Transformers: Age of Extinction",
+      "Transformers: War for Cybertron: Siege"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Transformers One",
+      "score": 0.4066,
+      "genres": "Animation|Science Fiction|Adventure|Family",
+      "keywords": "based on toy|giant robot|aftercreditsstinger|duringcreditsstinger|buddy movie|brothers-in-arms relationship|origin story|alien robot"
+    },
+    {
+      "title": "Transformers: Rise of the Beasts",
+      "score": 0.3798,
+      "genres": "Science Fiction|Adventure|Action",
+      "keywords": "peru|alien|end of the world|based on toy|robot|duringcreditsstinger|1990s|brother brother relationship|admiring"
+    },
+    {
+      "title": "Babcock Transformers",
+      "score": 0.36,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Transformers: Age of Extinction",
+      "score": 0.3121,
+      "genres": "Science Fiction|Action|Adventure",
+      "keywords": "bounty hunter|texas|sequel|alien|based on toy|on the run|giant robot|robot|metal"
+    },
+    {
+      "title": "Transformers: War for Cybertron: Siege",
+      "score": 0.3073,
+      "genres": "Animation|Action & Adventure|Kids|Sci-Fi & Fantasy",
+      "keywords": "mecha|based on toy|giant robot|battle|anime|good versus evil|vehicle"
+    },
+    {
+      "title": "Transformers: EarthSpark",
+      "score": 0.2893,
+      "genres": "Animation|Kids|Sci-Fi & Fantasy|Comedy|Drama",
+      "keywords": "hero|based on toy|young boy|robot|transforming robot|new generation|enemies to friends|alien robot"
+    },
+    {
+      "title": "World of Tomorrow Episode Two: The Burden of Other People's Thoughts",
+      "score": 0.2498,
+      "genres": "Science Fiction|Animation|Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Sonic Prime",
+      "score": 0.2425,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy|Kids",
+      "keywords": "exploration|fast|friends|confrontation|based on video game|hedgehog|other world|bewildered"
+    },
+    {
+      "title": "Moonrise",
+      "score": 0.241,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "moon|space war|army|rebellion|young man|moon colony|space prison|anime|not too distant future"
+    },
+    {
+      "title": "Transformers: BotBots",
+      "score": 0.2115,
+      "genres": "Kids|Animation",
+      "keywords": "villain|based on toy|robot|destruction|power|animation"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "9389af714c3658d7828daf4f6f104e0b"
+}

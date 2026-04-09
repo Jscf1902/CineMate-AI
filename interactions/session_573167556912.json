@@ -1,0 +1,29 @@
+{
+  "session_id": "573167556912",
+  "mode": null,
+  "use_rag": null,
+  "messages": [],
+  "interactions": [],
+  "memory": {
+    "last_movies": [],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": "",
+  "csat": {
+    "score": 5,
+    "timestamp": "2026-04-09T18:29:04.436485"
+  },
+  "nps": {
+    "score": 10,
+    "category": "promoter"
+  },
+  "resolution": {
+    "label": "yes",
+    "numeric": 3
+  }
+}

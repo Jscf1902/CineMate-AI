@@ -23,6 +23,12 @@ EMB_PATH = "data/processed"
 MODEL_NAME = "all-MiniLM-L6-v2"
 
 
+# =========================================
+# SINGLETON ORCHESTRATOR
+# =========================================
+_orchestrator = None
+
+
 def load_or_create_embeddings(df):
     required_files = [
         "emb_title.npy",
@@ -41,8 +47,11 @@ def load_or_create_embeddings(df):
     model = SentenceTransformer(MODEL_NAME)
 
     if files_exist:
+        print("Embeddings cargados")
         embeddings, combined, index, _ = load_artifacts(path=EMB_PATH)
     else:
+        print("Generando embeddings...")
+
         embeddings = generate_embeddings(df, model)
         combined, index = build_faiss_index(embeddings)
 
@@ -58,6 +67,14 @@ def load_or_create_embeddings(df):
 
 
 def get_orchestrator():
+    global _orchestrator
+
+    # 🔁 reutilizar instancia si ya existe
+    if _orchestrator is not None:
+        return _orchestrator
+
+    print("Inicializando orchestrator (solo una vez)...")
+
     # -------------------------
     # DATA
     # -------------------------
@@ -85,7 +102,7 @@ def get_orchestrator():
     # -------------------------
     # ORCHESTRATOR
     # -------------------------
-    orchestrator = Orchestrator(
+    _orchestrator = Orchestrator(
         router=router_fn,
         retrieval=retrieval,
         prompt_builder=prompt_builder,
@@ -94,4 +111,4 @@ def get_orchestrator():
         metadata=df.to_dict(orient="records")
     )
 
-    return orchestrator
+    return _orchestrator

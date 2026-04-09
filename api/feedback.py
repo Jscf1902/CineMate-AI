@@ -1,16 +1,23 @@
 from fastapi import APIRouter
 from datetime import datetime
 
-from agent.session_manager import SessionManager
+from api.dependencies import get_orchestrator
 
 router = APIRouter()
-
-session_manager = SessionManager()
 
 
 @router.post("/feedback")
 def receive_feedback(data: dict):
 
+    # -------------------------
+    # ORCHESTRATOR (SINGLETON)
+    # -------------------------
+    orchestrator = get_orchestrator()
+    session_manager = orchestrator.session_manager
+
+    # -------------------------
+    # SESSION
+    # -------------------------
     session_id = data.get("session_id")
 
     if not session_id:
@@ -18,6 +25,9 @@ def receive_feedback(data: dict):
 
     session = session_manager.get_session(session_id)
 
+    # -------------------------
+    # BUILD FEEDBACK
+    # -------------------------
     feedback_data = {
         "csat": {
             "score": data["feedback"].get("csat"),
@@ -32,6 +42,11 @@ def receive_feedback(data: dict):
         "recommendation": data.get("recommendation")
     }
 
+    # -------------------------
+    # SAVE
+    # -------------------------
     session_manager.save_feedback(session, feedback_data)
+
+    print("Feedback guardado correctamente")
 
     return {"status": "ok"}
