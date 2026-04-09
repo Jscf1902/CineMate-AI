@@ -86,7 +86,7 @@ class Orchestrator:
                 memory=session.get("memory"),
                 top_k=5
             )
-            selected = candidates[:2]
+            selected = candidates[:5]
 
         # -------------------------
         # RAG MODE
@@ -115,7 +115,7 @@ class Orchestrator:
                 session["current_index"] = 1
                 session["last_query_signature"] = self._build_query_signature(analyzed)
 
-                selected = candidates[:2]
+                selected = candidates[:5]
 
         # -------------------------
         # EXTRAER DATOS PARA MÉTRICAS
