@@ -13,7 +13,14 @@ def chat_endpoint(request: ChatRequest):
         # -------------------------
         # SESSION ID
         # -------------------------
-        session_id = f"whatsapp_{request.user_id}"
+        session_id = request.session_id
+        session = orchestrator.session_manager.get_session(session_id)
+        session["user_id"] = request.user_id
+        orchestrator.session_manager.save_session(session)
+
+        # -------------------------
+        # INIT MODE
+        # -------------------------
         orchestrator.init_session_mode(session_id)
 
         # -------------------------

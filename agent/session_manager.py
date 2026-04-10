@@ -1,6 +1,5 @@
 import json
 import os
-import uuid
 from datetime import datetime
 
 
@@ -8,15 +7,6 @@ class SessionManager:
     def __init__(self, storage_path="interactions"):
         self.storage_path = storage_path
         os.makedirs(self.storage_path, exist_ok=True)
-
-    # =====================================================
-    # CREATE NEW SESSION
-    # =====================================================
-    def create_session(self):
-        session_id = str(uuid.uuid4())[:8]
-        session = self._init_session(session_id)
-        self._save(session)
-        return session_id
 
     # =====================================================
     # PUBLIC
@@ -34,17 +24,6 @@ class SessionManager:
 
         return self._ensure_structure(session)
 
-    def add_message(self, session_id, role, content):
-        session = self.get_session(session_id)
-
-        session["messages"].append({
-            "role": role,
-            "content": content,
-            "timestamp": datetime.now().isoformat()
-        })
-
-        self._save(session)
-
     def save_session(self, session):
         self._save(session)
 
@@ -56,7 +35,6 @@ class SessionManager:
             "timestamp": datetime.now().isoformat(),
             **data
         })
-
         self._save(session)
 
     # =====================================================
@@ -107,26 +85,30 @@ class SessionManager:
                     memory["preferences"]["keywords"].append(k)
 
         self._save(session)
+
     # =====================================================
     # FEEDBACK
     # =====================================================
     def save_feedback(self, session, feedback_data):
-        session["csat"] = feedback_data["csat"]
-        session["nps"] = feedback_data["nps"]
-        session["resolution"] = feedback_data["resolution"]
-
+        session["feedback"] = feedback_data
         self._save(session)
-    
+
     # =====================================================
     # INTERNAL
     # =====================================================
     def _init_session(self, session_id):
         return {
             "session_id": session_id,
+            "user_id": None,
+            "created_at": datetime.now().isoformat(),
+
             "mode": None,
             "use_rag": None,
-            "messages": [],
+
             "interactions": [],
+
+            "feedback": None,
+
             "memory": {
                 "last_movies": [],
                 "preferences": {
@@ -134,12 +116,19 @@ class SessionManager:
                     "keywords": []
                 }
             },
+
             "candidates": [],
             "current_index": 0,
             "last_query_signature": ""
         }
 
     def _ensure_structure(self, session):
+        if "user_id" not in session:
+            session["user_id"] = None
+
+        if "created_at" not in session:
+            session["created_at"] = datetime.now().isoformat()
+
         if "mode" not in session:
             session["mode"] = None
 
@@ -149,16 +138,16 @@ class SessionManager:
         if "interactions" not in session:
             session["interactions"] = []
 
+        if "feedback" not in session:
+            session["feedback"] = None
+
         if "memory" not in session:
-            session["memory"] = {}
-
-        if "last_movies" not in session["memory"]:
-            session["memory"]["last_movies"] = []
-
-        if "preferences" not in session["memory"]:
-            session["memory"]["preferences"] = {
-                "genres": [],
-                "keywords": []
+            session["memory"] = {
+                "last_movies": [],
+                "preferences": {
+                    "genres": [],
+                    "keywords": []
+                }
             }
 
         if "candidates" not in session:
@@ -179,4 +168,20 @@ class SessionManager:
         path = self._get_path(session["session_id"])
         with open(path, "w", encoding="utf-8") as f:
             json.dump(session, f, indent=2, ensure_ascii=False)
-            
+    
+    # =====================================================
+    # MESSAGES (COMPATIBILITY)
+    # =====================================================
+    def add_message(self, session_id, role, content):
+        session = self.get_session(session_id)
+
+        if "messages" not in session:
+            session["messages"] = []
+
+        session["messages"].append({
+            "role": role,
+            "content": content,
+            "timestamp": datetime.now().isoformat()
+        })
+
+        self._save(session)

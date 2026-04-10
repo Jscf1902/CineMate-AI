@@ -96,7 +96,7 @@ def main():
         metadata=df.to_dict(orient="records")
     )
 
-    session_id = session_manager.create_session()
+    session_id = 0 ##session_manager.create_session()
 
     mode = orchestrator.init_session_mode(session_id)
 
