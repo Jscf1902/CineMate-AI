@@ -1,0 +1,155 @@
+{
+  "session_id": "08b2d098-8bdd-41f3-88c4-e8f3a0dc1d4e",
+  "user_id": "573178517661",
+  "created_at": "2026-04-19T03:12:31.920904",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-19T03:15:41.890789",
+      "query": "una serie parecida a besos kitty",
+      "routed_query": "una serie parecida a besos kitty",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 115.38,
+      "scores": [
+        0.1783,
+        0.1709,
+        0.1675,
+        -0.5664,
+        -0.5974
+      ],
+      "titles": [
+        "Hasta que te conocí",
+        "Rigoletto",
+        "Il turco in Italia - Teatro Real de Madrid",
+        "Alcanzar una estrella II",
+        "Alcanzar una estrella"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T03:19:52.705343",
+      "query": "o una serie de k-drama parecido a mi adorable demonio",
+      "routed_query": "o una serie de k-drama parecido a mi adorable demonio",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 151.16,
+      "scores": [
+        0.5559,
+        0.5471,
+        0.5368,
+        0.5356,
+        0.5335
+      ],
+      "titles": [
+        "Quo Vadis?",
+        "Loving Him",
+        "Should I Marry Outside My Faith?",
+        "Stay Then Go",
+        "Blame"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-19T03:23:06.249267"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "o una serie de k-drama parecido a mi adorable demonio",
+    "recommendation": "¡Claro! Basándome en tu búsqueda de una serie de K-drama similar a \"My Dear Demon\", te recomendaría:\n\n1. **Crash Landing You** (2019) - Una historia de romance que explora la diferencia entre la vida en Corea y en Nueva Zelanda, con elementos de drama y acción.\n2. **The Matchmaker** (2022) - Un drama romántico que sigue las andanzas de una joven que se convierte en una abanderada de la guerra en Corea del Norte.\n\nAmbas series combinan drama, romance y elementos de suspenso que podrían encajar con tu gusto. ¿Te gustaría conocer más sobre alguna de ellas?"
+  },
+  "memory": {
+    "last_movies": [
+      "Hasta que te conocí",
+      "Rigoletto",
+      "Il turco in Italia - Teatro Real de Madrid",
+      "Alcanzar una estrella II",
+      "Alcanzar una estrella",
+      "Quo Vadis?",
+      "Loving Him",
+      "Should I Marry Outside My Faith?",
+      "Stay Then Go",
+      "Blame"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Quo Vadis?",
+      "score": 0.5559,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Loving Him",
+      "score": 0.5471,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Should I Marry Outside My Faith?",
+      "score": 0.5368,
+      "genres": "Drama",
+      "keywords": "short film"
+    },
+    {
+      "title": "Stay Then Go",
+      "score": 0.5356,
+      "genres": "Comedy",
+      "keywords": NaN
+    },
+    {
+      "title": "Blame",
+      "score": 0.5335,
+      "genres": "Drama",
+      "keywords": "jealousy|high school|based on play or musical|suburb|taboo|teacher student relationship|woman director|drama teacher"
+    },
+    {
+      "title": "The First Day of the Rest of Your Life",
+      "score": 0.5258,
+      "genres": "Drama",
+      "keywords": "diary|marriage|wine|student of medicine|car crash|family|family feud"
+    },
+    {
+      "title": "Luck",
+      "score": 0.5233,
+      "genres": "Drama",
+      "keywords": "gambling|jockey|horse racing|luck|horse trainer"
+    },
+    {
+      "title": "Return to Innocence",
+      "score": 0.5217,
+      "genres": "Drama",
+      "keywords": "pedophilia|street kid"
+    },
+    {
+      "title": "Shuga",
+      "score": 0.5207,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Who Gets the Dog",
+      "score": 0.5154,
+      "genres": "Comedy|Drama",
+      "keywords": "love affair|divorce"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "28cf7976ade02e49d5be09e91c6a43a6"
+}

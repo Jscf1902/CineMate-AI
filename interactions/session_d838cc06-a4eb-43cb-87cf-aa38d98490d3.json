@@ -1,0 +1,152 @@
+{
+  "session_id": "d838cc06-a4eb-43cb-87cf-aa38d98490d3",
+  "user_id": "573107677418",
+  "created_at": "2026-04-19T02:32:25.910815",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-19T02:34:56.911271",
+      "query": "lista de películas de acción mas vistas",
+      "routed_query": "lista de películas de acción mas vistas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 75.241,
+      "scores": [
+        0.1434,
+        0.1368,
+        0.1351,
+        0.1351,
+        0.135
+      ],
+      "titles": [
+        "Cabrujas en el país del disimulo",
+        "Perdona nuestros pecados",
+        "Mi Pequeña Traviesa",
+        "Muero por Marilú",
+        "È severamente vietata la sosta in palcoscenico ai non autorizzati. Un documentario di meno su Carmelo Bene"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T02:40:15.035192",
+      "query": "mejores películas de ciencia ficción",
+      "routed_query": "mejores películas de ciencia ficción",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 218.94,
+      "scores": [
+        0.102,
+        0.0999,
+        0.0998,
+        0.0965,
+        0.0949
+      ],
+      "titles": [
+        "Cristóbal Balenciaga",
+        "Cadenas de amargura",
+        "José Aparecido de Oliveira – O Maior Mineiro do Mundo",
+        "Celebração - 100 Anos do Cinema Nacional",
+        "Eliezer Batista - O Engenheiro do Brasil"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T02:59:00.344533",
+      "query": "si",
+      "routed_query": "si",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 431.416,
+      "scores": [
+        0.2473,
+        0.2455,
+        0.2389,
+        0.2369,
+        0.2354
+      ],
+      "titles": [
+        "Total DramaRama",
+        "Blame",
+        "Jesus of Nazareth",
+        "Shuga",
+        "Stay Then Go"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T03:02:39.850495",
+      "query": "drama",
+      "routed_query": "drama",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 70.677,
+      "scores": [
+        0.3613,
+        0.1125,
+        0.1119,
+        0.1117,
+        0.1105
+      ],
+      "titles": [
+        "Yudh",
+        "Agents of Mystery",
+        "Dos Hermanos Contra La Muerte",
+        "Scooby-Doo and Guess Who?",
+        "Hunter Street"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 3,
+      "timestamp": "2026-04-19T03:04:26.427389"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "drama",
+    "recommendation": "Basado en tu interés por el género Drama, te recomiendo **Yudh**. Este título combina elementos de drama, acción y crimen, ofreciendo una experiencia cinematográfica intensa y emocional."
+  },
+  "memory": {
+    "last_movies": [
+      "Cabrujas en el país del disimulo",
+      "Perdona nuestros pecados",
+      "Mi Pequeña Traviesa",
+      "Muero por Marilú",
+      "È severamente vietata la sosta in palcoscenico ai non autorizzati. Un documentario di meno su Carmelo Bene",
+      "Cristóbal Balenciaga",
+      "Cadenas de amargura",
+      "José Aparecido de Oliveira – O Maior Mineiro do Mundo",
+      "Celebração - 100 Anos do Cinema Nacional",
+      "Eliezer Batista - O Engenheiro do Brasil",
+      "Total DramaRama",
+      "Blame",
+      "Jesus of Nazareth",
+      "Shuga",
+      "Stay Then Go",
+      "Yudh",
+      "Agents of Mystery",
+      "Dos Hermanos Contra La Muerte",
+      "Scooby-Doo and Guess Who?",
+      "Hunter Street"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,212 @@
+{
+  "session_id": "cd7d7ecd-83f1-4ba5-8adb-9c26f84632dd",
+  "user_id": "573178517661",
+  "created_at": "2026-04-19T02:34:57.116522",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-19T02:39:04.964606",
+      "query": "recomienda me novelas como sin senos si hay paraíso",
+      "routed_query": "recomienda me novelas como sin senos si hay paraíso",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 148.903,
+      "scores": [
+        0.1342,
+        0.1332,
+        0.1277,
+        0.1273,
+        0.1268
+      ],
+      "titles": [
+        "Trilussa - Storia d'amore e di poesia",
+        "Perdona nuestros pecados",
+        "Rigoletto",
+        "Perdona nuestros pecados",
+        "La historia de Juana"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T02:45:41.774029",
+      "query": "una novela que sea de colombia",
+      "routed_query": "una novela que sea de colombia",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 117.771,
+      "scores": [
+        0.2524,
+        0.241,
+        0.1966,
+        0.1824,
+        0.1744
+      ],
+      "titles": [
+        "El Señor de los Cielos",
+        "Hasta que te conocí",
+        "Una mano bajo la nieve y otras historias",
+        "Narcos",
+        "La ronca de oro"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T02:51:26.227154",
+      "query": "y series de colombia como sin senos si hay paraíso o el man es german",
+      "routed_query": "y series de colombia como sin senos si hay paraíso o el man es german",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 97.998,
+      "scores": [
+        0.3509,
+        0.3017,
+        0.2016,
+        0.1411,
+        0.1405
+      ],
+      "titles": [
+        "Juanpis González - The Series",
+        "LOL: Last One Laughing Colombia",
+        "Cabrujas en el país del disimulo",
+        "Apache: The Life of Carlos Tevez",
+        "Los infernales"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T03:07:01.570509",
+      "query": "y una parecida a la reina del flow",
+      "routed_query": "y una parecida a la reina del flow",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 332.38,
+      "scores": [
+        0.2484,
+        0.2119,
+        0.2063,
+        0.125,
+        0.1207
+      ],
+      "titles": [
+        "Flow",
+        "El final del paraíso",
+        "Aller simple (Tres historias del Río de la Plata)",
+        "Después de… Primera parte: no se os puede dejar solos",
+        "Golpe de suerte"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-19T03:09:12.300394"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "no",
+      "numeric": 1
+    },
+    "query": "y una parecida a la reina del flow",
+    "recommendation": "No tengo suficiente información para recomendarte una película similar a *La Reina del Flow*. Sin embargo, puedo ofrecerte algunas opciones basadas en géneros y palabras clave de mi contexto:\n\n1. **El final del paraíso** (Drama/Action & Adventure): Una historia de aventura con elementos de drama.  \n2. **Aller simple (Tres historias del Río de la Plata)** (Documentary): Un documental sobre el Río de la Plata, con temáticas de naturaleza y exploración.  \n3. **Después de… Primera parte: no se os puede dejar solos** (Documentary): Un documental histórico que podría ofrecer una perspectiva única.  \n4. **Golpe de suerte** (Family/Comedy/Drama): Una comedia familiar con temáticas dramáticas y de aventura.  \n\n¿Te gustaría ver alguna de estas opciones?"
+  },
+  "memory": {
+    "last_movies": [
+      "Trilussa - Storia d'amore e di poesia",
+      "Perdona nuestros pecados",
+      "Rigoletto",
+      "La historia de Juana",
+      "El Señor de los Cielos",
+      "Hasta que te conocí",
+      "Una mano bajo la nieve y otras historias",
+      "Narcos",
+      "La ronca de oro",
+      "Juanpis González - The Series",
+      "LOL: Last One Laughing Colombia",
+      "Cabrujas en el país del disimulo",
+      "Apache: The Life of Carlos Tevez",
+      "Los infernales",
+      "Flow",
+      "El final del paraíso",
+      "Aller simple (Tres historias del Río de la Plata)",
+      "Después de… Primera parte: no se os puede dejar solos",
+      "Golpe de suerte"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Flow",
+      "score": 0.2484,
+      "genres": "Animation|Adventure|Fantasy|Family",
+      "keywords": "ocean|cat|boat|dystopia|dog|ruins|flood|lemur|kids|bird|3d animation|no dialogue|teamwork|fantasy|capybara|adventure|admiring|complicated|barco|gato|labrador"
+    },
+    {
+      "title": "El final del paraíso",
+      "score": 0.2119,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Aller simple (Tres historias del Río de la Plata)",
+      "score": 0.2063,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Después de… Primera parte: no se os puede dejar solos",
+      "score": 0.125,
+      "genres": "Documentary",
+      "keywords": "1970s|franco regime (francoism)|social documentary|communist party|spanish transition|1980s|spanish history|social democracy|spanish politics"
+    },
+    {
+      "title": "Golpe de suerte",
+      "score": 0.1207,
+      "genres": "Family|Comedy|Drama|Soap|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "family|telenovela|tv show"
+    },
+    {
+      "title": "E Io ti seguo",
+      "score": 0.1205,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Alcanzar una estrella",
+      "score": -0.6489,
+      "genres": "Drama",
+      "keywords": "musical|romance|telenovela"
+    },
+    {
+      "title": "La Marca del Deseo",
+      "score": -0.6702,
+      "genres": "Drama",
+      "keywords": "romance|telenovela|amistad"
+    },
+    {
+      "title": "Las Vías del Amor",
+      "score": -0.702,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Una familia con suerte",
+      "score": -0.7062,
+      "genres": "Comedy|Drama|Family",
+      "keywords": "telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "e890fa84bdcfac2cee3cc1a569f6d507"
+}

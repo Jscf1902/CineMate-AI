@@ -1,0 +1,166 @@
+{
+  "session_id": "cd875382-d1cb-4db0-8ed9-908521727339",
+  "user_id": "573178517661",
+  "created_at": "2026-04-19T03:26:01.354536",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-19T03:28:35.116543",
+      "query": "película de romance como 50 sombras de grey",
+      "routed_query": "película de romance como 50 sombras de grey",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 93.211,
+      "scores": [
+        0.6604,
+        0.5974,
+        0.58,
+        0.5616,
+        0.5567
+      ],
+      "titles": [
+        "Freie Liebe",
+        "No Boyfriend Since Birth",
+        "The Interest of Love",
+        "HeartBeat",
+        "Love Me"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T04:24:53.446419",
+      "query": "y precisas a 365 o after?",
+      "routed_query": "y precisas a 365 o after?",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 92.156,
+      "scores": [
+        0.2481,
+        0.2204,
+        0.2169,
+        0.2168,
+        0.2097
+      ],
+      "titles": [
+        "20 Years After",
+        "Vatican Girl: The Disappearance of Emanuela Orlandi",
+        "Black Rock Shooter: Dawn Fall",
+        "The Day I Became a God",
+        "The Gabriels: Election Year in the Life of One Family, Play Three: Women of a Certain Age"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T04:47:04.389469",
+      "query": "after",
+      "routed_query": "after",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 81.558,
+      "scores": [
+        0.1117,
+        0.1074,
+        0.1062,
+        0.1034,
+        0.1002
+      ],
+      "titles": [
+        "Beauty and Mr. Romantic",
+        "All That We Loved",
+        "Love Comes from the Sea",
+        "Twilight Out of Focus",
+        "Modern Love Hyderabad"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T05:04:47.309403",
+      "query": "de que trata twilight out of focus",
+      "routed_query": "de que trata twilight out of focus",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 91.978,
+      "scores": [
+        0.2183,
+        0.2054,
+        0.2049,
+        0.2024,
+        0.202
+      ],
+      "titles": [
+        "Convenience Store Boy Friends",
+        "Boarding School",
+        "Gakuen Handsome",
+        "Himote House: A Share House of Super Psychic Girls",
+        "You and Me"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-19T05:09:56.606873",
+      "query": "slair",
+      "routed_query": "slair",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 82.125,
+      "scores": [
+        0.1053,
+        0.0968,
+        0.0914,
+        0.0895,
+        0.0858
+      ],
+      "titles": [
+        "Betty",
+        "Slam",
+        "World Debut: From Outsiders to the Olympics",
+        "Bickford Park",
+        "Tony Hawk's Trick Tips Volume II: Essentials of Street"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Freie Liebe",
+      "No Boyfriend Since Birth",
+      "The Interest of Love",
+      "HeartBeat",
+      "Love Me",
+      "20 Years After",
+      "Vatican Girl: The Disappearance of Emanuela Orlandi",
+      "Black Rock Shooter: Dawn Fall",
+      "The Day I Became a God",
+      "The Gabriels: Election Year in the Life of One Family, Play Three: Women of a Certain Age",
+      "Beauty and Mr. Romantic",
+      "All That We Loved",
+      "Love Comes from the Sea",
+      "Twilight Out of Focus",
+      "Modern Love Hyderabad",
+      "Convenience Store Boy Friends",
+      "Boarding School",
+      "Gakuen Handsome",
+      "Himote House: A Share House of Super Psychic Girls",
+      "You and Me",
+      "Betty",
+      "Slam",
+      "World Debut: From Outsiders to the Olympics",
+      "Bickford Park",
+      "Tony Hawk's Trick Tips Volume II: Essentials of Street"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

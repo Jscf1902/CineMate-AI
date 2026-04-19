@@ -1,0 +1,126 @@
+{
+  "session_id": "f66cfaaa-ccff-4b27-801a-f7d3163612b4",
+  "user_id": "573132880704",
+  "created_at": "2026-04-19T05:13:05.327826",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-19T05:17:26.054504",
+      "query": "películas de terror",
+      "routed_query": "películas de terror",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 96.559,
+      "scores": [
+        0.2085,
+        0.1928,
+        0.1908,
+        0.1849,
+        0.1539
+      ],
+      "titles": [
+        "Four Nights in Fear Forest",
+        "The Walking Dead: Dead City",
+        "Return to Horror Hotel",
+        "Dead Silent",
+        "Zombie Wars"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-19T05:18:52.854350"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "películas de terror",
+    "recommendation": "¡Claro! Aquí tienes una película de terror recomendada basada en tu consulta:\n\n**Four Nights in Fear Forest** (género: Horror)\n\nSi deseas más recomendaciones o detalles, házmelo saber."
+  },
+  "memory": {
+    "last_movies": [
+      "Four Nights in Fear Forest",
+      "The Walking Dead: Dead City",
+      "Return to Horror Hotel",
+      "Dead Silent",
+      "Zombie Wars"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Four Nights in Fear Forest",
+      "score": 0.2085,
+      "genres": "Horror",
+      "keywords": NaN
+    },
+    {
+      "title": "The Walking Dead: Dead City",
+      "score": 0.1928,
+      "genres": "Action & Adventure|Drama|Sci-Fi & Fantasy",
+      "keywords": "post-apocalyptic future|survival|zombie|spin off|based on graphic novel|manhattan, new york city"
+    },
+    {
+      "title": "Return to Horror Hotel",
+      "score": 0.1908,
+      "genres": "Horror|Science Fiction|Comedy",
+      "keywords": "magic|motel|anthology|sailor|severed hand|motel room|houdini|bugs|supernatural power|psychotronic film|magical necklace|rapid ageing"
+    },
+    {
+      "title": "Dead Silent",
+      "score": 0.1849,
+      "genres": "Crime|Documentary|Reality",
+      "keywords": "homicide|attempted murder|victim|investigation|psychopath|psychological abuse|sociopath|murder|domestic violence|torture|true crime|extramarital affair|reenactment|sexual torture|sexual assault|emotional abuse|abuse survivor|survivor"
+    },
+    {
+      "title": "Zombie Wars",
+      "score": 0.1539,
+      "genres": NaN,
+      "keywords": NaN
+    },
+    {
+      "title": "Birth of the Living Dead",
+      "score": 0.1471,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Fear the Walking Dead",
+      "score": 0.1341,
+      "genres": "Action & Adventure|Drama",
+      "keywords": "surreal|post-apocalyptic future|survival|spin off|based on graphic novel|death|zombie apocalypse|survive|horror"
+    },
+    {
+      "title": "Police Story: The Freeway Killings",
+      "score": 0.1341,
+      "genres": "Crime|Drama|TV Movie",
+      "keywords": "killing|freeway|phone|misogynist"
+    },
+    {
+      "title": "Motel of Death",
+      "score": 0.1337,
+      "genres": "Horror|TV Movie",
+      "keywords": NaN
+    },
+    {
+      "title": "Zombie Land SAGA",
+      "score": 0.1332,
+      "genres": "Animation|Comedy|Sci-Fi & Fantasy",
+      "keywords": "competition|dance performance|training|concert|parody|undead|zombie|art|anime|drastic change of life|time skip|idol group|idol|saga, japan"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "42d0e0a3372c767dd5fe315bcb9f7c98"
+}

@@ -39,7 +39,7 @@ class PromptBuilder:
             "- ONLY use the provided context.\n"
             "- NEVER invent or hallucinate movie titles.\n"
             "- If the context is weak or irrelevant, say you don't have enough information.\n"
-            "- Maximum 5 recommendations.\n"
+            "- Make minimum 5 recommendations.\n"
             "- Keep answers concise and useful.\n"
             "- Detect the language of the user and respond in that same language.\n\n"
 
