@@ -1,0 +1,126 @@
+{
+  "session_id": "7251b23c-d3e2-4530-a4a2-8609c257f67d",
+  "user_id": "573167556912",
+  "created_at": "2026-04-16T02:32:12.273956",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-16T02:36:17.524085",
+      "query": "recomiendame algo como pacific rim",
+      "routed_query": "recomiendame algo como pacific rim",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 154.662,
+      "scores": [
+        0.4023,
+        0.3208,
+        0.3116,
+        0.2585,
+        0.22
+      ],
+      "titles": [
+        "Pacific Rim",
+        "Pacific Rim: The Black",
+        "Pacific Rim: Uprising",
+        "No Way Up",
+        "Alien: Covenant"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-16T02:37:09.670371"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "recomiendame algo como pacific rim",
+    "recommendation": "¡Claro! Aquí tienes algunas recomendaciones basadas en *Pacific Rim*:\n\n1. **Pacific Rim: Uprising** (2017) - Continuación de la saga con combates de robots gigantes contra kaijus.\n2. **Pacific Rim** (2013) - La película original que inicia la trama.\n3. **Transformers: La guerra de los cabios** (2007) - Robots transformadores en batalla.\n4. **Godzilla** (2014) - Un kaiju clásico con acción y ciencia ficción.\n5. **Ráden** (2019) - Otro filme con robots y monstruos gigantes en modo anime."
+  },
+  "memory": {
+    "last_movies": [
+      "Pacific Rim",
+      "Pacific Rim: The Black",
+      "Pacific Rim: Uprising",
+      "No Way Up",
+      "Alien: Covenant"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Pacific Rim",
+      "score": 0.4023,
+      "genres": "Action|Science Fiction|Adventure",
+      "keywords": "monster|dystopia|pacific|alaska|giant robot|giant monster|apocalypse|hong kong|robot|alien invasion|kaiju|duringcreditsstinger|monster movie"
+    },
+    {
+      "title": "Pacific Rim: The Black",
+      "score": 0.3208,
+      "genres": "Sci-Fi & Fantasy|Animation|Action & Adventure",
+      "keywords": "cyberpunk|robot|battle|kaiju|giant|anime inspired"
+    },
+    {
+      "title": "Pacific Rim: Uprising",
+      "score": 0.3116,
+      "genres": "Action|Fantasy|Science Fiction|Adventure",
+      "keywords": "saving the world|japan|artificial intelligence (a.i.)|monster|cadet|evacuation|duty|military base|race against time|damage|dormitory|army|portal|sequel|mind control|futuristic|rivalry|alien|mecha|mad scientist|coming of age|giant robot|giant monster|military officer|mind reading|creature|robot|scientist|criminal|one against many|combat|blizzard|female fighter|kaiju|transforming robot|alien monster|teenage hero|mental link|mass destruction|humanoid robot|robot suits|female warrior|aircraft|laser beam|mass evacuation|mount fuji, japan|computer hacker|tokyo|disapproving"
+    },
+    {
+      "title": "No Way Up",
+      "score": 0.2585,
+      "genres": "Thriller|Horror|Action",
+      "keywords": "ocean|bodyguard|childhood trauma|rescue mission|shark|airplane trip|sharks|air crash|survivor"
+    },
+    {
+      "title": "Alien: Covenant",
+      "score": 0.22,
+      "genres": "Horror|Science Fiction",
+      "keywords": "android|spacecraft|experiment|space travel|alien life-form|infection|engineer|sequel|space|alien|creature|robot|scientist|genocide|creation|paranoid|acid|alien technology|genetic mutation|suspenseful|sci-fi horror"
+    },
+    {
+      "title": "La Brea",
+      "score": 0.2192,
+      "genres": "Sci-Fi & Fantasy|Drama|Action & Adventure",
+      "keywords": "alternate dimension"
+    },
+    {
+      "title": "Monster Island",
+      "score": 0.2189,
+      "genres": "Horror|Fantasy|Action|Thriller",
+      "keywords": "monster|world war ii|prisoner of war|island|mythical creature|stranded|survival|intercultural relationship|japanese soldier|pow|apathetic"
+    },
+    {
+      "title": "Return to the Blue Lagoon",
+      "score": 0.217,
+      "genres": "Adventure|Drama",
+      "keywords": "island|marooned|family abandonment|pacific island|deserted island|tropical island|abandoned by mother|abandoned|abandoned child"
+    },
+    {
+      "title": "MARINES",
+      "score": 0.216,
+      "genres": "Documentary",
+      "keywords": "miniseries|u.s. marine|military training"
+    },
+    {
+      "title": "Skull Island",
+      "score": 0.2144,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "south pacific|shipwreck survivors|monsters"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "b5b28563d06abd68198cc5ff42ece854"
+}

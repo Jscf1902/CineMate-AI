@@ -1,0 +1,143 @@
+{
+  "session_id": "29fa135c-dc1e-4e20-8ef3-c2c900ff6479",
+  "user_id": "573138931736",
+  "created_at": "2026-04-16T19:48:40.234720",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-16T19:54:54.985858",
+      "query": "me gustaría recomendaciones de peliculas románticas",
+      "routed_query": "me gustaría recomendaciones de peliculas románticas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 287.565,
+      "scores": [
+        0.1357,
+        0.1306,
+        0.1287,
+        0.1279,
+        0.1269
+      ],
+      "titles": [
+        "Una mano bajo la nieve y otras historias",
+        "Tutto l'amore del mondo",
+        "A Million to Juan",
+        "El Gallo de Oro",
+        "Historias Breves 0: Vértigos, o contemplación de algo que cae"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-16T21:30:53.755459",
+      "query": "quisiera otra recomendación de una pelicula romántica pero de esas que te hacen llorar, que no es tanto de comedia",
+      "routed_query": "quisiera otra recomendación de una pelicula romántica pero de esas que te hacen llorar, que no es tanto de comedia",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": true,
+      "latency": 3936.196,
+      "scores": [
+        0.1306
+      ],
+      "titles": [
+        "Tutto l'amore del mondo"
+      ],
+      "results_count": 1
+    },
+    {
+      "timestamp": "2026-04-17T00:02:19.082886",
+      "query": "quiero una más popular, siento que todas esas no son tan conocidas",
+      "routed_query": "quiero una más popular, siento que todas esas no son tan conocidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": true,
+      "latency": 3782.358,
+      "scores": [
+        0.1287
+      ],
+      "titles": [
+        "A Million to Juan"
+      ],
+      "results_count": 1
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Una mano bajo la nieve y otras historias",
+      "Tutto l'amore del mondo",
+      "A Million to Juan",
+      "El Gallo de Oro",
+      "Historias Breves 0: Vértigos, o contemplación de algo que cae"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Una mano bajo la nieve y otras historias",
+      "score": 0.1357,
+      "genres": "Drama",
+      "keywords": "musical|anthology|romance|nature|family conflict|social issues|relationships|documentary|latinx|fiction|drama"
+    },
+    {
+      "title": "Tutto l'amore del mondo",
+      "score": 0.1306,
+      "genres": "Comedy|Romance",
+      "keywords": "on the road"
+    },
+    {
+      "title": "A Million to Juan",
+      "score": 0.1287,
+      "genres": "Comedy",
+      "keywords": "restaurant|community|family relationships|money"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.1279,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Historias Breves 0: Vértigos, o contemplación de algo que cae",
+      "score": 0.1269,
+      "genres": "Documentary|Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "La ronca de oro",
+      "score": 0.126,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Love Comes from the Sea",
+      "score": 0.1235,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Eva Longoria: Searching for Spain",
+      "score": 0.1223,
+      "genres": "Documentary|Reality",
+      "keywords": "spain|cooking|travel|food|miniseries|cuisine"
+    },
+    {
+      "title": "Romantic Killer",
+      "score": 0.1213,
+      "genres": "Animation|Comedy",
+      "keywords": "based on comic|romcom|romance|matchmaking|teenage girl|group of friends|wizard|anime|original net animation (ona)"
+    },
+    {
+      "title": "Nino, las cosas simples de la vida",
+      "score": 0.1212,
+      "genres": "Drama|Romance",
+      "keywords": NaN
+    }
+  ],
+  "current_index": 3,
+  "last_query_signature": "50056750638fabac3fea88df35389d79"
+}

@@ -1,0 +1,65 @@
+{
+  "session_id": "d0abd758-bf5f-4dc2-a24c-5823f7476f10",
+  "user_id": "573167556912",
+  "created_at": "2026-04-16T19:11:48.184659",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-16T19:22:30.091969",
+      "query": "recomiendame algo de terror con videojuegos",
+      "routed_query": "recomiendame algo de terror con videojuegos",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 138.503,
+      "scores": [
+        0.2637,
+        0.2475,
+        0.2352,
+        0.2206,
+        0.2156
+      ],
+      "titles": [
+        "Hero and the Terror",
+        "Terror on the Midnight Train",
+        "Terror",
+        "Four Nights in Fear Forest",
+        "Enemy Within"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 2,
+      "timestamp": "2026-04-16T19:23:04.564634"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "recomiendame algo de terror con videojuegos",
+    "recommendation": "No tengo suficiente información para recomendarte películas de terror con elementos de videojuegos en mi contexto actual."
+  },
+  "memory": {
+    "last_movies": [
+      "Hero and the Terror",
+      "Terror on the Midnight Train",
+      "Terror",
+      "Four Nights in Fear Forest",
+      "Enemy Within"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}
