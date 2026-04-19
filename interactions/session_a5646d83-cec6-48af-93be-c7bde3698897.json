@@ -1,0 +1,126 @@
+{
+  "session_id": "a5646d83-cec6-48af-93be-c7bde3698897",
+  "user_id": "573167556912",
+  "created_at": "2026-04-15T22:36:30.504774",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-15T22:42:02.311397",
+      "query": "recomiendame algo parecido a tranformers",
+      "routed_query": "recomiendame algo parecido a tranformers",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 327.578,
+      "scores": [
+        0.1979,
+        0.1945,
+        0.1935,
+        0.1934,
+        0.1891
+      ],
+      "titles": [
+        "Humans",
+        "Inside West Coast Customs",
+        "Conversion",
+        "Blazing Transfer Students",
+        "The Convert"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-15T22:42:55.064279"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "recomiendame algo parecido a tranformers",
+    "recommendation": "Si te gustan las películas con robots, la acción y la ciencia ficción, aquí tienes algunas recomendaciones basadas en tu contexto:\n\n1. **Humans** - Una serie de televisión con elementos de IA y tecnología que podrías disfrutar si te interesa el lado más dramático y misterioso de los avances tecnológicos.\n\n2. **Blazing Transfer Students** - Aunque no es exactamente sobre robots, esta película combina acción, drama y comedia, lo cual puede ser divertido si buscas algo similar en estilo a Transformers pero con un toque juvenil.\n\nEspero que estas recomendaciones te gusten. Si necesitas más o ajustes, avísame."
+  },
+  "memory": {
+    "last_movies": [
+      "Humans",
+      "Inside West Coast Customs",
+      "Conversion",
+      "Blazing Transfer Students",
+      "The Convert"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Humans",
+      "score": 0.1979,
+      "genres": "Sci-Fi & Fantasy|Drama|Mystery",
+      "keywords": "artificial intelligence (a.i.)|technology|robot"
+    },
+    {
+      "title": "Inside West Coast Customs",
+      "score": 0.1945,
+      "genres": "Reality",
+      "keywords": NaN
+    },
+    {
+      "title": "Conversion",
+      "score": 0.1935,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Blazing Transfer Students",
+      "score": 0.1934,
+      "genres": "Action & Adventure|Comedy|Drama",
+      "keywords": "transfer student"
+    },
+    {
+      "title": "The Convert",
+      "score": 0.1891,
+      "genres": NaN,
+      "keywords": NaN
+    },
+    {
+      "title": "The Transporter",
+      "score": 0.1886,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "S.W.A.T.",
+      "score": 0.1859,
+      "genres": "Crime|Action & Adventure|Drama",
+      "keywords": "s.w.a.t.|elite unit|los angeles, california|reboot|lapd|police training|police sergeant|first responders|special response teams|tactical command unit|police procedural|based on tv series|dramatic"
+    },
+    {
+      "title": "Mega Movers",
+      "score": 0.1844,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Transformers: EarthSpark",
+      "score": 0.1841,
+      "genres": "Animation|Kids|Sci-Fi & Fantasy|Comedy|Drama",
+      "keywords": "hero|based on toy|young boy|robot|transforming robot|new generation|enemies to friends|alien robot"
+    },
+    {
+      "title": "Tranzor Z",
+      "score": 0.1836,
+      "genres": "Animation|Sci-Fi & Fantasy",
+      "keywords": "shogun warrior|based on anime|tranzor z|bobo-bot|mazinger"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "fcc0b4e3b3d959db55a3931d45075189"
+}

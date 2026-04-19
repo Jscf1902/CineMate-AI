@@ -1,0 +1,142 @@
+{
+  "session_id": "c4d4f301-ba9c-439d-aa91-7ef9ccc85368",
+  "user_id": "573167556912",
+  "created_at": "2026-04-15T23:14:49.123848",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-15T23:26:13.557827",
+      "query": "recomiendame algo parecido a transformers",
+      "routed_query": "recomiendame algo parecido a transformers",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 372.511,
+      "scores": [
+        0.4141,
+        0.3487,
+        0.3341,
+        0.3293,
+        0.3266
+      ],
+      "titles": [
+        "Babcock Transformers",
+        "Transformers: War for Cybertron: Siege",
+        "Transformers: EarthSpark",
+        "Transformers: Rise of the Beasts",
+        "Transformers One"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-15T23:38:02.163335",
+      "query": "si recomienda mas de ese estilo",
+      "routed_query": "si recomienda mas de ese estilo",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": true,
+      "latency": 558.96,
+      "scores": [
+        0.3487
+      ],
+      "titles": [
+        "Transformers: War for Cybertron: Siege"
+      ],
+      "results_count": 1
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-15T23:38:37.918001"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "si recomienda mas de ese estilo",
+    "recommendation": "¡Claro! Aquí tienes algunas películas que podrían interesarte si te gusta \"Transformers: War for Cybertron: Siege\":\n\n1. **Neopets** - Una película animada basada en una línea de juguetes, con mechas y batallas épicas.\n\n2. **Mighty Morphin Power Rangers: Legacy of Gridtron** - Una película de acción que involucra gigantes robots y combates espectaculares.\n\n3. **Big Hero 6** - Una película animada que incluye un robot aliado en una ciudad futurista, con elementos de acción y ciencia ficción.\n\n4. **Pacific Rim** - Una película de ciencia ficción que gira en torno a gigantes robots combatientes contra criaturas monstrous.\n\n5. **Gundam: The Origin** - Una serie anime con mechas y batallas intensas en un universo Gundam.\n\nEspero que te gusten estas recomendaciones. ¿Quieres más?"
+  },
+  "memory": {
+    "last_movies": [
+      "Babcock Transformers",
+      "Transformers: War for Cybertron: Siege",
+      "Transformers: EarthSpark",
+      "Transformers: Rise of the Beasts",
+      "Transformers One"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Babcock Transformers",
+      "score": 0.4141,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Transformers: War for Cybertron: Siege",
+      "score": 0.3487,
+      "genres": "Animation|Action & Adventure|Kids|Sci-Fi & Fantasy",
+      "keywords": "mecha|based on toy|giant robot|battle|anime|good versus evil|vehicle"
+    },
+    {
+      "title": "Transformers: EarthSpark",
+      "score": 0.3341,
+      "genres": "Animation|Kids|Sci-Fi & Fantasy|Comedy|Drama",
+      "keywords": "hero|based on toy|young boy|robot|transforming robot|new generation|enemies to friends|alien robot"
+    },
+    {
+      "title": "Transformers: Rise of the Beasts",
+      "score": 0.3293,
+      "genres": "Science Fiction|Adventure|Action",
+      "keywords": "peru|alien|end of the world|based on toy|robot|duringcreditsstinger|1990s|brother brother relationship|admiring"
+    },
+    {
+      "title": "Transformers One",
+      "score": 0.3266,
+      "genres": "Animation|Science Fiction|Adventure|Family",
+      "keywords": "based on toy|giant robot|aftercreditsstinger|duringcreditsstinger|buddy movie|brothers-in-arms relationship|origin story|alien robot"
+    },
+    {
+      "title": "Transformers: Age of Extinction",
+      "score": 0.2579,
+      "genres": "Science Fiction|Action|Adventure",
+      "keywords": "bounty hunter|texas|sequel|alien|based on toy|on the run|giant robot|robot|metal"
+    },
+    {
+      "title": "Transformers: BotBots",
+      "score": 0.254,
+      "genres": "Kids|Animation",
+      "keywords": "villain|based on toy|robot|destruction|power|animation"
+    },
+    {
+      "title": "Transformers: War for Cybertron: Earthrise",
+      "score": 0.2367,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "hero|villain|deception|based on toy|robot|battle|anime|good versus evil|vehicle"
+    },
+    {
+      "title": "Humans",
+      "score": 0.1823,
+      "genres": "Sci-Fi & Fantasy|Drama|Mystery",
+      "keywords": "artificial intelligence (a.i.)|technology|robot"
+    },
+    {
+      "title": "Power Players",
+      "score": 0.1806,
+      "genres": "Action & Adventure|Comedy",
+      "keywords": NaN
+    }
+  ],
+  "current_index": 2,
+  "last_query_signature": "48efbb839d43a1c18f895f73030eb309"
+}

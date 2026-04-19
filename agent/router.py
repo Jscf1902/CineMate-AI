@@ -1,45 +1,87 @@
-import os
 import json
+from agent.llm_client import generate_response
 
 
-BASE_PATH = "interactions"
-RAG_CONTROL_PATH = os.path.join(BASE_PATH, "rag_control.json")
+# -------------------------
+# LLM intent detection
+# -------------------------
+def _classify_intent_llm(query: str):
 
-def _is_vague(query: str) -> bool:
+    prompt = f"""
+Classify the user intent.
+
+Return ONLY one word from:
+- vague
+- more
+- seen
+- normal
+
+Examples:
+"si" → vague
+"otra" → more
+"ya la vi" → seen
+"quiero algo de acción" → normal
+
+User:
+{query}
+"""
+
+    try:
+        res = generate_response(prompt)
+        label = res["content"].strip().lower()
+
+        if label in ["vague", "more", "seen", "normal"]:
+            return label
+
+    except:
+        pass
+
+    return "normal"
+
+
+# -------------------------
+# fallback rules (rápidas)
+# -------------------------
+def _rule_based_intent(query: str):
+
     q = query.lower().strip()
 
-    vague_terms = {
-        "si", "sí", "ok", "dale", "me gusta",
-        "algo así", "asi", "perfecto", "claro"
-    }
+    if q in ["si", "sí", "ok", "dale", "claro"]:
+        return "vague"
 
-    return q in vague_terms or len(q.split()) <= 2
+    if any(x in q for x in ["otra", "dame otra"]):
+        return "more"
 
+    if any(x in q for x in ["ya la vi", "ya las vi"]):
+        return "seen"
 
-def _is_feedback_more(query: str) -> bool:
-    q = query.lower()
-    return any(x in q for x in [
-        "otra", "dame otra", "algo diferente"
-    ])
+    return "normal"
 
 
-def _is_feedback_seen(query: str) -> bool:
-    q = query.lower()
-    return any(x in q for x in [
-        "ya la vi", "ya las vi", "ya me la vi", "ya me las vi"
-    ])
+# -------------------------
+# intent wrapper
+# -------------------------
+def _get_intent(query: str):
+
+    # primero reglas (rápido)
+    intent = _rule_based_intent(query)
+
+    if intent != "normal":
+        return intent
+
+    # si no está claro → LLM
+    return _classify_intent_llm(query)
 
 
 # -------------------------
 # validar query previa
 # -------------------------
-def _is_valid_query(q: str) -> bool:
+def _is_valid_query(q: str):
     if not q:
         return False
 
     q = q.lower()
 
-    # evitar queries genéricas o fallback
     bad_patterns = [
         "peliculas",
         "algo",
@@ -61,12 +103,16 @@ def _enrich_query(query: str, memory: dict):
     last_query = memory.get("last_query", "")
     preferences = memory.get("preferences", {})
 
-    # continuidad tipo "sí"
-    if _is_vague(query):
+    intent = _get_intent(query)
+
+    # -------------------------
+    # vague → continuidad
+    # -------------------------
+    if intent == "vague":
+
         if _is_valid_query(last_query):
             return last_query
 
-        # fallback → usar preferencias
         pref_text = " ".join(
             preferences.get("genres", []) +
             preferences.get("keywords", [])
@@ -77,12 +123,16 @@ def _enrich_query(query: str, memory: dict):
 
         return query
 
-    # pedir otra recomendación
-    if _is_feedback_more(query) and _is_valid_query(last_query):
+    # -------------------------
+    # more → diversidad
+    # -------------------------
+    if intent == "more" and _is_valid_query(last_query):
         return last_query + " diferente"
 
-    # ya vistas
-    if _is_feedback_seen(query) and _is_valid_query(last_query):
+    # -------------------------
+    # seen → evitar repetición
+    # -------------------------
+    if intent == "seen" and _is_valid_query(last_query):
         return last_query + " diferente no repetir"
 
     return query
