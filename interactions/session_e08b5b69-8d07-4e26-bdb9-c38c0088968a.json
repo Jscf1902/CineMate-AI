@@ -1,0 +1,123 @@
+{
+  "session_id": "e08b5b69-8d07-4e26-bdb9-c38c0088968a",
+  "user_id": "573167556912",
+  "created_at": "2026-04-20T00:22:06.073416",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-20T00:27:07.872771",
+      "query": "Películas similares a recomienda algo parecido a the lord of the rings",
+      "routed_query": "Películas similares a recomienda algo parecido a the lord of the rings",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 199.627,
+      "scores": [
+        0.3749,
+        0.3632,
+        0.3605,
+        0.357,
+        0.2729
+      ],
+      "titles": [
+        "The Lord of the Rings: The Rings of Power",
+        "The Lord of the Rings: The Return of the King",
+        "The Lord of the Rings: The Fellowship of the Ring",
+        "The Lord of the Rings: The Two Towers",
+        "The Hobbit: The Battle of the Five Armies"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-20T00:29:55.615596",
+      "query": "informacion sobre la pelicula One Battle after the other",
+      "routed_query": "informacion sobre la pelicula One Battle after the other",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 88.079,
+      "scores": [
+        0.3661,
+        0.3641,
+        0.3582,
+        0.3515,
+        0.3436
+      ],
+      "titles": [
+        "Kurukshetra: The Great War of Mahabharata",
+        "Strain: Strategic Armored Infantry",
+        "The Destiny of Rome",
+        "Después de… Primera parte: no se os puede dejar solos",
+        "Words for an End of the World"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-20T00:34:25.062671",
+      "query": "Películas similares a informacion sobre la pelicula one battle after another",
+      "routed_query": "Películas similares a informacion sobre la pelicula one battle after another",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 178.324,
+      "scores": [
+        0.1998,
+        0.1841,
+        0.1693,
+        0.1688,
+        0.1303
+      ],
+      "titles": [
+        "Ebre, del bressol a la batalla",
+        "Herederos por accidente",
+        "Civil War: The Untold Story",
+        "Historias de Protegidos",
+        "El Encanto del Águila"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-20T00:35:08.558893"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Películas similares a informacion sobre la pelicula one battle after another",
+    "recommendation": "¡Claro! Basándome en la información proporcionada, te recomendaría estas películas:\n\n1. **Ebre, del bressol a la batalla** (Género: History, Drama; Palabras clave: Guerra Civil Española (1936-39))  \n   Una película que narra la Guerra Civil Española a través de la perspectiva de un niño, explorando el drama y la historia de ese conflicto.\n\n2. **El Encanto del Águila** (Género: Documentary, War & Politics, Drama; Palabras clave: Revolución Mexicana, traición, política, guerra)  \n   Un documental que aborda la Revolución Mexicana, el poder político y la traición en medio de la guerra.\n\n3. **Civil War: The Untold Story** (Género: Documentary; Palabras clave: Guerra Civil, historia)  \n   Aunque no se detalla su contenido, es un documental sobre la Guerra Civil, lo que podría ofrecer una perspectiva adicional sobre conflictos históricos.\n\n4. **Herederos por accidente** (Género: Comedy; Palabras clave: comediante, drama familiar, familia)  \n   Aunque es una comedia, podría ofrecer una perspectiva ligera sobre temas familiares en tiempos de conflicto.\n\n5. **Historias de Protegidos** (Género: Comedy, Sci-Fi & Fantasy, Family; Palabras clave: protegido, familia)  \n   Una comedia/familia que podría explorar la complicidad y las relaciones humanas en contextos de crisis.\n\n¿Te gustaría ver alguna de estas opciones o necesitas más recomendaciones?"
+  },
+  "memory": {
+    "last_movies": [
+      "The Lord of the Rings: The Rings of Power",
+      "The Lord of the Rings: The Return of the King",
+      "The Lord of the Rings: The Fellowship of the Ring",
+      "The Lord of the Rings: The Two Towers",
+      "The Hobbit: The Battle of the Five Armies",
+      "Kurukshetra: The Great War of Mahabharata",
+      "Strain: Strategic Armored Infantry",
+      "The Destiny of Rome",
+      "Después de… Primera parte: no se os puede dejar solos",
+      "Words for an End of the World",
+      "Ebre, del bressol a la batalla",
+      "Herederos por accidente",
+      "Civil War: The Untold Story",
+      "Historias de Protegidos",
+      "El Encanto del Águila"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}
