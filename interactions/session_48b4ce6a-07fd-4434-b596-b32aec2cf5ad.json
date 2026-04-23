@@ -1,0 +1,111 @@
+{
+  "session_id": "48b4ce6a-07fd-4434-b596-b32aec2cf5ad",
+  "user_id": "573146162072",
+  "created_at": "2026-04-22T01:11:51.424848",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T01:51:36.704675",
+      "query": "recomiendame una serie epica de alta sintonia",
+      "routed_query": "recomiendame una serie epica de alta sintonia",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1195.628,
+      "scores": [
+        0.3411,
+        0.1514,
+        0.1462,
+        0.14,
+        0.137
+      ],
+      "titles": [
+        "Il diario segreto di una minorenne",
+        "Trilussa - Storia d'amore e di poesia",
+        "Il turco in Italia - Teatro Real de Madrid",
+        "Hasta que te conocí",
+        "Rigoletto"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Il diario segreto di una minorenne",
+      "Trilussa - Storia d'amore e di poesia",
+      "Il turco in Italia - Teatro Real de Madrid",
+      "Hasta que te conocí",
+      "Rigoletto"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Il diario segreto di una minorenne",
+      "score": 0.3411,
+      "genres": "Drama",
+      "keywords": "young prostitute"
+    },
+    {
+      "title": "Trilussa - Storia d'amore e di poesia",
+      "score": 0.1514,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Il turco in Italia - Teatro Real de Madrid",
+      "score": 0.1462,
+      "genres": "Music",
+      "keywords": "opera"
+    },
+    {
+      "title": "Hasta que te conocí",
+      "score": 0.14,
+      "genres": "Drama",
+      "keywords": "biography"
+    },
+    {
+      "title": "Rigoletto",
+      "score": 0.137,
+      "genres": "Music",
+      "keywords": "opera"
+    },
+    {
+      "title": "Giuseppe Verdi - La Forza del Destino",
+      "score": 0.1334,
+      "genres": "Music",
+      "keywords": "opera|filmed opera"
+    },
+    {
+      "title": "Cinema Italiano: Moments of Truth",
+      "score": 0.1333,
+      "genres": "Documentary",
+      "keywords": "italian filmmaker"
+    },
+    {
+      "title": "El canto cuenta su historia",
+      "score": 0.133,
+      "genres": "Music",
+      "keywords": NaN
+    },
+    {
+      "title": "Alcanzar una estrella II",
+      "score": -0.5988,
+      "genres": "Drama",
+      "keywords": "musical|romance|telenovela"
+    },
+    {
+      "title": "Alcanzar una estrella",
+      "score": -0.6296,
+      "genres": "Drama",
+      "keywords": "musical|romance|telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "a5f1b5f851602eef360dac1851dd825b"
+}

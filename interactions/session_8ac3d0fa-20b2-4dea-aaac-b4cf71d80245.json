@@ -1,0 +1,65 @@
+{
+  "session_id": "8ac3d0fa-20b2-4dea-aaac-b4cf71d80245",
+  "user_id": "573146162072",
+  "created_at": "2026-04-22T21:12:02.982693",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T21:22:52.213374",
+      "query": "rambo",
+      "routed_query": "rambo",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 413.906,
+      "scores": [
+        0.2841,
+        0.1133,
+        0.1127,
+        0.1061,
+        0.1059
+      ],
+      "titles": [
+        "Rambo",
+        "Stories of Lost Souls",
+        "Adventures of the Super Monkey -Journey to the West-",
+        "Operation Malaya",
+        "Iron Angels 3"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-22T21:38:14.771242"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "rambo",
+    "recommendation": "¡Claro! Basándome en el contexto proporcionado, te recomendaría:\n\n1. **Rambo**: Acción, Thriller, Guerra. Muy duro y con temas de combate en la frontera, espiritus religiosos y misiones.  \n\n¿Te gustaría conocer más sobre este título?"
+  },
+  "memory": {
+    "last_movies": [
+      "Rambo",
+      "Stories of Lost Souls",
+      "Adventures of the Super Monkey -Journey to the West-",
+      "Operation Malaya",
+      "Iron Angels 3"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

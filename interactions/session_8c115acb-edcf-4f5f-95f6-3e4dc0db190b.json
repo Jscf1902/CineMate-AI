@@ -1,0 +1,126 @@
+{
+  "session_id": "8c115acb-edcf-4f5f-95f6-3e4dc0db190b",
+  "user_id": "573015989061",
+  "created_at": "2026-04-22T16:02:50.360435",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T16:19:37.177952",
+      "query": "una peli sobre narcos",
+      "routed_query": "una peli sobre narcos",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 729.11,
+      "scores": [
+        0.3247,
+        0.308,
+        0.2426,
+        0.1699,
+        0.1687
+      ],
+      "titles": [
+        "Narcos",
+        "Narcos: Mexico",
+        "Una mano bajo la nieve y otras historias",
+        "Hasta que te conocí",
+        "El hijo zurdo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-22T16:20:31.228020"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "una peli sobre narcos",
+    "recommendation": "Entiendo que buscas una película sobre narcos. Basándome en el contexto proporcionado, te recomendaría:\n\n1.  **Narcos:** Es una serie de acción, crímen y drama basada en hechos reales, que explora el mundo de los carteles de la droga.\n2.  **Narcos: México:** Continuación de la serie, que se centra en los acontecimientos en México durante los años 80 y 90, siguiendo la historia de Arturo Beltrán Leyva.\n\nAmbas series están basadas en hechos reales y tratan el tema de los narcotraficantes y los carteles de la droga en diferentes países hispanohablantes.\n\n¿Te gustaría conocer otras películas o series de televisión que también traten este tema?"
+  },
+  "memory": {
+    "last_movies": [
+      "Narcos",
+      "Narcos: Mexico",
+      "Una mano bajo la nieve y otras historias",
+      "Hasta que te conocí",
+      "El hijo zurdo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Narcos",
+      "score": 0.3247,
+      "genres": "Crime|Drama",
+      "keywords": "cocaine|drug dealer|outlaw|based on true story|drug cartel|conflict|drugs|drug lord|illegal drugs|dea|narcotics|angry|cartel|1980s|escobar|pablo escobar|dark|narcos|colombia|gritty|thriller|action|harsh"
+    },
+    {
+      "title": "Narcos: Mexico",
+      "score": 0.308,
+      "genres": "Drama|Crime",
+      "keywords": "corruption|mexico|cocaine|tiger|usa–mexico border|based on true story|drug cartel|marijuana|mariachi|drug lord|dea|1980s|dark|narcos|el chapo|gritty|thriller|exciting|action|audacious|distressing|familiar"
+    },
+    {
+      "title": "Una mano bajo la nieve y otras historias",
+      "score": 0.2426,
+      "genres": "Drama",
+      "keywords": "musical|anthology|romance|nature|family conflict|social issues|relationships|documentary|latinx|fiction|drama"
+    },
+    {
+      "title": "Hasta que te conocí",
+      "score": 0.1699,
+      "genres": "Drama",
+      "keywords": "biography"
+    },
+    {
+      "title": "El hijo zurdo",
+      "score": 0.1687,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Il turco in Italia - Teatro Real de Madrid",
+      "score": 0.1652,
+      "genres": "Music",
+      "keywords": "opera"
+    },
+    {
+      "title": "Yo no creo en los hombres",
+      "score": 0.1646,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "I love you, Güero",
+      "score": 0.1639,
+      "genres": "Family|Comedy|Soap|Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "La doble vida de Estela Carrillo",
+      "score": 0.1626,
+      "genres": "Soap|Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "El Señor de los Cielos",
+      "score": 0.1604,
+      "genres": "Crime|Drama|Soap",
+      "keywords": "drug trafficking|drug cartel|drug lord|telenovela|1990s"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4474d37841feae6263242ce2ff513940"
+}

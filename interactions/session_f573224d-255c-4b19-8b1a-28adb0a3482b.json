@@ -1,0 +1,140 @@
+{
+  "session_id": "f573224d-255c-4b19-8b1a-28adb0a3482b",
+  "user_id": "573137669392",
+  "created_at": "2026-04-22T00:37:22.374903",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T01:19:11.375851",
+      "query": "pelis sobre religion",
+      "routed_query": "pelis sobre religion",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1207.325,
+      "scores": [
+        0.1911,
+        0.1428,
+        0.1358,
+        0.1305,
+        0.1292
+      ],
+      "titles": [
+        "3 Hati Dua Dunia Satu Cinta",
+        "Pelé: Birth of a Legend",
+        "El hombre que supo amar",
+        "Las Pelotaris 1926",
+        "A Sinister Sect: Colonia Dignidad"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-22T02:11:05.239115",
+      "query": "pelis sobre aliens",
+      "routed_query": "pelis sobre aliens",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1870.301,
+      "scores": [
+        0.2409,
+        0.235,
+        0.2106,
+        0.1965,
+        0.196
+      ],
+      "titles": [
+        "3Below: Tales of Arcadia",
+        "Aliens",
+        "Ancient Aliens: Origins",
+        "Alien Resurrection",
+        "Alien: Earth"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "3 Hati Dua Dunia Satu Cinta",
+      "Pelé: Birth of a Legend",
+      "El hombre que supo amar",
+      "Las Pelotaris 1926",
+      "A Sinister Sect: Colonia Dignidad",
+      "3Below: Tales of Arcadia",
+      "Aliens",
+      "Ancient Aliens: Origins",
+      "Alien Resurrection",
+      "Alien: Earth"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "3Below: Tales of Arcadia",
+      "score": 0.2409,
+      "genres": "Animation|Family|Comedy|Sci-Fi & Fantasy",
+      "keywords": "based on novel or book|prince|bodyguard|villain|princess|extraterrestrial|alien|fugitive|dark secret|brother sister relationship|tales of arcadia"
+    },
+    {
+      "title": "Aliens",
+      "score": 0.235,
+      "genres": "Action|Thriller|Science Fiction",
+      "keywords": "android|extraterrestrial technology|space marine|spaceman|cryogenics|vacuum|space colony|warrior woman|settler|space travel|colony|space|alien|female protagonist|creature|desolate|female hero|aggressive|military sci-fi|desolate planet|critical|sinister|sci-fi horror|assertive|commanding|empathetic|exhilarated|action horror|sci-fi action"
+    },
+    {
+      "title": "Ancient Aliens: Origins",
+      "score": 0.2106,
+      "genres": "Documentary",
+      "keywords": "extraterrestrial"
+    },
+    {
+      "title": "Alien Resurrection",
+      "score": 0.1965,
+      "genres": "Science Fiction|Horror|Action",
+      "keywords": "android|mercenary|dystopia|smuggling (contraband)|sequel|alien|betrayal|cloning|creature|scientist|flamethrower|gene manipulation|man in wheelchair|breeding|genetic engineering|curious|regeneration|alien queen|explosive decompression|desperate|sci-fi horror|antagonistic|excited|action horror|sci-fi action"
+    },
+    {
+      "title": "Alien: Earth",
+      "score": 0.196,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "transhumanism|based on movie|alien monster|alien parasites|22nd century|spaceship crash|near future|aliens|human robot hybrid|horror|arrogant|brisk|hopeful"
+    },
+    {
+      "title": "Lolita from Interstellar Space",
+      "score": 0.1487,
+      "genres": "Comedy",
+      "keywords": "nurse|pornography|alien|softcore"
+    },
+    {
+      "title": "Alien TV",
+      "score": 0.1476,
+      "genres": "Animation|Comedy|Family|Kids",
+      "keywords": "alien"
+    },
+    {
+      "title": "Prometheus",
+      "score": 0.1423,
+      "genres": "Science Fiction|Mystery",
+      "keywords": "android|space|alien|creature|spin off|creation|emergency surgery|archaeological dig|stasis|god complex|cave drawing|prometheus|cosmic horror|genetic mutation|origins of life|lovecraftian|2090s|sci-fi horror|objective|space sci-fi"
+    },
+    {
+      "title": "The Dead Girls",
+      "score": 0.1415,
+      "genres": "Drama|Crime",
+      "keywords": "based on novel or book|miniseries"
+    },
+    {
+      "title": "The Man Who Loved UFOs",
+      "score": 0.1402,
+      "genres": "Drama|Comedy|Fantasy",
+      "keywords": "journalist|ufo|argentina|1980s"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "bf4687bc86d96e238ad69e9597aaebe2"
+}

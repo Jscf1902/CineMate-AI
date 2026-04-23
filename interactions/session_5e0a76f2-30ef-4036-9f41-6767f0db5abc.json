@@ -1,0 +1,65 @@
+{
+  "session_id": "5e0a76f2-30ef-4036-9f41-6767f0db5abc",
+  "user_id": "573167556912",
+  "created_at": "2026-04-22T15:46:28.120725",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T16:00:59.531858",
+      "query": "dame una recomendacion para peliculas de robots y peleas",
+      "routed_query": "dame una recomendacion para peliculas de robots y peleas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 649.568,
+      "scores": [
+        0.2545,
+        0.2405,
+        0.2307,
+        0.2197,
+        0.2151
+      ],
+      "titles": [
+        "Transformers: BotBots",
+        "Robots",
+        "I, Robot",
+        "Robot T-O",
+        "A.I. Assault"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-22T16:01:45.760592"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "dame una recomendacion para peliculas de robots y peleas",
+    "recommendation": "¡Claro! Aquí tienes algunas recomendaciones basadas en las temáticas de robots y peleas:\n\n1. **Transformers: BotBots**  \n   - Géneros: Aventura, Animación  \n   - Basado en juguetes, sigue a robots transformables en batalla.\n\n2. **I, Robot**  \n   - Géneros: Acción, Ciencia Ficción  \n   - Robots humanoides luchan contra amenazas, con giros de situación y acción.\n\n3. **Robots**  \n   - Géneros: Animación, Comedia, Ciencia Ficción  \n   - Robots antagónicos y protagonistas luchan en una batalla épica.\n\n4. **Robot T-O**  \n   - Géneros: Comedia, Drama, Ciencia Ficcía  \n   - Robots y humanos compiten en peleas de boxeo.\n\n5. **A.I. Assault**  \n   - Géneros: Thriller, Ciencia Ficción  \n   - Robots luchan en un mundo de acción y suspense.  \n\n¿Te gustaría alguna recomendación diferente?"
+  },
+  "memory": {
+    "last_movies": [
+      "Transformers: BotBots",
+      "Robots",
+      "I, Robot",
+      "Robot T-O",
+      "A.I. Assault"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

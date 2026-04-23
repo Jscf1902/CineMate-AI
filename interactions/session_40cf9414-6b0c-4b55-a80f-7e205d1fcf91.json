@@ -1,0 +1,126 @@
+{
+  "session_id": "40cf9414-6b0c-4b55-a80f-7e205d1fcf91",
+  "user_id": "573125489784",
+  "created_at": "2026-04-22T18:50:22.097110",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T19:16:43.592444",
+      "query": "Películas de comedia divertidas",
+      "routed_query": "Películas de comedia divertidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1008.483,
+      "scores": [
+        0.0548,
+        0.0513,
+        0.0504,
+        0.0492,
+        0.0477
+      ],
+      "titles": [
+        "Pelé: Birth of a Legend",
+        "Dalam Mihrab Cinta",
+        "Der Pfandlbräu",
+        "Muchachos, la película de la gente",
+        "Around the World in 80 Days"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 2,
+      "timestamp": "2026-04-22T19:17:34.057259"
+    },
+    "nps": {
+      "score": 3,
+      "category": "detractor"
+    },
+    "resolution": {
+      "label": "no",
+      "numeric": 1
+    },
+    "query": "Películas de comedia divertidas",
+    "recommendation": "Hola, ¿quieres ver una de las películas de comedia disponibles?\n\nEn el contexto actual, solo hay una película de comedia: **Der Pfandlbräu**.\n\n¿Te gustaría verla?"
+  },
+  "memory": {
+    "last_movies": [
+      "Pelé: Birth of a Legend",
+      "Dalam Mihrab Cinta",
+      "Der Pfandlbräu",
+      "Muchachos, la película de la gente",
+      "Around the World in 80 Days"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Pelé: Birth of a Legend",
+      "score": 0.0548,
+      "genres": "Drama",
+      "keywords": "biography|sports|football (soccer)|brazil|inspirational"
+    },
+    {
+      "title": "Dalam Mihrab Cinta",
+      "score": 0.0513,
+      "genres": "Drama|Thriller",
+      "keywords": NaN
+    },
+    {
+      "title": "Der Pfandlbräu",
+      "score": 0.0504,
+      "genres": "Comedy",
+      "keywords": NaN
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.0492,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Around the World in 80 Days",
+      "score": 0.0477,
+      "genres": "Animation|Family|Comedy",
+      "keywords": NaN
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.0461,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "The Milagro Beanfield War",
+      "score": 0.0455,
+      "genres": "Comedy|Drama|Fantasy",
+      "keywords": "based on novel or book|new mexico|hispanoamerican|hispanic|farmer|mexican american|gun shooting|farming community|guardian angel|land developer|water conflict|beans|irrigation|water rights|pet pig|santa fe|latin american"
+    },
+    {
+      "title": "Las Pelotaris 1926",
+      "score": 0.0426,
+      "genres": "Drama",
+      "keywords": "sports|1920s|gender equality|serie mexicana"
+    },
+    {
+      "title": "Historias Breves 0: Vértigos, o contemplación de algo que cae",
+      "score": 0.0424,
+      "genres": "Documentary|Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Cadenas de amargura",
+      "score": 0.0419,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4103b198c8d350b4cdbb1be68ac70b91"
+}

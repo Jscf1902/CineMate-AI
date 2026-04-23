@@ -1,0 +1,19 @@
+{
+  "session_id": "a35b1568-69be-4c92-95ca-b2e0a5758e05",
+  "user_id": "573167556912",
+  "created_at": "2026-04-22T01:58:31.478423",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [],
+  "feedback": null,
+  "memory": {
+    "last_movies": [],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

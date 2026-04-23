@@ -1,0 +1,126 @@
+{
+  "session_id": "16989b85-b062-44f1-a116-6e42afa06118",
+  "user_id": "573167556912",
+  "created_at": "2026-04-22T00:22:43.375762",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T00:48:18.698263",
+      "query": "una recomendacion para una serie como the big bang theory",
+      "routed_query": "una recomendacion para una serie como the big bang theory",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1028.859,
+      "scores": [
+        0.5218,
+        0.4875,
+        0.3527,
+        0.3179,
+        0.3014
+      ],
+      "titles": [
+        "The Big Bang Theory",
+        "Young Sheldon",
+        "How the Universe Works",
+        "The Theory of Everything",
+        "Wie klingt der Urknall – Botschaften vom Anfang des Universums"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-22T00:48:58.942311"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "una recomendacion para una serie como the big bang theory",
+    "recommendation": "¡Claro! Basándome en tu solicitud, te recomendaría **Young Sheldon**. Esta serie es una precuela de *The Big Bang Theory* y sigue la vida joven del famoso físico Sheldon Cooper. Es una telenovela ligera y divertida, perfecta si te gusta el humor inteligente y las situaciones graciosas. ¿Te gustaría conocer más detalles o prefieres otra recomendación diferente?"
+  },
+  "memory": {
+    "last_movies": [
+      "The Big Bang Theory",
+      "Young Sheldon",
+      "How the Universe Works",
+      "The Theory of Everything",
+      "Wie klingt der Urknall – Botschaften vom Anfang des Universums"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Big Bang Theory",
+      "score": 0.5218,
+      "genres": "Comedy",
+      "keywords": "geek|nerd|friends|scientist|sitcom"
+    },
+    {
+      "title": "Young Sheldon",
+      "score": 0.4875,
+      "genres": "Comedy|Family|Drama",
+      "keywords": "prequel|family relationships|coming of age|school|sibling|family|nostalgic|sitcom|1980s|knowledge|kid genius|lighthearted|dramatic|admiring|amused|empathetic"
+    },
+    {
+      "title": "How the Universe Works",
+      "score": 0.3527,
+      "genres": "Documentary",
+      "keywords": "moon|galaxy|physics|universe|astronomy|astrophysics|cosmos|distant galaxy|science fact|stars|observational documentary|planets|science documentary|sun and moon"
+    },
+    {
+      "title": "The Theory of Everything",
+      "score": 0.3179,
+      "genres": "Drama|Romance",
+      "keywords": "husband wife relationship|biography|physicist|based on true story|based on memoir or autobiography|fictional biography|medical drama|motor neuron disease|als|cambridge university|inspirational|admiring|cinebiografia"
+    },
+    {
+      "title": "Wie klingt der Urknall – Botschaften vom Anfang des Universums",
+      "score": 0.3014,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Secrets of the Universe",
+      "score": 0.2326,
+      "genres": "Documentary",
+      "keywords": "space exploration|science"
+    },
+    {
+      "title": "Guns of El Chupacabra 2: The Unseen",
+      "score": 0.2163,
+      "genres": "Adventure",
+      "keywords": NaN
+    },
+    {
+      "title": "Cosmic Journeys",
+      "score": 0.1799,
+      "genres": "Documentary",
+      "keywords": "space|universe|astronomy"
+    },
+    {
+      "title": "Voyage of Time: Life's Journey",
+      "score": 0.166,
+      "genres": "Documentary|Drama|History",
+      "keywords": "space|universe|evolution|cosmology|search for meaning|meaning of life|cosmos|philosophical|the meaning of life|space time|very first beginnings|humanity and the world around us"
+    },
+    {
+      "title": "Fate/Grand Order THE STAGE - The Grand Temple of Time: Solomon Ars Nova",
+      "score": 0.1617,
+      "genres": "Adventure|Drama",
+      "keywords": "musical"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "e927f2ee0995cda84236fc5e69556bae"
+}

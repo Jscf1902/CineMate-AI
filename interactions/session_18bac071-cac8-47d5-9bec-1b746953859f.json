@@ -1,0 +1,155 @@
+{
+  "session_id": "18bac071-cac8-47d5-9bec-1b746953859f",
+  "user_id": "573025203977",
+  "created_at": "2026-04-22T21:53:58.496181",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T22:18:01.589931",
+      "query": "recomienda algo parecido a harry potte",
+      "routed_query": "recomienda algo parecido a harry potte",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1137.967,
+      "scores": [
+        0.3658,
+        0.3455,
+        0.337,
+        0.3221,
+        0.3197
+      ],
+      "titles": [
+        "Harry Potter: Wizards of Baking",
+        "Harry Potter and the Goblet of Fire",
+        "The Plot Against Harry",
+        "Harry Potter and the Order of the Phoenix",
+        "Harry Potter and the Deathly Hallows: Part 2"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-22T22:37:55.517229",
+      "query": "no gracias asi esta bien",
+      "routed_query": "no gracias asi esta bien",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 415.98,
+      "scores": [
+        0.1832,
+        0.179,
+        0.1774,
+        0.174,
+        0.1724
+      ],
+      "titles": [
+        "Así es la vida",
+        "I love you, Güero",
+        "Hasta que te conocí",
+        "Il turco in Italia - Teatro Real de Madrid",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 3,
+      "timestamp": "2026-04-22T23:11:41.154933"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "no gracias asi esta bien",
+    "recommendation": "¡Perfecto! Estoy aquí para ayudarte cuando lo necesites. ¿En qué más puedo asesorarte?"
+  },
+  "memory": {
+    "last_movies": [
+      "Harry Potter: Wizards of Baking",
+      "Harry Potter and the Goblet of Fire",
+      "The Plot Against Harry",
+      "Harry Potter and the Order of the Phoenix",
+      "Harry Potter and the Deathly Hallows: Part 2",
+      "Así es la vida",
+      "I love you, Güero",
+      "Hasta que te conocí",
+      "Il turco in Italia - Teatro Real de Madrid",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Así es la vida",
+      "score": 0.1832,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "I love you, Güero",
+      "score": 0.179,
+      "genres": "Family|Comedy|Soap|Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Hasta que te conocí",
+      "score": 0.1774,
+      "genres": "Drama",
+      "keywords": "biography"
+    },
+    {
+      "title": "Il turco in Italia - Teatro Real de Madrid",
+      "score": 0.174,
+      "genres": "Music",
+      "keywords": "opera"
+    },
+    {
+      "title": "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "score": 0.1724,
+      "genres": "Comedy",
+      "keywords": "island|fountain|central america|vomiting|football (soccer) team|vegetarianism|drug testing"
+    },
+    {
+      "title": "Juana la virgen",
+      "score": -0.7633,
+      "genres": "Soap|Comedy|Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Apuesta por un amor",
+      "score": -0.7651,
+      "genres": "Drama|Soap",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "La Marca del Deseo",
+      "score": -0.8069,
+      "genres": "Drama",
+      "keywords": "romance|telenovela|amistad"
+    },
+    {
+      "title": "La Otra Cara del Alma",
+      "score": -0.8098,
+      "genres": "Soap|Drama",
+      "keywords": "falsely accused|car crash|dead parents|revenge plot|uma alma, duas caras"
+    },
+    {
+      "title": "Mi Destino Eres Tú",
+      "score": -0.8126,
+      "genres": "Drama",
+      "keywords": NaN
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "0562a3f7efd15c40a33654601f6616ff"
+}

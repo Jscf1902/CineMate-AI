@@ -1,0 +1,50 @@
+{
+  "session_id": "c32fafa2-435e-402b-91c7-eb4e118a3020",
+  "user_id": "573015989061",
+  "created_at": "2026-04-22T00:35:29.968559",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T01:11:45.418401",
+      "query": "una pelicula de ovnis y policias",
+      "routed_query": "una pelicula de ovnis y policias",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1072.089,
+      "scores": [
+        0.1681,
+        0.165,
+        0.1648,
+        0.1641,
+        0.1622
+      ],
+      "titles": [
+        "Occident",
+        "Rossosperanza",
+        "Cosas que hacen que la vida valga la pena",
+        "Rubirosa",
+        "Después de… Primera parte: no se os puede dejar solos"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Occident",
+      "Rossosperanza",
+      "Cosas que hacen que la vida valga la pena",
+      "Rubirosa",
+      "Después de… Primera parte: no se os puede dejar solos"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,94 @@
+{
+  "session_id": "8694bc8d-da29-46ec-8682-7b7f549593f8",
+  "user_id": "573178517661",
+  "created_at": "2026-04-22T18:34:47.768570",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T18:48:38.008373",
+      "query": "recomienda me series como chica vampiro",
+      "routed_query": "recomienda me series como chica vampiro",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 618.431,
+      "scores": [
+        0.2719,
+        0.1711,
+        0.1632,
+        0.1609,
+        0.1606
+      ],
+      "titles": [
+        "Misericordia: The Last Mystery of Kristo Vampiro",
+        "Vampire Princess Miyu",
+        "Vampirina: Teenage Vampire",
+        "Vampirina",
+        "Flame of Recca"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-22T19:11:55.416964",
+      "query": "parecido a diario de vampiros",
+      "routed_query": "parecido a diario de vampiros",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 964.688,
+      "scores": [
+        0.2128,
+        0.2007,
+        0.187,
+        0.1866,
+        0.1865
+      ],
+      "titles": [
+        "Nail in the Coffin: The Fall and Rise of Vampiro",
+        "DIABOLIK LOVERS: The Stage",
+        "Biss zur großen Pause - Das Highschool Vampir Grusical",
+        "The Vampire Dies in No Time",
+        "Sitio Diablo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-22T19:16:11.024002"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "parecido a diario de vampiros",
+    "recommendation": "¡Hola! Entendido, buscas algo parecido a \"Diario de vampiros\". Aquí tienes algunas recomendaciones basadas en películas con temática vampírica en nuestra lista:\n\n1.  **Nail in the Coffin: The Fall and Rise of Vampiro** (Documental|Acción) - Pro Wrestling|Relación padre-hija|Pro Wrestlers: Incluye un personaje de vampiro y combina acción con la historia.\n2.  **DIABOLIK LOVERS: The Stage** (géneros no especificados) - Temática de vampiros.\n3.  **Biss zur großen Pause - Das Highschool Vampir Grusical** (Comedia|Misterio|Música|Horror) - Palabras clave: vampiro. Una comedia/romance escolar con vampiros.\n4.  **The Vampire Dies in No Time** (Animación|Comedia|Ciencia Ficción y Fantasía) - Palabras clave: vampiro|romance|basado en manga|anime|vampiro cazador. Una animación divertida con vampiros.\n5.  **Sitio Diablo** (Acción|Drama) - Palabras clave no especificadas. Incluye la palabra \"Sitio Diablo\", que podría relacionarse con vampiros o criaturas similares en su trama."
+  },
+  "memory": {
+    "last_movies": [
+      "Misericordia: The Last Mystery of Kristo Vampiro",
+      "Vampire Princess Miyu",
+      "Vampirina: Teenage Vampire",
+      "Vampirina",
+      "Flame of Recca",
+      "Nail in the Coffin: The Fall and Rise of Vampiro",
+      "DIABOLIK LOVERS: The Stage",
+      "Biss zur großen Pause - Das Highschool Vampir Grusical",
+      "The Vampire Dies in No Time",
+      "Sitio Diablo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

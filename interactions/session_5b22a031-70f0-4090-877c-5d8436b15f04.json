@@ -1,0 +1,64 @@
+{
+  "session_id": "5b22a031-70f0-4090-877c-5d8436b15f04",
+  "user_id": "573204638760",
+  "created_at": "2026-04-22T00:48:28.661617",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-22T01:25:55.627532",
+      "query": "Películas de ciencia ficción populares",
+      "routed_query": "Películas de ciencia ficción populares",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1393.753,
+      "scores": [
+        0.1195,
+        0.0997,
+        0.0966,
+        0.0941,
+        0.0939
+      ],
+      "titles": [
+        "Cristóbal Balenciaga",
+        "Cabrujas en el país del disimulo",
+        "Perdona nuestros pecados",
+        "Pelé: Birth of a Legend",
+        "Perdona nuestros pecados"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-22T01:26:43.961974"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Películas de ciencia ficción populares",
+    "recommendation": "Hola, ¿quieres recomendaciones de películas de ciencia ficción populares?\n\nAquí tienes algunas:\n\n1.  *El planeta de las simias* (1973)\n2.  *Blade Runner* (1982)\n3.  *El viaje de Chihiro* (2001)\n4.  *La guerra de las galaxias: Episodio IV* (1977)\n5.  *El imperio contra atacar* (1980)"
+  },
+  "memory": {
+    "last_movies": [
+      "Cristóbal Balenciaga",
+      "Cabrujas en el país del disimulo",
+      "Perdona nuestros pecados",
+      "Pelé: Birth of a Legend"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}
