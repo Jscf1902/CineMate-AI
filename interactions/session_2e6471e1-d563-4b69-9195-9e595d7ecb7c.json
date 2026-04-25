@@ -1,0 +1,111 @@
+{
+  "session_id": "2e6471e1-d563-4b69-9195-9e595d7ecb7c",
+  "user_id": "573118664994",
+  "created_at": "2026-04-24T00:48:54.583249",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-24T01:06:27.325682",
+      "query": "Películas de terror intensas",
+      "routed_query": "Películas de terror intensas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 757.878,
+      "scores": [
+        0.2043,
+        0.1763,
+        0.1656,
+        0.1596,
+        0.153
+      ],
+      "titles": [
+        "Guillermo del Toro's Cabinet of Curiosities",
+        "Terror on the Midnight Train",
+        "Blue Monkey",
+        "Border Control: Spain",
+        "The Terrorists"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Guillermo del Toro's Cabinet of Curiosities",
+      "Terror on the Midnight Train",
+      "Blue Monkey",
+      "Border Control: Spain",
+      "The Terrorists"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Guillermo del Toro's Cabinet of Curiosities",
+      "score": 0.2043,
+      "genres": "Drama|Mystery|Sci-Fi & Fantasy",
+      "keywords": "tale|demon|gothic horror|dark fantasy|horror anthology|nightmares|horror"
+    },
+    {
+      "title": "Terror on the Midnight Train",
+      "score": 0.1763,
+      "genres": "Horror",
+      "keywords": "phantom"
+    },
+    {
+      "title": "Blue Monkey",
+      "score": 0.1656,
+      "genres": "Horror|Science Fiction",
+      "keywords": "insect|plant|infection|creature|bug|virus|canuxploitation|bacteria"
+    },
+    {
+      "title": "Border Control: Spain",
+      "score": 0.1596,
+      "genres": "Reality|Crime|Documentary",
+      "keywords": "airport|border|border patrol|customs agent"
+    },
+    {
+      "title": "The Terrorists",
+      "score": 0.153,
+      "genres": "Horror|Thriller|Crime",
+      "keywords": NaN
+    },
+    {
+      "title": "Comando Txikia: muerte de un presidente",
+      "score": 0.1506,
+      "genres": "Drama",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "See You in Another Life",
+      "score": 0.1491,
+      "genres": "Drama|Crime",
+      "keywords": "multiple time frames|terrorism|thriller"
+    },
+    {
+      "title": "Caligula",
+      "score": 0.099,
+      "genres": "Drama|History",
+      "keywords": "rome, italy|roman empire|ancient rome|historical figure|family relationships|incest|madness|political corruption|peplum|erotic movie|italian history|1st century|oral sex|brother sister sex|caligula|capri, italy|roman emperor|unsimulated sex|moral corruption|brother sister incest|double blowjob"
+    },
+    {
+      "title": "Pelé: Birth of a Legend",
+      "score": 0.0946,
+      "genres": "Drama",
+      "keywords": "biography|sports|football (soccer)|brazil|inspirational"
+    },
+    {
+      "title": "The Exorcists",
+      "score": 0.093,
+      "genres": "Horror|Thriller",
+      "keywords": "mockbuster"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2d929b2d4dcf02250aa411b988eeef39"
+}

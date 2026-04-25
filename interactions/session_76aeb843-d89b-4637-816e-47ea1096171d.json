@@ -1,0 +1,93 @@
+{
+  "session_id": "76aeb843-d89b-4637-816e-47ea1096171d",
+  "user_id": "573104934464",
+  "created_at": "2026-04-23T16:22:33.470951",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-23T16:38:38.648812",
+      "query": "Películas de ciencia ficción populares",
+      "routed_query": "Películas de ciencia ficción populares",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 578.649,
+      "scores": [
+        0.1195,
+        0.0997,
+        0.0966,
+        0.0941,
+        0.0939
+      ],
+      "titles": [
+        "Cristóbal Balenciaga",
+        "Cabrujas en el país del disimulo",
+        "Perdona nuestros pecados",
+        "Pelé: Birth of a Legend",
+        "Perdona nuestros pecados"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-23T16:57:54.838232",
+      "query": "cual de esas seria mas parecida a arrival",
+      "routed_query": "cual de esas seria mas parecida a arrival",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 647.956,
+      "scores": [
+        0.1427,
+        0.1393,
+        0.1389,
+        0.1388,
+        0.1387
+      ],
+      "titles": [
+        "La promesa",
+        "Mobília em Casa – Móveis Coloniais de Acaju e a Cidade",
+        "And the Ship Sails On",
+        "Circe",
+        "Las preñadas"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-23T19:18:58.045865"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "cual de esas seria mas parecida a arrival",
+    "recommendation": "Basado en el contexto, \"La promesa\" podría ser una buena opción para alguien que disfruta *Arrival*. Ambas películas exploran temas complejos relacionados con la comunicación y la incertidumbre de manera poética y emocional. \n\nSi buscas algo similar en género o atmósfera, también podrías considerar:\n\n- **Mobília em Casa** (Documental sobre muebles coloniales, con un enfoque en narrativas históricas y culturales).  \n- **And the Ship Sails On** (Comedia dramática con situaciones absurdas en un crucero).  \n\n¿Te gustaría más detalles o otra película?"
+  },
+  "memory": {
+    "last_movies": [
+      "Cristóbal Balenciaga",
+      "Cabrujas en el país del disimulo",
+      "Perdona nuestros pecados",
+      "Pelé: Birth of a Legend",
+      "La promesa",
+      "Mobília em Casa – Móveis Coloniais de Acaju e a Cidade",
+      "And the Ship Sails On",
+      "Circe",
+      "Las preñadas"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}
