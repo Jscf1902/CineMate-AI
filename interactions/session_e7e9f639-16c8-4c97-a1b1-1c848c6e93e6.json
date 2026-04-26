@@ -1,0 +1,155 @@
+{
+  "session_id": "e7e9f639-16c8-4c97-a1b1-1c848c6e93e6",
+  "user_id": "573167556912",
+  "created_at": "2026-04-25T23:43:46.147203",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T00:56:43.884151",
+      "query": "recomiendame algo parecido a back to the future",
+      "routed_query": "recomiendame algo parecido a back to the future",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 3942.129,
+      "scores": [
+        0.4484,
+        0.4266,
+        0.4164,
+        0.3821,
+        0.3757
+      ],
+      "titles": [
+        "Back to the Future",
+        "Back to the Future Part III",
+        "Back to the Future Part II",
+        "Future TX",
+        "Terminator 2: Judgment Day"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-26T01:10:08.788902",
+      "query": "gracias",
+      "routed_query": "gracias",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 319.601,
+      "scores": [
+        0.1584,
+        0.1568,
+        0.1543,
+        0.1539,
+        0.1519
+      ],
+      "titles": [
+        "The Twilight Zone",
+        "The Bold and the Beautiful",
+        "The Divorce",
+        "Total DramaRama",
+        "Down and Dirty with Jim Norton"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-26T01:19:16.927962"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "gracias",
+    "recommendation": "De nada. 😊 Estoy aquí para ayudarte. ¿Hay algo más en lo que pueda ayudarte?"
+  },
+  "memory": {
+    "last_movies": [
+      "Back to the Future",
+      "Back to the Future Part III",
+      "Back to the Future Part II",
+      "Future TX",
+      "Terminator 2: Judgment Day",
+      "The Twilight Zone",
+      "The Bold and the Beautiful",
+      "The Divorce",
+      "Total DramaRama",
+      "Down and Dirty with Jim Norton"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Twilight Zone",
+      "score": 0.1584,
+      "genres": "Sci-Fi & Fantasy|Mystery|Drama",
+      "keywords": "anthology|mysterious|horror|awestruck"
+    },
+    {
+      "title": "The Bold and the Beautiful",
+      "score": 0.1568,
+      "genres": "Soap|Drama",
+      "keywords": "california|los angeles, california|fashion|soap opera"
+    },
+    {
+      "title": "The Divorce",
+      "score": 0.1543,
+      "genres": "Comedy",
+      "keywords": NaN
+    },
+    {
+      "title": "Total DramaRama",
+      "score": 0.1539,
+      "genres": "Animation|Kids|Family|Comedy",
+      "keywords": "fictional reality tv"
+    },
+    {
+      "title": "Down and Dirty with Jim Norton",
+      "score": 0.1519,
+      "genres": "Comedy",
+      "keywords": NaN
+    },
+    {
+      "title": "Hollywood between Paranoia and Sci-Fi: The Power of Myth",
+      "score": 0.1514,
+      "genres": "Documentary|TV Movie",
+      "keywords": "woman director"
+    },
+    {
+      "title": "How The Young Ones Changed Comedy",
+      "score": 0.1513,
+      "genres": "Documentary|Comedy",
+      "keywords": "behind the scenes|making of|talking head|sitcom|1980s"
+    },
+    {
+      "title": "The Expanse",
+      "score": 0.146,
+      "genres": "Drama|Mystery|Sci-Fi & Fantasy",
+      "keywords": "planet mars|spacecraft|space battle|future|space colony|space travel|space|conspiracy|space station|space opera|hard sci-fi"
+    },
+    {
+      "title": "50 Years of BBC Two Comedy",
+      "score": 0.146,
+      "genres": "Documentary|TV Movie",
+      "keywords": NaN
+    },
+    {
+      "title": "NCIS: New Orleans",
+      "score": 0.144,
+      "genres": "Action & Adventure|Drama|Comedy",
+      "keywords": "new orleans, louisiana|navy|spin off|military|crime investigation|candid|empathetic|enthusiastic|exuberant"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "ed1e4cf5e620cd935c5cf0adceb2bc41"
+}
