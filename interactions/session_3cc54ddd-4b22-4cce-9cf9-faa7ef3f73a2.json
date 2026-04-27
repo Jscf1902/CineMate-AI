@@ -1,0 +1,126 @@
+{
+  "session_id": "3cc54ddd-4b22-4cce-9cf9-faa7ef3f73a2",
+  "user_id": "573167556912",
+  "created_at": "2026-04-27T18:44:53.817150",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T19:01:05.864305",
+      "query": "Documentales interesantes y recomendados",
+      "routed_query": "Documentales interesantes y recomendados",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 747.38,
+      "scores": [
+        0.194,
+        0.1868,
+        0.1831,
+        0.1788,
+        0.178
+      ],
+      "titles": [
+        "Reyes de España",
+        "The Prado Museum: A Collection of Wonders",
+        "Juro que te amo",
+        "Anitta: Made in Honório",
+        "Texas Trocas"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-27T19:15:23.946726"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Documentales interesantes y recomendados",
+    "recommendation": "¡Claro! Aquí tienes algunas recomendaciones basadas en los documentales disponibles en nuestra base de datos:\n\n1. **\"Reyes de España\"**: Un documental que explora la historia de la monarquía española y la familia real a través de los siglos, cubriendo temas como los Reyes Católicos, los Borbones y las Austrias, además de la actual monarquía española y el Imperio Español.\n\n2. **\"The Prado Museum: A Collection of Wonders\"**: Este documental adentra en el mundo del arte español y europeo, mostrando piezas icónicas del Museo del Prado en Madrid, destacando la relevancia histórica y cultural de las obras.\n\n3. **\"Anitta: Made in Honório\"**: Una mirada detallada a la cantante brasileña Anitta, documentando su carrera, sus inicios en el funk carioca, y su impacto en la música pop brasileña y global.\n\nSi deseas más opciones, házmelo saber y te recomendaré otros documentales disponibles en nuestro catálogo."
+  },
+  "memory": {
+    "last_movies": [
+      "Reyes de España",
+      "The Prado Museum: A Collection of Wonders",
+      "Juro que te amo",
+      "Anitta: Made in Honório",
+      "Texas Trocas"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Reyes de España",
+      "score": 0.194,
+      "genres": "Documentary",
+      "keywords": "royal family|spanish history|hispanic monarchy (spanish empire)|spanish royal family|imperio español|borbones|austrias|catholic monarchs"
+    },
+    {
+      "title": "The Prado Museum: A Collection of Wonders",
+      "score": 0.1868,
+      "genres": "Documentary|History",
+      "keywords": "madrid, spain|art gallery|italian art|art museum|spanish history|prado museum|spanish art|flemish art"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.1831,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Anitta: Made in Honório",
+      "score": 0.1788,
+      "genres": "Documentary",
+      "keywords": "biography|concert|backstage|singer|music documentary|brazilian pop music|brazilian funk"
+    },
+    {
+      "title": "Texas Trocas",
+      "score": 0.178,
+      "genres": "Reality",
+      "keywords": "texas|truck|mexican american"
+    },
+    {
+      "title": "Million Dollar Mystery",
+      "score": 0.1778,
+      "genres": "Mystery|Drama",
+      "keywords": "foreign archive"
+    },
+    {
+      "title": "El Joe: La leyenda",
+      "score": 0.1764,
+      "genres": NaN,
+      "keywords": "music|colombia|romantic"
+    },
+    {
+      "title": "Il fiume ha sempre ragione",
+      "score": 0.1757,
+      "genres": "Documentary",
+      "keywords": "typography"
+    },
+    {
+      "title": "Though You May Not Know",
+      "score": 0.1747,
+      "genres": "Documentary",
+      "keywords": "poetry|biography|poet|songwriter|poetry reading|portrait of an artist|spanish literature|literature history"
+    },
+    {
+      "title": "Una mano bajo la nieve y otras historias",
+      "score": 0.1747,
+      "genres": "Drama",
+      "keywords": "musical|anthology|romance|nature|family conflict|social issues|relationships|documentary|latinx|fiction|drama"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "e63641afc8037fca80687b8e34ee820a"
+}

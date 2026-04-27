@@ -1,0 +1,94 @@
+{
+  "session_id": "87bb8727-fbc9-4034-95ea-5a95af9d48d0",
+  "user_id": "573167556912",
+  "created_at": "2026-04-27T18:03:35.108690",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T18:10:54.359349",
+      "query": "una pelicula de batman de las primeras",
+      "routed_query": "una pelicula de batman de las primeras",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 217.69,
+      "scores": [
+        0.3369,
+        0.3315,
+        0.3273,
+        0.3067,
+        0.3065
+      ],
+      "titles": [
+        "Illiterate",
+        "Para toda la muerte",
+        "Natural Born Narco",
+        "Helga y Flora",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T18:18:42.539820",
+      "query": "peliculas y series de batman",
+      "routed_query": "peliculas y series de batman",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 325.75,
+      "scores": [
+        0.4567,
+        0.4371,
+        0.4366,
+        0.4364,
+        0.4169
+      ],
+      "titles": [
+        "Batman Beyond",
+        "Batman v Superman: Dawn of Justice",
+        "The Batman",
+        "Batman Ninja vs. Yakuza League",
+        "Batman & Robin"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 3,
+      "timestamp": "2026-04-27T18:21:58.167757"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "peliculas y series de batman",
+    "recommendation": "¡Claro! Aquí tienes algunas opciones de películas y series de Batman:\n\n1. **Batman Beyond** (Serie animada): Ambientada en el futuro, sigue la historia de un joven Bruce Wayne adoptado que lucha como Batman en Gotham.\n2. **Batman v Superman: Dawn of Justice** (Película): La primera película de la DCEU, donde Batman y Superman se enfrentan a un villano amenazante.\n3. **The Batman** (Película): Una versión más oscura y centrada en el personaje, con un Bruce Wayne aún joven descubriendo su identidad secreta.\n4. **Batman Ninja vs. Yakuza League** (Película animada): Una adaptación animada de los cómics, con una trama exagerada y divertida.\n5. **Batman & Robin** (Película): La última película de la DCEU, que explora la relación entre Batman y Robin, aunque tiene un estilo más exagerado."
+  },
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "Para toda la muerte",
+      "Natural Born Narco",
+      "Helga y Flora",
+      "Mama Drama",
+      "Batman Beyond",
+      "Batman v Superman: Dawn of Justice",
+      "The Batman",
+      "Batman Ninja vs. Yakuza League",
+      "Batman & Robin"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

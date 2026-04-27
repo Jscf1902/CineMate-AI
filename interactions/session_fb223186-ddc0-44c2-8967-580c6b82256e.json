@@ -1,0 +1,126 @@
+{
+  "session_id": "fb223186-ddc0-44c2-8967-580c6b82256e",
+  "user_id": "573167556912",
+  "created_at": "2026-04-27T18:35:23.786855",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T18:42:54.658438",
+      "query": "recomienda peliculas de videojuegos",
+      "routed_query": "recomienda peliculas de videojuegos",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 327.54,
+      "scores": [
+        0.2483,
+        0.2362,
+        0.2346,
+        0.234,
+        0.2322
+      ],
+      "titles": [
+        "Jailer Unlocked",
+        "The Ones Within",
+        "The Prince of Tennis II Hyotei vs. Rikkai Game of Future",
+        "Zaion: I Wish You Were Here",
+        "Nam June Paik: Moon Is the Oldest TV"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-27T18:44:35.516256"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "no",
+      "numeric": 1
+    },
+    "query": "recomienda peliculas de videojuegos",
+    "recommendation": "¡Claro! Aquí tienes algunas recomendaciones basadas en videojuegos:\n\n1. **The Prince of Tennis II Hyotei vs. Rikkai Game of Future** (Animation, OVA)  \n   Una adaptación del popular anime de tenis, que incluye elementos de videojuegos.\n\n2. **Zaion: I Wish You Were Here** (Animation, Action & Adventure, Sci-Fi & Fantasy, OVA)  \n   Una serie animada con temas futuristas y tecnología, a menudo explorando mundos digitales.\n\n3. **Jailer Unlocked** (Documentary)  \n   Aunque es un documental, aborda la creación de videojuegos y la tecnología.\n\n¿Te gustaría conocer más sobre alguno de estos?"
+  },
+  "memory": {
+    "last_movies": [
+      "Jailer Unlocked",
+      "The Ones Within",
+      "The Prince of Tennis II Hyotei vs. Rikkai Game of Future",
+      "Zaion: I Wish You Were Here",
+      "Nam June Paik: Moon Is the Oldest TV"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Jailer Unlocked",
+      "score": 0.2483,
+      "genres": "Documentary",
+      "keywords": "making video"
+    },
+    {
+      "title": "The Ones Within",
+      "score": 0.2362,
+      "genres": "Animation",
+      "keywords": "anime|vrmmo"
+    },
+    {
+      "title": "The Prince of Tennis II Hyotei vs. Rikkai Game of Future",
+      "score": 0.2346,
+      "genres": "Animation",
+      "keywords": "anime|original video animation (ova)"
+    },
+    {
+      "title": "Zaion: I Wish You Were Here",
+      "score": 0.234,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "anime|original video animation (ova)"
+    },
+    {
+      "title": "Nam June Paik: Moon Is the Oldest TV",
+      "score": 0.2322,
+      "genres": "Documentary",
+      "keywords": "video art|video artist"
+    },
+    {
+      "title": "Neo Chinpira 2: Zoom Goes the Bullet",
+      "score": 0.2304,
+      "genres": NaN,
+      "keywords": "v-cinema"
+    },
+    {
+      "title": "Battle Athletes",
+      "score": 0.2264,
+      "genres": "Animation|Comedy|Action & Adventure",
+      "keywords": "anime|original video animation (ova)"
+    },
+    {
+      "title": "MAYONAKA PUNCH",
+      "score": 0.2236,
+      "genres": "Animation|Comedy",
+      "keywords": "anime|youtuber"
+    },
+    {
+      "title": "DORA",
+      "score": 0.2172,
+      "genres": "Animation|Kids|Action & Adventure",
+      "keywords": "reboot|edutainment|3d animation|speaking spanish|latin american"
+    },
+    {
+      "title": "Welcome to Eden",
+      "score": 0.2156,
+      "genres": "Action & Adventure|Sci-Fi & Fantasy|Drama",
+      "keywords": "video surveillance"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "38eb0319c36e6faa117db65a44e24f60"
+}

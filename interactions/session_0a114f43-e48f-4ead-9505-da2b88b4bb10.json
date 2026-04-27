@@ -1,0 +1,155 @@
+{
+  "session_id": "0a114f43-e48f-4ead-9505-da2b88b4bb10",
+  "user_id": "573167556912",
+  "created_at": "2026-04-27T17:37:44.500643",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T17:43:40.373309",
+      "query": "Películas bélicas recomendadas",
+      "routed_query": "Películas bélicas recomendadas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 186.189,
+      "scores": [
+        0.1569,
+        0.1501,
+        0.15,
+        0.1493,
+        0.1475
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "La Casa de los Famosos México",
+        "Vacanze di Natale a Cortina",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T17:56:31.163132",
+      "query": "recomienda algo parecido a avengers",
+      "routed_query": "recomienda algo parecido a avengers",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 615.86,
+      "scores": [
+        0.4138,
+        0.3811,
+        0.3563,
+        0.3532,
+        0.3512
+      ],
+      "titles": [
+        "Marvel's Avengers",
+        "Phineas and Ferb: Mission Marvel",
+        "Avengers: Infinity War",
+        "Avengers: Endgame",
+        "The Avengers: Earth's Mightiest Heroes"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 3,
+      "timestamp": "2026-04-27T17:57:09.570040"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "recomienda algo parecido a avengers",
+    "recommendation": "Okay, aquí tienes algunas opciones basadas en tu interés en *Avengers*:\n\n1.  **Marvel's Avengers** (Animación, Acción y Aventura, Ciencia Ficción y Fantasía) - Juega como los héroes más famosos luchando juntos.\n2.  **Avengers: Infinity War** (Aventura, Acción, Ciencia Ficción) - La película de los Vengadores donde Thanos amenaza el universo.\n3.  **Avengers: Endgame** (Aventura, Ciencia Ficción, Acción) - La épica conclusión de la Guerra Civil, con batalla final y mucho drama.\n4.  **The Avengers: Earth's Mightiest Heroes** (Animación, Acción y Aventura, Ciencia Ficción y Fantasía, Familia) - Serie animada con los héroes luchando contra amenazas.\n5.  **Phineas and Ferb: Mission Marvel** (Animación, Familia, Comedia, Acción, Aventura, Ciencia Ficción) - Una divertida adaptación con personajes Marvel.\n\n¿Te gustaría ver alguno de estos?"
+  },
+  "memory": {
+    "last_movies": [
+      "Egypt: Secrets of the Pharaohs",
+      "La Casa de los Famosos México",
+      "Vacanze di Natale a Cortina",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "Muchachos, la película de la gente",
+      "Marvel's Avengers",
+      "Phineas and Ferb: Mission Marvel",
+      "Avengers: Infinity War",
+      "Avengers: Endgame",
+      "The Avengers: Earth's Mightiest Heroes"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Marvel's Avengers",
+      "score": 0.4138,
+      "genres": "Action & Adventure|Animation|Sci-Fi & Fantasy",
+      "keywords": "superhero|based on comic"
+    },
+    {
+      "title": "Phineas and Ferb: Mission Marvel",
+      "score": 0.3811,
+      "genres": "Animation|Family|Comedy|TV Movie|Action|Adventure|Science Fiction",
+      "keywords": "superhero|based on comic"
+    },
+    {
+      "title": "Avengers: Infinity War",
+      "score": 0.3563,
+      "genres": "Adventure|Action|Science Fiction",
+      "keywords": "magic|sacrifice|superhero|based on comic|space|battlefield|genocide|magical object|super power|superhero team|aftercreditsstinger|marvel cinematic universe (mcu)|cosmic"
+    },
+    {
+      "title": "Avengers: Endgame",
+      "score": 0.3532,
+      "genres": "Adventure|Science Fiction|Action",
+      "keywords": "space travel|time travel|time machine|sequel|superhero|based on comic|alien invasion|superhero team|marvel cinematic universe (mcu)|alternate timeline|father daughter relationship|sister sister relationship|excited|vibrant"
+    },
+    {
+      "title": "The Avengers: Earth's Mightiest Heroes",
+      "score": 0.3512,
+      "genres": "Action & Adventure|Animation|Sci-Fi & Fantasy|Family",
+      "keywords": "superhero|based on comic|superhero team"
+    },
+    {
+      "title": "Marvel One-Shot: The Consultant",
+      "score": 0.3496,
+      "genres": "Adventure|Fantasy|Science Fiction|Action",
+      "keywords": "based on comic|marvel cinematic universe (mcu)|short film|agents"
+    },
+    {
+      "title": "The Avengers: United They Stand",
+      "score": 0.3491,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "superhero|based on comic|super power|superhero team"
+    },
+    {
+      "title": "The Avengers",
+      "score": 0.3461,
+      "genres": "Science Fiction|Action|Adventure",
+      "keywords": "new york city|shield|superhero|based on comic|alien invasion|superhero team|aftercreditsstinger|duringcreditsstinger|marvel cinematic universe (mcu)"
+    },
+    {
+      "title": "Avengers: Age of Ultron",
+      "score": 0.3243,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "saving the world|artificial intelligence (a.i.)|sequel|superhero|based on comic|vision|superhero team|creator|super villain|duringcreditsstinger|marvel cinematic universe (mcu)|fictitious country|evil robot|good versus evil|hilarious|comforting|excited"
+    },
+    {
+      "title": "Captain America: Civil War",
+      "score": 0.3152,
+      "genres": "Adventure|Action|Science Fiction",
+      "keywords": "sequel|superhero|based on comic|super soldier|aftercreditsstinger|duringcreditsstinger|marvel cinematic universe (mcu)|superhero teamup"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "fb49b298fc79aaa40cdf8ed2597c3ca4"
+}
