@@ -1,0 +1,158 @@
+{
+  "session_id": "d4295c17-4d7b-4775-b73a-1890a6095b0e",
+  "user_id": "573133825915",
+  "created_at": "2026-04-26T23:58:59.242205",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T00:07:15.265598",
+      "query": "recomendaciones para series o películas sobre el espacio en Netflix Disney o HBO actualmente estrenadas",
+      "routed_query": "recomendaciones para series o películas sobre el espacio en Netflix Disney o HBO actualmente estrenadas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 285.508,
+      "scores": [
+        0.1982,
+        0.1966,
+        0.194,
+        0.1917,
+        -0.7183
+      ],
+      "titles": [
+        "True Story España",
+        "El extraño retorno de Diana Salazar",
+        "Cult Culture: The Poseidon Adventure",
+        "A Breakfast Chronicle",
+        "The Minions of Midas"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T00:18:24.134606",
+      "query": "recomendaciones de películas sobre el espacio, plataformas para ver",
+      "routed_query": "recomendaciones de películas sobre el espacio, plataformas para ver",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": true,
+      "latency": 310.733,
+      "scores": [
+        0.1966
+      ],
+      "titles": [
+        "El extraño retorno de Diana Salazar"
+      ],
+      "results_count": 1
+    },
+    {
+      "timestamp": "2026-04-27T00:36:04.075869",
+      "query": "puedes darme mas contexto de la segunda opcion",
+      "routed_query": "puedes darme mas contexto de la segunda opcion",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": true,
+      "latency": 501.158,
+      "scores": [
+        0.194
+      ],
+      "titles": [
+        "Cult Culture: The Poseidon Adventure"
+      ],
+      "results_count": 1
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 2,
+      "timestamp": "2026-04-27T00:42:52.628732"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "no",
+      "numeric": 1
+    },
+    "query": "puedes darme mas contexto de la segunda opcion",
+    "recommendation": "¡Claro! La segunda opción es *\"Cult Culture: The Poseidon Adventure\"*, un documental de TV Movie de los años 80 que explora la cultura de los fans alrededor de la película original *El viaje de Poseidón*. Incluye elementos como reuniones, fan club y parodias, mostrando cómo los fans construyen su cultura alrededor de una película de culto."
+  },
+  "memory": {
+    "last_movies": [
+      "True Story España",
+      "El extraño retorno de Diana Salazar",
+      "Cult Culture: The Poseidon Adventure",
+      "A Breakfast Chronicle",
+      "The Minions of Midas"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "True Story España",
+      "score": 0.1982,
+      "genres": "Comedy|Reality",
+      "keywords": "spanish show"
+    },
+    {
+      "title": "El extraño retorno de Diana Salazar",
+      "score": 0.1966,
+      "genres": "Mystery|Drama",
+      "keywords": "remake|spanish inquisition|past lives|past love|horror|witches|serie mexicana|nowadays"
+    },
+    {
+      "title": "Cult Culture: The Poseidon Adventure",
+      "score": 0.194,
+      "genres": "Documentary|TV Movie",
+      "keywords": "pop culture|parody|fan culture|reunion|fan club|stage musical|cult cinema|musical comedy"
+    },
+    {
+      "title": "A Breakfast Chronicle",
+      "score": 0.1917,
+      "genres": "Drama",
+      "keywords": "new mexican cinema|2000s|mexican cinema|adaptation|drama|pessimistic|breakfast chronicle|crónica de un desayuno"
+    },
+    {
+      "title": "The Minions of Midas",
+      "score": -0.7183,
+      "genres": "Mystery|Drama|Crime",
+      "keywords": "miniseries|spanish"
+    },
+    {
+      "title": "El rey",
+      "score": -0.7238,
+      "genres": "Drama",
+      "keywords": "spain|monarchy|biography|miniseries"
+    },
+    {
+      "title": "Margarita",
+      "score": -0.7285,
+      "genres": "Comedy|Drama|Family|Soap",
+      "keywords": "soap opera|musical series"
+    },
+    {
+      "title": "Luva De Pedreiro: Viral Moves",
+      "score": -0.7337,
+      "genres": "Documentary",
+      "keywords": "miniseries"
+    },
+    {
+      "title": "Besos al aire",
+      "score": -0.7384,
+      "genres": "Comedy|Drama",
+      "keywords": "romcom|miniseries|hyperlink cinema|covid-19"
+    },
+    {
+      "title": "LEGO Pixar: BrickToons",
+      "score": -0.7411,
+      "genres": "Animation|Comedy|Family",
+      "keywords": "anthology|miniseries"
+    }
+  ],
+  "current_index": 3,
+  "last_query_signature": "03825c36ce8ee0f461f72c8604263d58"
+}

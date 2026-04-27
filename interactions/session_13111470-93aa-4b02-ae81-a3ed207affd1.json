@@ -1,0 +1,110 @@
+{
+  "session_id": "13111470-93aa-4b02-ae81-a3ed207affd1",
+  "user_id": "573167556912",
+  "created_at": "2026-04-26T22:11:36.621718",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T22:25:44.399834",
+      "query": "recomienda algo parecido a spiderman",
+      "routed_query": "recomienda algo parecido a spiderman",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 601.32,
+      "scores": [
+        0.209,
+        0.2084,
+        0.2062,
+        0.2042,
+        0.1975
+      ],
+      "titles": [
+        "Spider-Man",
+        "Spider-Man",
+        "Marvel's Spider-Man",
+        "Spider-Man 3",
+        "The Amazing Spider-Man"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Spider-Man",
+      "Marvel's Spider-Man",
+      "Spider-Man 3",
+      "The Amazing Spider-Man"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Spider-Man",
+      "score": 0.209,
+      "genres": "Animation|Action & Adventure",
+      "keywords": "superhero|based on comic|radioactivity"
+    },
+    {
+      "title": "Spider-Man",
+      "score": 0.2084,
+      "genres": "Action|Science Fiction",
+      "keywords": "new york city|loss of loved one|adolescence|photographer|secret identity|villain|spider|bad boss|photography|hostility|superhero|based on comic|teenage boy|teenage love|evil|super villain|taking responsibility"
+    },
+    {
+      "title": "Marvel's Spider-Man",
+      "score": 0.2062,
+      "genres": "Animation|Sci-Fi & Fantasy|Comedy|Family",
+      "keywords": "superhero|based on comic"
+    },
+    {
+      "title": "Spider-Man 3",
+      "score": 0.2042,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "loss of loved one|dual identity|amnesia|sandstorm|love of one's life|forgiveness|spider|wretch|egomania|sand|narcissism|hostility|sequel|superhero|based on comic|revenge|symbiote|amused"
+    },
+    {
+      "title": "The Amazing Spider-Man",
+      "score": 0.1975,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "loss of loved one|experiment|vigilante|superhero|based on comic|teenage girl|teenage boy|super power|spider bite|masked vigilante|reboot|genetic engineering|social outcast|death of husband|duringcreditsstinger|virus|teen superhero|teenage angst|vigilante justice"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "score": 0.197,
+      "genres": "Animation|Action|Adventure|Science Fiction",
+      "keywords": "new york city|double life|secret identity|hero|sacrifice|villain|portal|alter ego|sequel|superhero|based on comic|alternate dimension|romance|parenting|family|alternate version|super power|brooklyn, new york city|superhero team|spider bite|super villain|cliffhanger|masked superhero|teenage romance|young heroes|teen superhero|teen social issues|chelsea|alternate universe|superhero teamup|female superhero|slow burn romance|interdimensional travel|ambiguous|cliché|enthusiastic|excited|vibrant|black superhero"
+    },
+    {
+      "title": "Lucas the Spider",
+      "score": 0.1956,
+      "genres": "Animation|Comedy|Kids",
+      "keywords": "spider|musical"
+    },
+    {
+      "title": "Spider-Man: Homecoming",
+      "score": 0.1955,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "new york city|washington dc, usa|secret identity|high school|superhero|based on comic|reboot|aftercreditsstinger|duringcreditsstinger|marvel cinematic universe (mcu)|masked superhero|teen superhero"
+    },
+    {
+      "title": "Marvel's Ultimate Spider-Man",
+      "score": 0.1949,
+      "genres": "Kids|Action & Adventure|Animation|Comedy|Family",
+      "keywords": "new york city|superhero|based on comic"
+    },
+    {
+      "title": "The Amazing Spider-Man 2",
+      "score": 0.1948,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "secret identity|obsession|experiment|sequel|superhero|based on comic|electrocution|super power|masked superhero|teen superhero"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "6104fe8f79a85fb634f4cd2d906a8369"
+}

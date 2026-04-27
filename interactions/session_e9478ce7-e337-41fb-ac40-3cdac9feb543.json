@@ -1,0 +1,184 @@
+{
+  "session_id": "e9478ce7-e337-41fb-ac40-3cdac9feb543",
+  "user_id": "51985738333",
+  "created_at": "2026-04-27T00:41:05.470384",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T00:48:23.819709",
+      "query": "Películas de acción intensas y entretenidas",
+      "routed_query": "Películas de acción intensas y entretenidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 175.532,
+      "scores": [
+        0.175,
+        0.1721,
+        0.1597,
+        0.1563,
+        0.1512
+      ],
+      "titles": [
+        "The World's Gold",
+        "Muchachos, la película de la gente",
+        "Vacanze di Natale a Cortina",
+        "Amar es para siempre",
+        "È questa la vita che sognavo da bambino?"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T00:57:24.609695",
+      "query": "que info necesitas",
+      "routed_query": "que info necesitas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 340.413,
+      "scores": [
+        0.4681,
+        0.2315,
+        0.2303,
+        0.2275,
+        0.2205
+      ],
+      "titles": [
+        "Juro que te amo",
+        "MasterChef Celebrity Argentina",
+        "Illiterate",
+        "Por la gloria de sus padres",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T01:10:05.334773",
+      "query": "Películas dramáticas emocionales",
+      "routed_query": "Películas dramáticas emocionales",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 551.164,
+      "scores": [
+        0.2196,
+        0.2137,
+        0.2078,
+        0.2033,
+        0.1967
+      ],
+      "titles": [
+        "Sweetheart",
+        "Southern Sorceresses",
+        "Love You to Death",
+        "Samuel",
+        "L'Amour, la Mort, les Fringues"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-27T01:29:39.266650"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "Películas dramáticas emocionales",
+    "recommendation": "¡Claro! Basándome en las películas disponibles en el contexto, te recomendaría estas tres opciones que podrían encajar con tu búsqueda de dramas emocionales:\n\n1.  **Sweetheart**: Es una comedia dramática con elementos románticos, lo que puede generar una conexión emocional.\n2.  **Samuel**: Esta animación dramática y cómica explora temas de crecimiento, vida y sentimiento, con un tono generalmente alegre y reflexivo.\n3.  **Love You to Death**: Un drama cómico (romcom) que aborda temas como el embarazo y el cáncer, seguramente con un enfoque sentimental y dramático.\n\nEspero que estas recomendaciones te gusten. ¿Necesitas más opciones o alguna otra cosa en específico?"
+  },
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Muchachos, la película de la gente",
+      "Vacanze di Natale a Cortina",
+      "Amar es para siempre",
+      "È questa la vita che sognavo da bambino?",
+      "Juro que te amo",
+      "MasterChef Celebrity Argentina",
+      "Illiterate",
+      "Por la gloria de sus padres",
+      "Anche se è amore non si vede",
+      "Sweetheart",
+      "Southern Sorceresses",
+      "Love You to Death",
+      "Samuel",
+      "L'Amour, la Mort, les Fringues"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Sweetheart",
+      "score": 0.2196,
+      "genres": "Comedy",
+      "keywords": "italian|dramatic|romantic"
+    },
+    {
+      "title": "Southern Sorceresses",
+      "score": 0.2137,
+      "genres": "Documentary",
+      "keywords": "cautionary|direct|absurd|dramatic|critical|admiring|adoring|appreciative|assertive|awestruck|bewildered|celebratory|cheerful|comforting|exuberant|familiar"
+    },
+    {
+      "title": "Love You to Death",
+      "score": 0.2078,
+      "genres": "Comedy|Drama",
+      "keywords": "pregnancy|romcom|cancer|dramedy|sentimental|cheerful"
+    },
+    {
+      "title": "Samuel",
+      "score": 0.2033,
+      "genres": "Animation|Comedy|Drama",
+      "keywords": "musical|slice of life|coming of age|sentimental|cheerful"
+    },
+    {
+      "title": "L'Amour, la Mort, les Fringues",
+      "score": 0.1967,
+      "genres": "Comedy",
+      "keywords": "theater play"
+    },
+    {
+      "title": "My Love, My Sin",
+      "score": -0.7842,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Olvidarte Jamás",
+      "score": -0.7873,
+      "genres": "Soap|Drama",
+      "keywords": "telenovela|melodrama"
+    },
+    {
+      "title": "Pride and Passion",
+      "score": -0.7876,
+      "genres": "Soap|Drama|Comedy",
+      "keywords": "romcom|telenovela|lighthearted|romantic|cliché|comforting"
+    },
+    {
+      "title": "Cadenas de amargura",
+      "score": -0.7877,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "La Malquerida",
+      "score": -0.7899,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "6e303fd3644098ee4097c135e5759157"
+}

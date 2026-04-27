@@ -1,0 +1,49 @@
+{
+  "session_id": "fbf6943f-c83f-4922-a998-7b4dade9df96",
+  "user_id": "573167556912",
+  "created_at": "2026-04-26T21:56:02.502386",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T22:06:21.797491",
+      "query": "recomienda algo parecido a spiderman",
+      "routed_query": "recomienda algo parecido a spiderman",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 473.185,
+      "scores": [
+        0.209,
+        0.2084,
+        0.2062,
+        0.2044,
+        0.2042
+      ],
+      "titles": [
+        "Spider-Man",
+        "Spider-Man",
+        "Marvel's Spider-Man",
+        "Spider-Man: The New Animated Series",
+        "Spider-Man 3"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Spider-Man",
+      "Marvel's Spider-Man",
+      "Spider-Man: The New Animated Series",
+      "Spider-Man 3"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

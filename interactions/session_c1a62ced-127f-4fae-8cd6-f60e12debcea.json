@@ -1,0 +1,126 @@
+{
+  "session_id": "c1a62ced-127f-4fae-8cd6-f60e12debcea",
+  "user_id": "573167556912",
+  "created_at": "2026-04-26T22:47:40.667692",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T22:54:44.246363",
+      "query": "dame una pelicula de aliens",
+      "routed_query": "dame una pelicula de aliens",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 310.753,
+      "scores": [
+        0.4613,
+        0.3785,
+        0.3646,
+        0.3509,
+        0.3501
+      ],
+      "titles": [
+        "Jeff and Some Aliens",
+        "Freezer Burn: The Invasion of Laxdale",
+        "Ancient Aliens: Origins",
+        "Solar Opposites",
+        "Aliens"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-26T22:56:22.579753"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "dame una pelicula de aliens",
+    "recommendation": "¡Claro! Aquí tienes algunas películas o series animadas sobre alienígenas:\n\n1. **Jeff and Some Aliens** (Animación)  \n   Un mundo animado con aliens curiosos y humanidad en el centro de la trama.\n\n2. **Freezer Burn: The Invasion of Laxdale** (Acción, Aventura, Comedia, Ciencia Ficción)  \n   Una divertida historia sobre una invasión alienígena en un pueblo remoto.\n\n3. **Aliens** (Acción, Thriller, Ciencia Ficción)  \n   La icónica saga sobre la lucha de humanos contra androides y criaturas extraterrestres.\n\n¿Te gustaría ver alguna de estas? 😊"
+  },
+  "memory": {
+    "last_movies": [
+      "Jeff and Some Aliens",
+      "Freezer Burn: The Invasion of Laxdale",
+      "Ancient Aliens: Origins",
+      "Solar Opposites",
+      "Aliens"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Jeff and Some Aliens",
+      "score": 0.4613,
+      "genres": "Animation",
+      "keywords": "alien|humanity"
+    },
+    {
+      "title": "Freezer Burn: The Invasion of Laxdale",
+      "score": 0.3785,
+      "genres": "Action|Adventure|Comedy|Science Fiction",
+      "keywords": "alien invasion"
+    },
+    {
+      "title": "Ancient Aliens: Origins",
+      "score": 0.3646,
+      "genres": "Documentary",
+      "keywords": "extraterrestrial"
+    },
+    {
+      "title": "Solar Opposites",
+      "score": 0.3509,
+      "genres": "Comedy|Animation|Sci-Fi & Fantasy",
+      "keywords": "alien|adult humor|adult animation|eccentric family|queer|clinical"
+    },
+    {
+      "title": "Aliens",
+      "score": 0.3501,
+      "genres": "Action|Thriller|Science Fiction",
+      "keywords": "android|extraterrestrial technology|space marine|spaceman|cryogenics|vacuum|space colony|warrior woman|settler|space travel|colony|space|alien|female protagonist|creature|desolate|female hero|aggressive|military sci-fi|desolate planet|critical|sinister|sci-fi horror|assertive|commanding|empathetic|exhilarated|action horror|sci-fi action"
+    },
+    {
+      "title": "Alien TV",
+      "score": 0.3416,
+      "genres": "Animation|Comedy|Family|Kids",
+      "keywords": "alien"
+    },
+    {
+      "title": "Horizon",
+      "score": 0.3367,
+      "genres": "Adventure|Drama|Science Fiction|Thriller",
+      "keywords": "alien"
+    },
+    {
+      "title": "Alien",
+      "score": 0.3233,
+      "genres": "Horror|Science Fiction",
+      "keywords": "android|spacecraft|countdown|space marine|space suit|beheading|space travel|dystopia|biology|cowardice|space|alien|female protagonist|parasite|space opera|cosmos"
+    },
+    {
+      "title": "Jimmy Neutron: The Eggpire Strikes Back",
+      "score": 0.3228,
+      "genres": "Family|Animation|Comedy|Science Fiction|TV Movie",
+      "keywords": "alien"
+    },
+    {
+      "title": "Alien: Earth",
+      "score": 0.321,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "transhumanism|based on movie|alien monster|alien parasites|22nd century|spaceship crash|near future|aliens|human robot hybrid|horror|arrogant|brisk|hopeful"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "50215aae6f93819d50d36540e46ce5cb"
+}

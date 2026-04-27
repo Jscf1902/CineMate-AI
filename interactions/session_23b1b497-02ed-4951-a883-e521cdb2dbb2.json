@@ -1,0 +1,50 @@
+{
+  "session_id": "23b1b497-02ed-4951-a883-e521cdb2dbb2",
+  "user_id": "573144741475",
+  "created_at": "2026-04-27T03:33:58.526667",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T03:39:55.519595",
+      "query": "Películas de terror intensas",
+      "routed_query": "Películas de terror intensas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 239.569,
+      "scores": [
+        0.2994,
+        0.2944,
+        0.2895,
+        0.2747,
+        0.271
+      ],
+      "titles": [
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "The Moro Affair",
+        "Blue Monkey",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "The Moro Affair",
+      "Blue Monkey",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

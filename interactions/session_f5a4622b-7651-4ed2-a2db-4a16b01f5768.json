@@ -1,0 +1,65 @@
+{
+  "session_id": "f5a4622b-7651-4ed2-a2db-4a16b01f5768",
+  "user_id": "573167556912",
+  "created_at": "2026-04-27T01:10:02.586693",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T01:24:53.687374",
+      "query": "dame una serie parecida a friends",
+      "routed_query": "dame una serie parecida a friends",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 645.716,
+      "scores": [
+        0.5129,
+        0.4066,
+        0.3907,
+        0.3339,
+        0.3301
+      ],
+      "titles": [
+        "Mama Drama",
+        "Helga y Flora",
+        "The Game of Keys",
+        "Monica and Friends",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 2,
+      "timestamp": "2026-04-27T01:26:49.663605"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "dame una serie parecida a friends",
+    "recommendation": "¡Claro! Basándome en tu solicitud de una serie similar a *Friends*, aquí tienes algunas recomendaciones:\n\n1. **Monica and Friends**: Es una serie animada llena de humor y situaciones graciosas, ideal si te gustan las historias de amistad y diversión.  \n2. **The Game of Keys**: Una serie mexicana que trata sobre la vida de una comunidad LGBTQ+ en Guadalajara, mezcla drama y humor.  \n3. **Mama Drama**: Combina drama y comedia, con personajes complejos y situaciones divertidas y trágicas.  \n4. **Helga y Flora**: Una serie dramática, misteriosa y criminal, con personajes fuertes y tramas intrigantes.  \n5. **Anche se è amore non si vede**: Una comedia italiana con un estilo único y personajes carismáticos.  \n\n¿Te gustaría alguna recomendación más específica?"
+  },
+  "memory": {
+    "last_movies": [
+      "Mama Drama",
+      "Helga y Flora",
+      "The Game of Keys",
+      "Monica and Friends",
+      "Anche se è amore non si vede"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

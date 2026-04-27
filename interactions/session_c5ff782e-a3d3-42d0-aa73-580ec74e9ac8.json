@@ -1,0 +1,126 @@
+{
+  "session_id": "c5ff782e-a3d3-42d0-aa73-580ec74e9ac8",
+  "user_id": "573178517661",
+  "created_at": "2026-04-27T01:02:44.580177",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T01:20:41.831192",
+      "query": "serie como diario de vampiros",
+      "routed_query": "serie como diario de vampiros",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 512.885,
+      "scores": [
+        0.4149,
+        0.4047,
+        0.2888,
+        0.2855,
+        0.2773
+      ],
+      "titles": [
+        "Mama Drama",
+        "Helga y Flora",
+        "Biss zur großen Pause - Das Highschool Vampir Grusical",
+        "Delico's Nursery",
+        "Blood-C: The Last Mind"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-27T01:24:17.748311"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "serie como diario de vampiros",
+    "recommendation": "¡Claro! Basándome en tu interés por series con vampiros, aquí tienes algunas opciones:\n\n1. **Biss zur großen Pause - Das Highschool Vampir Grusical** (Comedia|Misterio|Música|Horror)\n2. **Delico's Nursery** (Animación|Misterio|Ciencia Ficción y Fantasía)\n3. **Blood-C: The Last Mind** (Horror|Fantasía|Drama|Acción)\n\nEspero que estas recomendaciones te sean útiles. ¿Te gustaría conocer más detalles sobre alguna de ellas?"
+  },
+  "memory": {
+    "last_movies": [
+      "Mama Drama",
+      "Helga y Flora",
+      "Biss zur großen Pause - Das Highschool Vampir Grusical",
+      "Delico's Nursery",
+      "Blood-C: The Last Mind"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Mama Drama",
+      "score": 0.4149,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.4047,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Biss zur großen Pause - Das Highschool Vampir Grusical",
+      "score": 0.2888,
+      "genres": "Comedy|Mystery|Music|Horror",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Delico's Nursery",
+      "score": 0.2855,
+      "genres": "Animation|Mystery|Sci-Fi & Fantasy",
+      "keywords": "vampire|gothic|anime"
+    },
+    {
+      "title": "Blood-C: The Last Mind",
+      "score": 0.2773,
+      "genres": "Horror|Fantasy|Drama|Action",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Vampires: Thirst for the Truth",
+      "score": 0.2745,
+      "genres": "Documentary",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Vampires",
+      "score": 0.2742,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Immortally Yours",
+      "score": 0.27,
+      "genres": "Horror|Romance",
+      "keywords": "vampire|illuminati|murder"
+    },
+    {
+      "title": "Anne Rice: Birth of the Vampire",
+      "score": 0.2657,
+      "genres": "Documentary",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Battle of Culiacán: Heirs of the Cartel",
+      "score": -0.5735,
+      "genres": "Crime|Documentary",
+      "keywords": "serie mexicana"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "093774d3b3976762bf27e31f5dc4f1fd"
+}

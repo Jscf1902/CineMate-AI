@@ -1,0 +1,50 @@
+{
+  "session_id": "ec221071-b24b-46f5-bbfd-c9bb9c2d4cb1",
+  "user_id": "573133825915",
+  "created_at": "2026-04-27T00:48:20.001078",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T00:54:39.981878",
+      "query": "cuales sin los proximos estrenos en cine",
+      "routed_query": "cuales sin los proximos estrenos en cine",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 265.756,
+      "scores": [
+        0.4159,
+        0.4007,
+        0.3517,
+        0.3491,
+        0.346
+      ],
+      "titles": [
+        "Illiterate",
+        "Muchachos, la película de la gente",
+        "The Extermineitors 2: The Dragon Vengance",
+        "A Summer In The Caribbean",
+        "Che Kopete: The Movie"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "Muchachos, la película de la gente",
+      "The Extermineitors 2: The Dragon Vengance",
+      "A Summer In The Caribbean",
+      "Che Kopete: The Movie"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,79 @@
+{
+  "session_id": "af68ab28-0de6-4b6b-9173-8d013d17e19d",
+  "user_id": "573188069630",
+  "created_at": "2026-04-26T23:55:37.657185",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T00:00:51.132986",
+      "query": "me gustan las romanticas",
+      "routed_query": "me gustan las romanticas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 172.782,
+      "scores": [
+        0.2959,
+        -0.5294,
+        -0.5637,
+        -0.5681,
+        -0.605
+      ],
+      "titles": [
+        "Along came Love",
+        "Las Tontas No Van al Cielo",
+        "El País de las mujeres",
+        "Alcanzar una estrella",
+        "El derecho de nacer"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T00:33:12.333626",
+      "query": "quiero una mas nueva",
+      "routed_query": "quiero una mas nueva",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 628.646,
+      "scores": [
+        0.3123,
+        0.2922,
+        0.286,
+        0.2848,
+        -0.5472
+      ],
+      "titles": [
+        "Mama Drama",
+        "Helga y Flora",
+        "Juro que te amo",
+        "Por la gloria de sus padres",
+        "Una familia con suerte"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Along came Love",
+      "Las Tontas No Van al Cielo",
+      "El País de las mujeres",
+      "Alcanzar una estrella",
+      "El derecho de nacer",
+      "Mama Drama",
+      "Helga y Flora",
+      "Juro que te amo",
+      "Por la gloria de sus padres",
+      "Una familia con suerte"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

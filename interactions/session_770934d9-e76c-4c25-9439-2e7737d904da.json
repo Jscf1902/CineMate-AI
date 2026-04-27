@@ -1,0 +1,126 @@
+{
+  "session_id": "770934d9-e76c-4c25-9439-2e7737d904da",
+  "user_id": "573015989061",
+  "created_at": "2026-04-26T22:59:43.449766",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T23:14:27.943379",
+      "query": "una peli de narcos",
+      "routed_query": "una peli de narcos",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 472.365,
+      "scores": [
+        0.4227,
+        0.3721,
+        0.3389,
+        0.2945,
+        0.2901
+      ],
+      "titles": [
+        "Narcos: Mexico",
+        "Natural Born Narco",
+        "Narco Circus",
+        "Muchachos, la película de la gente",
+        "Tres Caínes"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-26T23:17:55.396907"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "una peli de narcos",
+    "recommendation": "¡Claro! Aquí tienes algunas películas y series relacionadas con el mundo de los narcotráficos:\n\n1. **Narcos: Mexico** (Serie basada en hechos) - Una serie de acción y drama sobre el crimen organizado en México.\n2. **Natural Born Narco** - Una película de crimen y drama que explora la vida de personajes relacionados con el narcotráfico.\n3. **Tres Caínes** - Una película de drama y acción/aventura que aborda la guerra contra los narcotraficantes en Colombia.\n4. **Narco Circus** (Documental) - Un documental que muestra el lado oscuro del narcotráfico.\n5. **Muchachos, la película de la gente** (Documental) - Un documental que aborda temas sociales relacionados con el cine argentino, aunque no directamente narcos.\n\n¿Te gustaría que te recomiende alguna de estas?"
+  },
+  "memory": {
+    "last_movies": [
+      "Narcos: Mexico",
+      "Natural Born Narco",
+      "Narco Circus",
+      "Muchachos, la película de la gente",
+      "Tres Caínes"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Narcos: Mexico",
+      "score": 0.4227,
+      "genres": "Drama|Crime",
+      "keywords": "corruption|mexico|cocaine|tiger|usa–mexico border|based on true story|drug cartel|marijuana|mariachi|drug lord|dea|1980s|dark|narcos|el chapo|gritty|thriller|exciting|action|audacious|distressing|familiar"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.3721,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Narco Circus",
+      "score": 0.3389,
+      "genres": "Documentary|Crime",
+      "keywords": "narco"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2945,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Tres Caínes",
+      "score": 0.2901,
+      "genres": "Drama|Action & Adventure|War & Politics",
+      "keywords": "narcotics|narcoterrorist war|war|colombia"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2875,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "The Game of Keys",
+      "score": 0.2751,
+      "genres": "Drama",
+      "keywords": "lgbt|serie mexicana"
+    },
+    {
+      "title": "Una familia con suerte",
+      "score": -0.5464,
+      "genres": "Comedy|Drama|Family",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Battle of Culiacán: Heirs of the Cartel",
+      "score": -0.6737,
+      "genres": "Crime|Documentary",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "The One Who Couldn't Love",
+      "score": -0.6991,
+      "genres": "Drama",
+      "keywords": "a que não podia amar"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "a5996c7be4d58e86a8746cee8a8d7e87"
+}

@@ -1,0 +1,200 @@
+{
+  "session_id": "5893f3ab-851d-4ecd-bbc1-44a451e82273",
+  "user_id": "573155918182",
+  "created_at": "2026-04-26T23:36:09.400298",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T23:51:06.355693",
+      "query": "peliculas de abogados",
+      "routed_query": "peliculas de abogados",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 587.49,
+      "scores": [
+        0.2185,
+        0.2162,
+        0.2112,
+        0.2105,
+        0.2097
+      ],
+      "titles": [
+        "Offworld",
+        "Borrón y Vida Nueva",
+        "El país más feliz del mundo",
+        "Graduados",
+        "Tiger and Dragon"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T01:05:48.809578",
+      "query": "serie de abogados",
+      "routed_query": "serie de abogados",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 387.473,
+      "scores": [
+        0.3997,
+        0.3765,
+        0.221,
+        0.2202,
+        0.2151
+      ],
+      "titles": [
+        "Mama Drama",
+        "Helga y Flora",
+        "Rigoletto",
+        "Juro que te amo",
+        "Aliados"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T01:27:34.822725",
+      "query": "explorar mas opciones de leyes y juicios",
+      "routed_query": "explorar mas opciones de leyes y juicios",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": true,
+      "latency": 659.978,
+      "scores": [
+        0.3765
+      ],
+      "titles": [
+        "Helga y Flora"
+      ],
+      "results_count": 1
+    },
+    {
+      "timestamp": "2026-04-27T02:47:02.650563",
+      "query": "similares a law order",
+      "routed_query": "similares a law order",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 463.65,
+      "scores": [
+        0.3962,
+        0.3727,
+        0.332,
+        0.3232,
+        0.3143
+      ],
+      "titles": [
+        "Law School",
+        "Law & Order",
+        "Ignite",
+        "You’re Missing the Point",
+        "Heart's Decree"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-27T02:58:01.599843"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "similares a law order",
+    "recommendation": "¡Claro! Basándome en el contexto proporcionado, te recomendaría estas películas similares a *Law & Order*:\n\n1. **Law School**  \n   Género: Drama, Crime, Mystery  \n   Palabras clave: academia de derecho, universidad, estudiante de derecho, muerte  \n\n2. **Ignite**  \n   Género: Crime  \n   Palabras clave: abogado, legal  \n\n3. **Law’s Blind Spot**  \n   Género: Crime  \n   Palabras clave: abogado, legal  \n\n4. **Deadly Intent**  \n   Género: Crime  \n   Palabras clave: abogado, legal  \n\n5. **Justice in the Court**  \n   Género: Crime  \n   Palabras clave: abogado, legal  \n\nEspero que estas recomendaciones te gusten. ¿Te gustaría ver alguna en particular o necesitas más opciones?"
+  },
+  "memory": {
+    "last_movies": [
+      "Offworld",
+      "Borrón y Vida Nueva",
+      "El país más feliz del mundo",
+      "Graduados",
+      "Tiger and Dragon",
+      "Mama Drama",
+      "Helga y Flora",
+      "Rigoletto",
+      "Juro que te amo",
+      "Aliados",
+      "Law School",
+      "Law & Order",
+      "Ignite",
+      "You’re Missing the Point",
+      "Heart's Decree"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Law School",
+      "score": 0.3962,
+      "genres": "Drama|Crime|Mystery",
+      "keywords": "law school|university|law student|death|slow burn romance"
+    },
+    {
+      "title": "Law & Order",
+      "score": 0.3727,
+      "genres": "Crime|Drama",
+      "keywords": "new york city|police|lawyer|homicide detective|crime investigation|criminal law"
+    },
+    {
+      "title": "Ignite",
+      "score": 0.332,
+      "genres": "Crime",
+      "keywords": "lawyer|legal"
+    },
+    {
+      "title": "You’re Missing the Point",
+      "score": 0.3232,
+      "genres": "Comedy",
+      "keywords": "judge|husband wife relationship|brother-in-law|chicken|murder|confusion|lawyer|dog|trail"
+    },
+    {
+      "title": "Heart's Decree",
+      "score": 0.3143,
+      "genres": "Drama|Comedy|Family",
+      "keywords": "lawyer|colombia"
+    },
+    {
+      "title": "The Miramar Murders: The State vs. Pablo Ibar",
+      "score": 0.3089,
+      "genres": "Documentary",
+      "keywords": "assassination|murder|lawyer|killer|courtroom|1990s"
+    },
+    {
+      "title": "Maamla Legal Hai",
+      "score": 0.3064,
+      "genres": "Comedy|Drama",
+      "keywords": "courtroom|criminal lawyer|workplace comedy"
+    },
+    {
+      "title": "Beyond the Bar",
+      "score": 0.3007,
+      "genres": "Drama",
+      "keywords": "lawyer|law firm|calm|legal drama|loving|informative"
+    },
+    {
+      "title": "The Pelican Brief",
+      "score": 0.2969,
+      "genres": "Thriller|Crime|Drama",
+      "keywords": "judge|professor|mission of murder|supreme court|legal thriller|dramatic|suspenseful"
+    },
+    {
+      "title": "May It Please the Court",
+      "score": 0.2957,
+      "genres": "Drama",
+      "keywords": "judge|court|prosecutor|law firm|public defender|attorney"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "c9782ec22f9216043879c204d55e5b49"
+}

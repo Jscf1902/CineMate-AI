@@ -1,0 +1,65 @@
+{
+  "session_id": "0532bfcd-2ca5-45f4-8a00-cefc232ce09d",
+  "user_id": "573167556912",
+  "created_at": "2026-04-26T23:03:33.234190",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T23:25:56.168851",
+      "query": "recomiendame algo parecido a ready player one",
+      "routed_query": "recomiendame algo parecido a ready player one",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1032.359,
+      "scores": [
+        0.3546,
+        0.2741,
+        0.2615,
+        0.2523,
+        0.2509
+      ],
+      "titles": [
+        "Deal or No Deal",
+        "Wreck-It Ralph",
+        "Yes or No Games",
+        "Easy to Learn, Hard to Master: The Fate of Atari",
+        "Skinship"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-26T23:26:42.877253"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "recomiendame algo parecido a ready player one",
+    "recommendation": "¡Hola! Según tu búsqueda de algo parecido a *Ready Player One*, te recomendaría:\n\n1.  **Wreck-It Ralph (2013):** Es una animación llena de acción, aventura y humor, ambientada en el interior de un arcoíris de videojuegos. Tiene elementos de villano, rescate y mundos paralelos que podrían gustarte.\n\n¿Te gustaría ver alguna de estas películas? Si ya las viste o quieres algo más específico, házmelo saber."
+  },
+  "memory": {
+    "last_movies": [
+      "Deal or No Deal",
+      "Wreck-It Ralph",
+      "Yes or No Games",
+      "Easy to Learn, Hard to Master: The Fate of Atari",
+      "Skinship"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

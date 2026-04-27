@@ -1,0 +1,155 @@
+{
+  "session_id": "27f3ce91-1ed7-40b2-b25c-f66efcd5a9f9",
+  "user_id": "573178517661",
+  "created_at": "2026-04-26T23:06:52.189982",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-26T23:32:52.874272",
+      "query": "una pelicula como crepusculo",
+      "routed_query": "una pelicula como crepusculo",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 945.818,
+      "scores": [
+        0.2601,
+        0.2579,
+        0.2414,
+        0.2375,
+        0.2363
+      ],
+      "titles": [
+        "The World's Gold",
+        "Muchachos, la película de la gente",
+        "Illiterate",
+        "Juro que te amo",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-26T23:47:37.555117",
+      "query": "Películas románticas emotivas",
+      "routed_query": "Películas románticas emotivas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 604.842,
+      "scores": [
+        0.2798,
+        0.2604,
+        0.2596,
+        0.2508,
+        -0.7309
+      ],
+      "titles": [
+        "Along came Love",
+        "The Family",
+        "State of Fear",
+        "Sweetheart",
+        "El Manantial"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-27T00:26:22.856567"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Películas románticas emotivas",
+    "recommendation": "¡Claro! Basado en tu gusto por películas románticas emotivas, aquí tienes algunas recomendaciones:\n\n1.  **Along came Love**: Una historia de drama que explora el concepto del amor de manera profunda y reflexiva.\n2.  **El Manantial**: Una película de drama con una trama romántica intensa, a menudo considerada como una telenovela adaptada, llena de emociones fuertes.\n3.  **Sweetheart**: Esta comedia también incorpora elementos dramáticos y románticos, creando situaciones y sentimientos emotivos.\n4.  **The Family**: Aunque es principalmente acción y drama, tiene matices románticos que podrían interesarte.\n5.  **State of Fear**: Otra opción con temática romántica en medio de una trama de acción y suspenso, añadiendo capas emocionales complejas.\n\nEspero que estas películas te conmueva. ¿Te gustaría ver alguna en específico o necesitas más opciones?"
+  },
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Muchachos, la película de la gente",
+      "Illiterate",
+      "Juro que te amo",
+      "Mama Drama",
+      "Along came Love",
+      "The Family",
+      "State of Fear",
+      "Sweetheart",
+      "El Manantial"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Along came Love",
+      "score": 0.2798,
+      "genres": "Drama",
+      "keywords": "romance|veio o amor"
+    },
+    {
+      "title": "The Family",
+      "score": 0.2604,
+      "genres": "Action & Adventure|Crime|Drama",
+      "keywords": "romantic"
+    },
+    {
+      "title": "State of Fear",
+      "score": 0.2596,
+      "genres": "Action|Thriller|Crime|Drama",
+      "keywords": "romantic"
+    },
+    {
+      "title": "Sweetheart",
+      "score": 0.2508,
+      "genres": "Comedy",
+      "keywords": "italian|dramatic|romantic"
+    },
+    {
+      "title": "El Manantial",
+      "score": -0.7309,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Voltea pa' que te enamores",
+      "score": -0.7329,
+      "genres": "Drama|Soap",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Amores verdaderos",
+      "score": -0.7341,
+      "genres": "Drama|Soap",
+      "keywords": "romance"
+    },
+    {
+      "title": "Corazón Esmeralda",
+      "score": -0.7356,
+      "genres": "Drama|Soap",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Amor en silencio",
+      "score": -0.7378,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Entre el amor y el odio",
+      "score": -0.7387,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "3e3d01b22b3e25ca7c504cdb55a26969"
+}

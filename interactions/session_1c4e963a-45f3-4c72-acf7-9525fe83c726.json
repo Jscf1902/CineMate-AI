@@ -1,0 +1,65 @@
+{
+  "session_id": "1c4e963a-45f3-4c72-acf7-9525fe83c726",
+  "user_id": "573137650049",
+  "created_at": "2026-04-27T01:27:56.668389",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T01:51:08.940439",
+      "query": "pelicula romantica",
+      "routed_query": "pelicula romantica",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 627.359,
+      "scores": [
+        0.5845,
+        0.426,
+        0.4115,
+        0.4042,
+        0.4025
+      ],
+      "titles": [
+        "Junjo Romantica",
+        "Sekai Ichi Hatsukoi: The World's Greatest First Love",
+        "given",
+        "Sasaki and Miyano",
+        "Love Stage!!"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-27T02:04:09.999332"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "pelicula romantica",
+    "recommendation": "¡Claro! Aquí tienes algunas recomendaciones de películas románticas basadas en el contexto proporcionado:\n\n1. **Junjo Romantica**: Una animación llena de drama, romance y relaciones complejas, perfecta para los amantes de historias intensas con toques de BL.\n2. **Sekai Ichi Hatsukoi: The World's Greatest First Love**: Un drama romántico que explora la complicidad y el amor en una oficina, con un estilo de vida diaria muy pegajoso.\n3. **given**: Una historia de romance y drama emocional, ideal para quienes buscan una narrativa profunda y con sentimiento.\n4. **Sasaki and Miyano**: Una comedia romántica con un toque juvenil y divertido, perfecta para una tarde relajada.\n5. **Love Stage!!**: Un romcom animado con elementos de trapa y vestimenta cruzada, con un estilo de vida diaria encantador y lleno de humor.\n\n¿Te gustaría que siga con más recomendaciones?"
+  },
+  "memory": {
+    "last_movies": [
+      "Junjo Romantica",
+      "Sekai Ichi Hatsukoi: The World's Greatest First Love",
+      "given",
+      "Sasaki and Miyano",
+      "Love Stage!!"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}
