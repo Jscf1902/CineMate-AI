@@ -1,0 +1,65 @@
+{
+  "session_id": "d8c60a58-88c4-4612-9695-7b38273448d6",
+  "user_id": "573167556912",
+  "created_at": "2026-04-28T21:37:54.307070",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-28T21:46:24.609711",
+      "query": "algo parecido a your name",
+      "routed_query": "algo parecido a your name",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 366.253,
+      "scores": [
+        0.3933,
+        0.3405,
+        0.3286,
+        0.3194,
+        0.3184
+      ],
+      "titles": [
+        "We Are Who We Are",
+        "Baby",
+        "Prisma",
+        "Roman Holiday",
+        "Greek Salad"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-28T21:57:48.734970"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "algo parecido a your name",
+    "recommendation": "¡Hola! Entendido, buscas algo parecido a \"Your Name\". Sin embargo, en mi contexto solo puedo recomendarte películas de la lista proporcionada. Aquí tienes 5 opciones:\n\n1.  **We Are Who We Are**: Una serie dramática ambientada en una base militar en Italia, que explora identidad y relaciones complejas entre jóvenes.\n2.  **Baby**: Una serie dramática que aborda temas intensos como abuso, crisis familiar y vida adolescente en Roma.\n3.  **Prisma**: Una serie dramática y atrevida sobre la vida de jóvenes, con temáticas de romance entre hombres (BL).\n4.  **Roman Holiday**: Una película de drama, comedia y romance con un trasfondo de identidad secreta y amor prohibido en Roma.\n5.  **Greek Salad**: Una serie de drama y comedia que trata sobre temas diversos en un edificio de apartamentos, incluyendo relaciones familiares y temáticas de género.\n\n¿Te interesan estas opciones o quieres que recomiende algo completamente diferente?"
+  },
+  "memory": {
+    "last_movies": [
+      "We Are Who We Are",
+      "Baby",
+      "Prisma",
+      "Roman Holiday",
+      "Greek Salad"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

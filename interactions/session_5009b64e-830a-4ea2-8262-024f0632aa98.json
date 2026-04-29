@@ -1,0 +1,126 @@
+{
+  "session_id": "5009b64e-830a-4ea2-8262-024f0632aa98",
+  "user_id": "573167556912",
+  "created_at": "2026-04-28T17:40:43.752976",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-28T17:48:25.582001",
+      "query": "anime",
+      "routed_query": "anime",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 343.337,
+      "scores": [
+        0.4528,
+        0.3339,
+        0.327,
+        0.3256,
+        0.3232
+      ],
+      "titles": [
+        "Annie",
+        "Home Alone 2: Lost in New York",
+        "The Nanny",
+        "Problem Child",
+        "Girl Meets World"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-28T17:49:01.804449"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "anime",
+    "recommendation": "¡Claro! Aquí tienes algunas recomendaciones de anime que podrían gustarte:\n\n1. **Your Name (Kimi no Na wa)** - Una cinta animada sobre magia y conexión entre dos jóvenes.\n2. **Spirited Away** - Una película sobre un adolescente que se encuentra en un mundo mágico y debe demostrar su valentía.\n3. **Your Lie in April** - Una historia sobre la música y el amor entre un pianista y un violinista.\n4. **Your Highness** - Una comedia sobre dos reyes intercambiados en el cuerpo del otro.\n5. **The Quintet** - Una serie sobre un niño que descubre un orquesta mágica en su jardín.\n\n¿Hay algo específico que te gustaría ver? ¿Quieres algo más para niños o con más acción?"
+  },
+  "memory": {
+    "last_movies": [
+      "Annie",
+      "Home Alone 2: Lost in New York",
+      "The Nanny",
+      "Problem Child",
+      "Girl Meets World"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Annie",
+      "score": 0.4528,
+      "genres": "Comedy|Drama|Family",
+      "keywords": "new york city|child abuse|helicopter|musical|based on comic|based on play or musical|billionaire|orphan|foster sister|foster child|female child abuser|2010s"
+    },
+    {
+      "title": "Home Alone 2: Lost in New York",
+      "score": 0.3339,
+      "genres": "Comedy|Family|Adventure",
+      "keywords": "holiday|new york city|burglar|slapstick comedy|sequel|little boy|family relationships|home invasion|family|precocious child|home alone|mischievous child|shocking|aggressive|christmas|kids on their own|child rescue|depressing"
+    },
+    {
+      "title": "The Nanny",
+      "score": 0.327,
+      "genres": "Comedy|Family",
+      "keywords": "new york city|babysitter|family relationships|female protagonist|employer employee relationship|sitcom|domestic worker"
+    },
+    {
+      "title": "Problem Child",
+      "score": 0.3256,
+      "genres": "Comedy|Family",
+      "keywords": "ransom|kidnapping|foster parents|child hero|baby-snatching|orphanage|spoiled child|pflegesohn|slapstick comedy|dark comedy|serial killer|problem child|mischievous child|neighborhood|kids|1990s"
+    },
+    {
+      "title": "Girl Meets World",
+      "score": 0.3232,
+      "genres": "Comedy|Family",
+      "keywords": "new york city|female friendship|high school|growing up|coming of age|female protagonist|middle school|spin off|sitcom"
+    },
+    {
+      "title": "Unbreakable Kimmy Schmidt",
+      "score": 0.3148,
+      "genres": "Comedy",
+      "keywords": "new york city|cult|fish out of water|new home|lgbt|sitcom|overcoming the odds|goofy"
+    },
+    {
+      "title": "Broad City",
+      "score": 0.3146,
+      "genres": "Comedy|Drama",
+      "keywords": "new york city|female friendship|cannabis|buddy comedy|sitcom|young adult"
+    },
+    {
+      "title": "Succession",
+      "score": 0.3119,
+      "genres": "Drama|Comedy",
+      "keywords": "new york city|sibling relationship|media tycoon|businessman|dysfunctional family|wealth|sibling|white collar criminal|failed marriage|vindictive|baffled|commanding"
+    },
+    {
+      "title": "The Feeling That the Time for Doing Something Has Passed",
+      "score": 0.3084,
+      "genres": "Comedy",
+      "keywords": "new york city|sexual humiliation|new york subway|submissive|bdsm|woman director|vignette|dominance submissiveness|vulnerability|late coming of age|jewish|independent woman|independent film|experimental cinema|autofiction|mundanity|arthouse|dry humor"
+    },
+    {
+      "title": "Please Don't Feed the Children",
+      "score": 0.3072,
+      "genres": "Horror|Thriller",
+      "keywords": "child abuse|psychopath|apocalypse|cat and mouse|children on the run|dead parents|child kidnapping|trapped in a house|prisoners|grieving mother|absurd|orphans|children|orphan girl"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "dd98223e42e6fb9d57737b5c7441ff43"
+}
