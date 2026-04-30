@@ -1,0 +1,126 @@
+{
+  "session_id": "d3da3400-510f-45cf-a461-bcfcc24686b6",
+  "user_id": "573025203977",
+  "created_at": "2026-04-29T19:14:25.070700",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T19:31:12.746343",
+      "query": "algo parecido a dune",
+      "routed_query": "algo parecido a dune",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 752.682,
+      "scores": [
+        0.2817,
+        0.2494,
+        0.2472,
+        0.2427,
+        0.2423
+      ],
+      "titles": [
+        "The Great Escapists",
+        "Bury Them Deep",
+        "Between God, The Devil and a Winchester",
+        "Hands Up, Dead Man! You're Under Arrest",
+        "On the Third Day Arrived the Crow"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-29T19:44:44.618573"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "algo parecido a dune",
+    "recommendation": "¡Claro! Si te gustó *Dune*, te recomendaría estos westerns de spaghetti, que también tienen una estética desértica y épica:\n\n1. **The Great Escapists** (Documental): Aunque es un documental, explora la épica del desierto a través de la historia de fugas de la prisión de Devil's Island.  \n2. **Bury Them Deep** (Western): Ambientado en el desierto, este spaghetti western tiene acción y atmósfera clásica.  \n3. **Between God, The Devil and a Winchester** (Western): Una historia de venganza en el Oeste Salvaje con toques visuales desérticos.  \n4. **Hands Up, Dead Man! You're Under Arrest** (Acción|Romance|Western): Combina acción en el desierto con romance y tramas tradicionales de western.  \n5. **On the Third Day Arrived the Crow** (Western): Un clásico de spaghetti western con ambientación en el desierto y personajes icónicos.  \n\n¿Te gustaría ver alguno en específico o necesitas más opciones?"
+  },
+  "memory": {
+    "last_movies": [
+      "The Great Escapists",
+      "Bury Them Deep",
+      "Between God, The Devil and a Winchester",
+      "Hands Up, Dead Man! You're Under Arrest",
+      "On the Third Day Arrived the Crow"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Great Escapists",
+      "score": 0.2817,
+      "genres": "Documentary",
+      "keywords": "beach|desert"
+    },
+    {
+      "title": "Bury Them Deep",
+      "score": 0.2494,
+      "genres": "Western",
+      "keywords": "spaghetti western"
+    },
+    {
+      "title": "Between God, The Devil and a Winchester",
+      "score": 0.2472,
+      "genres": "Western",
+      "keywords": "spaghetti western"
+    },
+    {
+      "title": "Hands Up, Dead Man! You're Under Arrest",
+      "score": 0.2427,
+      "genres": "Action|Romance|Western",
+      "keywords": "spaghetti western"
+    },
+    {
+      "title": "On the Third Day Arrived the Crow",
+      "score": 0.2423,
+      "genres": "Western",
+      "keywords": "spaghetti western"
+    },
+    {
+      "title": "I'll Sell My Skin Dearly",
+      "score": 0.2377,
+      "genres": "Western",
+      "keywords": "spaghetti western"
+    },
+    {
+      "title": "Sartana's Here... Trade Your Pistol for a Coffin",
+      "score": 0.2316,
+      "genres": "Western",
+      "keywords": "spaghetti western"
+    },
+    {
+      "title": "Massacre Time",
+      "score": 0.2308,
+      "genres": "Western",
+      "keywords": "spaghetti western"
+    },
+    {
+      "title": "Land of Women",
+      "score": 0.2304,
+      "genres": "Drama|Comedy",
+      "keywords": "thriller"
+    },
+    {
+      "title": "The Stranger Returns",
+      "score": 0.2293,
+      "genres": "Western",
+      "keywords": "spaghetti western"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "cabdb1014252d39ac018f447e7d5fbc2"
+}

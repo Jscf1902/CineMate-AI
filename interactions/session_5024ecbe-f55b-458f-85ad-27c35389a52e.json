@@ -1,0 +1,94 @@
+{
+  "session_id": "5024ecbe-f55b-458f-85ad-27c35389a52e",
+  "user_id": "573237982615",
+  "created_at": "2026-04-29T22:44:39.503541",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T23:04:25.344389",
+      "query": "Películas de acción intensas y entretenidas",
+      "routed_query": "Películas de acción intensas y entretenidas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 509.68,
+      "scores": [
+        0.175,
+        0.1721,
+        0.1597,
+        0.1563,
+        0.1512
+      ],
+      "titles": [
+        "The World's Gold",
+        "Muchachos, la película de la gente",
+        "Vacanze di Natale a Cortina",
+        "Amar es para siempre",
+        "È questa la vita che sognavo da bambino?"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-30T00:21:30.381399",
+      "query": "Películas románticas emotivas",
+      "routed_query": "Películas románticas emotivas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 2260.937,
+      "scores": [
+        0.2798,
+        0.2604,
+        0.2596,
+        0.2508,
+        -0.7309
+      ],
+      "titles": [
+        "Along came Love",
+        "The Family",
+        "State of Fear",
+        "Sweetheart",
+        "El Manantial"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-30T00:24:08.599957"
+    },
+    "nps": {
+      "score": 7,
+      "category": "passive"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Películas románticas emotivas",
+    "recommendation": "¡Claro! Aquí tienes algunas películas románticas emotivas basadas en el contexto proporcionado:\n\n1. **Along came Love** (Género: Drama). Una historia simple pero conmovedora sobre el encuentro y el desarrollo de una relación.\n2. **El Manantial** (Género: Drama). Basada en una telenovela, esta película explora la historia de amor entre dos hermanos separados por la adversidad.\n3. **State of Fear** (Género: Acción|Thriller|Crimen|Drama). Aunque es una película de suspense, tiene una trama con elementos románticos y emocionales que complementan la historia principal.\n4. **The Family** (Género: Acción & Aventura|Crimen|Drama). Esta película tiene una trama con elementos románticos y emocionales que complementan la historia principal.\n5. **Sweetheart** (Género: Comedia). Aunque es una comedia, también tiene una historia dramática y romántica que puede ser muy emotiva.\n\nEspero que estas películas te gusten. ¿Necesitas algo más específico?"
+  },
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Muchachos, la película de la gente",
+      "Vacanze di Natale a Cortina",
+      "Amar es para siempre",
+      "È questa la vita che sognavo da bambino?",
+      "Along came Love",
+      "The Family",
+      "State of Fear",
+      "Sweetheart",
+      "El Manantial"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

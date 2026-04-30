@@ -1,0 +1,126 @@
+{
+  "session_id": "25680d43-9775-4422-96c1-db7062411a1a",
+  "user_id": "573115135063",
+  "created_at": "2026-04-29T23:04:26.617209",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T23:29:16.766755",
+      "query": "Películas de comedia divertidas",
+      "routed_query": "Películas de comedia divertidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 676.559,
+      "scores": [
+        0.1331,
+        0.1257,
+        0.1246,
+        0.1215,
+        0.1074
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "Vacanze di Natale a Cortina",
+        "Blue Monkey",
+        "Muchachos, la película de la gente",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-30T03:38:14.091420"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Películas de comedia divertidas",
+    "recommendation": "Okay, aquí tienes algunas películas de comedia divertidas basadas en tu solicitud:\n\n1.  **Vacanze di Natale a Cortina** (Comedia): Una comedia ligera y divertida.\n2.  **Club de Cuervos Presents: The Ballad of Hugo Sánchez** (Comedia): Una comedia con situaciones graciosas y un toque especial."
+  },
+  "memory": {
+    "last_movies": [
+      "Egypt: Secrets of the Pharaohs",
+      "Vacanze di Natale a Cortina",
+      "Blue Monkey",
+      "Muchachos, la película de la gente",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1331,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1257,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Blue Monkey",
+      "score": 0.1246,
+      "genres": "Horror|Science Fiction",
+      "keywords": "insect|plant|infection|creature|bug|virus|canuxploitation|bacteria"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1215,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "score": 0.1074,
+      "genres": "Comedy",
+      "keywords": "island|fountain|central america|vomiting|football (soccer) team|vegetarianism|drug testing"
+    },
+    {
+      "title": "Pasteur et Koch : Un duel de géants dans la guerre des microbes",
+      "score": 0.1059,
+      "genres": "Documentary|History|TV Movie",
+      "keywords": "medicine|vaccination|microbe"
+    },
+    {
+      "title": "Mammals",
+      "score": 0.1055,
+      "genres": "Comedy|Drama",
+      "keywords": "romcom|dramedy"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1053,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Three Giants of the Roman Empire",
+      "score": 0.1034,
+      "genres": "Adventure",
+      "keywords": "peplum"
+    },
+    {
+      "title": "Up to the World",
+      "score": 0.103,
+      "genres": "Comedy|Drama",
+      "keywords": "coming out|chile"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4103b198c8d350b4cdbb1be68ac70b91"
+}

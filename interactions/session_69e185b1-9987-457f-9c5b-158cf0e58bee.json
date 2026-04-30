@@ -1,0 +1,111 @@
+{
+  "session_id": "69e185b1-9987-457f-9c5b-158cf0e58bee",
+  "user_id": "573164191703",
+  "created_at": "2026-04-29T21:24:32.454299",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T21:56:54.490360",
+      "query": "Películas de comedia divertidas",
+      "routed_query": "Películas de comedia divertidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 766.948,
+      "scores": [
+        0.1331,
+        0.1257,
+        0.1246,
+        0.1215,
+        0.1074
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "Vacanze di Natale a Cortina",
+        "Blue Monkey",
+        "Muchachos, la película de la gente",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Egypt: Secrets of the Pharaohs",
+      "Vacanze di Natale a Cortina",
+      "Blue Monkey",
+      "Muchachos, la película de la gente",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1331,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1257,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Blue Monkey",
+      "score": 0.1246,
+      "genres": "Horror|Science Fiction",
+      "keywords": "insect|plant|infection|creature|bug|virus|canuxploitation|bacteria"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1215,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "score": 0.1074,
+      "genres": "Comedy",
+      "keywords": "island|fountain|central america|vomiting|football (soccer) team|vegetarianism|drug testing"
+    },
+    {
+      "title": "Pasteur et Koch : Un duel de géants dans la guerre des microbes",
+      "score": 0.1059,
+      "genres": "Documentary|History|TV Movie",
+      "keywords": "medicine|vaccination|microbe"
+    },
+    {
+      "title": "Mammals",
+      "score": 0.1055,
+      "genres": "Comedy|Drama",
+      "keywords": "romcom|dramedy"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1053,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Three Giants of the Roman Empire",
+      "score": 0.1034,
+      "genres": "Adventure",
+      "keywords": "peplum"
+    },
+    {
+      "title": "Up to the World",
+      "score": 0.103,
+      "genres": "Comedy|Drama",
+      "keywords": "coming out|chile"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4103b198c8d350b4cdbb1be68ac70b91"
+}

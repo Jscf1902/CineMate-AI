@@ -1,0 +1,111 @@
+{
+  "session_id": "f3e9b0d2-e484-4a8e-81ef-c173d4f649ab",
+  "user_id": "573012920698",
+  "created_at": "2026-04-29T21:10:49.551142",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T21:30:58.195474",
+      "query": "severance serie from serie",
+      "routed_query": "severance serie from serie",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 918.451,
+      "scores": [
+        0.4334,
+        0.4155,
+        -0.547,
+        -0.6947,
+        -0.7656
+      ],
+      "titles": [
+        "Mama Drama",
+        "Helga y Flora",
+        "Battle of Culiacán: Heirs of the Cartel",
+        "Senora Acero",
+        "The Lady from Vendaval"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Mama Drama",
+      "Helga y Flora",
+      "Battle of Culiacán: Heirs of the Cartel",
+      "Senora Acero",
+      "The Lady from Vendaval"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Mama Drama",
+      "score": 0.4334,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.4155,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Battle of Culiacán: Heirs of the Cartel",
+      "score": -0.547,
+      "genres": "Crime|Documentary",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Senora Acero",
+      "score": -0.6947,
+      "genres": "Drama|Crime|Soap",
+      "keywords": "telenovela|serie mexicana"
+    },
+    {
+      "title": "The Lady from Vendaval",
+      "score": -0.7656,
+      "genres": "Soap|Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Las Vías del Amor",
+      "score": -0.7693,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Dark Fate",
+      "score": -0.7758,
+      "genres": "Drama|Romance",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Lo imperdonable",
+      "score": -0.776,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Ask God For Forgiveness... Not Me",
+      "score": -0.7777,
+      "genres": "Drama|Soap",
+      "keywords": "telenovela|que te perdoe deus"
+    },
+    {
+      "title": "La hija del Mariachi",
+      "score": -0.7873,
+      "genres": "Soap|Drama",
+      "keywords": "telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "5aa070e8c51b6431e6aaf8b3c1cb94b2"
+}

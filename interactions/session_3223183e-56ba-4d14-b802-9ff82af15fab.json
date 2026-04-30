@@ -1,0 +1,184 @@
+{
+  "session_id": "3223183e-56ba-4d14-b802-9ff82af15fab",
+  "user_id": "573188474215",
+  "created_at": "2026-04-29T17:59:36.457352",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T18:06:39.159118",
+      "query": "Películas de terror intensas",
+      "routed_query": "Películas de terror intensas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 185.938,
+      "scores": [
+        0.2994,
+        0.2944,
+        0.2895,
+        0.2747,
+        0.271
+      ],
+      "titles": [
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "The Moro Affair",
+        "Blue Monkey",
+        "Complicit"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-29T18:15:44.692221",
+      "query": "Películas de comedia divertidas",
+      "routed_query": "Películas de comedia divertidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 281.991,
+      "scores": [
+        0.1331,
+        0.1257,
+        0.1215,
+        0.1074,
+        0.1059
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "Vacanze di Natale a Cortina",
+        "Muchachos, la película de la gente",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+        "Pasteur et Koch : Un duel de géants dans la guerre des microbes"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-29T18:23:57.940112",
+      "query": "muchas gracias",
+      "routed_query": "muchas gracias",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 240.008,
+      "scores": [
+        0.3414,
+        0.3302,
+        0.3153,
+        0.2892,
+        0.285
+      ],
+      "titles": [
+        "A World of Ours",
+        "Running Out",
+        "Parenthood",
+        "Herederos por accidente",
+        "Sundays"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-29T18:24:45.753783"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "muchas gracias",
+    "recommendation": "De nada. Aquí tienes algunas opciones diferentes para ver:\n\n-   **A World of Ours** (Crime, Drama, Thriller): Una película de drama familiar.\n-   **Running Out** (Drama, TV Movie): Otra película centrada en el drama familiar.\n-   **Parenthood** (Drama): Una serie de televisión sobre la vida de una gran familia.\n-   **Herederos por accidente** (Comedy): Una comedia sobre las relaciones familiares.\n-   **Sundays** (Drama): Un drama que explora aspectos de la familia relacionados con la religión."
+  },
+  "memory": {
+    "last_movies": [
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "The Moro Affair",
+      "Blue Monkey",
+      "Complicit",
+      "Egypt: Secrets of the Pharaohs",
+      "Vacanze di Natale a Cortina",
+      "Muchachos, la película de la gente",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "Pasteur et Koch : Un duel de géants dans la guerre des microbes",
+      "A World of Ours",
+      "Running Out",
+      "Parenthood",
+      "Herederos por accidente",
+      "Sundays"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "A World of Ours",
+      "score": 0.3414,
+      "genres": "Crime|Drama|Thriller",
+      "keywords": "family drama"
+    },
+    {
+      "title": "Running Out",
+      "score": 0.3302,
+      "genres": "Drama|TV Movie",
+      "keywords": "family drama"
+    },
+    {
+      "title": "Parenthood",
+      "score": 0.3153,
+      "genres": "Drama",
+      "keywords": "big family|family drama"
+    },
+    {
+      "title": "Herederos por accidente",
+      "score": 0.2892,
+      "genres": "Comedy",
+      "keywords": "comedian|family drama|family"
+    },
+    {
+      "title": "Sundays",
+      "score": 0.285,
+      "genres": "Drama",
+      "keywords": "christianity|family drama"
+    },
+    {
+      "title": "He Does Not Want Peace",
+      "score": 0.2846,
+      "genres": "Drama",
+      "keywords": "family relationships|family drama|short film"
+    },
+    {
+      "title": "Dawn of the Croods",
+      "score": 0.2836,
+      "genres": "Animation|Family|Kids|Comedy|Action & Adventure",
+      "keywords": "family relationships|prehistory|based on movie|ancient times"
+    },
+    {
+      "title": "Divided Youth",
+      "score": 0.2768,
+      "genres": "Drama",
+      "keywords": "teen drama"
+    },
+    {
+      "title": "The Proud Family",
+      "score": 0.2762,
+      "genres": "Animation|Comedy|Kids|Family",
+      "keywords": "family life"
+    },
+    {
+      "title": "Pair of Kings",
+      "score": 0.276,
+      "genres": "Family|Action & Adventure|Comedy|Sci-Fi & Fantasy",
+      "keywords": "sibling relationship|island|one-sided love|jungle|king|twins|evil|dead parents|sitcom"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "741ea1ebf3f442e8ebffd3dff154eb25"
+}

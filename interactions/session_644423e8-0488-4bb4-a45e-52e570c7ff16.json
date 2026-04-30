@@ -1,0 +1,65 @@
+{
+  "session_id": "644423e8-0488-4bb4-a45e-52e570c7ff16",
+  "user_id": "573192190870",
+  "created_at": "2026-04-29T21:11:11.669141",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T21:40:56.056559",
+      "query": "Películas de terror intensas",
+      "routed_query": "Películas de terror intensas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1268.094,
+      "scores": [
+        0.2994,
+        0.2944,
+        0.2895,
+        0.2747,
+        0.271
+      ],
+      "titles": [
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "The Moro Affair",
+        "Blue Monkey",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-29T22:25:04.297018"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Películas de terror intensas",
+    "recommendation": "Blue Monkey es una película de terror intensa y ciencia ficción. Su trama trata sobre una infección creada por un virus que surge de una planta, convirtiendo a las personas en criaturas peligrosas. Es considerada una película canuxploitation, con un estilo brutal y desesperado."
+  },
+  "memory": {
+    "last_movies": [
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "The Moro Affair",
+      "Blue Monkey",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "59b6a6da-47f5-41ad-8a55-1d6b26d6e9b6",
+  "user_id": "573504331557",
+  "created_at": "2026-04-29T22:47:17.733655",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T23:08:10.281621",
+      "query": "Películas de suspenso intensas",
+      "routed_query": "Películas de suspenso intensas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 571.003,
+      "scores": [
+        0.1753,
+        0.174,
+        0.1645,
+        0.1591,
+        0.1581
+      ],
+      "titles": [
+        "The World's Gold",
+        "Vacanze di Natale a Cortina",
+        "Who Killed the Prosecutor and Why?",
+        "A Man Called Magnum",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Vacanze di Natale a Cortina",
+      "Who Killed the Prosecutor and Why?",
+      "A Man Called Magnum",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The World's Gold",
+      "score": 0.1753,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.174,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Who Killed the Prosecutor and Why?",
+      "score": 0.1645,
+      "genres": "Thriller",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "A Man Called Magnum",
+      "score": 0.1591,
+      "genres": "Crime|Action",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1581,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1568,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1487,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "Blue Monkey",
+      "score": 0.1476,
+      "genres": "Horror|Science Fiction",
+      "keywords": "insect|plant|infection|creature|bug|virus|canuxploitation|bacteria"
+    },
+    {
+      "title": "Amar es para siempre",
+      "score": 0.1462,
+      "genres": "Drama|History|Family",
+      "keywords": "spain|1970s|franco regime (francoism)|neighborhood|1980s|1960s"
+    },
+    {
+      "title": "Después de… Primera parte: no se os puede dejar solos",
+      "score": 0.1432,
+      "genres": "Documentary",
+      "keywords": "1970s|franco regime (francoism)|social documentary|communist party|spanish transition|1980s|spanish history|social democracy|spanish politics"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "ac922f96cd2150e542e070b8316aade2"
+}
