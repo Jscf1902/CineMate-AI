@@ -1,0 +1,251 @@
+﻿Pregunta,Tipo
+pelis de acción con robots,Atributos específicos
+películas románticas en el espacio,Atributos específicos
+terror psicológico con pocos personajes,Atributos específicos
+comedias familiares divertidas,Atributos específicos
+películas de ciencia ficción con viajes en el tiempo,Atributos específicos
+acción con inteligencia artificial,Atributos específicos
+películas románticas con final feliz,Atributos específicos
+terror con casas embrujadas,Atributos específicos
+ciencia ficción con aliens,Atributos específicos
+películas de acción con mucha adrenalina,Atributos específicos
+romance adolescente,Atributos específicos
+terror con suspenso psicológico,Atributos específicos
+películas de fantasía con magia,Atributos específicos
+acción con superhéroes,Atributos específicos
+películas dramáticas basadas en la vida real,Atributos específicos
+comedias románticas ligeras,Atributos específicos
+ciencia ficción futurista,Atributos específicos
+terror con criaturas extrañas,Atributos específicos
+películas de acción con espionaje,Atributos específicos
+romance con drama,Atributos específicos
+películas de aventura en la selva,Atributos específicos
+ciencia ficción con viajes espaciales,Atributos específicos
+terror con posesiones,Atributos específicos
+películas de acción con persecuciones,Atributos específicos
+romance en época antigua,Atributos específicos
+películas de misterio con giros inesperados,Atributos específicos
+ciencia ficción con tecnología avanzada,Atributos específicos
+terror con monstruos,Atributos específicos
+películas de acción con guerras,Atributos específicos
+romance complicado,Atributos específicos
+películas animadas familiares,Atributos específicos
+ciencia ficción con distopías,Atributos específicos
+terror con tensión constante,Atributos específicos
+películas de acción con artes marciales,Atributos específicos
+romance juvenil,Atributos específicos
+películas de suspenso con crimen,Atributos específicos
+ciencia ficción con realidades alternas,Atributos específicos
+terror con asesinos,Atributos específicos
+películas de acción con misiones,Atributos específicos
+romance dramático,Atributos específicos
+películas de aventura épica,Atributos específicos
+ciencia ficción con experimentos científicos,Atributos específicos
+terror con ambientes oscuros,Atributos específicos
+películas de acción intensas,Atributos específicos
+romance moderno,Atributos específicos
+películas de intriga política,Atributos específicos
+ciencia ficción con robots avanzados,Atributos específicos
+terror psicológico intenso,Atributos específicos
+películas de acción rápidas,Atributos específicos
+romance emocional,Atributos específicos
+"me gustó Inception, algo parecido",Referencia a películas
+algo como Interstellar,Referencia a películas
+películas tipo The Matrix,Referencia a películas
+"me gustó Titanic, algo similar",Referencia a películas
+algo como The Dark Knight,Referencia a películas
+pelis parecidas a Avatar,Referencia a películas
+algo como Avengers,Referencia a películas
+películas tipo Joker,Referencia a películas
+"me gustó Parasite, algo así",Referencia a películas
+algo como The Conjuring,Referencia a películas
+pelis parecidas a Frozen,Referencia a películas
+algo como Toy Story,Referencia a películas
+películas tipo Harry Potter,Referencia a películas
+"me gustó Twilight, algo parecido",Referencia a películas
+algo como Fast and Furious,Referencia a películas
+películas tipo John Wick,Referencia a películas
+"me gustó La La Land, algo similar",Referencia a películas
+algo como The Notebook,Referencia a películas
+películas tipo Shrek,Referencia a películas
+"me gustó Coco, algo así",Referencia a películas
+algo como Gladiator,Referencia a películas
+películas tipo 300,Referencia a películas
+"me gustó It, algo parecido",Referencia a películas
+algo como Annabelle,Referencia a películas
+películas tipo Spider-Man,Referencia a películas
+"me gustó Doctor Strange, algo así",Referencia a películas
+algo como Black Panther,Referencia a películas
+películas tipo Transformers,Referencia a películas
+"me gustó Gravity, algo parecido",Referencia a películas
+algo como The Martian,Referencia a películas
+películas tipo A Quiet Place,Referencia a películas
+"me gustó Bird Box, algo similar",Referencia a películas
+algo como Fight Club,Referencia a películas
+películas tipo Seven,Referencia a películas
+"me gustó Gone Girl, algo así",Referencia a películas
+algo como The Wolf of Wall Street,Referencia a películas
+películas tipo The Social Network,Referencia a películas
+"me gustó Whiplash, algo parecido",Referencia a películas
+algo como Bohemian Rhapsody,Referencia a películas
+películas tipo Top Gun,Referencia a películas
+"me gustó Mission Impossible, algo similar",Referencia a películas
+algo como Pirates of the Caribbean,Referencia a películas
+películas tipo Indiana Jones,Referencia a películas
+"me gustó Mad Max, algo así",Referencia a películas
+algo como The Hunger Games,Referencia a películas
+películas tipo Divergent,Referencia a películas
+"me gustó The Maze Runner, algo parecido",Referencia a películas
+algo como Edge of Tomorrow,Referencia a películas
+películas tipo Blade Runner,Referencia a películas
+"me gustó Ex Machina, algo así",Referencia a películas
+acción pero con romance,Múltiples condiciones
+ciencia ficción con algo de comedia,Múltiples condiciones
+terror psicológico pero no muy fuerte,Múltiples condiciones
+romance con drama y final feliz,Múltiples condiciones
+acción con toques de humor,Múltiples condiciones
+ciencia ficción pero fácil de entender,Múltiples condiciones
+terror con suspenso pero sin mucha sangre,Múltiples condiciones
+romance juvenil pero no cursi,Múltiples condiciones
+acción intensa pero no muy larga,Múltiples condiciones
+ciencia ficción con enfoque emocional,Múltiples condiciones
+terror psicológico con pocos personajes y ambiente cerrado,Múltiples condiciones
+romance con algo de comedia ligera,Múltiples condiciones
+acción con buena historia y no solo peleas,Múltiples condiciones
+ciencia ficción con viajes en el tiempo y romance,Múltiples condiciones
+terror con misterio y giros inesperados,Múltiples condiciones
+romance dramático pero esperanzador,Múltiples condiciones
+acción con espionaje y tecnología,Múltiples condiciones
+ciencia ficción futurista pero realista,Múltiples condiciones
+terror con tensión constante y buen final,Múltiples condiciones
+romance moderno con conflictos reales,Múltiples condiciones
+acción con superhéroes pero más seria,Múltiples condiciones
+ciencia ficción con aliens pero enfoque humano,Múltiples condiciones
+terror psicológico sin jumpscares exagerados,Múltiples condiciones
+romance con triángulo amoroso,Múltiples condiciones
+acción con persecuciones y buena trama,Múltiples condiciones
+ciencia ficción con distopía y protagonista fuerte,Múltiples condiciones
+terror con casa embrujada pero bien ambientado,Múltiples condiciones
+romance de época con drama,Múltiples condiciones
+acción con artes marciales y buena historia,Múltiples condiciones
+ciencia ficción con inteligencia artificial y dilemas éticos,Múltiples condiciones
+terror con monstruos pero más suspenso que sustos,Múltiples condiciones
+romance adolescente con crecimiento personal,Múltiples condiciones
+acción con guerras pero centrada en personajes,Múltiples condiciones
+ciencia ficción con realidades alternas y misterio,Múltiples condiciones
+terror psicológico con final inesperado,Múltiples condiciones
+romance intenso pero no trágico,Múltiples condiciones
+acción con misiones y equipo,Múltiples condiciones
+ciencia ficción con experimentos y consecuencias,Múltiples condiciones
+terror oscuro con historia profunda,Múltiples condiciones
+romance emocional con final bonito,Múltiples condiciones
+acción rápida pero con desarrollo de personajes,Múltiples condiciones
+ciencia ficción compleja pero entretenida,Múltiples condiciones
+terror con asesino pero más psicológico,Múltiples condiciones
+romance complicado pero realista,Múltiples condiciones
+acción con aventura y exploración,Múltiples condiciones
+ciencia ficción con viajes espaciales y drama,Múltiples condiciones
+terror con tensión y sin mucho gore,Múltiples condiciones
+romance con diferencias sociales,Múltiples condiciones
+acción con estrategia y planificación,Múltiples condiciones
+ciencia ficción con robots y emociones humanas,Múltiples condiciones
+recomiéndame algo,Consulta ambigua
+una peli buena,Consulta ambigua
+algo para ver hoy,Consulta ambigua
+quiero ver una película,Consulta ambigua
+dame una recomendación,Consulta ambigua
+algo interesante,Consulta ambigua
+una peli chévere,Consulta ambigua
+algo entretenido,Consulta ambigua
+una buena película,Consulta ambigua
+algo para pasar el rato,Consulta ambigua
+recomiéndame una peli,Consulta ambigua
+algo que valga la pena,Consulta ambigua
+una película cualquiera,Consulta ambigua
+algo para ver solo,Consulta ambigua
+una peli relajada,Consulta ambigua
+algo bueno de ver,Consulta ambigua
+una película cool,Consulta ambigua
+algo que no sea aburrido,Consulta ambigua
+una peli para distraerme,Consulta ambigua
+algo que esté bien,Consulta ambigua
+recomiéndame algo bueno,Consulta ambigua
+una peli decente,Consulta ambigua
+algo para esta noche,Consulta ambigua
+una película interesante,Consulta ambigua
+algo suave para ver,Consulta ambigua
+una peli normal,Consulta ambigua
+algo fácil de ver,Consulta ambigua
+una película ligera,Consulta ambigua
+algo que enganche,Consulta ambigua
+una peli entretenida,Consulta ambigua
+algo para matar el tiempo,Consulta ambigua
+una película que guste,Consulta ambigua
+algo bueno sin pensar mucho,Consulta ambigua
+una peli sencilla,Consulta ambigua
+algo para desconectar,Consulta ambigua
+una película agradable,Consulta ambigua
+algo para ver tranquilo,Consulta ambigua
+una peli cualquiera buena,Consulta ambigua
+algo recomendado,Consulta ambigua
+una película popular,Consulta ambigua
+algo que esté bueno,Consulta ambigua
+una peli que valga la pena ver,Consulta ambigua
+algo interesante sin más,Consulta ambigua
+una película que recomiendes,Consulta ambigua
+algo para ver ahora,Consulta ambigua
+una peli buena cualquiera,Consulta ambigua
+algo entretenido de ver,Consulta ambigua
+una película que no falle,Consulta ambigua
+algo para ver ya,Consulta ambigua
+una peli que esté bien,Consulta ambigua
+quiero algo que me haga pensar pero que no sea tan complicado,Lenguaje natural complejo
+una peli que sea intensa pero no deprimente,Lenguaje natural complejo
+algo tipo sci fi pero más emocional que técnico,Lenguaje natural complejo
+quiero ver algo interesante pero que no me aburra,Lenguaje natural complejo
+una película que tenga buena historia pero que sea fácil de seguir,Lenguaje natural complejo
+algo que me mantenga enganchado pero sin ser muy pesado,Lenguaje natural complejo
+una peli que sea profunda pero entretenida,Lenguaje natural complejo
+quiero algo diferente pero que no sea raro,Lenguaje natural complejo
+una película que tenga acción pero también historia,Lenguaje natural complejo
+algo que me sorprenda pero que no sea confuso,Lenguaje natural complejo
+quiero algo emocionante pero no exagerado,Lenguaje natural complejo
+una peli que tenga buen ritmo pero que también haga pensar,Lenguaje natural complejo
+algo que sea entretenido pero con sentido,Lenguaje natural complejo
+quiero una película que me guste de principio a fin,Lenguaje natural complejo
+algo que no sea típico pero tampoco muy extraño,Lenguaje natural complejo
+una peli que tenga suspenso pero que se entienda bien,Lenguaje natural complejo
+quiero algo que me deje pensando pero que disfrute,Lenguaje natural complejo
+una película que sea ligera pero interesante,Lenguaje natural complejo
+algo que me atrape rápido pero no sea superficial,Lenguaje natural complejo
+quiero algo con buena historia y que no sea aburrido,Lenguaje natural complejo
+una peli que tenga emociones pero no sea muy triste,Lenguaje natural complejo
+algo que sea fácil de ver pero que valga la pena,Lenguaje natural complejo
+quiero algo intenso pero que no me estrese,Lenguaje natural complejo
+una película que tenga giros pero que no confunda,Lenguaje natural complejo
+algo que me guste aunque no sepa bien qué quiero,Lenguaje natural complejo
+quiero una peli que me entretenga sin pensar mucho pero que no sea mala,Lenguaje natural complejo
+algo que sea interesante sin ser complicado,Lenguaje natural complejo
+una película que sea emocionante pero clara,Lenguaje natural complejo
+quiero algo que me saque de la rutina pero que sea disfrutable,Lenguaje natural complejo
+una peli que tenga buena vibra pero no sea tonta,Lenguaje natural complejo
+algo que sea distinto pero que conecte conmigo,Lenguaje natural complejo
+quiero una película que me haga sentir algo pero no tristeza,Lenguaje natural complejo
+algo que tenga buena trama pero no sea lenta,Lenguaje natural complejo
+una peli que sea fácil pero no básica,Lenguaje natural complejo
+quiero algo que me enganche sin necesidad de pensar mucho,Lenguaje natural complejo
+algo que tenga buena historia pero que no sea pesada,Lenguaje natural complejo
+una película que sea interesante y relajada al mismo tiempo,Lenguaje natural complejo
+quiero algo que me guste aunque no sea perfecto,Lenguaje natural complejo
+una peli que tenga buen balance entre acción y historia,Lenguaje natural complejo
+algo que no sea aburrido pero tampoco muy intenso,Lenguaje natural complejo
+quiero una película que fluya bien y no se sienta larga,Lenguaje natural complejo
+algo que tenga sentido pero que también entretenga,Lenguaje natural complejo
+una peli que no sea complicada pero que tenga fondo,Lenguaje natural complejo
+quiero algo que me deje satisfecho al final,Lenguaje natural complejo
+una película que tenga buen desarrollo pero que no sea lenta,Lenguaje natural complejo
+algo que sea envolvente pero fácil de seguir,Lenguaje natural complejo
+quiero algo que sea interesante pero no pesado,Lenguaje natural complejo
+una peli que tenga emoción pero sin exagerar,Lenguaje natural complejo
+algo que me haga disfrutar sin tener que analizar mucho,Lenguaje natural complejo
+quiero una película que sea buena sin ser complicada,Lenguaje natural complejo
