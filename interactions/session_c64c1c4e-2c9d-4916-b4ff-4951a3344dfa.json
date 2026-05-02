@@ -1,0 +1,111 @@
+{
+  "session_id": "c64c1c4e-2c9d-4916-b4ff-4951a3344dfa",
+  "user_id": "573202017839",
+  "created_at": "2026-04-29T22:01:56.695869",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T22:26:55.902544",
+      "query": "peliculas consideradas de culto",
+      "routed_query": "peliculas consideradas de culto",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 972.537,
+      "scores": [
+        0.288,
+        0.2608,
+        0.2538,
+        0.2526,
+        0.248
+      ],
+      "titles": [
+        "The Chosen One",
+        "Juro que te amo",
+        "Dignity",
+        "Manos Returns",
+        "È questa la vita che sognavo da bambino?"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Chosen One",
+      "Juro que te amo",
+      "Dignity",
+      "Manos Returns",
+      "È questa la vita che sognavo da bambino?"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Chosen One",
+      "score": 0.288,
+      "genres": "Drama",
+      "keywords": "culte"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2608,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Dignity",
+      "score": 0.2538,
+      "genres": "Drama",
+      "keywords": "cult|based on true story|colonia dignidad"
+    },
+    {
+      "title": "Manos Returns",
+      "score": 0.2526,
+      "genres": "Horror",
+      "keywords": "cult|hand|low budget"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.248,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Aliados",
+      "score": 0.2479,
+      "genres": "Comedy|Drama",
+      "keywords": "fantastico"
+    },
+    {
+      "title": "Believers",
+      "score": 0.245,
+      "genres": "Drama",
+      "keywords": "island|cult"
+    },
+    {
+      "title": "Heaven",
+      "score": 0.245,
+      "genres": "Drama|Mystery",
+      "keywords": "cult|religious cult"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2359,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "La Casa de los Famosos México",
+      "score": 0.2336,
+      "genres": "Reality",
+      "keywords": "famosos|casa"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "7b9ca7704c02814dd630169266fb3e26"
+}

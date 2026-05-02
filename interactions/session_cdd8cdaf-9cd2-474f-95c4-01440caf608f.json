@@ -1,0 +1,155 @@
+{
+  "session_id": "cdd8cdaf-9cd2-474f-95c4-01440caf608f",
+  "user_id": "573134595678",
+  "created_at": "2026-04-29T22:32:54.251072",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T22:53:53.796085",
+      "query": "Películas musicales populares",
+      "routed_query": "Películas musicales populares",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 857.399,
+      "scores": [
+        0.2836,
+        0.2802,
+        0.2716,
+        0.2699,
+        0.269
+      ],
+      "titles": [
+        "Kally's Mashup",
+        "A Celebration of the Music from Coco",
+        "Broadway: The Golden Age, by the Legends Who Were There",
+        "The World's in Love",
+        "La corista"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-29T23:38:17.632772",
+      "query": "rock",
+      "routed_query": "rock",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 916.664,
+      "scores": [
+        0.5218,
+        0.4506,
+        0.4504,
+        0.381,
+        0.3774
+      ],
+      "titles": [
+        "Rocky",
+        "Rocky V",
+        "Creed",
+        "Rocky II",
+        "The Fighter"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 3,
+      "timestamp": "2026-04-29T23:58:51.158777"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "rock",
+    "recommendation": "¡Claro! Te recomendaría **Rocky** (1976), la película original de la que nace la serie. \n\nLa historia se centra en **Rocky Balboa**, un boxeador de segunda categoría de Philadelphia que recibe la oportunidad de pelear contra el campeón mundial. A lo largo del film, se desarrolla su entrenamiento, la complicidad con su rival y la preparación para el combate más importante de su vida. \n\nCon un trasfondo de lucha personal, superación y emoción, **Rocky** es una de las películas más emblemáticas de la historia del cine. ¿Te gustaría conocer alguna de las secuelas?"
+  },
+  "memory": {
+    "last_movies": [
+      "Kally's Mashup",
+      "A Celebration of the Music from Coco",
+      "Broadway: The Golden Age, by the Legends Who Were There",
+      "The World's in Love",
+      "La corista",
+      "Rocky",
+      "Rocky V",
+      "Creed",
+      "Rocky II",
+      "The Fighter"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Rocky",
+      "score": 0.5218,
+      "genres": "Drama",
+      "keywords": "underdog|philadelphia, pennsylvania|transporter|italian american|fight|love of one's life|publicity|boxer|independence|training|lovers|surprise|world champion|victory|sports|boxing|boxe|absurd|empathetic|hopeful"
+    },
+    {
+      "title": "Rocky V",
+      "score": 0.4506,
+      "genres": "Drama",
+      "keywords": "philadelphia, pennsylvania|transporter|cataclysm|parent child relationship|trainer|restart|bankrupt|boxer|career|training|world champion|challenger|street riots|sponsorship|challenge|champion|tax consultant|boxing school|praise|friendship|sports|father figure|boxing|powerful"
+    },
+    {
+      "title": "Creed",
+      "score": 0.4504,
+      "genres": "Drama",
+      "keywords": "underdog|philadelphia, pennsylvania|mexico|mentor|trainer|sports|cancer|spin off|underground fighting|boxing trainer|motivational speaker|boxing|legacy|boxing manager|boxing champion"
+    },
+    {
+      "title": "Rocky II",
+      "score": 0.381,
+      "genres": "Drama",
+      "keywords": "transporter|coma|husband wife relationship|intensive care|hero|love of one's life|publicity|boxer|training|world champion|victory|sports|hospital|boxing|candid|anxious|appreciative|cheerful|powerful"
+    },
+    {
+      "title": "The Fighter",
+      "score": 0.3774,
+      "genres": "Drama",
+      "keywords": "irish-american|boxer|biography|family business|sports|dysfunctional family|family conflict|hometown|boxing trainer|crack addict|lowell massachusetts|jumping rope|shadow boxing|boxing|boxer hero|professional athlete|black sheep|devoted girlfriend|local hero"
+    },
+    {
+      "title": "Southpaw",
+      "score": 0.3744,
+      "genres": "Action|Drama",
+      "keywords": "sports|fighter|tragedy|death|boxing|box ring|father daughter relationship"
+    },
+    {
+      "title": "Stabbed in the Face: The Rise and Fall of the World's Most Violent Band",
+      "score": 0.3711,
+      "genres": "Documentary|Music",
+      "keywords": "underdog|philadelphia, pennsylvania|heavy metal|wrestling|alternative|underground music|music documentary|deathmatch|punk music"
+    },
+    {
+      "title": "Creed III",
+      "score": 0.339,
+      "genres": "Drama|Action",
+      "keywords": "philadelphia, pennsylvania|husband wife relationship|deaf|sports|sequel|orphan|former best friend|ex-con|childhood friends|juvenile detention center|boxing|prodigy|intense|assertive|audacious"
+    },
+    {
+      "title": "Raging Bull",
+      "score": 0.3375,
+      "genres": "Drama",
+      "keywords": "new york city|transporter|jealousy|florida|violent husband|paranoia|boxer|brother|biography|fistfight|broken nose|sports|domestic violence|black and white|over-the-hill fighter|bronx, new york city|aggressive|boxing|dreary|boxe|depressing|audacious|harsh|melodramatic|tragic|esporte"
+    },
+    {
+      "title": "Mike",
+      "score": 0.3276,
+      "genres": "Drama",
+      "keywords": "boxer|biography|sports|based on true story|heavyweight champion|boxing"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "6d6f4b6d2f99396a85d8bff0c1eac848"
+}

@@ -1,0 +1,94 @@
+{
+  "session_id": "502a688a-ae4b-4cd7-9706-6cd3e7686e8c",
+  "user_id": "573167556912",
+  "created_at": "2026-04-27T23:21:52.284215",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-27T23:32:50.031526",
+      "query": "recomiendame una pelicula como avatar",
+      "routed_query": "recomiendame una pelicula como avatar",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 205.472,
+      "scores": [
+        0.2738,
+        0.2607,
+        0.2414,
+        0.2372,
+        0.2352
+      ],
+      "titles": [
+        "Educando a Nina",
+        "Ana",
+        "Illiterate",
+        "Pepper Ann",
+        "Che Kopete: The Movie"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-27T23:42:37.233160",
+      "query": "espanol",
+      "routed_query": "espanol",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 360.529,
+      "scores": [
+        0.4301,
+        0.3638,
+        0.3602,
+        0.334,
+        0.3224
+      ],
+      "titles": [
+        "Spangles",
+        "Circus of Life",
+        "You Can't Cheat an Honest Man",
+        "Cirque du Soleil: Worlds Away",
+        "Luna Park"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 2,
+      "timestamp": "2026-04-27T23:43:21.679306"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "espanol",
+    "recommendation": "¡Hola! Basándome en el contexto proporcionado, aquí tienes algunas recomendaciones de películas relacionadas con el circo:\n\n1.  **Spangles** (Drama)\n2.  **Circus of Life** (Drama)\n3.  **You Can't Cheat an Honest Man** (Comedia)\n4.  **Cirque du Soleil: Worlds Away** (Fantasía, Familia, Música, Drama, Romance)\n5.  **Luna Park** (Drama)"
+  },
+  "memory": {
+    "last_movies": [
+      "Educando a Nina",
+      "Ana",
+      "Illiterate",
+      "Pepper Ann",
+      "Che Kopete: The Movie",
+      "Spangles",
+      "Circus of Life",
+      "You Can't Cheat an Honest Man",
+      "Cirque du Soleil: Worlds Away",
+      "Luna Park"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

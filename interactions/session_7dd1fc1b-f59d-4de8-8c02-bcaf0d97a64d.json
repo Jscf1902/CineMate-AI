@@ -1,0 +1,65 @@
+{
+  "session_id": "7dd1fc1b-f59d-4de8-8c02-bcaf0d97a64d",
+  "user_id": "573186016797",
+  "created_at": "2026-04-28T15:27:40.221104",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-28T15:54:31.168522",
+      "query": "Películas de terror intensas",
+      "routed_query": "Películas de terror intensas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1439.542,
+      "scores": [
+        0.2994,
+        0.2944,
+        0.2895,
+        0.2747,
+        0.271
+      ],
+      "titles": [
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "The Moro Affair",
+        "Blue Monkey",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-28T16:54:43.050149"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "Películas de terror intensas",
+    "recommendation": "Based on the provided context, I can only recommend one movie that fits your request: **Blue Monkey** (Horror|Science Fiction). I need at least five movies to provide more recommendations."
+  },
+  "memory": {
+    "last_movies": [
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "The Moro Affair",
+      "Blue Monkey",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

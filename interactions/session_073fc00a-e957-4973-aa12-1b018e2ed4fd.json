@@ -1,0 +1,50 @@
+{
+  "session_id": "073fc00a-e957-4973-aa12-1b018e2ed4fd",
+  "user_id": "573233114869",
+  "created_at": "2026-04-29T21:09:20.885668",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T21:24:31.015528",
+      "query": "quiero ver una pelicula similar a perfect blue",
+      "routed_query": "quiero ver una pelicula similar a perfect blue",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 692.325,
+      "scores": [
+        0.3288,
+        0.2863,
+        0.2502,
+        0.2462,
+        0.1983
+      ],
+      "titles": [
+        "Blue Moon",
+        "True Blue",
+        "Hidden: First Born",
+        "Crossroads",
+        "Robo en el cine Capitol"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Blue Moon",
+      "True Blue",
+      "Hidden: First Born",
+      "Crossroads",
+      "Robo en el cine Capitol"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

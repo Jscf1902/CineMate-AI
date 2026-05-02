@@ -1,0 +1,50 @@
+{
+  "session_id": "54f77d3d-64d9-4962-a72c-2caafa319706",
+  "user_id": "573132240870",
+  "created_at": "2026-04-29T22:26:57.282582",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T22:47:16.412994",
+      "query": "Películas de fantasía épicas",
+      "routed_query": "Películas de fantasía épicas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 553.436,
+      "scores": [
+        0.2491,
+        0.2344,
+        0.2306,
+        0.2279,
+        0.2267
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Nadie sabe nada",
+        "The Metropolitan Opera: Puccini's La Rondine",
+        "Kally's Mashup",
+        "MasterChef Celebrity Argentina"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Nadie sabe nada",
+      "The Metropolitan Opera: Puccini's La Rondine",
+      "Kally's Mashup",
+      "MasterChef Celebrity Argentina"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

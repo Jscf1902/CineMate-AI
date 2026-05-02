@@ -1,0 +1,126 @@
+{
+  "session_id": "7d7e081f-b306-4b87-9fe3-e0081a55db25",
+  "user_id": "573167556912",
+  "created_at": "2026-04-28T00:05:58.029051",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-28T00:36:36.347146",
+      "query": "recomiendame algo del estilo de demon slayer",
+      "routed_query": "recomiendame algo del estilo de demon slayer",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1710.75,
+      "scores": [
+        0.4608,
+        0.4108,
+        0.393,
+        0.3745,
+        0.3674
+      ],
+      "titles": [
+        "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+        "Fire City: End of Days",
+        "My Demon",
+        "Diablero",
+        "Holy Night: Demon Hunters"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-28T00:37:29.088713"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "recomiendame algo del estilo de demon slayer",
+    "recommendation": "¡Claro! Basándome en el estilo de *Demon Slayer* (Animation, Acción, Fantasía, con elementos sobrenaturales y demonios), aquí tienes algunas recomendaciones de las películas disponibles en mi contexto:\n\n1. **Fire City: End of Days** (Thriller, Horror, Fantasía)  \n   Involucra elementos demoníacos y atmósfera de intriga similar a la trama de *Demon Slayer*.\n\n2. **Diablero** (Ciencia-Ficción & Fantasía, Misterio)  \n   Combina demonios, misterios y elementos culturales mexicanos, ideal si te gustan las historias de demonios.\n\n3. **Holy Night: Demon Hunters** (Acción, Fantasía, Horror, Thriller)  \n   Una película con demonios, habilidades sobrenaturales y acción, muy cercana en temática.\n\n4. **My Demon** (Drama, Comedia)  \n   Aunque es más romántica, incluye demonios y elementos sobrenaturales en un tono diferente.\n\n¿Te gustaría ver alguna de estas opciones o necesitas más recomendaciones? 😊"
+  },
+  "memory": {
+    "last_movies": [
+      "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "Fire City: End of Days",
+      "My Demon",
+      "Diablero",
+      "Holy Night: Demon Hunters"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "score": 0.4608,
+      "genres": "Animation|Action|Fantasy",
+      "keywords": "supernatural|sequel|based on manga|demon|mourning|shounen|anime|brother sister relationship|taisho period"
+    },
+    {
+      "title": "Fire City: End of Days",
+      "score": 0.4108,
+      "genres": "Thriller|Horror|Fantasy",
+      "keywords": "demon"
+    },
+    {
+      "title": "My Demon",
+      "score": 0.393,
+      "genres": "Drama|Comedy",
+      "keywords": "romcom|romance|demon|heiress|cohabitation|supernatural power|fantasy|chaebol|amused|comforting|gentle|hopeful"
+    },
+    {
+      "title": "Diablero",
+      "score": 0.3745,
+      "genres": "Sci-Fi & Fantasy|Mystery",
+      "keywords": "mexico|native american|demon|exorcist|demon hunter"
+    },
+    {
+      "title": "Holy Night: Demon Hunters",
+      "score": 0.3674,
+      "genres": "Action|Fantasy|Horror|Thriller",
+      "keywords": "evil spirit|demon|occult|dark fantasy|teamwork|suspense|special power"
+    },
+    {
+      "title": "The Foolish Angel Dances with the Devil",
+      "score": 0.3409,
+      "genres": "Animation|Comedy|Sci-Fi & Fantasy",
+      "keywords": "supernatural|romance|based on manga|demon|seinen|anime"
+    },
+    {
+      "title": "Devil May Cry",
+      "score": 0.3309,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "based on video game|adult animation|zealot|demon hunter|anime|paramilitary organization"
+    },
+    {
+      "title": "Seven Mortal Sins",
+      "score": 0.3289,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "angel|demon|ecchi|anime|big tits"
+    },
+    {
+      "title": "Fantasia Sango – Realm of Legends",
+      "score": 0.3093,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "demon|historical|based on video game|anime"
+    },
+    {
+      "title": "Oreca Battle",
+      "score": 0.3088,
+      "genres": "Kids|Action & Adventure|Animation",
+      "keywords": "card game|demon"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "620ccdc0cc13c9dd51ddea8a22e16365"
+}

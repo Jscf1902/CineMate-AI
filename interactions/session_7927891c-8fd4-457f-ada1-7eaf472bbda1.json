@@ -1,0 +1,50 @@
+{
+  "session_id": "7927891c-8fd4-457f-ada1-7eaf472bbda1",
+  "user_id": "573138931736",
+  "created_at": "2026-04-29T19:31:14.691371",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T19:53:16.762745",
+      "query": "Películas de suspenso intensas",
+      "routed_query": "Películas de suspenso intensas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 801.197,
+      "scores": [
+        0.1753,
+        0.174,
+        0.1645,
+        0.1591,
+        0.1581
+      ],
+      "titles": [
+        "The World's Gold",
+        "Vacanze di Natale a Cortina",
+        "Who Killed the Prosecutor and Why?",
+        "A Man Called Magnum",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Vacanze di Natale a Cortina",
+      "Who Killed the Prosecutor and Why?",
+      "A Man Called Magnum",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

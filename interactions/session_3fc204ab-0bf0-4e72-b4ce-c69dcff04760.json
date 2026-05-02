@@ -1,0 +1,184 @@
+{
+  "session_id": "3fc204ab-0bf0-4e72-b4ce-c69dcff04760",
+  "user_id": "573005179249",
+  "created_at": "2026-04-29T19:35:13.234515",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T19:57:03.519056",
+      "query": "necesito ver algo sobre cine expresionista europeo de la segunda mitad de la primera mitad del siglo 20 toma como referente a personajes como murnau",
+      "routed_query": "necesito ver algo sobre cine expresionista europeo de la segunda mitad de la primera mitad del siglo 20 toma como referente a personajes como murnau",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 800.109,
+      "scores": [
+        0.2903,
+        0.2177,
+        0.2113,
+        -0.6431,
+        -0.686
+      ],
+      "titles": [
+        "Illiterate",
+        "È questa la vita che sognavo da bambino?",
+        "Juro que te amo",
+        "Juegos del destino",
+        "Ask God For Forgiveness... Not Me"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-29T20:17:06.244738",
+      "query": "Películas bélicas recomendadas",
+      "routed_query": "Películas bélicas recomendadas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 812.211,
+      "scores": [
+        0.1569,
+        0.1501,
+        0.15,
+        0.1493,
+        0.1475
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "La Casa de los Famosos México",
+        "Vacanze di Natale a Cortina",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    },
+    {
+      "timestamp": "2026-04-29T20:34:45.416022",
+      "query": "Películas de comedia divertidas",
+      "routed_query": "Películas de comedia divertidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 764.422,
+      "scores": [
+        0.1246,
+        0.1059,
+        0.1055,
+        0.1053,
+        0.1034
+      ],
+      "titles": [
+        "Blue Monkey",
+        "Pasteur et Koch : Un duel de géants dans la guerre des microbes",
+        "Mammals",
+        "Enrico IV",
+        "Three Giants of the Roman Empire"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 3,
+      "timestamp": "2026-04-29T20:46:32.461734"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "partial",
+      "numeric": 2
+    },
+    "query": "Películas de comedia divertidas",
+    "recommendation": "¡Claro! Aquí tienes algunas películas de comedia divertidas de nuestra lista:\n\n- **Mammals** (Comedia|Drama): Una divertida comedia dramática que mezcla situaciones cómicas con elementos dramáticos.\n\n¿Te gustaría explorar más géneros o ver si hay otras películas de nuestra base de datos que puedan encajar mejor?"
+  },
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "È questa la vita che sognavo da bambino?",
+      "Juro que te amo",
+      "Juegos del destino",
+      "Ask God For Forgiveness... Not Me",
+      "Egypt: Secrets of the Pharaohs",
+      "La Casa de los Famosos México",
+      "Vacanze di Natale a Cortina",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "Muchachos, la película de la gente",
+      "Blue Monkey",
+      "Pasteur et Koch : Un duel de géants dans la guerre des microbes",
+      "Mammals",
+      "Enrico IV",
+      "Three Giants of the Roman Empire"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Blue Monkey",
+      "score": 0.1246,
+      "genres": "Horror|Science Fiction",
+      "keywords": "insect|plant|infection|creature|bug|virus|canuxploitation|bacteria"
+    },
+    {
+      "title": "Pasteur et Koch : Un duel de géants dans la guerre des microbes",
+      "score": 0.1059,
+      "genres": "Documentary|History|TV Movie",
+      "keywords": "medicine|vaccination|microbe"
+    },
+    {
+      "title": "Mammals",
+      "score": 0.1055,
+      "genres": "Comedy|Drama",
+      "keywords": "romcom|dramedy"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1053,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Three Giants of the Roman Empire",
+      "score": 0.1034,
+      "genres": "Adventure",
+      "keywords": "peplum"
+    },
+    {
+      "title": "Up to the World",
+      "score": 0.103,
+      "genres": "Comedy|Drama",
+      "keywords": "coming out|chile"
+    },
+    {
+      "title": "Diners, Drive-Ins and Dives",
+      "score": 0.1023,
+      "genres": "Documentary|Reality",
+      "keywords": "restaurant|food|restaurants, drive-ins und abstecher|restaurantes, pousadas e mergulhos|рестораны, драйв-ины и погружения"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.1006,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.0987,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "The Gang Restaurant",
+      "score": 0.097,
+      "genres": "Comedy|Crime",
+      "keywords": "restoran-po-ponyatiyam|ресторан по понятиям"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4103b198c8d350b4cdbb1be68ac70b91"
+}

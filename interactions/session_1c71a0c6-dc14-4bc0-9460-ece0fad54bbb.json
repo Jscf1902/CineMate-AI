@@ -1,0 +1,50 @@
+{
+  "session_id": "1c71a0c6-dc14-4bc0-9460-ece0fad54bbb",
+  "user_id": "573219765438",
+  "created_at": "2026-04-29T21:56:55.885123",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T22:18:46.398964",
+      "query": "pelicula de intriga",
+      "routed_query": "pelicula de intriga",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 622.431,
+      "scores": [
+        0.2321,
+        0.2213,
+        0.2205,
+        0.2201,
+        0.2195
+      ],
+      "titles": [
+        "Guante blanco",
+        "B-PROJECT",
+        "Ai-Mai-Mi",
+        "Illiterate",
+        "Pepper Ann"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Guante blanco",
+      "B-PROJECT",
+      "Ai-Mai-Mi",
+      "Illiterate",
+      "Pepper Ann"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

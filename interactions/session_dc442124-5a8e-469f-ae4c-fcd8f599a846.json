@@ -1,0 +1,50 @@
+{
+  "session_id": "dc442124-5a8e-469f-ae4c-fcd8f599a846",
+  "user_id": "573503449404",
+  "created_at": "2026-04-29T21:30:59.666136",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T22:01:55.189693",
+      "query": "Películas románticas emotivas",
+      "routed_query": "Películas románticas emotivas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 934.854,
+      "scores": [
+        0.2798,
+        0.2604,
+        0.2596,
+        0.2508,
+        -0.7309
+      ],
+      "titles": [
+        "Along came Love",
+        "The Family",
+        "State of Fear",
+        "Sweetheart",
+        "El Manantial"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Along came Love",
+      "The Family",
+      "State of Fear",
+      "Sweetheart",
+      "El Manantial"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

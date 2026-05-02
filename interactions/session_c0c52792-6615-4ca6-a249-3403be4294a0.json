@@ -1,0 +1,126 @@
+{
+  "session_id": "c0c52792-6615-4ca6-a249-3403be4294a0",
+  "user_id": "573150717770",
+  "created_at": "2026-04-29T20:54:46.563097",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-04-29T21:02:47.449995",
+      "query": "peliculas animadas",
+      "routed_query": "peliculas animadas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 297.373,
+      "scores": [
+        0.249,
+        0.2384,
+        0.2378,
+        0.2323,
+        0.231
+      ],
+      "titles": [
+        "B-PROJECT",
+        "The Tower of Druaga: The Aegis of Uruk",
+        "Desert Punk",
+        "Moyashimon",
+        "Nazotokine"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": {
+    "csat": {
+      "score": 5,
+      "timestamp": "2026-04-29T21:03:31.918679"
+    },
+    "nps": {
+      "score": 10,
+      "category": "promoter"
+    },
+    "resolution": {
+      "label": "yes",
+      "numeric": 3
+    },
+    "query": "peliculas animadas",
+    "recommendation": "Entendido. Aquí tienes algunas recomendaciones de series animadas:\n\n1.  **B-PROJECT**\n    *   Género: Animation, Drama\n    *   Palabras clave: anime\n    *   Resumen: [Resumen no disponible]\n\n2.  **The Tower of Druaga: The Aegis of Uruk**\n    *   Género: Animation, Sci-Fi & Fantasy, Comedy\n    *   Palabras clave: anime\n    *   Resumen: [Resumen no disponible]\n\n3.  **Desert Punk**\n    *   Género: Animation, Action & Adventure, Sci-Fi & Fantasy\n    *   Palabras clave: anime\n    *   Resumen: [Resumen no disponible]\n\n4.  **Moyashimon**\n    *   Género: Animation, Comedy, Drama\n    *   Palabras clave: anime\n    *   Resumen: [Resumen no disponible]\n\n5.  **Nazotokine**\n    *   Género: Comedy, Animation\n    *   Palabras clave: anime\n    *   Resumen: [Resumen no disponible]"
+  },
+  "memory": {
+    "last_movies": [
+      "B-PROJECT",
+      "The Tower of Druaga: The Aegis of Uruk",
+      "Desert Punk",
+      "Moyashimon",
+      "Nazotokine"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "B-PROJECT",
+      "score": 0.249,
+      "genres": "Animation|Drama",
+      "keywords": "anime"
+    },
+    {
+      "title": "The Tower of Druaga: The Aegis of Uruk",
+      "score": 0.2384,
+      "genres": "Animation|Sci-Fi & Fantasy|Comedy",
+      "keywords": "anime"
+    },
+    {
+      "title": "Desert Punk",
+      "score": 0.2378,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "anime"
+    },
+    {
+      "title": "Moyashimon",
+      "score": 0.2323,
+      "genres": "Animation|Comedy|Drama",
+      "keywords": "anime"
+    },
+    {
+      "title": "Nazotokine",
+      "score": 0.231,
+      "genres": "Comedy|Animation",
+      "keywords": "anime"
+    },
+    {
+      "title": "Hand Shakers",
+      "score": 0.2293,
+      "genres": "Action & Adventure|Animation|Sci-Fi & Fantasy",
+      "keywords": "anime"
+    },
+    {
+      "title": "Tears to Tiara",
+      "score": 0.2251,
+      "genres": "Animation|Sci-Fi & Fantasy|Action & Adventure",
+      "keywords": "anime"
+    },
+    {
+      "title": "Ana",
+      "score": 0.2251,
+      "genres": "Comedy|Drama",
+      "keywords": "ana"
+    },
+    {
+      "title": "Tenchi Muyo! GXP Paradise Starting",
+      "score": 0.225,
+      "genres": "Animation",
+      "keywords": "anime"
+    },
+    {
+      "title": "Scared Rider Xechs",
+      "score": 0.2245,
+      "genres": "Animation",
+      "keywords": "anime"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "b44592e3c22f0b8d7aaf2e2e95518592"
+}
