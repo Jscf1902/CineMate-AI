@@ -1,0 +1,50 @@
+{
+  "session_id": "06967f73-bcca-44c7-994d-af36009b7e2e",
+  "user_id": "573184101154",
+  "created_at": "2026-05-03T07:50:34.839244",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T07:56:17.393010",
+      "query": "algo entretenido de ver",
+      "routed_query": "algo entretenido de ver",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 237.871,
+      "scores": [
+        0.246,
+        0.2428,
+        0.2365,
+        0.2364,
+        0.2348
+      ],
+      "titles": [
+        "Helga y Flora",
+        "The World's Gold",
+        "Illiterate",
+        "Mama Drama",
+        "Juro que te amo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Helga y Flora",
+      "The World's Gold",
+      "Illiterate",
+      "Mama Drama",
+      "Juro que te amo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

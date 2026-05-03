@@ -1,0 +1,111 @@
+{
+  "session_id": "355603ec-6d3f-4991-949a-883f154a9c13",
+  "user_id": "573143759001",
+  "created_at": "2026-05-02T04:28:58.899915",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T04:33:57.571890",
+      "query": "terror con criaturas extrañas",
+      "routed_query": "terror con criaturas extrañas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 203.874,
+      "scores": [
+        0.3304,
+        0.3198,
+        0.2857,
+        0.2791,
+        0.2776
+      ],
+      "titles": [
+        "Furia",
+        "Piazza Fontana: The Italian Conspiracy",
+        "The Family Man",
+        "Comando Txikia: muerte de un presidente",
+        "Terror on the Midnight Train"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Furia",
+      "Piazza Fontana: The Italian Conspiracy",
+      "The Family Man",
+      "Comando Txikia: muerte de un presidente",
+      "Terror on the Midnight Train"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Furia",
+      "score": 0.3304,
+      "genres": "Drama|Crime",
+      "keywords": "undercover agent|terrorism"
+    },
+    {
+      "title": "Piazza Fontana: The Italian Conspiracy",
+      "score": 0.3198,
+      "genres": "Drama|Crime|Mystery|History",
+      "keywords": "bomb|milan|anarchist|government conspiracy|years of lead|anni di piombo|state terrorism|far-right organization"
+    },
+    {
+      "title": "The Family Man",
+      "score": 0.2857,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "terrorism|raw"
+    },
+    {
+      "title": "Comando Txikia: muerte de un presidente",
+      "score": 0.2791,
+      "genres": "Drama",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Terror on the Midnight Train",
+      "score": 0.2776,
+      "genres": "Horror",
+      "keywords": "phantom"
+    },
+    {
+      "title": "The Moro Affair",
+      "score": 0.2759,
+      "genres": "Drama|History",
+      "keywords": "politics|terrorism|years of lead|anni di piombo"
+    },
+    {
+      "title": "Blood-C: The Last Dark",
+      "score": 0.2747,
+      "genres": "Animation|Action|Horror|Science Fiction",
+      "keywords": "anime|horror"
+    },
+    {
+      "title": "Carlos",
+      "score": 0.2745,
+      "genres": "Drama|Crime|War & Politics",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "See You in Another Life",
+      "score": 0.2703,
+      "genres": "Drama|Crime",
+      "keywords": "multiple time frames|terrorism|thriller"
+    },
+    {
+      "title": "Complicit",
+      "score": 0.2606,
+      "genres": "Drama",
+      "keywords": "politics|terrorism"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4633f0c2be49de8c293e065a1fb27a34"
+}

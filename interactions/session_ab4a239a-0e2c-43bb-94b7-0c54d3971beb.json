@@ -1,0 +1,111 @@
+{
+  "session_id": "ab4a239a-0e2c-43bb-94b7-0c54d3971beb",
+  "user_id": "573158258122",
+  "created_at": "2026-05-03T14:04:11.674582",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T14:10:57.948288",
+      "query": "algo que no sea aburrido pero tampoco muy intenso",
+      "routed_query": "algo que no sea aburrido pero tampoco muy intenso",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 236.226,
+      "scores": [
+        0.4923,
+        0.2802,
+        0.2404,
+        0.2208,
+        0.2186
+      ],
+      "titles": [
+        "Juro que te amo",
+        "El Gallo de Oro",
+        "Natural Born Narco",
+        "Cabo",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "El Gallo de Oro",
+      "Natural Born Narco",
+      "Cabo",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4923,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2802,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2404,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Cabo",
+      "score": 0.2208,
+      "genres": "Soap|Drama",
+      "keywords": "cabo: amor e desejo"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2186,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Along came Love",
+      "score": 0.2134,
+      "genres": "Drama",
+      "keywords": "romance|veio o amor"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2116,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Embrace Me Tightly",
+      "score": -0.6241,
+      "genres": "Drama",
+      "keywords": "abraca-me muito forte"
+    },
+    {
+      "title": "The One Who Couldn't Love",
+      "score": -0.6594,
+      "genres": "Drama",
+      "keywords": "a que não podia amar"
+    },
+    {
+      "title": "Ask God For Forgiveness... Not Me",
+      "score": -0.6697,
+      "genres": "Drama|Soap",
+      "keywords": "telenovela|que te perdoe deus"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "1fcbfbb7208dfdd38a5378e9e08e4153"
+}

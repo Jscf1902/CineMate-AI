@@ -1,0 +1,111 @@
+{
+  "session_id": "53fe998e-bdb0-4ffd-8ce2-5ada36ef7870",
+  "user_id": "573143014102",
+  "created_at": "2026-05-02T20:12:55.781245",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T20:24:05.203202",
+      "query": "ciencia ficción futurista pero realista",
+      "routed_query": "ciencia ficción futurista pero realista",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 210.85,
+      "scores": [
+        0.2576,
+        0.2506,
+        0.2501,
+        0.2454,
+        0.2208
+      ],
+      "titles": [
+        "The World's Gold",
+        "Anche se è amore non si vede",
+        "Juro que te amo",
+        "È questa la vita che sognavo da bambino?",
+        "La Casa de los Famosos México"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Anche se è amore non si vede",
+      "Juro que te amo",
+      "È questa la vita che sognavo da bambino?",
+      "La Casa de los Famosos México"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The World's Gold",
+      "score": 0.2576,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2506,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2501,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2454,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "La Casa de los Famosos México",
+      "score": 0.2208,
+      "genres": "Reality",
+      "keywords": "famosos|casa"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2162,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2131,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.211,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.209,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Después de… Primera parte: no se os puede dejar solos",
+      "score": 0.2084,
+      "genres": "Documentary",
+      "keywords": "1970s|franco regime (francoism)|social documentary|communist party|spanish transition|1980s|spanish history|social democracy|spanish politics"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "388adc21da84f06987f76c6745ef5a8e"
+}

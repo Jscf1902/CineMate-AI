@@ -1,0 +1,111 @@
+{
+  "session_id": "621f8839-f1d3-4d8d-a9cf-6287ce3ec223",
+  "user_id": "573183707239",
+  "created_at": "2026-05-02T04:02:03.916969",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T04:08:54.229918",
+      "query": "acción con superhéroes",
+      "routed_query": "acción con superhéroes",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 310.12,
+      "scores": [
+        0.3887,
+        0.3703,
+        0.366,
+        0.3642,
+        0.3612
+      ],
+      "titles": [
+        "PJ Masks: Music Videos",
+        "Marvel's Avengers",
+        "The Guardians of Justice",
+        "Justice League",
+        "Fantastic Four"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "PJ Masks: Music Videos",
+      "Marvel's Avengers",
+      "The Guardians of Justice",
+      "Justice League",
+      "Fantastic Four"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "PJ Masks: Music Videos",
+      "score": 0.3887,
+      "genres": "Animation|Action & Adventure|Family|Kids|Sci-Fi & Fantasy",
+      "keywords": "superhero"
+    },
+    {
+      "title": "Marvel's Avengers",
+      "score": 0.3703,
+      "genres": "Action & Adventure|Animation|Sci-Fi & Fantasy",
+      "keywords": "superhero|based on comic"
+    },
+    {
+      "title": "The Guardians of Justice",
+      "score": 0.366,
+      "genres": "Animation|Sci-Fi & Fantasy|Action & Adventure|Comedy",
+      "keywords": "superhero|superhero team"
+    },
+    {
+      "title": "Justice League",
+      "score": 0.3642,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "superhero|based on comic|super power|superhero team|aftercreditsstinger|duringcreditsstinger|dc extended universe (dceu)"
+    },
+    {
+      "title": "Fantastic Four",
+      "score": 0.3612,
+      "genres": "Action & Adventure|Animation|Kids|Sci-Fi & Fantasy",
+      "keywords": "superhero|based on comic"
+    },
+    {
+      "title": "StarBeam",
+      "score": 0.3586,
+      "genres": "Animation|Kids",
+      "keywords": "superhero"
+    },
+    {
+      "title": "The Tick",
+      "score": 0.3573,
+      "genres": "Comedy|Sci-Fi & Fantasy|Action & Adventure",
+      "keywords": "superhero|super power|super villain"
+    },
+    {
+      "title": "Superman",
+      "score": 0.3568,
+      "genres": "Science Fiction|Adventure|Action",
+      "keywords": "superhero|based on comic|super power|aftercreditsstinger|duringcreditsstinger|supervillain|dc universe (dcu)|anti-imperialism"
+    },
+    {
+      "title": "The Avengers: United They Stand",
+      "score": 0.3538,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "superhero|based on comic|super power|superhero team"
+    },
+    {
+      "title": "Marvel's Ultimate Comics",
+      "score": 0.3379,
+      "genres": "Animation",
+      "keywords": "superhero"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "ecdb7b41c7fca155544165491354be74"
+}

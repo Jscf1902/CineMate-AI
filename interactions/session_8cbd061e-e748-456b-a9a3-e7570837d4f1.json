@@ -1,0 +1,111 @@
+{
+  "session_id": "8cbd061e-e748-456b-a9a3-e7570837d4f1",
+  "user_id": "573140210624",
+  "created_at": "2026-05-03T13:02:57.242200",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T13:10:54.052510",
+      "query": "quiero una película que me haga sentir algo pero no tristeza",
+      "routed_query": "quiero una película que me haga sentir algo pero no tristeza",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 326.689,
+      "scores": [
+        0.4474,
+        0.3677,
+        0.3527,
+        0.2578,
+        0.2416
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Muchachos, la película de la gente",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Helga y Flora"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Muchachos, la película de la gente",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Helga y Flora"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4474,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.3677,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3527,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2578,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2416,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.24,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.239,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2363,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2165,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2163,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "004fb91cdd97d4c90a6ae8cacf763bf8"
+}

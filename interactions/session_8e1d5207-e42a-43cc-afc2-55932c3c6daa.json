@@ -1,0 +1,111 @@
+{
+  "session_id": "8e1d5207-e42a-43cc-afc2-55932c3c6daa",
+  "user_id": "573144078607",
+  "created_at": "2026-05-02T04:51:55.869611",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T05:08:25.918943",
+      "query": "ciencia ficción con viajes espaciales",
+      "routed_query": "ciencia ficción con viajes espaciales",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 253.92,
+      "scores": [
+        0.311,
+        0.2805,
+        0.2735,
+        0.2583,
+        0.2575
+      ],
+      "titles": [
+        "Project Almanac",
+        "Anche se è amore non si vede",
+        "A Smile as Big as the Moon",
+        "Entranced Earth",
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Project Almanac",
+      "Anche se è amore non si vede",
+      "A Smile as Big as the Moon",
+      "Entranced Earth",
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Project Almanac",
+      "score": 0.311,
+      "genres": "Science Fiction|Thriller",
+      "keywords": "time travel|love|found footage|pseudo-documentary|viajes en el tiempo|viaje en el tiempo|faux documentary"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2805,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "A Smile as Big as the Moon",
+      "score": 0.2735,
+      "genres": "TV Movie|Family|Drama",
+      "keywords": "espaço|social inclusion"
+    },
+    {
+      "title": "Entranced Earth",
+      "score": 0.2583,
+      "genres": "Drama",
+      "keywords": "philosophy|poetry|dictatorship|hopeless|cinema novo|philosophical|repression|political allegory|brazilian poetry|hallucinatory|political drama|dramatic|south american politics"
+    },
+    {
+      "title": "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "score": 0.2575,
+      "genres": "Documentary",
+      "keywords": "brazilian history"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2523,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Nothing Like Before – The Music of Clube da Esquina",
+      "score": 0.2515,
+      "genres": "Documentary",
+      "keywords": "childhood friends|brazilian music|album|minas gerais, brazil"
+    },
+    {
+      "title": "Después de… Primera parte: no se os puede dejar solos",
+      "score": 0.2509,
+      "genres": "Documentary",
+      "keywords": "1970s|franco regime (francoism)|social documentary|communist party|spanish transition|1980s|spanish history|social democracy|spanish politics"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2488,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2425,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "572711ef65f23b8db74dc772ca8143b8"
+}

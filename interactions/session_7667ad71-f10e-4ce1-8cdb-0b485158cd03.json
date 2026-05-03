@@ -1,0 +1,111 @@
+{
+  "session_id": "7667ad71-f10e-4ce1-8cdb-0b485158cd03",
+  "user_id": "573173577146",
+  "created_at": "2026-05-03T08:39:00.431054",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T08:47:16.815992",
+      "query": "quiero ver algo interesante pero que no me aburra",
+      "routed_query": "quiero ver algo interesante pero que no me aburra",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 336.484,
+      "scores": [
+        0.4738,
+        0.2985,
+        -0.6264,
+        -0.6282,
+        -0.6698
+      ],
+      "titles": [
+        "Juro que te amo",
+        "È questa la vita che sognavo da bambino?",
+        "The One Who Couldn't Love",
+        "Ask God For Forgiveness... Not Me",
+        "Hasta que la plata nos separe"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "È questa la vita che sognavo da bambino?",
+      "The One Who Couldn't Love",
+      "Ask God For Forgiveness... Not Me",
+      "Hasta que la plata nos separe"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4738,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2985,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "The One Who Couldn't Love",
+      "score": -0.6264,
+      "genres": "Drama",
+      "keywords": "a que não podia amar"
+    },
+    {
+      "title": "Ask God For Forgiveness... Not Me",
+      "score": -0.6282,
+      "genres": "Drama|Soap",
+      "keywords": "telenovela|que te perdoe deus"
+    },
+    {
+      "title": "Hasta que la plata nos separe",
+      "score": -0.6698,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Mirada de Mujer",
+      "score": -0.688,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Mirada de mujer: El regreso",
+      "score": -0.6968,
+      "genres": "Drama|Soap",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "La Malquerida",
+      "score": -0.7018,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Embrace Me Tightly",
+      "score": -0.7231,
+      "genres": "Drama",
+      "keywords": "abraca-me muito forte"
+    },
+    {
+      "title": "Bajo el Alma",
+      "score": -0.7421,
+      "genres": "Drama",
+      "keywords": "mexican|telenovela|soap opera"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f73f260e78714d8b1a34cc2b9e927d22"
+}

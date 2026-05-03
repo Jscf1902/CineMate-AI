@@ -1,0 +1,50 @@
+{
+  "session_id": "e242179a-fb16-45b1-94c4-a89dcd7821a3",
+  "user_id": "573191141089",
+  "created_at": "2026-05-03T04:08:07.414945",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T04:17:35.571914",
+      "query": "recomiéndame algo bueno",
+      "routed_query": "recomiéndame algo bueno",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 470.472,
+      "scores": [
+        0.2293,
+        0.2238,
+        0.2229,
+        0.217,
+        0.2113
+      ],
+      "titles": [
+        "Natale in Sudafrica",
+        "Vacanze di Natale a Cortina",
+        "Borrón y Vida Nueva",
+        "Чёрная кошка",
+        "Nobody knows anything"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Natale in Sudafrica",
+      "Vacanze di Natale a Cortina",
+      "Borrón y Vida Nueva",
+      "Чёрная кошка",
+      "Nobody knows anything"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

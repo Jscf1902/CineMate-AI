@@ -1,0 +1,50 @@
+{
+  "session_id": "bcb990a4-2d1b-407f-b3a2-7f7441788e5c",
+  "user_id": "573185518733",
+  "created_at": "2026-05-02T17:58:38.294938",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T18:06:58.229852",
+      "query": "acción con toques de humor",
+      "routed_query": "acción con toques de humor",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 331.608,
+      "scores": [
+        0.3688,
+        0.3301,
+        0.2961,
+        0.295,
+        0.284
+      ],
+      "titles": [
+        "Che Kopete: The Movie",
+        "Chelsea",
+        "5 Finger sind 'ne Faust",
+        "LOL : Qui rit, sort !",
+        "The Living NEET"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Che Kopete: The Movie",
+      "Chelsea",
+      "5 Finger sind 'ne Faust",
+      "LOL : Qui rit, sort !",
+      "The Living NEET"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

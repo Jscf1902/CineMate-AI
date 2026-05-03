@@ -1,0 +1,50 @@
+{
+  "session_id": "d9a4ee6d-4d0a-460a-b0e6-e47e9a46b056",
+  "user_id": "573166560294",
+  "created_at": "2026-05-02T23:11:19.064636",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T23:17:53.455516",
+      "query": "acción con misiones y equipo",
+      "routed_query": "acción con misiones y equipo",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 247.467,
+      "scores": [
+        0.2281,
+        0.1825,
+        0.1744,
+        0.1637,
+        0.1589
+      ],
+      "titles": [
+        "Illiterate",
+        "Extermineitors III: The Final Fight",
+        "Tu parte del trato",
+        "Cabo",
+        "Juro que te amo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "Extermineitors III: The Final Fight",
+      "Tu parte del trato",
+      "Cabo",
+      "Juro que te amo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

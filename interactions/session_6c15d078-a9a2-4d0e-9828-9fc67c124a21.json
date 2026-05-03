@@ -1,0 +1,111 @@
+{
+  "session_id": "6c15d078-a9a2-4d0e-9828-9fc67c124a21",
+  "user_id": "573125114061",
+  "created_at": "2026-05-03T04:17:35.654866",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T04:23:35.957310",
+      "query": "una peli decente",
+      "routed_query": "una peli decente",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 230.926,
+      "scores": [
+        0.3302,
+        0.3265,
+        0.2872,
+        0.2829,
+        0.2681
+      ],
+      "titles": [
+        "Still a Mystery",
+        "Making a Case for Murder",
+        "The Scream Murder: A True Teen Horror Story",
+        "iCrime with Elizabeth Vargas",
+        "True Life Crime"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Still a Mystery",
+      "Making a Case for Murder",
+      "The Scream Murder: A True Teen Horror Story",
+      "iCrime with Elizabeth Vargas",
+      "True Life Crime"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Still a Mystery",
+      "score": 0.3302,
+      "genres": "Documentary|Crime|Reality",
+      "keywords": "true crime"
+    },
+    {
+      "title": "Making a Case for Murder",
+      "score": 0.3265,
+      "genres": "Crime|Drama|History|TV Movie",
+      "keywords": "true crime"
+    },
+    {
+      "title": "The Scream Murder: A True Teen Horror Story",
+      "score": 0.2872,
+      "genres": "Documentary",
+      "keywords": "true crime"
+    },
+    {
+      "title": "iCrime with Elizabeth Vargas",
+      "score": 0.2829,
+      "genres": "Crime|Reality",
+      "keywords": "crime"
+    },
+    {
+      "title": "True Life Crime",
+      "score": 0.2681,
+      "genres": "Documentary|Crime",
+      "keywords": "true crime"
+    },
+    {
+      "title": "Betrayed",
+      "score": 0.266,
+      "genres": "Crime|Drama|Mystery|Documentary|Family|Reality",
+      "keywords": "true crime"
+    },
+    {
+      "title": "Dead Reckoning",
+      "score": 0.2656,
+      "genres": "Crime|Documentary",
+      "keywords": "true crime"
+    },
+    {
+      "title": "The Elizabeth Smart Story",
+      "score": 0.2642,
+      "genres": "Drama|Crime|TV Movie",
+      "keywords": "true crime"
+    },
+    {
+      "title": "A Crime to Remember",
+      "score": 0.264,
+      "genres": "Documentary|Drama|Crime|Reality",
+      "keywords": "true crime"
+    },
+    {
+      "title": "Dead of Winter",
+      "score": 0.2633,
+      "genres": "Documentary|Crime|Reality",
+      "keywords": "true crime"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "fec5df6b549912969e1b8f2719a3c64f"
+}

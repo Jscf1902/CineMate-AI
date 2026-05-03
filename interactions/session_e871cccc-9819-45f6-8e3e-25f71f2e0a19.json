@@ -1,0 +1,111 @@
+{
+  "session_id": "e871cccc-9819-45f6-8e3e-25f71f2e0a19",
+  "user_id": "573139355778",
+  "created_at": "2026-05-03T09:02:14.504819",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T09:08:59.178831",
+      "query": "algo que me mantenga enganchado pero sin ser muy pesado",
+      "routed_query": "algo que me mantenga enganchado pero sin ser muy pesado",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 263.038,
+      "scores": [
+        0.4487,
+        0.3216,
+        0.2562,
+        0.2544,
+        0.2085
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Helga y Flora",
+        "Mama Drama",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Helga y Flora",
+      "Mama Drama",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4487,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3216,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2562,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2544,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2085,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1863,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.1857,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "El país más feliz del mundo",
+      "score": 0.1804,
+      "genres": "Comedy",
+      "keywords": "colombian"
+    },
+    {
+      "title": "Cabo",
+      "score": 0.1765,
+      "genres": "Soap|Drama",
+      "keywords": "cabo: amor e desejo"
+    },
+    {
+      "title": "Aliados",
+      "score": 0.1748,
+      "genres": "Comedy|Drama",
+      "keywords": "fantastico"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "82bd3affd49a786cd662385f070086f5"
+}

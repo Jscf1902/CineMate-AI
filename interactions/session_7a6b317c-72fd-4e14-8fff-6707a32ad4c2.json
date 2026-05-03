@@ -1,0 +1,111 @@
+{
+  "session_id": "7a6b317c-72fd-4e14-8fff-6707a32ad4c2",
+  "user_id": "573127416497",
+  "created_at": "2026-05-02T12:39:23.899679",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T12:49:56.999084",
+      "query": "algo como The Notebook",
+      "routed_query": "algo como The Notebook",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 448.744,
+      "scores": [
+        0.3759,
+        0.3743,
+        0.3704,
+        0.369,
+        0.3657
+      ],
+      "titles": [
+        "The Vow",
+        "Dickinson",
+        "Why Didn't I Tell You a Million Times?",
+        "Modern Love Amsterdam",
+        "Lost Song"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Vow",
+      "Dickinson",
+      "Why Didn't I Tell You a Million Times?",
+      "Modern Love Amsterdam",
+      "Lost Song"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Vow",
+      "score": 0.3759,
+      "genres": "Drama|Romance",
+      "keywords": "coma|amnesia|based on true story|romance|memory loss|car accident|valentine's day"
+    },
+    {
+      "title": "Dickinson",
+      "score": 0.3743,
+      "genres": "Comedy|Drama",
+      "keywords": "poetry|lesbian relationship|writer|fictional biography|introspective|lighthearted|furious|emily dickinson|intense|empathetic|excited|foreboding|frightened|gloomy|hopeful|sincere|wlw"
+    },
+    {
+      "title": "Why Didn't I Tell You a Million Times?",
+      "score": 0.3704,
+      "genres": "Drama|Mystery|Sci-Fi & Fantasy",
+      "keywords": "supernatural|romance|death|heartbreak|childhood friends|bittersweet|romantic"
+    },
+    {
+      "title": "Modern Love Amsterdam",
+      "score": 0.369,
+      "genres": "Drama|Comedy",
+      "keywords": "love|romance|relationship"
+    },
+    {
+      "title": "Lost Song",
+      "score": 0.3657,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "magic|friendship|family relationships|redemption|singing|falling in love|true love|mortality"
+    },
+    {
+      "title": "The Dark Side of the Heart",
+      "score": 0.3595,
+      "genres": "Comedy|Drama|Romance",
+      "keywords": "poetry|eroticism|sculpture|friendship|surrealism|mustache|bohemian|death personified|wanderings|pirañera bed"
+    },
+    {
+      "title": "How to Fall in Love",
+      "score": 0.354,
+      "genres": "Comedy|Romance|TV Movie",
+      "keywords": "romance|hallmark"
+    },
+    {
+      "title": "Things We Lost in the Fire",
+      "score": 0.3539,
+      "genres": "Drama",
+      "keywords": "loss of loved one|sadness|junkie|heroin|beauty|charity|funeral|widow|substitute|best friend|woman director|anxious|cautionary|dramatic|apathetic|appreciative|complicated|enraged|tragic"
+    },
+    {
+      "title": "When Life Gives You Tangerines",
+      "score": 0.3193,
+      "genres": "Drama",
+      "keywords": "poet|romance|family relationships|couple|first love|jeju island|bittersweet|adoring|amused"
+    },
+    {
+      "title": "Love Life",
+      "score": -0.6161,
+      "genres": "Comedy|Drama",
+      "keywords": "love|anthology|romance|bittersweet|intimate"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2bec812af69b2c707e928a7241f0d914"
+}

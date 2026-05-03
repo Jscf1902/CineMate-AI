@@ -1,0 +1,111 @@
+{
+  "session_id": "f969f55a-c16b-4e77-951d-53f25d3b347e",
+  "user_id": "573191944564",
+  "created_at": "2026-05-03T00:49:53.876586",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T01:01:20.461905",
+      "query": "romance con diferencias sociales",
+      "routed_query": "romance con diferencias sociales",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 534.442,
+      "scores": [
+        0.722,
+        0.6745,
+        0.6711,
+        0.6676,
+        0.6551
+      ],
+      "titles": [
+        "Romance en tres noches",
+        "Queen of Tears",
+        "Love and Fortune",
+        "FLAMES",
+        "Rewind"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Romance en tres noches",
+      "Queen of Tears",
+      "Love and Fortune",
+      "FLAMES",
+      "Rewind"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Romance en tres noches",
+      "score": 0.722,
+      "genres": "Romance|Comedy|Drama",
+      "keywords": "love at first sight|romance|dark past"
+    },
+    {
+      "title": "Queen of Tears",
+      "score": 0.6745,
+      "genres": "Drama|Comedy",
+      "keywords": "romance|slice of life|rich|illness|married life|married man|rich family|loving|chaebol|second chance romance|black comedy"
+    },
+    {
+      "title": "Love and Fortune",
+      "score": 0.6711,
+      "genres": "Drama",
+      "keywords": "love at first sight|infidelity|obsession|forbidden love|high school|romance|based on manga|mature|older woman younger man relationship"
+    },
+    {
+      "title": "FLAMES",
+      "score": 0.6676,
+      "genres": "Comedy|Drama",
+      "keywords": "new love|friendship|romance|first crush"
+    },
+    {
+      "title": "Rewind",
+      "score": 0.6551,
+      "genres": "Drama|Romance|Science Fiction",
+      "keywords": "romance|second chance|magic realism|science fiction|drama"
+    },
+    {
+      "title": "Sekai Ichi Hatsukoi: The World's Greatest First Love",
+      "score": 0.6508,
+      "genres": "Animation|Drama|Comedy",
+      "keywords": "romance|slice of life|based on manga|art|first love|editor|anime|drastic change of life|erotic|boys' love (bl)"
+    },
+    {
+      "title": "Welcome to Wedding Hell",
+      "score": 0.6275,
+      "genres": "Drama",
+      "keywords": "love at first sight|marriage|romance|wedding|newlywed"
+    },
+    {
+      "title": "Modern Love Tokyo",
+      "score": 0.6044,
+      "genres": "Drama",
+      "keywords": "romance|relationship drama"
+    },
+    {
+      "title": "Reunited Worlds",
+      "score": 0.6021,
+      "genres": "Drama",
+      "keywords": "love triangle|supernatural|deception|romance|melodrama"
+    },
+    {
+      "title": "Film Club",
+      "score": 0.6021,
+      "genres": "Drama|Comedy",
+      "keywords": "love|romance|lighthearted|excited"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "bed756cc981f77b5ea110409d21c6364"
+}

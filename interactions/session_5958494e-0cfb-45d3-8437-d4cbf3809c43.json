@@ -1,0 +1,50 @@
+{
+  "session_id": "5958494e-0cfb-45d3-8437-d4cbf3809c43",
+  "user_id": "573139524984",
+  "created_at": "2026-05-03T01:01:20.563864",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T01:06:39.271863",
+      "query": "acción con estrategia y planificación",
+      "routed_query": "acción con estrategia y planificación",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 194.314,
+      "scores": [
+        0.2575,
+        0.2383,
+        0.232,
+        0.2304,
+        0.2292
+      ],
+      "titles": [
+        "Profits et pertes : enquête sur les spéculateurs de la crise et du chaos",
+        "Masterchef Uruguay",
+        "The Boss",
+        "How to Have an Accident at Work",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Profits et pertes : enquête sur les spéculateurs de la crise et du chaos",
+      "Masterchef Uruguay",
+      "The Boss",
+      "How to Have an Accident at Work",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

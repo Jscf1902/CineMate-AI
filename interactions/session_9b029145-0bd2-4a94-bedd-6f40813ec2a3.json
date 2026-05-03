@@ -1,0 +1,111 @@
+{
+  "session_id": "9b029145-0bd2-4a94-bedd-6f40813ec2a3",
+  "user_id": "573197755485",
+  "created_at": "2026-05-02T11:25:22.203407",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T11:38:28.624555",
+      "query": "algo como The Conjuring",
+      "routed_query": "algo como The Conjuring",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 649.856,
+      "scores": [
+        0.6396,
+        0.5006,
+        0.4527,
+        0.4435,
+        0.4388
+      ],
+      "titles": [
+        "The Conjuring",
+        "The Conjuring: Last Rites",
+        "Bring Her Back",
+        "Black Phone 2",
+        "Presence"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Conjuring",
+      "The Conjuring: Last Rites",
+      "Bring Her Back",
+      "Black Phone 2",
+      "Presence"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Conjuring",
+      "score": 0.6396,
+      "genres": "Horror|Thriller",
+      "keywords": "sibling relationship|1970s|cellar|exorcism|haunted house|rhode island|based on true story|possession|paranormal investigation|crucifix|ghost|demonic|demonic spirit|demonology|psychic vision|malevolent spirit|frightened|horrified"
+    },
+    {
+      "title": "The Conjuring: Last Rites",
+      "score": 0.5006,
+      "genres": "Horror",
+      "keywords": "pennsylvania, usa|exorcism|haunted house|supernatural|sequel|priest|religion|wedding|spirit|paranormal investigation|ghost|1980s|demonic|mirror|supernatural horror|horror"
+    },
+    {
+      "title": "Bring Her Back",
+      "score": 0.4527,
+      "genres": "Horror",
+      "keywords": "sibling relationship|ritual|supernatural|grief|death of father|death|death of daughter|foster mom|blind child|supernatural horror|gaslighting|body horror|horror"
+    },
+    {
+      "title": "Black Phone 2",
+      "score": 0.4435,
+      "genres": "Horror|Thriller",
+      "keywords": "sibling relationship|child abuse|winter|child murder|dreams|colorado|mask|rocky mountains|supernatural|sequel|murder|domestic abuse|serial killer|snow|camp|slasher|based on short story|child kidnapping|1980s|1950s|masked villain|brother sister relationship|masked|supernatural horror|christian faith|psychological horror|nightmares|teen horror|sequestro|horror|frozen lake|foreboding"
+    },
+    {
+      "title": "Presence",
+      "score": 0.4388,
+      "genres": "Horror|Thriller|Drama",
+      "keywords": "new jersey|husband wife relationship|haunted house|grief|interracial marriage|psychological thriller|entity|death|real estate agent|ghost|found footage|voyeurism|family dynamics|death of best friend|first person view|mother son relationship|father daughter relationship|mother daughter relationship|brother sister relationship|supernatural horror|experimental cinema|psychological horror|drugging someone|horror|duchové|paranormální jevy|zlo"
+    },
+    {
+      "title": "The Rajasaab",
+      "score": 0.4281,
+      "genres": "Comedy|Horror|Fantasy",
+      "keywords": "haunted house|hypnosis|musical|romcom|ancient curse|grandfather grandson relationship|supernatural horror|mysterious disappearance|absurd|horror romance|romantic fantasy|ambiguous|cliché|self hypnosis|comedy horror|supernatural romance"
+    },
+    {
+      "title": "Oculus",
+      "score": 0.4276,
+      "genres": "Horror",
+      "keywords": "husband wife relationship|hallucination|haunted house|supernatural|artifact|family relationships|skepticism|ghost|fear of mirrors|mirror"
+    },
+    {
+      "title": "A Haunting",
+      "score": 0.4262,
+      "genres": "Documentary|Mystery|Drama",
+      "keywords": "haunted house|interview|anthology|paranormal phenomena|reenactment|demonic|horror|mystery"
+    },
+    {
+      "title": "Supernatural",
+      "score": 0.4255,
+      "genres": "Drama|Mystery|Sci-Fi & Fantasy",
+      "keywords": "angel|witch|monster|exorcism|supernatural|paranormal|purgatory|paranormal phenomena|apocalypse|bromance|dead mother|demon|on the road|demonic possession|ghost|demon hunter|four horsemen of the apocalypse|fighting evil|brother brother relationship|leviathan|ressurection|brothers|dramatic|suspenseful|horror"
+    },
+    {
+      "title": "The Curse of La Llorona",
+      "score": 0.4255,
+      "genres": "Horror",
+      "keywords": "sibling relationship|mexico|1970s|religion and supernatural|supernatural|priest|grieving widower|los angeles, california|single mother|dead children|folklore|supernatural horror|mexican folklore|children in danger|horror|brother and sister|child protective services"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4afcf7187056fe05b5619ff1dda65b16"
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "dc5e7ca9-438f-41e5-a566-037503084f22",
+  "user_id": "573140640839",
+  "created_at": "2026-05-02T11:57:24.347175",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T12:03:11.403744",
+      "query": "películas tipo Harry Potter",
+      "routed_query": "películas tipo Harry Potter",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 197.871,
+      "scores": [
+        0.2235,
+        0.208,
+        0.2045,
+        0.2039,
+        0.2026
+      ],
+      "titles": [
+        "The World's Gold",
+        "Dignity",
+        "Egypt: Secrets of the Pharaohs",
+        "Vacanze di Natale a Cortina",
+        "Enrico IV"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Dignity",
+      "Egypt: Secrets of the Pharaohs",
+      "Vacanze di Natale a Cortina",
+      "Enrico IV"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

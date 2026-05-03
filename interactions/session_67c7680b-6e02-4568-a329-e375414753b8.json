@@ -1,0 +1,50 @@
+{
+  "session_id": "67c7680b-6e02-4568-a329-e375414753b8",
+  "user_id": "573198744710",
+  "created_at": "2026-05-03T06:57:57.857055",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T07:08:30.081453",
+      "query": "algo recomendado",
+      "routed_query": "algo recomendado",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 272.931,
+      "scores": [
+        0.2419,
+        0.2255,
+        0.2136,
+        0.2124,
+        0.2097
+      ],
+      "titles": [
+        "Aliados",
+        "Illiterate",
+        "The World's Gold",
+        "Vacanze di Natale a Cortina",
+        "A Summer In The Caribbean"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Aliados",
+      "Illiterate",
+      "The World's Gold",
+      "Vacanze di Natale a Cortina",
+      "A Summer In The Caribbean"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

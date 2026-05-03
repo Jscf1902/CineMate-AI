@@ -1,0 +1,50 @@
+{
+  "session_id": "f01a287a-c1e6-4212-9fb4-c323a618bf16",
+  "user_id": "573118375214",
+  "created_at": "2026-05-02T21:39:16.351632",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T21:45:37.963641",
+      "query": "terror con casa embrujada pero bien ambientado",
+      "routed_query": "terror con casa embrujada pero bien ambientado",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 234.766,
+      "scores": [
+        0.3538,
+        0.2889,
+        0.2772,
+        0.2765,
+        0.2761
+      ],
+      "titles": [
+        "La Casa de los Famosos México",
+        "The Zone",
+        "Riot Police",
+        "Comando Txikia: muerte de un presidente",
+        "Terror on the Midnight Train"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "La Casa de los Famosos México",
+      "The Zone",
+      "Riot Police",
+      "Comando Txikia: muerte de un presidente",
+      "Terror on the Midnight Train"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

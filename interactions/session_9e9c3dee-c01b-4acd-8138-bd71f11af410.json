@@ -1,0 +1,111 @@
+{
+  "session_id": "9e9c3dee-c01b-4acd-8138-bd71f11af410",
+  "user_id": "573148923979",
+  "created_at": "2026-05-02T08:42:59.494876",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T08:50:45.250035",
+      "query": "terror psicológico intenso",
+      "routed_query": "terror psicológico intenso",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 323.65,
+      "scores": [
+        0.3217,
+        0.3194,
+        0.3102,
+        0.2994,
+        0.2932
+      ],
+      "titles": [
+        "The Moro Affair",
+        "Carlos",
+        "Comando Txikia: muerte de un presidente",
+        "Utusan Iblis: Dia Yang Berada di Antara Kita",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Moro Affair",
+      "Carlos",
+      "Comando Txikia: muerte de un presidente",
+      "Utusan Iblis: Dia Yang Berada di Antara Kita",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Moro Affair",
+      "score": 0.3217,
+      "genres": "Drama|History",
+      "keywords": "politics|terrorism|years of lead|anni di piombo"
+    },
+    {
+      "title": "Carlos",
+      "score": 0.3194,
+      "genres": "Drama|Crime|War & Politics",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Comando Txikia: muerte de un presidente",
+      "score": 0.3102,
+      "genres": "Drama",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Utusan Iblis: Dia Yang Berada di Antara Kita",
+      "score": 0.2994,
+      "genres": "Horror|Mystery|Thriller",
+      "keywords": "haunting|psychologist|female protagonist|psychological thriller|devil|mental health|ghost|terror"
+    },
+    {
+      "title": "Complicit",
+      "score": 0.2932,
+      "genres": "Drama",
+      "keywords": "politics|terrorism"
+    },
+    {
+      "title": "The Town that Dreaded Sundown",
+      "score": 0.2817,
+      "genres": "Thriller|Horror",
+      "keywords": "ghoulish|harsh|horrified"
+    },
+    {
+      "title": "Evil",
+      "score": 0.2783,
+      "genres": "Crime|Drama|Mystery",
+      "keywords": "new york city|possession|priest|psychologist|paranormal investigation|catholic|skeptic|demonic|demonology|night terrors|horror"
+    },
+    {
+      "title": "The Family Man",
+      "score": 0.2769,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "terrorism|raw"
+    },
+    {
+      "title": "Furia",
+      "score": 0.2766,
+      "genres": "Drama|Crime",
+      "keywords": "undercover agent|terrorism"
+    },
+    {
+      "title": "Sweet Home",
+      "score": 0.2726,
+      "genres": "Sci-Fi & Fantasy|Action & Adventure",
+      "keywords": "trauma|gore|survival|apocalypse|supernatural phenomena|isolationism|human nature|apartment|suspense|based on webcomic or webtoon|monsters"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4b760643f030c3e0e5bedc9c8b64ecde"
+}

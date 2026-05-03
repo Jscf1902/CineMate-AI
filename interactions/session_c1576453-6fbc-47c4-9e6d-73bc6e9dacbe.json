@@ -1,0 +1,111 @@
+{
+  "session_id": "c1576453-6fbc-47c4-9e6d-73bc6e9dacbe",
+  "user_id": "573135827318",
+  "created_at": "2026-05-03T01:06:39.363202",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T01:16:06.666090",
+      "query": "ciencia ficción con robots y emociones humanas",
+      "routed_query": "ciencia ficción con robots y emociones humanas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 388.752,
+      "scores": [
+        0.3977,
+        0.3721,
+        0.3473,
+        0.3308,
+        0.3267
+      ],
+      "titles": [
+        "Real Humans",
+        "Time of Eve",
+        "Transformers: BotBots",
+        "I Am Not a Robot",
+        "Better Than Us"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Real Humans",
+      "Time of Eve",
+      "Transformers: BotBots",
+      "I Am Not a Robot",
+      "Better Than Us"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Real Humans",
+      "score": 0.3977,
+      "genres": "Drama|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|cyborg|technology|robot|humanoid robot|human android relationship|sentient machine|human vs machines|cybernetics"
+    },
+    {
+      "title": "Time of Eve",
+      "score": 0.3721,
+      "genres": "Animation|Sci-Fi & Fantasy|Drama",
+      "keywords": "artificial intelligence (a.i.)|detective|android|future|dystopia|surrealism|slice of life|cyberpunk|maid|robot|cafe|seinen|anime|three laws of robotics"
+    },
+    {
+      "title": "Transformers: BotBots",
+      "score": 0.3473,
+      "genres": "Kids|Animation",
+      "keywords": "villain|based on toy|robot|destruction|power|animation"
+    },
+    {
+      "title": "I Am Not a Robot",
+      "score": 0.3308,
+      "genres": "Comedy|Drama",
+      "keywords": "artificial intelligence (a.i.)|romance|robot|heir|hidden identity|rich man poor woman|robot girl|double identity|robotics|humanoid robot|haphephobia"
+    },
+    {
+      "title": "Better Than Us",
+      "score": 0.3267,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "robot|machine|war|human|science fiction"
+    },
+    {
+      "title": "Hoppers",
+      "score": 0.3093,
+      "genres": "Animation|Family|Science Fiction|Comedy",
+      "keywords": "consciousness|human becoming an animal|robotic animal|3d animation|ambiguous"
+    },
+    {
+      "title": "Robot T-O",
+      "score": 0.3088,
+      "genres": "Comedy|Drama|Science Fiction",
+      "keywords": "dystopia|mother daughter relationship|technophobia|near future|robots|dystopian future"
+    },
+    {
+      "title": "Robots",
+      "score": 0.3068,
+      "genres": "Animation|Comedy|Family|Science Fiction",
+      "keywords": "inventor|villain|businessman|steampunk|robot|dishonesty|amused"
+    },
+    {
+      "title": "Not a Robot",
+      "score": 0.2936,
+      "genres": "Sci-Fi & Fantasy",
+      "keywords": "robot"
+    },
+    {
+      "title": "Mazinkaiser",
+      "score": 0.2878,
+      "genres": "Animation|Sci-Fi & Fantasy|Action & Adventure",
+      "keywords": "robot|anime"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f76534800a533b580957f18697fc97ff"
+}

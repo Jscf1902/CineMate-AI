@@ -1,0 +1,111 @@
+{
+  "session_id": "8bfbf1fe-0fe6-490d-ba35-d89187dcd80e",
+  "user_id": "573132104443",
+  "created_at": "2026-05-02T12:17:13.093420",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T12:31:09.385929",
+      "query": "películas tipo John Wick",
+      "routed_query": "películas tipo John Wick",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 702.528,
+      "scores": [
+        0.1865,
+        0.185,
+        0.1789,
+        0.1716,
+        0.1714
+      ],
+      "titles": [
+        "The World's Gold",
+        "Los 80",
+        "Egypt: Secrets of the Pharaohs",
+        "A Man Called Magnum",
+        "Vacanze di Natale a Cortina"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Los 80",
+      "Egypt: Secrets of the Pharaohs",
+      "A Man Called Magnum",
+      "Vacanze di Natale a Cortina"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The World's Gold",
+      "score": 0.1865,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Los 80",
+      "score": 0.185,
+      "genres": "Drama",
+      "keywords": "pinochet regime|1980s"
+    },
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1789,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "A Man Called Magnum",
+      "score": 0.1716,
+      "genres": "Crime|Action",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1714,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Who Killed the Prosecutor and Why?",
+      "score": 0.1713,
+      "genres": "Thriller",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Dignity",
+      "score": 0.1692,
+      "genres": "Drama",
+      "keywords": "cult|based on true story|colonia dignidad"
+    },
+    {
+      "title": "Memories of Miss O'Keeffe",
+      "score": 0.169,
+      "genres": "Documentary",
+      "keywords": "georgia o'keeffe"
+    },
+    {
+      "title": "Supremo",
+      "score": 0.1668,
+      "genres": "Drama|History",
+      "keywords": "philippines"
+    },
+    {
+      "title": "Minsan May Isang Puso",
+      "score": 0.165,
+      "genres": "Drama",
+      "keywords": "philippines"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "90b789ef616797c8fb2bc52bc06e5f7e"
+}

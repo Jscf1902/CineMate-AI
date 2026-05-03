@@ -1,0 +1,111 @@
+{
+  "session_id": "36af3652-fd36-4eff-8158-1901f971469b",
+  "user_id": "573113373978",
+  "created_at": "2026-05-02T21:31:24.622948",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T21:39:16.147578",
+      "query": "ciencia ficción con distopía y protagonista fuerte",
+      "routed_query": "ciencia ficción con distopía y protagonista fuerte",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 307.715,
+      "scores": [
+        0.4147,
+        0.3142,
+        0.2999,
+        0.2951,
+        0.2902
+      ],
+      "titles": [
+        "Bureau 749",
+        "Anche se è amore non si vede",
+        "Illiterate",
+        "Hasta que te conocí",
+        "The Last Fistful of Land"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Bureau 749",
+      "Anche se è amore non si vede",
+      "Illiterate",
+      "Hasta que te conocí",
+      "The Last Fistful of Land"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Bureau 749",
+      "score": 0.4147,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "joyful|mezcla documental y ficción"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.3142,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2999,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Hasta que te conocí",
+      "score": 0.2951,
+      "genres": "Drama",
+      "keywords": "biography"
+    },
+    {
+      "title": "The Last Fistful of Land",
+      "score": 0.2902,
+      "genres": "Documentary",
+      "keywords": "economic miracle|sardinia, italy|social documentary|1960s|fiorenzo serra|sardegna"
+    },
+    {
+      "title": "The Metropolitan Opera: Puccini's La Rondine",
+      "score": 0.2871,
+      "genres": "Music",
+      "keywords": "opera|puccini"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2846,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2635,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2338,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Dignity",
+      "score": 0.2334,
+      "genres": "Drama",
+      "keywords": "cult|based on true story|colonia dignidad"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "1dfd9fc064cb68a075e2cda649f4e8b7"
+}

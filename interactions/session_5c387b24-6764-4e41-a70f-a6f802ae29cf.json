@@ -1,0 +1,111 @@
+{
+  "session_id": "5c387b24-6764-4e41-a70f-a6f802ae29cf",
+  "user_id": "573139165694",
+  "created_at": "2026-05-02T07:19:48.204321",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T07:28:21.323304",
+      "query": "terror con asesinos",
+      "routed_query": "terror con asesinos",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 377.567,
+      "scores": [
+        0.3651,
+        0.3608,
+        0.3454,
+        0.3374,
+        0.3372
+      ],
+      "titles": [
+        "Furia",
+        "Piazza Fontana: The Italian Conspiracy",
+        "Carlos",
+        "Comando Txikia: muerte de un presidente",
+        "No Contest II"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Furia",
+      "Piazza Fontana: The Italian Conspiracy",
+      "Carlos",
+      "Comando Txikia: muerte de un presidente",
+      "No Contest II"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Furia",
+      "score": 0.3651,
+      "genres": "Drama|Crime",
+      "keywords": "undercover agent|terrorism"
+    },
+    {
+      "title": "Piazza Fontana: The Italian Conspiracy",
+      "score": 0.3608,
+      "genres": "Drama|Crime|Mystery|History",
+      "keywords": "bomb|milan|anarchist|government conspiracy|years of lead|anni di piombo|state terrorism|far-right organization"
+    },
+    {
+      "title": "Carlos",
+      "score": 0.3454,
+      "genres": "Drama|Crime|War & Politics",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Comando Txikia: muerte de un presidente",
+      "score": 0.3374,
+      "genres": "Drama",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "No Contest II",
+      "score": 0.3372,
+      "genres": "Action|Crime|Thriller",
+      "keywords": "femme fatale|murder|terrorism|martial artist|terrorist plot|nazism|canuxploitation"
+    },
+    {
+      "title": "Complicit",
+      "score": 0.3345,
+      "genres": "Drama",
+      "keywords": "politics|terrorism"
+    },
+    {
+      "title": "The Family Man",
+      "score": 0.3183,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "terrorism|raw"
+    },
+    {
+      "title": "November 13: Attack on Paris",
+      "score": 0.3152,
+      "genres": "Documentary",
+      "keywords": "paris, france|journalism|freedom of speech|massacre|explosion|terrorist attack|charlie hebdo"
+    },
+    {
+      "title": "The Moro Affair",
+      "score": 0.3089,
+      "genres": "Drama|History",
+      "keywords": "politics|terrorism|years of lead|anni di piombo"
+    },
+    {
+      "title": "Without Warning: Terror in the Towers",
+      "score": 0.2994,
+      "genres": "TV Movie|Drama|Thriller",
+      "keywords": "based on true story|world trade center|terrorist bombing"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "85c3060e01970619d419066ab26d7756"
+}

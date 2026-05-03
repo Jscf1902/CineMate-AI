@@ -1,0 +1,50 @@
+{
+  "session_id": "1343a49a-f2ac-490f-adb1-fb41baa9dd4b",
+  "user_id": "573141585087",
+  "created_at": "2026-05-02T04:33:57.694816",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T04:40:16.863322",
+      "query": "películas de acción con espionaje",
+      "routed_query": "películas de acción con espionaje",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 227.949,
+      "scores": [
+        0.2681,
+        0.2622,
+        0.252,
+        0.2376,
+        0.229
+      ],
+      "titles": [
+        "Anche se è amore non si vede",
+        "Illiterate",
+        "The Metropolitan Opera: Puccini's La Rondine",
+        "Después de… Primera parte: no se os puede dejar solos",
+        "The World's Gold"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Anche se è amore non si vede",
+      "Illiterate",
+      "The Metropolitan Opera: Puccini's La Rondine",
+      "Después de… Primera parte: no se os puede dejar solos",
+      "The World's Gold"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

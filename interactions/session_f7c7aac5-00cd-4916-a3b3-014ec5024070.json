@@ -1,0 +1,50 @@
+{
+  "session_id": "f7c7aac5-00cd-4916-a3b3-014ec5024070",
+  "user_id": "573167846212",
+  "created_at": "2026-05-02T12:09:48.559133",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T12:17:12.877745",
+      "query": "algo como Fast and Furious",
+      "routed_query": "algo como Fast and Furious",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 301.798,
+      "scores": [
+        0.5199,
+        0.5034,
+        0.4899,
+        0.392,
+        0.3766
+      ],
+      "titles": [
+        "Fast & Furious Spy Racers",
+        "Superfast!",
+        "Furious 7",
+        "Fast X",
+        "Fast Lane to Malibu"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Fast & Furious Spy Racers",
+      "Superfast!",
+      "Furious 7",
+      "Fast X",
+      "Fast Lane to Malibu"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

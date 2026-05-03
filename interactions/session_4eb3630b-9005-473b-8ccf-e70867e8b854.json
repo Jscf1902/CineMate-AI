@@ -1,0 +1,50 @@
+{
+  "session_id": "4eb3630b-9005-473b-8ccf-e70867e8b854",
+  "user_id": "573159991717",
+  "created_at": "2026-05-02T10:03:37.651247",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T10:12:37.051507",
+      "query": "algo como The Dark Knight",
+      "routed_query": "algo como The Dark Knight",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 422.75,
+      "scores": [
+        0.6894,
+        0.6888,
+        0.4901,
+        0.4882,
+        0.4877
+      ],
+      "titles": [
+        "The Dark Knight",
+        "The Dark Knight Rises",
+        "ID: INVADED",
+        "B: The Beginning",
+        "The Batman"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Dark Knight",
+      "The Dark Knight Rises",
+      "ID: INVADED",
+      "B: The Beginning",
+      "The Batman"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

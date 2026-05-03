@@ -1,0 +1,50 @@
+{
+  "session_id": "c2962da4-0e28-4d96-8c4f-56ecca441d95",
+  "user_id": "573134315342",
+  "created_at": "2026-05-03T02:07:14.770200",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T02:14:53.159985",
+      "query": "una peli chévere",
+      "routed_query": "una peli chévere",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 279.025,
+      "scores": [
+        0.2499,
+        0.2481,
+        0.2379,
+        0.23,
+        0.23
+      ],
+      "titles": [
+        "The World's Gold",
+        "Muchachos, la película de la gente",
+        "Che Kopete: The Movie",
+        "Mama Drama",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "Muchachos, la película de la gente",
+      "Che Kopete: The Movie",
+      "Mama Drama",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

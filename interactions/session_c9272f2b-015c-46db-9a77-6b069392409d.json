@@ -1,0 +1,50 @@
+{
+  "session_id": "c9272f2b-015c-46db-9a77-6b069392409d",
+  "user_id": "573148862721",
+  "created_at": "2026-05-03T10:34:04.642547",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T10:40:13.858469",
+      "query": "quiero algo que me deje pensando pero que disfrute",
+      "routed_query": "quiero algo que me deje pensando pero que disfrute",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 219.482,
+      "scores": [
+        0.6626,
+        0.4276,
+        0.3108,
+        0.2188,
+        0.2056
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "È questa la vita che sognavo da bambino?",
+        "Por la gloria de sus padres",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "È questa la vita che sognavo da bambino?",
+      "Por la gloria de sus padres",
+      "Mama Drama"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

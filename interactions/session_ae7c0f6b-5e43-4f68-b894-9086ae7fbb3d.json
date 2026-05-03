@@ -1,0 +1,50 @@
+{
+  "session_id": "ae7c0f6b-5e43-4f68-b894-9086ae7fbb3d",
+  "user_id": "573125927931",
+  "created_at": "2026-05-02T12:49:57.108412",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T12:57:37.592513",
+      "query": "películas tipo Shrek",
+      "routed_query": "películas tipo Shrek",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 270.995,
+      "scores": [
+        0.3823,
+        0.2868,
+        0.2129,
+        0.2088,
+        0.2062
+      ],
+      "titles": [
+        "Shrek 2",
+        "Shrek Forever After",
+        "Egypt: Secrets of the Pharaohs",
+        "Anche se è amore non si vede",
+        "Who Killed the Prosecutor and Why?"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Shrek 2",
+      "Shrek Forever After",
+      "Egypt: Secrets of the Pharaohs",
+      "Anche se è amore non si vede",
+      "Who Killed the Prosecutor and Why?"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

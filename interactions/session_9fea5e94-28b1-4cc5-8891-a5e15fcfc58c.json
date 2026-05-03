@@ -1,0 +1,50 @@
+{
+  "session_id": "9fea5e94-28b1-4cc5-8891-a5e15fcfc58c",
+  "user_id": "573164349561",
+  "created_at": "2026-05-02T09:47:55.886968",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T09:54:48.291483",
+      "query": "películas tipo The Matrix",
+      "routed_query": "películas tipo The Matrix",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 298.692,
+      "scores": [
+        0.2328,
+        0.2326,
+        0.2167,
+        0.2133,
+        0.2115
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "Anche se è amore non si vede",
+        "Vacanze di Natale a Cortina",
+        "The Moro Affair",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Egypt: Secrets of the Pharaohs",
+      "Anche se è amore non si vede",
+      "Vacanze di Natale a Cortina",
+      "The Moro Affair",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

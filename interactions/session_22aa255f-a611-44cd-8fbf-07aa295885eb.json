@@ -1,0 +1,111 @@
+{
+  "session_id": "22aa255f-a611-44cd-8fbf-07aa295885eb",
+  "user_id": "573142770249",
+  "created_at": "2026-05-03T03:07:05.565301",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T03:14:06.264902",
+      "query": "algo para ver solo",
+      "routed_query": "algo para ver solo",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 284.381,
+      "scores": [
+        0.3419,
+        0.2695,
+        0.2369,
+        0.2326,
+        0.2092
+      ],
+      "titles": [
+        "Para - We Are King",
+        "To Walk Again",
+        "Bios: Os Paralamas do Sucesso",
+        "Avatar",
+        "Terror on the Midnight Train"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Para - We Are King",
+      "To Walk Again",
+      "Bios: Os Paralamas do Sucesso",
+      "Avatar",
+      "Terror on the Midnight Train"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Para - We Are King",
+      "score": 0.3419,
+      "genres": "Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "To Walk Again",
+      "score": 0.2695,
+      "genres": "Documentary",
+      "keywords": "paraplegic|sportmanship"
+    },
+    {
+      "title": "Bios: Os Paralamas do Sucesso",
+      "score": 0.2369,
+      "genres": "Documentary|TV Movie",
+      "keywords": NaN
+    },
+    {
+      "title": "Avatar",
+      "score": 0.2326,
+      "genres": "Action|Adventure|Science Fiction",
+      "keywords": "paraplegic|culture clash|attachment to nature|indigenous|space colony|space travel|tribe|alien planet|distant future|marine|battle|love affair|scientist|nature|native peoples|power relations|tribal customs|tribal people|tribal chief|cryonics|spiritual community|22nd century|save the planet|racial discrimination|soldiers|awestruck|bold|exhilarated"
+    },
+    {
+      "title": "Terror on the Midnight Train",
+      "score": 0.2092,
+      "genres": "Horror",
+      "keywords": "phantom"
+    },
+    {
+      "title": "Tom est tout seul",
+      "score": 0.2063,
+      "genres": "Comedy",
+      "keywords": "solitude|seul"
+    },
+    {
+      "title": "Primal Survivor",
+      "score": 0.1908,
+      "genres": "Documentary",
+      "keywords": "wilderness|survival"
+    },
+    {
+      "title": "La Isla de las Tentaciones",
+      "score": 0.1878,
+      "genres": "Reality",
+      "keywords": "beach|temptation|lidlt"
+    },
+    {
+      "title": "She",
+      "score": 0.1866,
+      "genres": "Crime|Drama",
+      "keywords": "undercover"
+    },
+    {
+      "title": "12th Fail",
+      "score": 0.1824,
+      "genres": "Drama",
+      "keywords": "awestruck"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "a9d4ee66fc2b87407cbdb53ce73d374e"
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "7c655615-0bbc-4974-b7ee-6dee63b8a3fd",
+  "user_id": "573142985510",
+  "created_at": "2026-05-02T06:12:34.022780",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T06:19:57.634490",
+      "query": "películas de acción con guerras",
+      "routed_query": "películas de acción con guerras",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 260.17,
+      "scores": [
+        0.3546,
+        0.3403,
+        0.3347,
+        0.3157,
+        0.2961
+      ],
+      "titles": [
+        "Ebre, del bressol a la batalla",
+        "Spain: A Country Divided",
+        "Words for an End of the World",
+        "Después de… Primera parte: no se os puede dejar solos",
+        "Tres Caínes"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Ebre, del bressol a la batalla",
+      "Spain: A Country Divided",
+      "Words for an End of the World",
+      "Después de… Primera parte: no se os puede dejar solos",
+      "Tres Caínes"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

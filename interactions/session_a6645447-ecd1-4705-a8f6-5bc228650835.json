@@ -1,0 +1,111 @@
+{
+  "session_id": "a6645447-ecd1-4705-a8f6-5bc228650835",
+  "user_id": "573165593688",
+  "created_at": "2026-05-03T09:35:23.640623",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T09:42:27.010446",
+      "query": "algo que me sorprenda pero que no sea confuso",
+      "routed_query": "algo que me sorprenda pero que no sea confuso",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 293.753,
+      "scores": [
+        0.6574,
+        0.4183,
+        0.4108,
+        0.3246,
+        0.31
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Sea of Love",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "È questa la vita che sognavo da bambino?"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Sea of Love",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "È questa la vita che sognavo da bambino?"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.6574,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Sea of Love",
+      "score": 0.4183,
+      "genres": "Comedy|Kids|Animation",
+      "keywords": "deep sea"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.4108,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.3246,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.31,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Sea Princesses",
+      "score": 0.3069,
+      "genres": "Animation|Kids",
+      "keywords": "mermaid|princess|oceania|brazilian"
+    },
+    {
+      "title": "Changing Seas",
+      "score": 0.2716,
+      "genres": "Documentary",
+      "keywords": "ocean|sea|nature|oceanography"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2167,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Overcoming heartbreak",
+      "score": 0.199,
+      "genres": "Soap|Drama",
+      "keywords": "vencer o desamor"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.1974,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2934d894afc6439e4191ba22f4a72195"
+}

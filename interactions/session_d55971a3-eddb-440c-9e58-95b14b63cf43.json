@@ -1,0 +1,50 @@
+{
+  "session_id": "d55971a3-eddb-440c-9e58-95b14b63cf43",
+  "user_id": "573193829162",
+  "created_at": "2026-05-03T07:14:23.139851",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T07:21:23.704444",
+      "query": "algo que esté bueno",
+      "routed_query": "algo que esté bueno",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 315.992,
+      "scores": [
+        0.5029,
+        0.4077,
+        0.2869,
+        0.2633,
+        0.2582
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Muchachos, la película de la gente",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Muchachos, la película de la gente",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

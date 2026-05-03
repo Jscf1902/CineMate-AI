@@ -1,0 +1,111 @@
+{
+  "session_id": "f369af74-eff9-4c0b-83fa-a411d5f235f5",
+  "user_id": "573192897981",
+  "created_at": "2026-05-02T13:32:50.821356",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T13:41:47.157084",
+      "query": "algo como Annabelle",
+      "routed_query": "algo como Annabelle",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 314.944,
+      "scores": [
+        0.3588,
+        0.2843,
+        0.2737,
+        0.2684,
+        0.2668
+      ],
+      "titles": [
+        "Annabelle: Creation",
+        "Witch",
+        "Abigail Leslie Is Back in Town",
+        "Good Witch",
+        "Mickey's Tale of Two Witches"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Annabelle: Creation",
+      "Witch",
+      "Abigail Leslie Is Back in Town",
+      "Good Witch",
+      "Mickey's Tale of Two Witches"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Annabelle: Creation",
+      "score": 0.3588,
+      "genres": "Horror",
+      "keywords": "halloween|prequel|evil doll|demon|spin off|demonic possession|ghost|aftercreditsstinger|duringcreditsstinger"
+    },
+    {
+      "title": "Witch",
+      "score": 0.2843,
+      "genres": "Mystery|Drama",
+      "keywords": "witch|romance"
+    },
+    {
+      "title": "Abigail Leslie Is Back in Town",
+      "score": 0.2737,
+      "genres": "Drama",
+      "keywords": "erotic movie"
+    },
+    {
+      "title": "Good Witch",
+      "score": 0.2684,
+      "genres": "Comedy|Drama|Sci-Fi & Fantasy",
+      "keywords": "witch"
+    },
+    {
+      "title": "Mickey's Tale of Two Witches",
+      "score": 0.2668,
+      "genres": "Animation|TV Movie|Family",
+      "keywords": "halloween"
+    },
+    {
+      "title": "Sleeping Beauty",
+      "score": 0.2584,
+      "genres": "Drama|Fantasy|Action|Adventure",
+      "keywords": "fairy tale"
+    },
+    {
+      "title": "The Great Ghost Rescue",
+      "score": 0.2581,
+      "genres": "Family|Fantasy|Horror",
+      "keywords": "ghost"
+    },
+    {
+      "title": "Sinful Desires",
+      "score": 0.2552,
+      "genres": "Thriller|Romance",
+      "keywords": "erotic movie"
+    },
+    {
+      "title": "Monsoon",
+      "score": 0.2549,
+      "genres": "Drama",
+      "keywords": "erotic movie"
+    },
+    {
+      "title": "Dona Flor and Her Two Husbands",
+      "score": 0.2531,
+      "genres": "Comedy|Drama|Fantasy|Romance",
+      "keywords": "voodoo|ghost"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2e473395015ae4d92006fd558776d59f"
+}

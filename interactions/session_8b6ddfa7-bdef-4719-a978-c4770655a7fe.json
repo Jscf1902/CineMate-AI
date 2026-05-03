@@ -1,0 +1,111 @@
+{
+  "session_id": "8b6ddfa7-bdef-4719-a978-c4770655a7fe",
+  "user_id": "573182174887",
+  "created_at": "2026-05-03T07:56:17.497821",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T08:05:01.668139",
+      "query": "una película que no falle",
+      "routed_query": "una película que no falle",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 409.423,
+      "scores": [
+        0.4118,
+        0.3819,
+        0.3457,
+        0.2372,
+        0.2331
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Muchachos, la película de la gente",
+        "¡Qué madre, tan padre!",
+        "The World's Gold",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Muchachos, la película de la gente",
+      "¡Qué madre, tan padre!",
+      "The World's Gold",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4118,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.3819,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3457,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2372,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2331,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2268,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2202,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2123,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2103,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Extermineitors III: The Final Fight",
+      "score": 0.2015,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "821e983bf7cbabd92c9870037647e4ed"
+}

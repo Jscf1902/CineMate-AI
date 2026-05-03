@@ -1,0 +1,50 @@
+{
+  "session_id": "b74e8e3a-0fd4-45e5-872c-c3f9e496e015",
+  "user_id": "573187621817",
+  "created_at": "2026-05-02T17:16:12.510335",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T17:24:39.275184",
+      "query": "películas tipo Blade Runner",
+      "routed_query": "películas tipo Blade Runner",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 190.467,
+      "scores": [
+        0.3712,
+        0.2036,
+        0.1976,
+        0.1913,
+        0.1901
+      ],
+      "titles": [
+        "Philip K. Dick's Electric Dreams",
+        "Anche se è amore non si vede",
+        "Muchachos, la película de la gente",
+        "The World's Gold",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Philip K. Dick's Electric Dreams",
+      "Anche se è amore non si vede",
+      "Muchachos, la película de la gente",
+      "The World's Gold",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "5c9aabed-2c0a-4037-8654-66ace6e8dd06",
+  "user_id": "573192570234",
+  "created_at": "2026-05-03T16:13:51.292865",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T16:33:28.937693",
+      "query": "terror psicológico con pocos personajes",
+      "routed_query": "terror psicológico con pocos personajes",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 962.837,
+      "scores": [
+        0.3578,
+        0.319,
+        0.3138,
+        0.3125,
+        0.2916
+      ],
+      "titles": [
+        "Utusan Iblis: Dia Yang Berada di Antara Kita",
+        "Carlos",
+        "Comando Txikia: muerte de un presidente",
+        "The Moro Affair",
+        "Entranced Earth"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Utusan Iblis: Dia Yang Berada di Antara Kita",
+      "Carlos",
+      "Comando Txikia: muerte de un presidente",
+      "The Moro Affair",
+      "Entranced Earth"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

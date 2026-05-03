@@ -1,0 +1,111 @@
+{
+  "session_id": "7712861d-7933-4ec9-b201-bbed5b88c2a6",
+  "user_id": "573195073762",
+  "created_at": "2026-05-02T07:01:53.201874",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T07:12:20.465342",
+      "query": "películas de suspenso con crimen",
+      "routed_query": "películas de suspenso con crimen",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 504.558,
+      "scores": [
+        0.2831,
+        0.2718,
+        0.2709,
+        0.2425,
+        0.238
+      ],
+      "titles": [
+        "Rabbies",
+        "Anche se è amore non si vede",
+        "Examination of Conscience",
+        "A Sinister Sect: Colonia Dignidad",
+        "Who Killed the Prosecutor and Why?"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Rabbies",
+      "Anche se è amore non si vede",
+      "Examination of Conscience",
+      "A Sinister Sect: Colonia Dignidad",
+      "Who Killed the Prosecutor and Why?"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Rabbies",
+      "score": 0.2831,
+      "genres": "Crime|Mystery",
+      "keywords": "crime investigation"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2718,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Examination of Conscience",
+      "score": 0.2709,
+      "genres": "Documentary",
+      "keywords": "spain|catholic school|child molestation|accusation"
+    },
+    {
+      "title": "A Sinister Sect: Colonia Dignidad",
+      "score": 0.2425,
+      "genres": "Documentary",
+      "keywords": "child abuse|investigation|cult|true crime|colonia dignidad"
+    },
+    {
+      "title": "Who Killed the Prosecutor and Why?",
+      "score": 0.238,
+      "genres": "Thriller",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "A Man Called Magnum",
+      "score": 0.2376,
+      "genres": "Crime|Action",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2345,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2274,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Se7en",
+      "score": 0.2214,
+      "genres": "Crime|Mystery|Thriller",
+      "keywords": "self-fulfilling prophecy|detective|s.w.a.t.|rage and hate|insomnia|sadism|investigation|police|psychopath|murder|serial killer|shootout|religion|corpse|seven deadly sins|depravity|neo-noir|urban gothic|anxious|disdainful|seven: los siete pecados capitales|assassino em série"
+    },
+    {
+      "title": "Horses & Hangmen",
+      "score": 0.2188,
+      "genres": "Documentary|Crime|Drama",
+      "keywords": "true crime|documental"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f21384e1e7af712bbebf3a6dcaf75ef1"
+}

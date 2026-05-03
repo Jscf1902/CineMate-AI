@@ -1,0 +1,111 @@
+{
+  "session_id": "cd6b1ecc-5ad7-44f9-b1eb-e3c0365d932e",
+  "user_id": "573146106616",
+  "created_at": "2026-05-03T16:45:38.003417",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T16:52:57.445642",
+      "query": "acción con inteligencia artificial",
+      "routed_query": "acción con inteligencia artificial",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 336.946,
+      "scores": [
+        0.3583,
+        0.3536,
+        0.336,
+        0.3211,
+        0.3181
+      ],
+      "titles": [
+        "Pantheon",
+        "The Gene of AI",
+        "Unlock My Boss",
+        "A.I.C.O. -Incarnation-",
+        "Ex Machina"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Pantheon",
+      "The Gene of AI",
+      "Unlock My Boss",
+      "A.I.C.O. -Incarnation-",
+      "Ex Machina"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Pantheon",
+      "score": 0.3583,
+      "genres": "Animation|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|virtual reality|conspiracy|philosophical|inspirational"
+    },
+    {
+      "title": "The Gene of AI",
+      "score": 0.3536,
+      "genres": "Animation|Drama|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|based on manga|shounen|anime|psychological"
+    },
+    {
+      "title": "Unlock My Boss",
+      "score": 0.336,
+      "genres": "Comedy|Drama",
+      "keywords": "artificial intelligence (a.i.)|office|virtual reality|conspiracy|corporate take over|smart phone|corporate conspiracy|virtual assistant|based on webcomic or webtoon|smartphone"
+    },
+    {
+      "title": "A.I.C.O. -Incarnation-",
+      "score": 0.3211,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|anime|original net animation (ona)"
+    },
+    {
+      "title": "Ex Machina",
+      "score": 0.3181,
+      "genres": "Drama|Science Fiction",
+      "keywords": "dancing|artificial intelligence (a.i.)|man vs machine|android|norway|distrust|isolation|technology|manipulation|high technology|friendship|deception|laboratory|treason|robot|power outage|surveillance|rich|surveillance camera|consciousness|employer employee relationship|isolated house|wealthy man|existentialism|lockdown|emotional intelligence|female cyborg|human android relationship|tech company|critical|intense|big tech"
+    },
+    {
+      "title": "Humans",
+      "score": 0.3166,
+      "genres": "Sci-Fi & Fantasy|Drama|Mystery",
+      "keywords": "artificial intelligence (a.i.)|technology|robot"
+    },
+    {
+      "title": "Alma-chan Wants to Be a Family!",
+      "score": 0.3075,
+      "genres": "Animation|Comedy",
+      "keywords": "artificial intelligence (a.i.)|android|slice of life|based on manga|family|seinen|anime|robot girl|comedy"
+    },
+    {
+      "title": "AMAIM Warrior at the Borderline",
+      "score": 0.3051,
+      "genres": "Animation|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|mecha|distant future|battle|anime|real robot|war"
+    },
+    {
+      "title": "The Last Bus",
+      "score": 0.288,
+      "genres": "Sci-Fi & Fantasy|Family",
+      "keywords": "artificial intelligence (a.i.)|bus|travel|school|kids"
+    },
+    {
+      "title": "The Creator",
+      "score": 0.2778,
+      "genres": "Science Fiction|Action|Adventure",
+      "keywords": "artificial intelligence (a.i.)|asia|cyberpunk|robot|space station|kids|ex special forces|humanoid robot|missing wife|near future|war against machines|dystopian sci-fi"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "ad8cacd0d28b35e8e8ebcd2865e71c39"
+}

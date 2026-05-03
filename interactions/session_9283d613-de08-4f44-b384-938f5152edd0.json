@@ -1,0 +1,50 @@
+{
+  "session_id": "9283d613-de08-4f44-b384-938f5152edd0",
+  "user_id": "573163827517",
+  "created_at": "2026-05-03T03:48:17.475110",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T04:00:13.739955",
+      "query": "una peli para distraerme",
+      "routed_query": "una peli para distraerme",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 227.919,
+      "scores": [
+        0.2559,
+        0.2542,
+        0.2471,
+        0.229,
+        0.2242
+      ],
+      "titles": [
+        "Illiterate",
+        "Muchachos, la película de la gente",
+        "Por la gloria de sus padres",
+        "Juro que te amo",
+        "È questa la vita che sognavo da bambino?"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "Muchachos, la película de la gente",
+      "Por la gloria de sus padres",
+      "Juro que te amo",
+      "È questa la vita che sognavo da bambino?"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

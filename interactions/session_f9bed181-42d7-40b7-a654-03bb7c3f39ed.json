@@ -1,0 +1,111 @@
+{
+  "session_id": "f9bed181-42d7-40b7-a654-03bb7c3f39ed",
+  "user_id": "573184021759",
+  "created_at": "2026-05-03T05:23:26.595880",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T05:30:26.364895",
+      "query": "una peli entretenida",
+      "routed_query": "una peli entretenida",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 290.866,
+      "scores": [
+        0.2976,
+        0.274,
+        0.2585,
+        0.2576,
+        0.2569
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Illiterate",
+        "The World's Gold",
+        "Helga y Flora",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Illiterate",
+      "The World's Gold",
+      "Helga y Flora",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2976,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.274,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2585,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2576,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2569,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2416,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2373,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2341,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2308,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Extermineitors III: The Final Fight",
+      "score": 0.2302,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f22c2b0eddb0c6b507bbc32a86553787"
+}

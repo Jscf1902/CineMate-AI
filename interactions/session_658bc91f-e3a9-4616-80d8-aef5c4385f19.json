@@ -1,0 +1,111 @@
+{
+  "session_id": "658bc91f-e3a9-4616-80d8-aef5c4385f19",
+  "user_id": "573131184989",
+  "created_at": "2026-05-02T20:33:48.492761",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T20:48:18.396726",
+      "query": "romance moderno con conflictos reales",
+      "routed_query": "romance moderno con conflictos reales",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 679.845,
+      "scores": [
+        0.8137,
+        0.8014,
+        0.7949,
+        0.7839,
+        0.7693
+      ],
+      "titles": [
+        "Pobre novio",
+        "Sullivan's Crossing",
+        "Soy tu fan",
+        "Gumnaam: The Mystery",
+        "Tastefully Yours"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Pobre novio",
+      "Sullivan's Crossing",
+      "Soy tu fan",
+      "Gumnaam: The Mystery",
+      "Tastefully Yours"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Pobre novio",
+      "score": 0.8137,
+      "genres": "Soap|Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Sullivan's Crossing",
+      "score": 0.8014,
+      "genres": "Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Soy tu fan",
+      "score": 0.7949,
+      "genres": "Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Gumnaam: The Mystery",
+      "score": 0.7839,
+      "genres": "Crime|Mystery|Romance",
+      "keywords": "romance"
+    },
+    {
+      "title": "Tastefully Yours",
+      "score": 0.7693,
+      "genres": "Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Flower Shop Without Rose",
+      "score": 0.7653,
+      "genres": "Drama|Family",
+      "keywords": "romance"
+    },
+    {
+      "title": "A Korean Odyssey",
+      "score": 0.7625,
+      "genres": "Comedy|Mystery|Sci-Fi & Fantasy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "The Fierce Wife",
+      "score": 0.7596,
+      "genres": "Drama|Family",
+      "keywords": "romance"
+    },
+    {
+      "title": "Soundtrack #2",
+      "score": 0.7499,
+      "genres": "Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Fukuyadou Honpo: Kyoto Love Story",
+      "score": 0.7478,
+      "genres": "Comedy|Family",
+      "keywords": "romance"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "c923e2772e7449aa72c15af95f501fde"
+}

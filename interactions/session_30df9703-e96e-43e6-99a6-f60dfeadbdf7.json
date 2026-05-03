@@ -1,0 +1,50 @@
+{
+  "session_id": "30df9703-e96e-43e6-99a6-f60dfeadbdf7",
+  "user_id": "573158803135",
+  "created_at": "2026-05-02T06:26:32.303040",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T06:33:32.207892",
+      "query": "películas animadas familiares",
+      "routed_query": "películas animadas familiares",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 325.567,
+      "scores": [
+        0.1968,
+        0.1679,
+        0.1622,
+        0.159,
+        0.1542
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "Blue Monkey",
+        "Ayla and The Mirrors",
+        "Muchachos, la película de la gente",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Egypt: Secrets of the Pharaohs",
+      "Blue Monkey",
+      "Ayla and The Mirrors",
+      "Muchachos, la película de la gente",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

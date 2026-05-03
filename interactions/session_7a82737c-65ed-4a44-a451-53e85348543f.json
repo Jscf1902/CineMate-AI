@@ -1,0 +1,111 @@
+{
+  "session_id": "7a82737c-65ed-4a44-a451-53e85348543f",
+  "user_id": "573185569632",
+  "created_at": "2026-05-03T07:21:23.792589",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T07:28:00.720534",
+      "query": "una peli que valga la pena ver",
+      "routed_query": "una peli que valga la pena ver",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 263.603,
+      "scores": [
+        0.4413,
+        0.4034,
+        0.2975,
+        0.2798,
+        0.2724
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Por la gloria de sus padres",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Por la gloria de sus padres",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4413,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.4034,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2975,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2798,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2724,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2696,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2691,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "The Game of Keys",
+      "score": 0.2535,
+      "genres": "Drama",
+      "keywords": "lgbt|serie mexicana"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2495,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.248,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4c9a6ac22b023d2a601985195c4ac261"
+}

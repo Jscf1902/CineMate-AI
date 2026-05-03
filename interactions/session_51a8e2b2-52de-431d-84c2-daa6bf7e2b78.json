@@ -1,0 +1,111 @@
+{
+  "session_id": "51a8e2b2-52de-431d-84c2-daa6bf7e2b78",
+  "user_id": "573167448460",
+  "created_at": "2026-05-03T02:26:42.198492",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T02:33:48.896408",
+      "query": "algo para pasar el rato",
+      "routed_query": "algo para pasar el rato",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 271.75,
+      "scores": [
+        0.3037,
+        0.2463,
+        0.2427,
+        0.2414,
+        0.2399
+      ],
+      "titles": [
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+        "¡Qué madre, tan padre!",
+        "Muchachos, la película de la gente",
+        "Juro que te amo",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "¡Qué madre, tan padre!",
+      "Muchachos, la película de la gente",
+      "Juro que te amo",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "score": 0.3037,
+      "genres": "Documentary",
+      "keywords": "brazilian history"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2463,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2427,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2414,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2399,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2267,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Suburra: Blood on Rome",
+      "score": 0.2228,
+      "genres": "Crime|Drama",
+      "keywords": "cosa nostra"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2219,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Che Kopete: The Movie",
+      "score": 0.2181,
+      "genres": "Comedy",
+      "keywords": "humor|cine chileno"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2168,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "a4ac4be2d6abb934e7ad115d855bff89"
+}

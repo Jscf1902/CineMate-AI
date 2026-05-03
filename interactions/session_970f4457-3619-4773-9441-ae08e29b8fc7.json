@@ -1,0 +1,50 @@
+{
+  "session_id": "970f4457-3619-4773-9441-ae08e29b8fc7",
+  "user_id": "573149990651",
+  "created_at": "2026-05-03T01:56:12.452933",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T02:00:45.630310",
+      "query": "dame una recomendación",
+      "routed_query": "dame una recomendación",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 171.181,
+      "scores": [
+        0.2834,
+        0.2773,
+        0.2739,
+        0.2728,
+        0.2714
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Por la gloria de sus padres",
+        "Juro que te amo",
+        "Mama Drama",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Por la gloria de sus padres",
+      "Juro que te amo",
+      "Mama Drama",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

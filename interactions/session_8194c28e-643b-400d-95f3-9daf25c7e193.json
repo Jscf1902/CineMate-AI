@@ -1,0 +1,111 @@
+{
+  "session_id": "8194c28e-643b-400d-95f3-9daf25c7e193",
+  "user_id": "573162344554",
+  "created_at": "2026-05-03T04:32:04.445523",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T04:46:31.977692",
+      "query": "una película interesante",
+      "routed_query": "una película interesante",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 446.935,
+      "scores": [
+        0.4016,
+        0.2532,
+        0.2531,
+        0.2278,
+        0.2251
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Illiterate",
+        "The World's Gold",
+        "Vacanze di Natale a Cortina",
+        "Helga y Flora"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Illiterate",
+      "The World's Gold",
+      "Vacanze di Natale a Cortina",
+      "Helga y Flora"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.4016,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2532,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2531,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.2278,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2251,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.222,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2151,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Extermineitors III: The Final Fight",
+      "score": 0.215,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2139,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2126,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "3260b4f592b117fcfaa38bc94e2599c5"
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "3f9936f3-d608-4652-866d-2b950bc2e78f",
+  "user_id": "573124064783",
+  "created_at": "2026-05-03T15:46:43.950401",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T16:00:01.987409",
+      "query": "quiero una película que sea buena sin ser complicada",
+      "routed_query": "quiero una película que sea buena sin ser complicada",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 285.202,
+      "scores": [
+        0.4521,
+        0.3753,
+        0.3511,
+        0.2843,
+        0.2506
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Muchachos, la película de la gente",
+        "Mama Drama",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Muchachos, la película de la gente",
+      "Mama Drama",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4521,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3753,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.3511,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2843,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2506,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2255,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2161,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "My Love, My Sin",
+      "score": -0.5927,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Una familia con suerte",
+      "score": -0.6062,
+      "genres": "Comedy|Drama|Family",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "The One Who Couldn't Love",
+      "score": -0.6376,
+      "genres": "Drama",
+      "keywords": "a que não podia amar"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "d289040b47b33bbb4198fed08fa87521"
+}

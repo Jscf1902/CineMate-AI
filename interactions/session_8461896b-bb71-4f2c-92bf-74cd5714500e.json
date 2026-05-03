@@ -1,0 +1,50 @@
+{
+  "session_id": "8461896b-bb71-4f2c-92bf-74cd5714500e",
+  "user_id": "573115460940",
+  "created_at": "2026-05-03T09:42:27.109378",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T09:51:11.901916",
+      "query": "quiero algo emocionante pero no exagerado",
+      "routed_query": "quiero algo emocionante pero no exagerado",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 349.605,
+      "scores": [
+        0.2764,
+        0.2393,
+        0.2306,
+        0.2295,
+        0.2271
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Overcoming heartbreak",
+        "È questa la vita che sognavo da bambino?",
+        "Helga y Flora",
+        "Como Perros de la Calle"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Overcoming heartbreak",
+      "È questa la vita che sognavo da bambino?",
+      "Helga y Flora",
+      "Como Perros de la Calle"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "19bd5ce4-30a1-4c39-b956-9de1892790bf",
+  "user_id": "573117597733",
+  "created_at": "2026-05-02T10:32:56.874320",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T11:25:22.061208",
+      "query": "me gustó Parasite, algo así",
+      "routed_query": "me gustó Parasite, algo así",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 2987.994,
+      "scores": [
+        0.3216,
+        0.3165,
+        0.2668,
+        0.1956,
+        0.1765
+      ],
+      "titles": [
+        "Blue Monkey",
+        "Monsters Inside Me",
+        "Infection: The Invasion Begins",
+        "Sandeep Bhaiya",
+        "Cannibal Sacrifice"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Blue Monkey",
+      "Monsters Inside Me",
+      "Infection: The Invasion Begins",
+      "Sandeep Bhaiya",
+      "Cannibal Sacrifice"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

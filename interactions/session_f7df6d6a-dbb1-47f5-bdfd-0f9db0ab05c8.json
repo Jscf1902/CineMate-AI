@@ -1,0 +1,50 @@
+{
+  "session_id": "f7df6d6a-dbb1-47f5-bdfd-0f9db0ab05c8",
+  "user_id": "573138746713",
+  "created_at": "2026-05-02T15:02:30.293484",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T15:09:12.916323",
+      "query": "me gustó Gone Girl, algo así",
+      "routed_query": "me gustó Gone Girl, algo así",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 249.488,
+      "scores": [
+        0.3596,
+        0.3124,
+        0.3031,
+        0.3029,
+        0.2912
+      ],
+      "titles": [
+        "Fate/kaleid liner Prisma☆Illya 2wei!: Magical Girl in Hot Springs Inn",
+        "Acro Trip",
+        "Magical Girl Ore",
+        "Any Malu Show",
+        "Inugami-san and Nekoyama-san"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Fate/kaleid liner Prisma☆Illya 2wei!: Magical Girl in Hot Springs Inn",
+      "Acro Trip",
+      "Magical Girl Ore",
+      "Any Malu Show",
+      "Inugami-san and Nekoyama-san"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

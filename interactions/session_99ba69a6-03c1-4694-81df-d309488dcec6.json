@@ -1,0 +1,111 @@
+{
+  "session_id": "99ba69a6-03c1-4694-81df-d309488dcec6",
+  "user_id": "573170446491",
+  "created_at": "2026-05-03T14:34:48.538437",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T14:42:08.792962",
+      "query": "quiero algo que me deje satisfecho al final",
+      "routed_query": "quiero algo que me deje satisfecho al final",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 290.906,
+      "scores": [
+        0.4506,
+        0.3312,
+        0.2576,
+        0.2481,
+        0.2289
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Rigoletto",
+        "È questa la vita che sognavo da bambino?",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Rigoletto",
+      "È questa la vita che sognavo da bambino?",
+      "Mama Drama"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4506,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3312,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Rigoletto",
+      "score": 0.2576,
+      "genres": "Music",
+      "keywords": "opera"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2481,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2289,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Cabo",
+      "score": 0.2091,
+      "genres": "Soap|Drama",
+      "keywords": "cabo: amor e desejo"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2076,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2067,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2025,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Para toda la muerte",
+      "score": 0.2008,
+      "genres": "Comedy",
+      "keywords": "dark comedy|seville, spain"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f7dfbd9aa77ac3f904ed377b1acecbc7"
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "f74c5c66-492b-4029-9168-59ef16a4f530",
+  "user_id": "573185799011",
+  "created_at": "2026-05-02T17:44:52.250862",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T17:51:09.705840",
+      "query": "terror psicológico pero no muy fuerte",
+      "routed_query": "terror psicológico pero no muy fuerte",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 265.051,
+      "scores": [
+        0.3228,
+        0.3132,
+        0.3056,
+        0.2887,
+        0.268
+      ],
+      "titles": [
+        "The Moro Affair",
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "Complicit",
+        "Piazza Fontana: The Italian Conspiracy"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Moro Affair",
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "Complicit",
+      "Piazza Fontana: The Italian Conspiracy"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

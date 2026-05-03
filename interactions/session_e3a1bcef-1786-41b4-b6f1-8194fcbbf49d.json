@@ -1,0 +1,50 @@
+{
+  "session_id": "e3a1bcef-1786-41b4-b6f1-8194fcbbf49d",
+  "user_id": "573165231120",
+  "created_at": "2026-05-03T04:46:32.542642",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T04:54:29.994728",
+      "query": "algo suave para ver",
+      "routed_query": "algo suave para ver",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 266.377,
+      "scores": [
+        0.3906,
+        0.357,
+        0.3081,
+        0.2802,
+        0.229
+      ],
+      "titles": [
+        "El amor que yo te dí",
+        "Para - We Are King",
+        "Manual Para Galanes",
+        "Bios: Os Paralamas do Sucesso",
+        "How to Die in Cinema"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "El amor que yo te dí",
+      "Para - We Are King",
+      "Manual Para Galanes",
+      "Bios: Os Paralamas do Sucesso",
+      "How to Die in Cinema"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

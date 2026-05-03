@@ -1,0 +1,50 @@
+{
+  "session_id": "bc051646-3812-4662-bb5e-266691395ba5",
+  "user_id": "573147337704",
+  "created_at": "2026-05-02T15:21:35.575415",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T15:33:39.550462",
+      "query": "películas tipo The Social Network",
+      "routed_query": "películas tipo The Social Network",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 353.557,
+      "scores": [
+        0.4449,
+        0.389,
+        0.3831,
+        -0.5937,
+        -0.6003
+      ],
+      "titles": [
+        "Extraordinary Attorney Woo",
+        "Revenge",
+        "American Beauty",
+        "The Beast in Me",
+        "Marry My Husband: Japan"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Extraordinary Attorney Woo",
+      "Revenge",
+      "American Beauty",
+      "The Beast in Me",
+      "Marry My Husband: Japan"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

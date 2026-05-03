@@ -1,0 +1,50 @@
+{
+  "session_id": "5f4503d7-d9a1-4f17-84b6-99b95a9ae188",
+  "user_id": "573174909140",
+  "created_at": "2026-05-02T05:40:45.185467",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T06:04:15.334561",
+      "query": "ciencia ficción con tecnología avanzada",
+      "routed_query": "ciencia ficción con tecnología avanzada",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1231.614,
+      "scores": [
+        0.3879,
+        0.2798,
+        0.2522,
+        0.2453,
+        0.2367
+      ],
+      "titles": [
+        "Bureau 749",
+        "Illiterate",
+        "Anche se è amore non si vede",
+        "È questa la vita che sognavo da bambino?",
+        "Después de… Primera parte: no se os puede dejar solos"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Bureau 749",
+      "Illiterate",
+      "Anche se è amore non si vede",
+      "È questa la vita che sognavo da bambino?",
+      "Después de… Primera parte: no se os puede dejar solos"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

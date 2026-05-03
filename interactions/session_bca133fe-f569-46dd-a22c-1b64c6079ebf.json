@@ -1,0 +1,50 @@
+{
+  "session_id": "bca133fe-f569-46dd-a22c-1b64c6079ebf",
+  "user_id": "573143604905",
+  "created_at": "2026-05-03T10:19:42.632142",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T10:26:45.807602",
+      "query": "algo que no sea típico pero tampoco muy extraño",
+      "routed_query": "algo que no sea típico pero tampoco muy extraño",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 316.598,
+      "scores": [
+        0.4789,
+        0.332,
+        0.2896,
+        0.2625,
+        0.2353
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Back To The Island",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Back To The Island",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

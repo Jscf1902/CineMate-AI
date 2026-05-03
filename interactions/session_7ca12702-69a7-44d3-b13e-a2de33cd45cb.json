@@ -1,0 +1,50 @@
+{
+  "session_id": "7ca12702-69a7-44d3-b13e-a2de33cd45cb",
+  "user_id": "573135436203",
+  "created_at": "2026-05-03T14:25:01.405722",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T14:34:48.440197",
+      "query": "una peli que no sea complicada pero que tenga fondo",
+      "routed_query": "una peli que no sea complicada pero que tenga fondo",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 320.32,
+      "scores": [
+        0.66,
+        0.4401,
+        0.3212,
+        0.223,
+        0.2199
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "È questa la vita che sognavo da bambino?",
+        "Por la gloria de sus padres",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "È questa la vita che sognavo da bambino?",
+      "Por la gloria de sus padres",
+      "Anche se è amore non si vede"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

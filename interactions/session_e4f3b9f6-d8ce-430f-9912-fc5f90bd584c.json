@@ -1,0 +1,111 @@
+{
+  "session_id": "e4f3b9f6-d8ce-430f-9912-fc5f90bd584c",
+  "user_id": "573147329703",
+  "created_at": "2026-05-02T15:33:39.646925",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T15:42:20.048329",
+      "query": "me gustó Whiplash, algo parecido",
+      "routed_query": "me gustó Whiplash, algo parecido",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 336.53,
+      "scores": [
+        0.2126,
+        0.1955,
+        0.1914,
+        0.1903,
+        0.1864
+      ],
+      "titles": [
+        "Drag Race Philippines Untucked!",
+        "Gathering Storm",
+        "Blue Demon",
+        "Bang",
+        "Saka Saka"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Drag Race Philippines Untucked!",
+      "Gathering Storm",
+      "Blue Demon",
+      "Bang",
+      "Saka Saka"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Drag Race Philippines Untucked!",
+      "score": 0.2126,
+      "genres": "Reality",
+      "keywords": "drag queen"
+    },
+    {
+      "title": "Gathering Storm",
+      "score": 0.1955,
+      "genres": "Documentary",
+      "keywords": "storm"
+    },
+    {
+      "title": "Blue Demon",
+      "score": 0.1914,
+      "genres": "Action & Adventure",
+      "keywords": "lucha"
+    },
+    {
+      "title": "Bang",
+      "score": 0.1903,
+      "genres": "Action|Thriller",
+      "keywords": "hitman"
+    },
+    {
+      "title": "Saka Saka",
+      "score": 0.1864,
+      "genres": "Action",
+      "keywords": "hitman"
+    },
+    {
+      "title": "A Hitman's Solitude Before the Shot",
+      "score": 0.1863,
+      "genres": "Drama|Comedy|Crime",
+      "keywords": "hitman"
+    },
+    {
+      "title": "Passport to Death",
+      "score": 0.1855,
+      "genres": "Action|Science Fiction|Thriller",
+      "keywords": "lucha libre"
+    },
+    {
+      "title": "Barney Oldfield's Race for a Life",
+      "score": 0.1844,
+      "genres": "Comedy|Action",
+      "keywords": "slapstick comedy|silent film"
+    },
+    {
+      "title": "Buddy Thunderstruck",
+      "score": 0.184,
+      "genres": "Comedy|Animation|Family",
+      "keywords": "stop motion"
+    },
+    {
+      "title": "Drag Race Mexico",
+      "score": 0.1828,
+      "genres": "Reality",
+      "keywords": "drag queen|cross dressing|lgbt|drag|reality competition|gay theme|lipsync"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "a1ce580a9381f7b80499fb35647b52cc"
+}

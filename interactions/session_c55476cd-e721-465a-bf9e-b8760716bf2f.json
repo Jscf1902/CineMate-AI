@@ -1,0 +1,50 @@
+{
+  "session_id": "c55476cd-e721-465a-bf9e-b8760716bf2f",
+  "user_id": "573115817960",
+  "created_at": "2026-05-03T07:28:00.818608",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T07:33:46.561701",
+      "query": "algo interesante sin más",
+      "routed_query": "algo interesante sin más",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 221.509,
+      "scores": [
+        0.3168,
+        0.2965,
+        0.2868,
+        0.2744,
+        0.2551
+      ],
+      "titles": [
+        "Illiterate",
+        "Kidung Cinta",
+        "Anche se è amore non si vede",
+        "¡Qué madre, tan padre!",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "Kidung Cinta",
+      "Anche se è amore non si vede",
+      "¡Qué madre, tan padre!",
+      "Mama Drama"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

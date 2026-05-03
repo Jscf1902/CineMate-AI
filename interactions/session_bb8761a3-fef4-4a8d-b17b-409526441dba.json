@@ -1,0 +1,111 @@
+{
+  "session_id": "bb8761a3-fef4-4a8d-b17b-409526441dba",
+  "user_id": "573167678379",
+  "created_at": "2026-05-02T14:06:09.157311",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T14:12:01.338403",
+      "query": "películas tipo Transformers",
+      "routed_query": "películas tipo Transformers",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 208.697,
+      "scores": [
+        0.2054,
+        0.1487,
+        0.1293,
+        0.1258,
+        0.1199
+      ],
+      "titles": [
+        "Transformers: EarthSpark",
+        "Enrico IV",
+        "A Class to Remember II",
+        "The World's Gold",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Transformers: EarthSpark",
+      "Enrico IV",
+      "A Class to Remember II",
+      "The World's Gold",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Transformers: EarthSpark",
+      "score": 0.2054,
+      "genres": "Animation|Kids|Sci-Fi & Fantasy|Comedy|Drama",
+      "keywords": "hero|based on toy|young boy|robot|transforming robot|new generation|enemies to friends|alien robot"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1487,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "A Class to Remember II",
+      "score": 0.1293,
+      "genres": "Drama",
+      "keywords": "hot air balloon"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.1258,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1199,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Los 80",
+      "score": 0.1176,
+      "genres": "Drama",
+      "keywords": "pinochet regime|1980s"
+    },
+    {
+      "title": "Si Agimat, si Enteng Kabisote at si Ako",
+      "score": 0.1156,
+      "genres": "Fantasy|Action|Adventure|Comedy",
+      "keywords": "philippines|sequel"
+    },
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1116,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "Extermineitors III: The Final Fight",
+      "score": 0.1112,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    },
+    {
+      "title": "Victory or Death",
+      "score": 0.1083,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "dictator|chile|frente patriotico manuel rodriguez"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "70481c616acf48a5290e31186993f4b0"
+}

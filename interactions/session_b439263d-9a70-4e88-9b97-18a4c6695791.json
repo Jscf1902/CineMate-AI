@@ -1,0 +1,111 @@
+{
+  "session_id": "b439263d-9a70-4e88-9b97-18a4c6695791",
+  "user_id": "573129060826",
+  "created_at": "2026-05-02T16:46:12.642237",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T16:54:43.833650",
+      "query": "películas tipo Divergent",
+      "routed_query": "películas tipo Divergent",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 417.819,
+      "scores": [
+        0.1497,
+        0.1475,
+        0.1398,
+        0.1394,
+        0.1338
+      ],
+      "titles": [
+        "Después de… Primera parte: no se os puede dejar solos",
+        "The World's Gold",
+        "Egypt: Secrets of the Pharaohs",
+        "General Report",
+        "Los 80"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Después de… Primera parte: no se os puede dejar solos",
+      "The World's Gold",
+      "Egypt: Secrets of the Pharaohs",
+      "General Report",
+      "Los 80"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Después de… Primera parte: no se os puede dejar solos",
+      "score": 0.1497,
+      "genres": "Documentary",
+      "keywords": "1970s|franco regime (francoism)|social documentary|communist party|spanish transition|1980s|spanish history|social democracy|spanish politics"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.1475,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1398,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "General Report",
+      "score": 0.1394,
+      "genres": "Documentary",
+      "keywords": "spain|1970s|political instability|franco regime (francoism)|labor union|communist party|dictatorship aftermath|political struggle|exiled spanish republican"
+    },
+    {
+      "title": "Los 80",
+      "score": 0.1338,
+      "genres": "Drama",
+      "keywords": "pinochet regime|1980s"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1328,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Victory or Death",
+      "score": 0.1241,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "dictator|chile|frente patriotico manuel rodriguez"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1233,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Blue Monkey",
+      "score": 0.123,
+      "genres": "Horror|Science Fiction",
+      "keywords": "insect|plant|infection|creature|bug|virus|canuxploitation|bacteria"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1227,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "4522827c3714ce992a115efd0f111956"
+}

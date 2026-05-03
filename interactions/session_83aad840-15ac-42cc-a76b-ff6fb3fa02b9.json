@@ -1,0 +1,111 @@
+{
+  "session_id": "83aad840-15ac-42cc-a76b-ff6fb3fa02b9",
+  "user_id": "573130814678",
+  "created_at": "2026-05-03T17:11:32.408825",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T17:21:44.825183",
+      "query": "películas de acción con mucha adrenalina",
+      "routed_query": "películas de acción con mucha adrenalina",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 271.701,
+      "scores": [
+        0.2074,
+        0.1996,
+        0.198,
+        0.1972,
+        0.1885
+      ],
+      "titles": [
+        "Anche se è amore non si vede",
+        "Illiterate",
+        "The Surgeon of the Rusty Knife",
+        "Muchachos, la película de la gente",
+        "The Metropolitan Opera: Puccini's La Rondine"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Anche se è amore non si vede",
+      "Illiterate",
+      "The Surgeon of the Rusty Knife",
+      "Muchachos, la película de la gente",
+      "The Metropolitan Opera: Puccini's La Rondine"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2074,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.1996,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "The Surgeon of the Rusty Knife",
+      "score": 0.198,
+      "genres": "Drama",
+      "keywords": "affectation|admiring|adoring|enthusiastic"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1972,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "The Metropolitan Opera: Puccini's La Rondine",
+      "score": 0.1885,
+      "genres": "Music",
+      "keywords": "opera|puccini"
+    },
+    {
+      "title": "Natale in Sudafrica",
+      "score": 0.1849,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Afflicted",
+      "score": 0.1754,
+      "genres": "Documentary|Mystery|Reality|Talk",
+      "keywords": "health|sickness|medical"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1751,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Venalmaram",
+      "score": 0.1546,
+      "genres": "Drama|Romance",
+      "keywords": "venalmaram"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.15,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "773ad64d03f0e433d75556e810e2813a"
+}

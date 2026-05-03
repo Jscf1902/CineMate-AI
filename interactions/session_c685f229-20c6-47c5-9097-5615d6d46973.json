@@ -1,0 +1,111 @@
+{
+  "session_id": "c685f229-20c6-47c5-9097-5615d6d46973",
+  "user_id": "573111801838",
+  "created_at": "2026-05-02T04:40:16.919761",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T04:46:58.636630",
+      "query": "romance con drama",
+      "routed_query": "romance con drama",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 209.387,
+      "scores": [
+        0.9994,
+        0.9973,
+        0.9845,
+        0.969,
+        0.9511
+      ],
+      "titles": [
+        "Sullivan's Crossing",
+        "Pobre novio",
+        "Modern Love Tokyo",
+        "Soy tu fan",
+        "A Korean Odyssey"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Sullivan's Crossing",
+      "Pobre novio",
+      "Modern Love Tokyo",
+      "Soy tu fan",
+      "A Korean Odyssey"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Sullivan's Crossing",
+      "score": 0.9994,
+      "genres": "Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Pobre novio",
+      "score": 0.9973,
+      "genres": "Soap|Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Modern Love Tokyo",
+      "score": 0.9845,
+      "genres": "Drama",
+      "keywords": "romance|relationship drama"
+    },
+    {
+      "title": "Soy tu fan",
+      "score": 0.969,
+      "genres": "Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "A Korean Odyssey",
+      "score": 0.9511,
+      "genres": "Comedy|Mystery|Sci-Fi & Fantasy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Tastefully Yours",
+      "score": 0.9484,
+      "genres": "Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "The Fierce Wife",
+      "score": 0.9475,
+      "genres": "Drama|Family",
+      "keywords": "romance"
+    },
+    {
+      "title": "Soundtrack #2",
+      "score": 0.947,
+      "genres": "Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Seeking Persephone",
+      "score": 0.9449,
+      "genres": "Romance|Drama",
+      "keywords": "period drama|independent film|romantic drama"
+    },
+    {
+      "title": "Call It Love",
+      "score": 0.9438,
+      "genres": "Drama",
+      "keywords": "trauma|friendship|revenge|romance|loneliness|family relationships|healing|slow burn|secondary couple|slow burn romance|enemies to lovers|melodrama"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "0422127d12edadee90f1f17d8565d8ef"
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "d28a727a-1a0e-47a4-8760-10fd9bd3afae",
+  "user_id": "573117996346",
+  "created_at": "2026-05-03T17:58:45.351299",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T18:05:08.319631",
+      "query": "comedias románticas ligeras",
+      "routed_query": "comedias románticas ligeras",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 235.981,
+      "scores": [
+        0.2907,
+        0.2754,
+        0.2754,
+        0.2749,
+        0.2736
+      ],
+      "titles": [
+        "Along came Love",
+        "Soy tu fan",
+        "State of Fear",
+        "The Family",
+        "Gumnaam: The Mystery"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Along came Love",
+      "Soy tu fan",
+      "State of Fear",
+      "The Family",
+      "Gumnaam: The Mystery"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Along came Love",
+      "score": 0.2907,
+      "genres": "Drama",
+      "keywords": "romance|veio o amor"
+    },
+    {
+      "title": "Soy tu fan",
+      "score": 0.2754,
+      "genres": "Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "State of Fear",
+      "score": 0.2754,
+      "genres": "Action|Thriller|Crime|Drama",
+      "keywords": "romantic"
+    },
+    {
+      "title": "The Family",
+      "score": 0.2749,
+      "genres": "Action & Adventure|Crime|Drama",
+      "keywords": "romantic"
+    },
+    {
+      "title": "Gumnaam: The Mystery",
+      "score": 0.2736,
+      "genres": "Crime|Mystery|Romance",
+      "keywords": "romance"
+    },
+    {
+      "title": "Pobre novio",
+      "score": 0.2731,
+      "genres": "Soap|Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Amores verdaderos",
+      "score": -0.6983,
+      "genres": "Drama|Soap",
+      "keywords": "romance"
+    },
+    {
+      "title": "The Power of Destiny",
+      "score": -0.7117,
+      "genres": "Drama|Soap",
+      "keywords": "romance|a força do destino"
+    },
+    {
+      "title": "Heridas de Amor",
+      "score": -0.7123,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Inocente de Ti",
+      "score": -0.7133,
+      "genres": "Drama|Soap",
+      "keywords": "romance"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "ff5a6bac6c525e593aa0552de1ebaebc"
+}

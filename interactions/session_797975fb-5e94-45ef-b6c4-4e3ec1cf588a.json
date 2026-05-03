@@ -1,0 +1,50 @@
+{
+  "session_id": "797975fb-5e94-45ef-b6c4-4e3ec1cf588a",
+  "user_id": "573128047427",
+  "created_at": "2026-05-03T09:08:59.266529",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T09:15:53.305576",
+      "query": "una peli que sea profunda pero entretenida",
+      "routed_query": "una peli que sea profunda pero entretenida",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 281.658,
+      "scores": [
+        0.4367,
+        0.2682,
+        0.2304,
+        0.2172,
+        0.2143
+      ],
+      "titles": [
+        "Juro que te amo",
+        "El Gallo de Oro",
+        "Helga y Flora",
+        "Illiterate",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "El Gallo de Oro",
+      "Helga y Flora",
+      "Illiterate",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

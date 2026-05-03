@@ -1,0 +1,50 @@
+{
+  "session_id": "4bb56bc1-6791-4a46-b080-a21a7d5eef15",
+  "user_id": "573169073679",
+  "created_at": "2026-05-03T17:21:45.040277",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T17:32:23.331259",
+      "query": "romance adolescente",
+      "routed_query": "romance adolescente",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 392.149,
+      "scores": [
+        0.6191,
+        0.598,
+        0.5951,
+        0.5937,
+        0.5782
+      ],
+      "titles": [
+        "Romance en tres noches",
+        "Spring Blossom",
+        "Almost Adults",
+        "I Need Romance",
+        "Latin Lovers"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Romance en tres noches",
+      "Spring Blossom",
+      "Almost Adults",
+      "I Need Romance",
+      "Latin Lovers"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

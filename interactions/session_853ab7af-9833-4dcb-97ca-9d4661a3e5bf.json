@@ -1,0 +1,111 @@
+{
+  "session_id": "853ab7af-9833-4dcb-97ca-9d4661a3e5bf",
+  "user_id": "573163222267",
+  "created_at": "2026-05-03T13:36:08.952403",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T13:41:32.429234",
+      "query": "algo que tenga buena historia pero que no sea pesada",
+      "routed_query": "algo que tenga buena historia pero que no sea pesada",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 173.884,
+      "scores": [
+        0.6592,
+        0.4932,
+        0.4556,
+        0.2585,
+        0.2573
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Hasta que te conocí",
+        "¡Qué madre, tan padre!",
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+        "La muerte de un gallero"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Hasta que te conocí",
+      "¡Qué madre, tan padre!",
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "La muerte de un gallero"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.6592,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Hasta que te conocí",
+      "score": 0.4932,
+      "genres": "Drama",
+      "keywords": "biography"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.4556,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "score": 0.2585,
+      "genres": "Documentary",
+      "keywords": "brazilian history"
+    },
+    {
+      "title": "La muerte de un gallero",
+      "score": 0.2573,
+      "genres": "Action|Drama|Crime",
+      "keywords": "mexican history"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2466,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2355,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "La guerrillera de Villa",
+      "score": 0.2241,
+      "genres": "Adventure",
+      "keywords": "mexican revolution"
+    },
+    {
+      "title": "The One Who Couldn't Love",
+      "score": -0.5355,
+      "genres": "Drama",
+      "keywords": "a que não podia amar"
+    },
+    {
+      "title": "Ask God For Forgiveness... Not Me",
+      "score": -0.5952,
+      "genres": "Drama|Soap",
+      "keywords": "telenovela|que te perdoe deus"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "0d35d9e1ebe05b2ac608095f739435bc"
+}

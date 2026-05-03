@@ -1,0 +1,111 @@
+{
+  "session_id": "667b153a-33cf-4868-b85f-8c29e5c39037",
+  "user_id": "573148806810",
+  "created_at": "2026-05-02T13:49:22.075896",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T13:57:13.230483",
+      "query": "me gustó Doctor Strange, algo así",
+      "routed_query": "me gustó Doctor Strange, algo así",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 342.11,
+      "scores": [
+        0.4075,
+        0.3389,
+        0.3286,
+        0.3243,
+        0.3211
+      ],
+      "titles": [
+        "Doctor Strange in the Multiverse of Madness",
+        "Dr. Ramune: Mysterious Disease Specialist",
+        "Doctor Odyssey",
+        "Dr. Christian Meets the Women",
+        "Dr. Gillespie's New Assistant"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Doctor Strange in the Multiverse of Madness",
+      "Dr. Ramune: Mysterious Disease Specialist",
+      "Doctor Odyssey",
+      "Dr. Christian Meets the Women",
+      "Dr. Gillespie's New Assistant"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "score": 0.4075,
+      "genres": "Fantasy|Action|Adventure",
+      "keywords": "magic|superhero|based on comic|alternative reality|aftercreditsstinger|duringcreditsstinger|marvel cinematic universe (mcu)"
+    },
+    {
+      "title": "Dr. Ramune: Mysterious Disease Specialist",
+      "score": 0.3389,
+      "genres": "Animation|Comedy|Mystery",
+      "keywords": "supernatural|bromance|based on manga|shounen|anime|rare disease"
+    },
+    {
+      "title": "Doctor Odyssey",
+      "score": 0.3286,
+      "genres": "Drama",
+      "keywords": "medical drama|cruise liner|medical procedural"
+    },
+    {
+      "title": "Dr. Christian Meets the Women",
+      "score": 0.3243,
+      "genres": "Drama",
+      "keywords": "doctor"
+    },
+    {
+      "title": "Dr. Gillespie's New Assistant",
+      "score": 0.3211,
+      "genres": "Comedy|Drama|Mystery",
+      "keywords": "hospital"
+    },
+    {
+      "title": "Dr. Pimple Popper",
+      "score": 0.3174,
+      "genres": "Reality",
+      "keywords": "doctor"
+    },
+    {
+      "title": "Ghost Doctor",
+      "score": 0.3049,
+      "genres": "Comedy|Drama|Sci-Fi & Fantasy",
+      "keywords": "supernatural|bromance|doctor|ghost|medical|fantasy"
+    },
+    {
+      "title": "Baby Fever",
+      "score": 0.3013,
+      "genres": "Drama",
+      "keywords": "medical"
+    },
+    {
+      "title": "Koro Sensei Quest!",
+      "score": 0.2724,
+      "genres": "Action & Adventure|Animation|Comedy|Sci-Fi & Fantasy",
+      "keywords": "parody|based on manga|spin off|anime|chibi|original net animation (ona)"
+    },
+    {
+      "title": "Dr. Quinn, Medicine Woman: The Heart Within",
+      "score": 0.2712,
+      "genres": "Drama|Family|Western",
+      "keywords": "medicine|doctor"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "161b371dd8394694c87010e848807f5b"
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "45de3c81-7ceb-4577-8eca-7d7526719b53",
+  "user_id": "573113837097",
+  "created_at": "2026-05-03T08:25:54.708935",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T08:32:50.393840",
+      "query": "una peli que sea intensa pero no deprimente",
+      "routed_query": "una peli que sea intensa pero no deprimente",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 295.873,
+      "scores": [
+        0.4195,
+        0.2993,
+        0.2613,
+        0.2426,
+        0.2414
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "È questa la vita che sognavo da bambino?",
+        "Changing Seas",
+        "El Gallo de Oro"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "È questa la vita che sognavo da bambino?",
+      "Changing Seas",
+      "El Gallo de Oro"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4195,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2993,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2613,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Changing Seas",
+      "score": 0.2426,
+      "genres": "Documentary",
+      "keywords": "ocean|sea|nature|oceanography"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2414,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2209,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2152,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2072,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Overcoming heartbreak",
+      "score": 0.2072,
+      "genres": "Soap|Drama",
+      "keywords": "vencer o desamor"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2017,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "acebe32be9d23a33eff178a81dc71ad5"
+}

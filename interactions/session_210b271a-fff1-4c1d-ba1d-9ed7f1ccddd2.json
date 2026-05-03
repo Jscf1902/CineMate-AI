@@ -1,0 +1,111 @@
+{
+  "session_id": "210b271a-fff1-4c1d-ba1d-9ed7f1ccddd2",
+  "user_id": "573167210986",
+  "created_at": "2026-05-03T03:37:50.111113",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T03:48:17.362233",
+      "query": "algo que no sea aburrido",
+      "routed_query": "algo que no sea aburrido",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 492.106,
+      "scores": [
+        0.4759,
+        0.4498,
+        0.3537,
+        0.2999,
+        0.2936
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Sea of Love",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Changing Seas"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Sea of Love",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Changing Seas"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4759,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Sea of Love",
+      "score": 0.4498,
+      "genres": "Comedy|Kids|Animation",
+      "keywords": "deep sea"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3537,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2999,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Changing Seas",
+      "score": 0.2936,
+      "genres": "Documentary",
+      "keywords": "ocean|sea|nature|oceanography"
+    },
+    {
+      "title": "Aliados",
+      "score": 0.241,
+      "genres": "Comedy|Drama",
+      "keywords": "fantastico"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2348,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Cabo",
+      "score": 0.2275,
+      "genres": "Soap|Drama",
+      "keywords": "cabo: amor e desejo"
+    },
+    {
+      "title": "The One Who Couldn't Love",
+      "score": -0.6366,
+      "genres": "Drama",
+      "keywords": "a que não podia amar"
+    },
+    {
+      "title": "Ask God For Forgiveness... Not Me",
+      "score": -0.6784,
+      "genres": "Drama|Soap",
+      "keywords": "telenovela|que te perdoe deus"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "c3de040cdf69fde931e718bf8d9ddb03"
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "7ddae252-ed97-461f-a30f-b0ee9883d36b",
+  "user_id": "573145895774",
+  "created_at": "2026-05-03T02:33:49.078640",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T02:53:23.629280",
+      "query": "recomiéndame una peli",
+      "routed_query": "recomiéndame una peli",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1027.647,
+      "scores": [
+        0.2739,
+        0.2511,
+        0.2484,
+        0.2349,
+        0.2327
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Illiterate",
+        "Anche se è amore non si vede",
+        "Por la gloria de sus padres",
+        "Helga y Flora"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Illiterate",
+      "Anche se è amore non si vede",
+      "Por la gloria de sus padres",
+      "Helga y Flora"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "87ab1610-6519-49fa-8fd6-d8fdc25c5b7c",
+  "user_id": "573166434033",
+  "created_at": "2026-05-02T23:30:04.000999",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T23:42:25.707805",
+      "query": "terror oscuro con historia profunda",
+      "routed_query": "terror oscuro con historia profunda",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 430.862,
+      "scores": [
+        0.3151,
+        0.3074,
+        0.3062,
+        0.2921,
+        0.2902
+      ],
+      "titles": [
+        "The Moro Affair",
+        "Comando Txikia: muerte de un presidente",
+        "Aztec Batman: Clash of Empires",
+        "Shigurui: Death Frenzy",
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Moro Affair",
+      "Comando Txikia: muerte de un presidente",
+      "Aztec Batman: Clash of Empires",
+      "Shigurui: Death Frenzy",
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "14cb57b9-32de-4c98-bc9e-108e4f7ff4df",
+  "user_id": "573196081306",
+  "created_at": "2026-05-03T18:05:08.422728",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T18:12:07.755970",
+      "query": "ciencia ficción futurista",
+      "routed_query": "ciencia ficción futurista",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 272.403,
+      "scores": [
+        0.3449,
+        0.2753,
+        0.2666,
+        0.25,
+        0.2497
+      ],
+      "titles": [
+        "Bureau 749",
+        "The World's Gold",
+        "Anche se è amore non si vede",
+        "Muchachos, la película de la gente",
+        "Juro que te amo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Bureau 749",
+      "The World's Gold",
+      "Anche se è amore non si vede",
+      "Muchachos, la película de la gente",
+      "Juro que te amo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

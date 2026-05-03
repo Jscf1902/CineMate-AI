@@ -1,0 +1,111 @@
+{
+  "session_id": "4a0db322-cc54-4faa-8bad-c907457f7e88",
+  "user_id": "573153304536",
+  "created_at": "2026-05-02T09:54:48.376546",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T10:03:37.562107",
+      "query": "me gustó Titanic, algo similar",
+      "routed_query": "me gustó Titanic, algo similar",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 407.129,
+      "scores": [
+        0.5086,
+        0.4229,
+        0.3583,
+        0.2266,
+        0.2147
+      ],
+      "titles": [
+        "Titanic: The Final Word with James Cameron",
+        "Titanic: 25 Years Later with James Cameron",
+        "Titanic",
+        "And the Ship Sails On",
+        "H2O: Mermaid Adventures"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Titanic: The Final Word with James Cameron",
+      "Titanic: 25 Years Later with James Cameron",
+      "Titanic",
+      "And the Ship Sails On",
+      "H2O: Mermaid Adventures"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Titanic: The Final Word with James Cameron",
+      "score": 0.5086,
+      "genres": "Documentary|History|TV Movie",
+      "keywords": "titanic"
+    },
+    {
+      "title": "Titanic: 25 Years Later with James Cameron",
+      "score": 0.4229,
+      "genres": "Documentary|TV Movie",
+      "keywords": "titanic"
+    },
+    {
+      "title": "Titanic",
+      "score": 0.3583,
+      "genres": "Drama|Romance",
+      "keywords": "soulmates|atlantic ocean|evacuation|shipwreck|iceberg|forbidden love|ship|titanic|ocean liner|rich woman poor man|based on true story|tragedy|tragic love|historical fiction|class differences|love affair|historical event|sinking ship|rich snob|tragic romance|disaster movie|1910s"
+    },
+    {
+      "title": "And the Ship Sails On",
+      "score": 0.2266,
+      "genres": "Comedy|Drama",
+      "keywords": "cruise|boat accident|ship"
+    },
+    {
+      "title": "H2O: Mermaid Adventures",
+      "score": 0.2147,
+      "genres": "Animation|Family|Kids|Comedy",
+      "keywords": "mermaid|meerjungfrau"
+    },
+    {
+      "title": "MerPeople",
+      "score": 0.214,
+      "genres": "Documentary",
+      "keywords": "mermaid"
+    },
+    {
+      "title": "Easy Come, Easy Go",
+      "score": 0.21,
+      "genres": "Adventure|Comedy|Music",
+      "keywords": "diving|treasure|navy|musical"
+    },
+    {
+      "title": "The Suite Life on Deck",
+      "score": 0.2092,
+      "genres": "Comedy|Family|Kids",
+      "keywords": "ship|twin brother|cruise ship"
+    },
+    {
+      "title": "Sea of Love",
+      "score": 0.2091,
+      "genres": "Comedy|Kids|Animation",
+      "keywords": "deep sea"
+    },
+    {
+      "title": "No Way Up",
+      "score": 0.2087,
+      "genres": "Thriller|Horror|Action",
+      "keywords": "ocean|bodyguard|childhood trauma|rescue mission|shark|airplane trip|sharks|air crash|survivor"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "95ff981ef42d39688f286886f4b82cf6"
+}

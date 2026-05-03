@@ -1,0 +1,111 @@
+{
+  "session_id": "f15d7487-4600-4a24-bf52-018d7dbd613c",
+  "user_id": "573191784122",
+  "created_at": "2026-05-03T16:59:11.860250",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T17:05:37.543972",
+      "query": "terror con casas embrujadas",
+      "routed_query": "terror con casas embrujadas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 203.722,
+      "scores": [
+        0.3417,
+        0.3227,
+        0.3181,
+        0.3082,
+        0.3065
+      ],
+      "titles": [
+        "Piazza Fontana: The Italian Conspiracy",
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "Tell Me Your Name",
+        "The Zone"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Piazza Fontana: The Italian Conspiracy",
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "Tell Me Your Name",
+      "The Zone"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Piazza Fontana: The Italian Conspiracy",
+      "score": 0.3417,
+      "genres": "Drama|Crime|Mystery|History",
+      "keywords": "bomb|milan|anarchist|government conspiracy|years of lead|anni di piombo|state terrorism|far-right organization"
+    },
+    {
+      "title": "Comando Txikia: muerte de un presidente",
+      "score": 0.3227,
+      "genres": "Drama",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Carlos",
+      "score": 0.3181,
+      "genres": "Drama|Crime|War & Politics",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Tell Me Your Name",
+      "score": 0.3082,
+      "genres": "Sci-Fi & Fantasy|Mystery",
+      "keywords": "religious conflict|1990s|horror|rural town"
+    },
+    {
+      "title": "The Zone",
+      "score": 0.3065,
+      "genres": "Action & Adventure|Crime|Drama|Mystery",
+      "keywords": "spain|nuclear power plant|quarantine|murder investigation"
+    },
+    {
+      "title": "See You in Another Life",
+      "score": 0.2931,
+      "genres": "Drama|Crime",
+      "keywords": "multiple time frames|terrorism|thriller"
+    },
+    {
+      "title": "We Are Young. We Are Strong.",
+      "score": 0.2922,
+      "genres": "Drama",
+      "keywords": "neo-nazism|riot|immigrant|racism|hate crime|xenophobia"
+    },
+    {
+      "title": "Blood-C: The Last Dark",
+      "score": 0.2911,
+      "genres": "Animation|Action|Horror|Science Fiction",
+      "keywords": "anime|horror"
+    },
+    {
+      "title": "Riot Police",
+      "score": 0.2846,
+      "genres": "Drama|Crime",
+      "keywords": "madrid, spain|police|conflict|disturbed"
+    },
+    {
+      "title": "Hotel Inhumans",
+      "score": 0.2825,
+      "genres": "Animation|Drama|Action & Adventure",
+      "keywords": "hotel|assassin|based on manga|anime"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "de7bc4288a549125da4205d0f08edaa3"
+}

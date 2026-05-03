@@ -1,0 +1,111 @@
+{
+  "session_id": "23e6a612-bac8-4780-baa8-9409f4dc93da",
+  "user_id": "573169012180",
+  "created_at": "2026-05-03T13:47:33.236281",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T13:54:58.894814",
+      "query": "quiero algo que me guste aunque no sea perfecto",
+      "routed_query": "quiero algo que me guste aunque no sea perfecto",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 322.297,
+      "scores": [
+        0.4593,
+        0.4172,
+        0.3453,
+        0.2757,
+        0.2602
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Sea of Love",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Changing Seas"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Sea of Love",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Changing Seas"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4593,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Sea of Love",
+      "score": 0.4172,
+      "genres": "Comedy|Kids|Animation",
+      "keywords": "deep sea"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3453,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2757,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Changing Seas",
+      "score": 0.2602,
+      "genres": "Documentary",
+      "keywords": "ocean|sea|nature|oceanography"
+    },
+    {
+      "title": "Aliados",
+      "score": 0.2311,
+      "genres": "Comedy|Drama",
+      "keywords": "fantastico"
+    },
+    {
+      "title": "Cabo",
+      "score": 0.2219,
+      "genres": "Soap|Drama",
+      "keywords": "cabo: amor e desejo"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2187,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2156,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2151,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "9b23f05dd72ca0a659bcebeb84bbbf93"
+}

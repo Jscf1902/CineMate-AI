@@ -1,0 +1,50 @@
+{
+  "session_id": "113cd7fa-2da3-49fb-84d4-a131aa89f690",
+  "user_id": "573136587271",
+  "created_at": "2026-05-02T02:56:16.043124",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T03:15:18.601764",
+      "query": "películas románticas con final feliz",
+      "routed_query": "películas románticas con final feliz",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 1004.108,
+      "scores": [
+        0.282,
+        -0.6536,
+        -0.6594,
+        -0.6705,
+        -0.6706
+      ],
+      "titles": [
+        "Along came Love",
+        "La Verdad Oculta",
+        "El Manantial",
+        "Amor Cautivo",
+        "La fea más bella"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Along came Love",
+      "La Verdad Oculta",
+      "El Manantial",
+      "Amor Cautivo",
+      "La fea más bella"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

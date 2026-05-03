@@ -1,0 +1,50 @@
+{
+  "session_id": "f0ffe380-3a9b-478c-ab81-6a6dea143a40",
+  "user_id": "573195366682",
+  "created_at": "2026-05-03T13:41:32.523771",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T13:47:33.151112",
+      "query": "una película que sea interesante y relajada al mismo tiempo",
+      "routed_query": "una película que sea interesante y relajada al mismo tiempo",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 221.111,
+      "scores": [
+        0.4849,
+        0.3507,
+        0.2941,
+        0.2538,
+        0.2499
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Muchachos, la película de la gente",
+        "El Gallo de Oro",
+        "Por la gloria de sus padres",
+        "Helga y Flora"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Muchachos, la película de la gente",
+      "El Gallo de Oro",
+      "Por la gloria de sus padres",
+      "Helga y Flora"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

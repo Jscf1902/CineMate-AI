@@ -1,0 +1,50 @@
+{
+  "session_id": "2caf9919-0a0d-40f2-8927-a60d4a571af1",
+  "user_id": "573113256341",
+  "created_at": "2026-05-02T13:41:47.245043",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T13:49:21.879880",
+      "query": "películas tipo Spider-Man",
+      "routed_query": "películas tipo Spider-Man",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 343.804,
+      "scores": [
+        0.5777,
+        0.5296,
+        0.4958,
+        0.4843,
+        0.4802
+      ],
+      "titles": [
+        "The Spectacular Spider-Man",
+        "The Amazing Spider-Man 2",
+        "Your Friendly Neighborhood Spider-Man",
+        "Titans",
+        "Marvel Rising: Initiation"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Spectacular Spider-Man",
+      "The Amazing Spider-Man 2",
+      "Your Friendly Neighborhood Spider-Man",
+      "Titans",
+      "Marvel Rising: Initiation"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

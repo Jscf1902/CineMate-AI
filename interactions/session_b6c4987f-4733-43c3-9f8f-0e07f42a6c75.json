@@ -1,0 +1,50 @@
+{
+  "session_id": "b6c4987f-4733-43c3-9f8f-0e07f42a6c75",
+  "user_id": "573139067022",
+  "created_at": "2026-05-02T16:54:43.935821",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T17:04:21.708056",
+      "query": "me gustó The Maze Runner, algo parecido",
+      "routed_query": "me gustó The Maze Runner, algo parecido",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 350.895,
+      "scores": [
+        0.3685,
+        0.2912,
+        0.288,
+        0.2797,
+        0.2776
+      ],
+      "titles": [
+        "Labyrinth",
+        "FernGully 2: The Magical Rescue",
+        "Mighty Express",
+        "Pinky, Elmyra & The Brain",
+        "The Jungle Bunch: Operation Meltdown"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Labyrinth",
+      "FernGully 2: The Magical Rescue",
+      "Mighty Express",
+      "Pinky, Elmyra & The Brain",
+      "The Jungle Bunch: Operation Meltdown"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

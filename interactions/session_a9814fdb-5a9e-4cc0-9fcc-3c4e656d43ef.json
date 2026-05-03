@@ -1,0 +1,50 @@
+{
+  "session_id": "a9814fdb-5a9e-4cc0-9fcc-3c4e656d43ef",
+  "user_id": "573169895209",
+  "created_at": "2026-05-02T07:12:20.705675",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T07:19:48.091132",
+      "query": "ciencia ficción con realidades alternas",
+      "routed_query": "ciencia ficción con realidades alternas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 243.488,
+      "scores": [
+        0.2693,
+        0.2541,
+        0.2219,
+        0.2117,
+        0.211
+      ],
+      "titles": [
+        "Anche se è amore non si vede",
+        "È questa la vita che sognavo da bambino?",
+        "La Casa de los Famosos México",
+        "Juro que te amo",
+        "Dignity"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Anche se è amore non si vede",
+      "È questa la vita che sognavo da bambino?",
+      "La Casa de los Famosos México",
+      "Juro que te amo",
+      "Dignity"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

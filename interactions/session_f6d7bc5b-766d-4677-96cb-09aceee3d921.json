@@ -1,0 +1,111 @@
+{
+  "session_id": "f6d7bc5b-766d-4677-96cb-09aceee3d921",
+  "user_id": "573159599689",
+  "created_at": "2026-05-02T10:26:47.573702",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T10:32:56.769419",
+      "query": "películas tipo Joker",
+      "routed_query": "películas tipo Joker",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 238.691,
+      "scores": [
+        0.2422,
+        0.2378,
+        0.2133,
+        0.2112,
+        0.2106
+      ],
+      "titles": [
+        "Egypt: Secrets of the Pharaohs",
+        "The World's Gold",
+        "A Summer In The Caribbean",
+        "Enrico IV",
+        "Chuck Billy and The Marvelous Guava Tree"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Egypt: Secrets of the Pharaohs",
+      "The World's Gold",
+      "A Summer In The Caribbean",
+      "Enrico IV",
+      "Chuck Billy and The Marvelous Guava Tree"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.2422,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2378,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "A Summer In The Caribbean",
+      "score": 0.2133,
+      "genres": "Comedy",
+      "keywords": "cine-cocomero"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.2112,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Chuck Billy and The Marvelous Guava Tree",
+      "score": 0.2106,
+      "genres": "Family|Adventure|Comedy",
+      "keywords": "brazilian comedy|comedy"
+    },
+    {
+      "title": "El hombre cine mexicano: Pedro Infante, el mito",
+      "score": 0.2082,
+      "genres": "Documentary",
+      "keywords": "pedro infante"
+    },
+    {
+      "title": "Che Kopete: The Movie",
+      "score": 0.2051,
+      "genres": "Comedy",
+      "keywords": "humor|cine chileno"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.205,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2046,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Minsan May Isang Puso",
+      "score": 0.2036,
+      "genres": "Drama",
+      "keywords": "philippines"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "428691a1db8e4b4c5ba52ffd7e6d5f1a"
+}

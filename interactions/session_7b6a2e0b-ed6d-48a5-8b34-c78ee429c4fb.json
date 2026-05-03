@@ -1,0 +1,50 @@
+{
+  "session_id": "7b6a2e0b-ed6d-48a5-8b34-c78ee429c4fb",
+  "user_id": "573155217110",
+  "created_at": "2026-05-03T08:47:16.908333",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T09:02:14.294398",
+      "query": "una película que tenga buena historia pero que sea fácil de seguir",
+      "routed_query": "una película que tenga buena historia pero que sea fácil de seguir",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 733.548,
+      "scores": [
+        0.6476,
+        0.4484,
+        0.3416,
+        0.3376,
+        0.2482
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Muchachos, la película de la gente",
+        "La muerte de un gallero"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Muchachos, la película de la gente",
+      "La muerte de un gallero"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

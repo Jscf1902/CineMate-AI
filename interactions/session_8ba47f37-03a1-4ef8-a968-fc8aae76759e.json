@@ -1,0 +1,111 @@
+{
+  "session_id": "8ba47f37-03a1-4ef8-a968-fc8aae76759e",
+  "user_id": "573196283874",
+  "created_at": "2026-05-02T17:04:21.928708",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T17:16:12.280672",
+      "query": "algo como Edge of Tomorrow",
+      "routed_query": "algo como Edge of Tomorrow",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 477.749,
+      "scores": [
+        0.3165,
+        0.3148,
+        0.3115,
+        0.2959,
+        0.2936
+      ],
+      "titles": [
+        "Her",
+        "Aliens",
+        "Final Fantasy: The Spirits Within",
+        "Endorphine",
+        "Companion"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Her",
+      "Aliens",
+      "Final Fantasy: The Spirits Within",
+      "Endorphine",
+      "Companion"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Her",
+      "score": 0.3165,
+      "genres": "Romance|Science Fiction|Drama",
+      "keywords": "artificial intelligence (a.i.)|future|computer|satire|love|loneliness|transhumanism|los angeles, california|heartbreak|semi autobiographical|speculative|singularity|near future|serene|intimate|provocative|dramatic|comforting|melodramatic|operating system"
+    },
+    {
+      "title": "Aliens",
+      "score": 0.3148,
+      "genres": "Action|Thriller|Science Fiction",
+      "keywords": "android|extraterrestrial technology|space marine|spaceman|cryogenics|vacuum|space colony|warrior woman|settler|space travel|colony|space|alien|female protagonist|creature|desolate|female hero|aggressive|military sci-fi|desolate planet|critical|sinister|sci-fi horror|assertive|commanding|empathetic|exhilarated|action horror|sci-fi action"
+    },
+    {
+      "title": "Final Fantasy: The Spirits Within",
+      "score": 0.3115,
+      "genres": "Adventure|Action|Fantasy|Science Fiction|Animation",
+      "keywords": "future|space travel|battle assignment|post-apocalyptic future|dystopia|alien|downfall|soldier|scientist|fictional war|based on video game|adult animation|military|soul transference|motion capture|female scientist|alien creature|2060s"
+    },
+    {
+      "title": "Endorphine",
+      "score": 0.2959,
+      "genres": "Drama",
+      "keywords": "war veteran|dreams|trauma|nightmare|hypnosis|psychological thriller"
+    },
+    {
+      "title": "Companion",
+      "score": 0.2936,
+      "genres": "Horror|Science Fiction|Thriller",
+      "keywords": "artificial intelligence (a.i.)|android|cabin|robot|boyfriend girlfriend relationship|duringcreditsstinger|meditative|thoughtful|philosophical|robot girl|unassuming|reflective|weekend getaway|complex|wonder|human android relationship|toxic relationship|loving|introspective|abusive relationship|inspirational|malfunctioning android|sentient machine|provocative|dramatic|sci-fi horror|admiring|bold|compassionate|dignified|earnest|empathetic|hopeful|objective|optimistic|scathing|sincere|sympathetic|tragic|human vs machines|cybernetics|android horror"
+    },
+    {
+      "title": "The Matrix Reloaded",
+      "score": 0.2932,
+      "genres": "Adventure|Action|Thriller|Science Fiction",
+      "keywords": "saving the world|artificial intelligence (a.i.)|man vs machine|prophecy|fortune teller|martial arts|kung fu|underground world|dreams|hero|fight|simulation|computer virus|key|future|plato|precognition|rave|dying and death|virtual reality|dystopia|computer|faith|truth|sequel|car crash|mission|cyberpunk|action hero|gnosticism|oracle|grand|romantic|defiant|sardonic|dystopian sci-fi"
+    },
+    {
+      "title": "The Girl Who Sees Smells",
+      "score": 0.2929,
+      "genres": "Comedy|Sci-Fi & Fantasy|Drama|Crime",
+      "keywords": "amnesia|supernatural|romcom|romance|tragic past|synesthesia|prosopagnosia|based on webcomic or webtoon|special power|romantic drama|exciting"
+    },
+    {
+      "title": "Sense8",
+      "score": 0.2892,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "sexuality|identity|telepathy|secret agent|supernatural|conspiracy|superhuman|super power|bigotry|lgbt|persecution|social issues|mental link|anxious|psychic connection|grand|depressed|dramatic|romantic|awestruck|comforting"
+    },
+    {
+      "title": "Alien Resurrection",
+      "score": 0.2887,
+      "genres": "Science Fiction|Horror|Action",
+      "keywords": "android|mercenary|dystopia|smuggling (contraband)|sequel|alien|betrayal|cloning|creature|scientist|flamethrower|gene manipulation|man in wheelchair|breeding|genetic engineering|curious|regeneration|alien queen|explosive decompression|desperate|sci-fi horror|antagonistic|excited|action horror|sci-fi action"
+    },
+    {
+      "title": "The Matrix Resurrections",
+      "score": 0.2884,
+      "genres": "Science Fiction|Action|Adventure",
+      "keywords": "artificial intelligence (a.i.)|man vs machine|prophecy|underground world|future|virtual reality|dystopia|computer|cyberpunk|aftercreditsstinger|dream world|philosophical|gnosticism|grand|romantic|sincere|dystopian sci-fi"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "c1624bf3b221dd5fef429f51931faf1b"
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "8a6cc920-4e85-4521-9bdb-0c98017c5002",
+  "user_id": "573198531073",
+  "created_at": "2026-05-02T17:39:34.165702",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T17:44:52.149460",
+      "query": "ciencia ficción con algo de comedia",
+      "routed_query": "ciencia ficción con algo de comedia",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 209.698,
+      "scores": [
+        0.3547,
+        0.336,
+        0.3257,
+        0.2941,
+        0.2736
+      ],
+      "titles": [
+        "Psiconautas",
+        "Anche se è amore non si vede",
+        "Illiterate",
+        "The World's Gold",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Psiconautas",
+      "Anche se è amore non si vede",
+      "Illiterate",
+      "The World's Gold",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Psiconautas",
+      "score": 0.3547,
+      "genres": "Comedy",
+      "keywords": "argentina|conman|comedy|comedia|estafador"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.336,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.3257,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2941,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2736,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.272,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.261,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.25,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2311,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "MasterChef Celebrity Argentina",
+      "score": 0.2302,
+      "genres": "Family|Reality",
+      "keywords": "cooking|celebrity|argentina|cooking competition|famosos"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f6bce290a4b1f38365f3d74fcd2373b5"
+}

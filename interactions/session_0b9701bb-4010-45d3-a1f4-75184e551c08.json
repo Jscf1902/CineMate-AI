@@ -1,0 +1,111 @@
+{
+  "session_id": "0b9701bb-4010-45d3-a1f4-75184e551c08",
+  "user_id": "573189734494",
+  "created_at": "2026-05-03T12:47:59.316501",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T12:55:42.113466",
+      "query": "una peli que tenga buena vibra pero no sea tonta",
+      "routed_query": "una peli que tenga buena vibra pero no sea tonta",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 253.974,
+      "scores": [
+        0.4554,
+        0.3472,
+        0.2323,
+        0.2291,
+        0.2273
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Helga y Flora",
+        "Mama Drama",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Helga y Flora",
+      "Mama Drama",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4554,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3472,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2323,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2291,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2273,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.224,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2131,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "The Game of Keys",
+      "score": 0.2103,
+      "genres": "Drama",
+      "keywords": "lgbt|serie mexicana"
+    },
+    {
+      "title": "Alcanzar una estrella",
+      "score": -0.5533,
+      "genres": "Drama",
+      "keywords": "musical|romance|telenovela"
+    },
+    {
+      "title": "Una familia con suerte",
+      "score": -0.6131,
+      "genres": "Comedy|Drama|Family",
+      "keywords": "telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "186bf2b06dacc6a6bac6e789339e570a"
+}

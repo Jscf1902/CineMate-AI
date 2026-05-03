@@ -1,0 +1,111 @@
+{
+  "session_id": "a486a7aa-bb49-421f-bfed-c444d0b7dbd8",
+  "user_id": "573175145845",
+  "created_at": "2026-05-02T06:33:32.298933",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T06:38:13.854058",
+      "query": "ciencia ficción con distopías",
+      "routed_query": "ciencia ficción con distopías",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 189.083,
+      "scores": [
+        0.279,
+        0.274,
+        0.2615,
+        0.261,
+        0.2606
+      ],
+      "titles": [
+        "Anche se è amore non si vede",
+        "Illiterate",
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+        "The Last Fistful of Land",
+        "The Metropolitan Opera: Puccini's La Rondine"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Anche se è amore non si vede",
+      "Illiterate",
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "The Last Fistful of Land",
+      "The Metropolitan Opera: Puccini's La Rondine"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.279,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.274,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "score": 0.2615,
+      "genres": "Documentary",
+      "keywords": "brazilian history"
+    },
+    {
+      "title": "The Last Fistful of Land",
+      "score": 0.261,
+      "genres": "Documentary",
+      "keywords": "economic miracle|sardinia, italy|social documentary|1960s|fiorenzo serra|sardegna"
+    },
+    {
+      "title": "The Metropolitan Opera: Puccini's La Rondine",
+      "score": 0.2606,
+      "genres": "Music",
+      "keywords": "opera|puccini"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2574,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.226,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2071,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1979,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.1916,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "e0f6aac202fdddf89ac7788d1693f393"
+}

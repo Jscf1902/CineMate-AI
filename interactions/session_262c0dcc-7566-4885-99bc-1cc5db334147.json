@@ -1,0 +1,111 @@
+{
+  "session_id": "262c0dcc-7566-4885-99bc-1cc5db334147",
+  "user_id": "573117238104",
+  "created_at": "2026-05-02T13:17:19.196479",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T13:24:20.587504",
+      "query": "películas tipo 300",
+      "routed_query": "películas tipo 300",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 302.892,
+      "scores": [
+        0.1983,
+        0.1938,
+        0.1789,
+        0.178,
+        0.1757
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Enrico IV",
+        "Vacanze di Natale a Cortina",
+        "The World's Gold",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Enrico IV",
+      "Vacanze di Natale a Cortina",
+      "The World's Gold",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1983,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1938,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1789,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.178,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.1757,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1756,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "Los 80",
+      "score": 0.1683,
+      "genres": "Drama",
+      "keywords": "pinochet regime|1980s"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.167,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "A Man Called Magnum",
+      "score": 0.1652,
+      "genres": "Crime|Action",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Supremo",
+      "score": 0.1633,
+      "genres": "Drama|History",
+      "keywords": "philippines"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "fb1014800cec1d616ed7f0fd4bfe7549"
+}

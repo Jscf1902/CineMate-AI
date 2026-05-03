@@ -1,0 +1,50 @@
+{
+  "session_id": "0819aab1-edc7-4e93-acc4-fdebde5fd1ad",
+  "user_id": "573154847212",
+  "created_at": "2026-05-02T22:46:29.100305",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T23:03:45.991104",
+      "query": "terror psicológico con final inesperado",
+      "routed_query": "terror psicológico con final inesperado",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 917.961,
+      "scores": [
+        0.3537,
+        0.3135,
+        0.3117,
+        0.3106,
+        0.2891
+      ],
+      "titles": [
+        "Utusan Iblis: Dia Yang Berada di Antara Kita",
+        "Comando Txikia: muerte de un presidente",
+        "The Moro Affair",
+        "Carlos",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Utusan Iblis: Dia Yang Berada di Antara Kita",
+      "Comando Txikia: muerte de un presidente",
+      "The Moro Affair",
+      "Carlos",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

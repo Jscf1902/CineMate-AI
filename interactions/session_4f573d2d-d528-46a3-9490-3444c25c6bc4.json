@@ -1,0 +1,50 @@
+{
+  "session_id": "4f573d2d-d528-46a3-9490-3444c25c6bc4",
+  "user_id": "573174827337",
+  "created_at": "2026-05-03T01:16:06.903009",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T01:23:40.889308",
+      "query": "recomiéndame algo",
+      "routed_query": "recomiéndame algo",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 307.02,
+      "scores": [
+        0.2057,
+        0.2051,
+        0.2043,
+        0.201,
+        0.1989
+      ],
+      "titles": [
+        "Kannadi Pookkal",
+        "Setřelé písmo",
+        "Onnenpotku",
+        "The Comedy of Errors",
+        "Free Bert"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Kannadi Pookkal",
+      "Setřelé písmo",
+      "Onnenpotku",
+      "The Comedy of Errors",
+      "Free Bert"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

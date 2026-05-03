@@ -1,0 +1,50 @@
+{
+  "session_id": "2b15526a-c0e4-4751-ab19-9c799b44a443",
+  "user_id": "573166763061",
+  "created_at": "2026-05-03T11:35:46.652485",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T11:44:59.979829",
+      "query": "una peli que tenga emociones pero no sea muy triste",
+      "routed_query": "una peli que tenga emociones pero no sea muy triste",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 425.006,
+      "scores": [
+        0.4457,
+        0.3195,
+        0.2553,
+        0.2514,
+        0.2261
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "È questa la vita che sognavo da bambino?",
+        "Suburra: Blood on Rome",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "È questa la vita che sognavo da bambino?",
+      "Suburra: Blood on Rome",
+      "Anche se è amore non si vede"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

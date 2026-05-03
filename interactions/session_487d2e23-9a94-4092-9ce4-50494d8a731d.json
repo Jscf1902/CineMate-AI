@@ -1,0 +1,50 @@
+{
+  "session_id": "487d2e23-9a94-4092-9ce4-50494d8a731d",
+  "user_id": "573116237173",
+  "created_at": "2026-05-02T18:33:04.457535",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T18:38:49.887371",
+      "query": "acción intensa pero no muy larga",
+      "routed_query": "acción intensa pero no muy larga",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 216.063,
+      "scores": [
+        0.2112,
+        0.2093,
+        0.2034,
+        0.1943,
+        0.1883
+      ],
+      "titles": [
+        "Cabo",
+        "È questa la vita che sognavo da bambino?",
+        "Illiterate",
+        "Kidung Cinta",
+        "Juro que te amo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Cabo",
+      "È questa la vita che sognavo da bambino?",
+      "Illiterate",
+      "Kidung Cinta",
+      "Juro que te amo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

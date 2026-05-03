@@ -1,0 +1,50 @@
+{
+  "session_id": "396b8d95-089f-4500-85c4-36f62a7b994b",
+  "user_id": "573196499016",
+  "created_at": "2026-05-02T13:57:13.418418",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T14:06:09.060005",
+      "query": "algo como Black Panther",
+      "routed_query": "algo como Black Panther",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 383.118,
+      "scores": [
+        0.6319,
+        0.4432,
+        0.4219,
+        0.4062,
+        0.4019
+      ],
+      "titles": [
+        "Black Panther",
+        "Marvel's Luke Cage",
+        "Marvel's Avengers",
+        "The Marvels",
+        "Captain America: Civil War"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Black Panther",
+      "Marvel's Luke Cage",
+      "Marvel's Avengers",
+      "The Marvels",
+      "Captain America: Civil War"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

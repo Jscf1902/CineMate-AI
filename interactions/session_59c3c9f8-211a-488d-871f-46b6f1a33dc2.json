@@ -1,0 +1,111 @@
+{
+  "session_id": "59c3c9f8-211a-488d-871f-46b6f1a33dc2",
+  "user_id": "573180189033",
+  "created_at": "2026-05-03T12:34:00.123158",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T12:39:46.542309",
+      "query": "una película que sea emocionante pero clara",
+      "routed_query": "una película que sea emocionante pero clara",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 213.289,
+      "scores": [
+        0.4496,
+        0.3458,
+        0.3379,
+        0.2432,
+        0.2404
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Muchachos, la película de la gente",
+        "¡Qué madre, tan padre!",
+        "Por la gloria de sus padres",
+        "Natural Born Narco"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Muchachos, la película de la gente",
+      "¡Qué madre, tan padre!",
+      "Por la gloria de sus padres",
+      "Natural Born Narco"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4496,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.3458,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3379,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2432,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2404,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2372,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2364,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2346,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2267,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Cabo",
+      "score": 0.2206,
+      "genres": "Soap|Drama",
+      "keywords": "cabo: amor e desejo"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "d9e51b5bf3c8a93cd20186d64e220df5"
+}

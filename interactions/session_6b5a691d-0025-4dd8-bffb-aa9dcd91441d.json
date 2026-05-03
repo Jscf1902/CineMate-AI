@@ -1,0 +1,111 @@
+{
+  "session_id": "6b5a691d-0025-4dd8-bffb-aa9dcd91441d",
+  "user_id": "573147799236",
+  "created_at": "2026-05-02T12:57:37.784154",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T13:06:19.406136",
+      "query": "me gustó Coco, algo así",
+      "routed_query": "me gustó Coco, algo así",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 388.089,
+      "scores": [
+        0.363,
+        0.327,
+        0.2297,
+        0.2097,
+        0.208
+      ],
+      "titles": [
+        "A Celebration of the Music from Coco",
+        "A Summer In The Caribbean",
+        "Sandeep Bhaiya",
+        "Juro que te amo",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "A Celebration of the Music from Coco",
+      "A Summer In The Caribbean",
+      "Sandeep Bhaiya",
+      "Juro que te amo",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "A Celebration of the Music from Coco",
+      "score": 0.363,
+      "genres": "Music|Documentary",
+      "keywords": "musical"
+    },
+    {
+      "title": "A Summer In The Caribbean",
+      "score": 0.327,
+      "genres": "Comedy",
+      "keywords": "cine-cocomero"
+    },
+    {
+      "title": "Sandeep Bhaiya",
+      "score": 0.2297,
+      "genres": "Drama",
+      "keywords": "aspirants"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2097,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.208,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2078,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "MasterChef Celebrity Argentina",
+      "score": 0.2019,
+      "genres": "Family|Reality",
+      "keywords": "cooking|celebrity|argentina|cooking competition|famosos"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2007,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "Vai Anitta",
+      "score": 0.1969,
+      "genres": "Documentary",
+      "keywords": "popstar|brazilian pop music|brazilian funk"
+    },
+    {
+      "title": "Aliados",
+      "score": 0.1965,
+      "genres": "Comedy|Drama",
+      "keywords": "fantastico"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "db5fdf84d31c200ad03ecde5cf2eb157"
+}

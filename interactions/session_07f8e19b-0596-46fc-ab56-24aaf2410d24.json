@@ -1,0 +1,50 @@
+{
+  "session_id": "07f8e19b-0596-46fc-ab56-24aaf2410d24",
+  "user_id": "573163969171",
+  "created_at": "2026-05-02T16:17:21.940301",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T16:30:50.005362",
+      "query": "películas tipo Indiana Jones",
+      "routed_query": "películas tipo Indiana Jones",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 650.91,
+      "scores": [
+        0.217,
+        0.2082,
+        0.2075,
+        0.1963,
+        0.1938
+      ],
+      "titles": [
+        "La muerte de un gallero",
+        "The Vengeance of Pancho Villa",
+        "Egypt: Secrets of the Pharaohs",
+        "Dignity",
+        "On the Third Day Arrived the Crow"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "La muerte de un gallero",
+      "The Vengeance of Pancho Villa",
+      "Egypt: Secrets of the Pharaohs",
+      "Dignity",
+      "On the Third Day Arrived the Crow"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

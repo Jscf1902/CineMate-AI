@@ -1,0 +1,111 @@
+{
+  "session_id": "f03b4474-e3a1-4a04-87b4-f4ed580c5fbf",
+  "user_id": "573135918017",
+  "created_at": "2026-05-02T14:41:27.297387",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T14:48:02.132374",
+      "query": "me gustó Bird Box, algo similar",
+      "routed_query": "me gustó Bird Box, algo similar",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 268.145,
+      "scores": [
+        0.3658,
+        0.2576,
+        0.2412,
+        0.2378,
+        0.2339
+      ],
+      "titles": [
+        "The New Woody Woodpecker Show",
+        "Parrot Confidential",
+        "A Birder's Guide to Everything",
+        "Penguin Town",
+        "Pororo the Little Penguin"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The New Woody Woodpecker Show",
+      "Parrot Confidential",
+      "A Birder's Guide to Everything",
+      "Penguin Town",
+      "Pororo the Little Penguin"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The New Woody Woodpecker Show",
+      "score": 0.3658,
+      "genres": "Animation|Comedy|Kids",
+      "keywords": "cartoon woodpecker|amused"
+    },
+    {
+      "title": "Parrot Confidential",
+      "score": 0.2576,
+      "genres": "Documentary|TV Movie",
+      "keywords": "pet|parrot|nature documentary|bird"
+    },
+    {
+      "title": "A Birder's Guide to Everything",
+      "score": 0.2412,
+      "genres": "Comedy",
+      "keywords": "duck|connecticut|road trip|coming of age|birdwatching|teenage boy|ornithologist|unassuming|playful|lighthearted|teenager|sentimental|gentle"
+    },
+    {
+      "title": "Penguin Town",
+      "score": 0.2378,
+      "genres": "Documentary|Kids",
+      "keywords": "penguin|south africa|nature documentary|bird|animal documentary"
+    },
+    {
+      "title": "Pororo the Little Penguin",
+      "score": 0.2339,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy|Family|Kids|Comedy",
+      "keywords": "flying car|fishing|clock|tornado|fox|penguin|crocodile|snowstorm|cartoon|polar bear|feud|dragon|robot|shark|hummingbird|talking car|magician|cartoon bird|3d animation|cartoon beaver"
+    },
+    {
+      "title": "Migration",
+      "score": 0.2299,
+      "genres": "Family|Comedy|Adventure|Animation",
+      "keywords": "duck|migration|villain|flight|anthropomorphism|family|animals|chef|overprotective father|bird"
+    },
+    {
+      "title": "Life Begins for Andy Panda",
+      "score": 0.2104,
+      "genres": "Animation",
+      "keywords": "cartoon"
+    },
+    {
+      "title": "Brazil Untamed",
+      "score": 0.2098,
+      "genres": "Documentary",
+      "keywords": "wild animal|nature"
+    },
+    {
+      "title": "A Class to Remember II",
+      "score": 0.174,
+      "genres": "Drama",
+      "keywords": "hot air balloon"
+    },
+    {
+      "title": "Hanwoo Rhapsody",
+      "score": 0.1643,
+      "genres": "Documentary",
+      "keywords": "korean cuisine"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2ded7c3c91e6de83f1c4931a725f00c3"
+}

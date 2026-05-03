@@ -1,0 +1,111 @@
+{
+  "session_id": "e80bca83-c6a1-4d1f-a068-b0f0d2ac74da",
+  "user_id": "573155815822",
+  "created_at": "2026-05-02T16:30:50.088584",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T16:39:12.323419",
+      "query": "me gustó Mad Max, algo así",
+      "routed_query": "me gustó Mad Max, algo así",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 359.865,
+      "scores": [
+        0.2628,
+        0.2571,
+        0.2206,
+        0.2188,
+        0.1936
+      ],
+      "titles": [
+        "¡Qué madre, tan padre!",
+        "San Francisco de Asís",
+        "Light of My Lion",
+        "Sandeep Bhaiya",
+        "Koro Sensei Quest!"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "¡Qué madre, tan padre!",
+      "San Francisco de Asís",
+      "Light of My Lion",
+      "Sandeep Bhaiya",
+      "Koro Sensei Quest!"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2628,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "San Francisco de Asís",
+      "score": 0.2571,
+      "genres": NaN,
+      "keywords": "san francisco de asís|brother fire"
+    },
+    {
+      "title": "Light of My Lion",
+      "score": 0.2206,
+      "genres": "Drama|Family|Mystery",
+      "keywords": "asd"
+    },
+    {
+      "title": "Sandeep Bhaiya",
+      "score": 0.2188,
+      "genres": "Drama",
+      "keywords": "aspirants"
+    },
+    {
+      "title": "Koro Sensei Quest!",
+      "score": 0.1936,
+      "genres": "Action & Adventure|Animation|Comedy|Sci-Fi & Fantasy",
+      "keywords": "parody|based on manga|spin off|anime|chibi|original net animation (ona)"
+    },
+    {
+      "title": "Hakone-chan",
+      "score": 0.1936,
+      "genres": "Animation",
+      "keywords": "anime|onsen"
+    },
+    {
+      "title": "Walk Like a Dragon",
+      "score": 0.1932,
+      "genres": "Western",
+      "keywords": "jalousie|mariage mixte"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.1918,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Angel Heart",
+      "score": 0.1914,
+      "genres": "Action & Adventure|Crime|Drama|Mystery",
+      "keywords": "based on manga"
+    },
+    {
+      "title": "Aliados",
+      "score": 0.1897,
+      "genres": "Comedy|Drama",
+      "keywords": "fantastico"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "36fc260a1424622e1a15724cf640823f"
+}

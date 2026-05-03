@@ -1,0 +1,50 @@
+{
+  "session_id": "21e34e30-eec7-4f35-b658-0b8589d2ba33",
+  "user_id": "573159037934",
+  "created_at": "2026-05-03T16:00:02.525533",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T16:06:40.390977",
+      "query": "pelis de acción con robots",
+      "routed_query": "pelis de acción con robots",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 287.871,
+      "scores": [
+        0.3486,
+        0.3215,
+        0.3166,
+        0.2912,
+        0.2887
+      ],
+      "titles": [
+        "Transformers: BotBots",
+        "Real Humans",
+        "Robots",
+        "Robot T-O",
+        "Not a Robot"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Transformers: BotBots",
+      "Real Humans",
+      "Robots",
+      "Robot T-O",
+      "Not a Robot"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

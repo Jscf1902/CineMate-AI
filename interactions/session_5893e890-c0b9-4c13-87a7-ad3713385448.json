@@ -1,0 +1,111 @@
+{
+  "session_id": "5893e890-c0b9-4c13-87a7-ad3713385448",
+  "user_id": "573117291505",
+  "created_at": "2026-05-02T09:16:08.437036",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T09:47:55.699714",
+      "query": "algo como Interstellar",
+      "routed_query": "algo como Interstellar",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1803.508,
+      "scores": [
+        0.6071,
+        0.4627,
+        0.4043,
+        0.3682,
+        0.366
+      ],
+      "titles": [
+        "Interstellar",
+        "The Orville",
+        "Space/Time",
+        "Doctor Who",
+        "Star Trek: Discovery"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Interstellar",
+      "The Orville",
+      "Space/Time",
+      "Doctor Who",
+      "Star Trek: Discovery"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Interstellar",
+      "score": 0.6071,
+      "genres": "Adventure|Drama|Science Fiction",
+      "keywords": "artificial intelligence (a.i.)|nasa|time warp|spacecraft|expedition|future|wormhole|space travel|famine|black hole|dystopia|race against time|hibernation|quantum mechanics|space|rescue|family relationships|robot|astronaut|scientist|single father|farmer|space station|space adventure|time paradox|time-manipulation|cryonics|father daughter relationship|2060s|cornfield|ambiguous"
+    },
+    {
+      "title": "The Orville",
+      "score": 0.4627,
+      "genres": "Drama|Comedy|Sci-Fi & Fantasy",
+      "keywords": "space battle|future|utopia|nostalgic|space exploration|curious|space adventure|amused"
+    },
+    {
+      "title": "Space/Time",
+      "score": 0.4043,
+      "genres": "Science Fiction|Action|Thriller",
+      "keywords": "future|time|space travel|dystopia|time machine|space|space time|science|crime|interstellar"
+    },
+    {
+      "title": "Doctor Who",
+      "score": 0.3682,
+      "genres": "Action & Adventure|Drama|Sci-Fi & Fantasy",
+      "keywords": "space travel|time travel|time machine|alien|doctor|space adventure|science fiction|history|adventure"
+    },
+    {
+      "title": "Star Trek: Discovery",
+      "score": 0.366,
+      "genres": "Sci-Fi & Fantasy|Action & Adventure|Drama",
+      "keywords": "artificial intelligence (a.i.)|space war|space travel|dystopia|prequel|space|alien|adopted daughter"
+    },
+    {
+      "title": "Andromeda",
+      "score": 0.365,
+      "genres": "Action & Adventure|Drama|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|starship|space travel|black hole|space|alien|distant future|space opera|military|alternate timeline"
+    },
+    {
+      "title": "Rick and Morty",
+      "score": 0.3618,
+      "genres": "Animation|Comedy|Sci-Fi & Fantasy|Action & Adventure",
+      "keywords": "time travel|grandfather|alcoholism|alien|dysfunctional family|mad scientist|scientist|adult animation|father figure|machinist|multiple dimensions|spaceship"
+    },
+    {
+      "title": "The Creator",
+      "score": 0.3528,
+      "genres": "Science Fiction|Action|Adventure",
+      "keywords": "artificial intelligence (a.i.)|asia|cyberpunk|robot|space station|kids|ex special forces|humanoid robot|missing wife|near future|war against machines|dystopian sci-fi"
+    },
+    {
+      "title": "A Girl and an Astronaut",
+      "score": 0.3503,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "space travel|love|space|cosmos|time-manipulation|science fiction|romantic drama"
+    },
+    {
+      "title": "Good Luck, Have Fun, Don't Die",
+      "score": 0.3342,
+      "genres": "Action|Science Fiction|Comedy",
+      "keywords": "time travel|transhumanism|assertive|bold|sci-fi adventure|artificial intelligence|team mission"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "8932a6c7333a84c26a0e9e5556d0e4e7"
+}

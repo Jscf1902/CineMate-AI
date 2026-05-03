@@ -1,0 +1,50 @@
+{
+  "session_id": "5f2029a4-4f77-41c6-bf6e-5048b8ba670a",
+  "user_id": "573148958683",
+  "created_at": "2026-05-02T04:46:58.729446",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T04:51:55.581343",
+      "query": "películas de aventura en la selva",
+      "routed_query": "películas de aventura en la selva",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 183.513,
+      "scores": [
+        0.2212,
+        0.1949,
+        0.1921,
+        0.1797,
+        0.1795
+      ],
+      "titles": [
+        "Vacanze di Natale a Cortina",
+        "Muchachos, la película de la gente",
+        "Venalmaram",
+        "The World's Gold",
+        "Helga y Flora"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Vacanze di Natale a Cortina",
+      "Muchachos, la película de la gente",
+      "Venalmaram",
+      "The World's Gold",
+      "Helga y Flora"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

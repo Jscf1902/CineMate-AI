@@ -1,0 +1,50 @@
+{
+  "session_id": "5d3164b4-a765-4f8e-a3ea-15a0b8a9fbe0",
+  "user_id": "573167205983",
+  "created_at": "2026-05-02T14:48:02.252469",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T14:55:21.557610",
+      "query": "algo como Fight Club",
+      "routed_query": "algo como Fight Club",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 332.563,
+      "scores": [
+        0.3374,
+        0.3341,
+        0.3297,
+        0.3284,
+        0.3275
+      ],
+      "titles": [
+        "Fear",
+        "Revenge",
+        "Narcissist",
+        "Sense8",
+        "Split"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Fear",
+      "Revenge",
+      "Narcissist",
+      "Sense8",
+      "Split"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

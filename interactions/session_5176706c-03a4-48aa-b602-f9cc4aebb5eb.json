@@ -1,0 +1,111 @@
+{
+  "session_id": "5176706c-03a4-48aa-b602-f9cc4aebb5eb",
+  "user_id": "573171879184",
+  "created_at": "2026-05-02T22:39:15.255151",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T22:46:29.004268",
+      "query": "ciencia ficción con realidades alternas y misterio",
+      "routed_query": "ciencia ficción con realidades alternas y misterio",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 268.044,
+      "scores": [
+        0.295,
+        0.2624,
+        0.245,
+        0.2275,
+        0.224
+      ],
+      "titles": [
+        "Anche se è amore non si vede",
+        "È questa la vita che sognavo da bambino?",
+        "La Casa de los Famosos México",
+        "Juro que te amo",
+        "The World's Gold"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Anche se è amore non si vede",
+      "È questa la vita che sognavo da bambino?",
+      "La Casa de los Famosos México",
+      "Juro que te amo",
+      "The World's Gold"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.295,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2624,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "La Casa de los Famosos México",
+      "score": 0.245,
+      "genres": "Reality",
+      "keywords": "famosos|casa"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2275,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.224,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2174,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Una familia con suerte",
+      "score": -0.6318,
+      "genres": "Comedy|Drama|Family",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "The One Who Couldn't Love",
+      "score": -0.7146,
+      "genres": "Drama",
+      "keywords": "a que não podia amar"
+    },
+    {
+      "title": "Mirada de Mujer",
+      "score": -0.7349,
+      "genres": "Drama",
+      "keywords": "telenovela"
+    },
+    {
+      "title": "Anything But Plain",
+      "score": -0.736,
+      "genres": "Soap|Comedy|Drama",
+      "keywords": "telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "1a1eb819fe8b622f2dc0621074814165"
+}

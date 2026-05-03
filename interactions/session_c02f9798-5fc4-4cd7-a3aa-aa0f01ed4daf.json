@@ -1,0 +1,111 @@
+{
+  "session_id": "c02f9798-5fc4-4cd7-a3aa-aa0f01ed4daf",
+  "user_id": "573129372236",
+  "created_at": "2026-05-03T11:27:03.857731",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T11:35:46.450335",
+      "query": "quiero algo con buena historia y que no sea aburrido",
+      "routed_query": "quiero algo con buena historia y que no sea aburrido",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 233.503,
+      "scores": [
+        0.4763,
+        0.3703,
+        0.3303,
+        0.3032,
+        0.2706
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+        "El Gallo de Oro",
+        "La muerte de un gallero"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "El Gallo de Oro",
+      "La muerte de un gallero"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4763,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3703,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "score": 0.3303,
+      "genres": "Documentary",
+      "keywords": "brazilian history"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.3032,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "La muerte de un gallero",
+      "score": 0.2706,
+      "genres": "Action|Drama|Crime",
+      "keywords": "mexican history"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2546,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2453,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Ruy, the Little Cid",
+      "score": 0.2453,
+      "genres": "Animation|Comedy|Action & Adventure|Kids",
+      "keywords": "spanish history|11th century|el cid campeador"
+    },
+    {
+      "title": "Cabo",
+      "score": 0.2415,
+      "genres": "Soap|Drama",
+      "keywords": "cabo: amor e desejo"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2393,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "99c339f9c331297307fbfb3825875da3"
+}

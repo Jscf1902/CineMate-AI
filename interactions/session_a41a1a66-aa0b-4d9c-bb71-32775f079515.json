@@ -1,0 +1,50 @@
+{
+  "session_id": "a41a1a66-aa0b-4d9c-bb71-32775f079515",
+  "user_id": "573166832011",
+  "created_at": "2026-05-02T18:13:10.766840",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T18:24:23.419588",
+      "query": "terror con suspenso pero sin mucha sangre",
+      "routed_query": "terror con suspenso pero sin mucha sangre",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 505.297,
+      "scores": [
+        0.3758,
+        0.3288,
+        0.3043,
+        0.2934,
+        0.2709
+      ],
+      "titles": [
+        "The Moro Affair",
+        "Piazza Fontana: The Italian Conspiracy",
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Moro Affair",
+      "Piazza Fontana: The Italian Conspiracy",
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

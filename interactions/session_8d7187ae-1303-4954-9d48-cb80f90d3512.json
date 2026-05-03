@@ -1,0 +1,111 @@
+{
+  "session_id": "8d7187ae-1303-4954-9d48-cb80f90d3512",
+  "user_id": "573163076833",
+  "created_at": "2026-05-03T02:00:45.720861",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T02:07:14.636782",
+      "query": "algo interesante",
+      "routed_query": "algo interesante",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 303.153,
+      "scores": [
+        0.2993,
+        0.264,
+        0.2601,
+        0.2597,
+        0.2536
+      ],
+      "titles": [
+        "Illiterate",
+        "Muchachos, la película de la gente",
+        "Kidung Cinta",
+        "The World's Gold",
+        "Natale in Sudafrica"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "Muchachos, la película de la gente",
+      "Kidung Cinta",
+      "The World's Gold",
+      "Natale in Sudafrica"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Illiterate",
+      "score": 0.2993,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.264,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Kidung Cinta",
+      "score": 0.2601,
+      "genres": "Drama",
+      "keywords": "kidung cinta"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2597,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Natale in Sudafrica",
+      "score": 0.2536,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "That One Word - Feyenoord",
+      "score": 0.2446,
+      "genres": "Documentary",
+      "keywords": "voetbal"
+    },
+    {
+      "title": "Rigoletto",
+      "score": 0.2418,
+      "genres": "Music",
+      "keywords": "opera"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.2408,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Forevermore",
+      "score": 0.2394,
+      "genres": "Romance|Drama",
+      "keywords": "philippines"
+    },
+    {
+      "title": "A Summer In The Caribbean",
+      "score": 0.2376,
+      "genres": "Comedy",
+      "keywords": "cine-cocomero"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "f72a2204193c491361ec7d4a718bce70"
+}

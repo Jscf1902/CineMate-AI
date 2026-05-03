@@ -1,0 +1,111 @@
+{
+  "session_id": "9faee408-70a7-4545-9f21-556707db7ba8",
+  "user_id": "573180958793",
+  "created_at": "2026-05-02T06:50:21.214122",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T06:56:23.420804",
+      "query": "películas de acción con artes marciales",
+      "routed_query": "películas de acción con artes marciales",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 223.714,
+      "scores": [
+        0.2601,
+        0.2544,
+        0.2488,
+        0.2417,
+        0.2397
+      ],
+      "titles": [
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+        "Anche se è amore non si vede",
+        "The Metropolitan Opera: Puccini's La Rondine",
+        "The World's Gold",
+        "Though You May Not Know"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "Anche se è amore non si vede",
+      "The Metropolitan Opera: Puccini's La Rondine",
+      "The World's Gold",
+      "Though You May Not Know"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "score": 0.2601,
+      "genres": "Documentary",
+      "keywords": "brazilian history"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2544,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "The Metropolitan Opera: Puccini's La Rondine",
+      "score": 0.2488,
+      "genres": "Music",
+      "keywords": "opera|puccini"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2417,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Though You May Not Know",
+      "score": 0.2397,
+      "genres": "Documentary",
+      "keywords": "poetry|biography|poet|songwriter|poetry reading|portrait of an artist|spanish literature|literature history"
+    },
+    {
+      "title": "Por Toda Minha Vida - Mamonas Assassinas",
+      "score": 0.2381,
+      "genres": "Documentary|Music",
+      "keywords": "biography"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2381,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "City of God: The Fight Rages On",
+      "score": 0.2329,
+      "genres": "Drama|Crime",
+      "keywords": "photographer|rio de janeiro|based on movie|favela|antagonistic|vibrant"
+    },
+    {
+      "title": "Anitta: Made in Honório",
+      "score": 0.2324,
+      "genres": "Documentary",
+      "keywords": "biography|concert|backstage|singer|music documentary|brazilian pop music|brazilian funk"
+    },
+    {
+      "title": "Nothing Like Before – The Music of Clube da Esquina",
+      "score": 0.2321,
+      "genres": "Documentary",
+      "keywords": "childhood friends|brazilian music|album|minas gerais, brazil"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "00084d637625bedcaad162c11fb26541"
+}

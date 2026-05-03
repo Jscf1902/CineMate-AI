@@ -1,0 +1,50 @@
+{
+  "session_id": "37da2d1d-603f-4629-862e-8ee1b61a381c",
+  "user_id": "573163588784",
+  "created_at": "2026-05-02T19:46:51.549175",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T19:56:20.887741",
+      "query": "terror con misterio y giros inesperados",
+      "routed_query": "terror con misterio y giros inesperados",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 445.539,
+      "scores": [
+        0.3543,
+        0.3436,
+        0.3104,
+        0.3018,
+        0.3015
+      ],
+      "titles": [
+        "Tres Caínes",
+        "Piazza Fontana: The Italian Conspiracy",
+        "The Moro Affair",
+        "Comando Txikia: muerte de un presidente",
+        "Carlos"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Tres Caínes",
+      "Piazza Fontana: The Italian Conspiracy",
+      "The Moro Affair",
+      "Comando Txikia: muerte de un presidente",
+      "Carlos"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

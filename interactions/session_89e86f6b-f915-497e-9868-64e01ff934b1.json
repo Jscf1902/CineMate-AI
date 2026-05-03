@@ -1,0 +1,111 @@
+{
+  "session_id": "89e86f6b-f915-497e-9868-64e01ff934b1",
+  "user_id": "573145925716",
+  "created_at": "2026-05-03T05:36:57.999350",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T05:43:10.595294",
+      "query": "una película que guste",
+      "routed_query": "una película que guste",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 264.587,
+      "scores": [
+        0.4233,
+        0.384,
+        0.3738,
+        0.2438,
+        0.2436
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Muchachos, la película de la gente",
+        "¡Qué madre, tan padre!",
+        "The World's Gold",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Muchachos, la película de la gente",
+      "¡Qué madre, tan padre!",
+      "The World's Gold",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4233,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.384,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3738,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2438,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2436,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2433,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.226,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2259,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Che Kopete: The Movie",
+      "score": 0.2152,
+      "genres": "Comedy",
+      "keywords": "humor|cine chileno"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2119,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2a340bb42bde8f7616f98b2ec2dc8617"
+}

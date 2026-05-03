@@ -1,0 +1,50 @@
+{
+  "session_id": "dcf7c023-c4d2-4f5b-893b-6ee12ac9405f",
+  "user_id": "573193531397",
+  "created_at": "2026-05-03T12:55:42.206118",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T13:02:57.076294",
+      "query": "algo que sea distinto pero que conecte conmigo",
+      "routed_query": "algo que sea distinto pero que conecte conmigo",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 305.299,
+      "scores": [
+        0.6758,
+        0.3344,
+        0.3317,
+        0.2294,
+        0.2186
+      ],
+      "titles": [
+        "Juro que te amo",
+        "El Gallo de Oro",
+        "È questa la vita che sognavo da bambino?",
+        "Por la gloria de sus padres",
+        "La Casa de los Famosos México"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "El Gallo de Oro",
+      "È questa la vita che sognavo da bambino?",
+      "Por la gloria de sus padres",
+      "La Casa de los Famosos México"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

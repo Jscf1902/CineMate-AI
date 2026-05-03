@@ -1,0 +1,111 @@
+{
+  "session_id": "0cccf2bd-3bbc-4e91-a093-b838cf34e5d0",
+  "user_id": "573116510950",
+  "created_at": "2026-05-02T07:48:48.373157",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T07:57:31.865958",
+      "query": "ciencia ficción con experimentos científicos",
+      "routed_query": "ciencia ficción con experimentos científicos",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 340.837,
+      "scores": [
+        0.2763,
+        0.2638,
+        0.2574,
+        0.257,
+        0.2331
+      ],
+      "titles": [
+        "Jerrod Carmichael Reality Show",
+        "Magueyes",
+        "No Telling",
+        "The Experiment",
+        "May 15th in Paris"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Jerrod Carmichael Reality Show",
+      "Magueyes",
+      "No Telling",
+      "The Experiment",
+      "May 15th in Paris"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Jerrod Carmichael Reality Show",
+      "score": 0.2763,
+      "genres": "Documentary|Comedy|Reality",
+      "keywords": "experimental"
+    },
+    {
+      "title": "Magueyes",
+      "score": 0.2638,
+      "genres": "War",
+      "keywords": "short film|experimental"
+    },
+    {
+      "title": "No Telling",
+      "score": 0.2574,
+      "genres": "Horror",
+      "keywords": "experiment|laboratory|medical research|animal research|cautionary"
+    },
+    {
+      "title": "The Experiment",
+      "score": 0.257,
+      "genres": "Thriller|Drama",
+      "keywords": "experiment|psychological thriller"
+    },
+    {
+      "title": "May 15th in Paris",
+      "score": 0.2331,
+      "genres": "History",
+      "keywords": "experimental|french"
+    },
+    {
+      "title": "Nylon Noose",
+      "score": 0.2149,
+      "genres": "Crime",
+      "keywords": "experiment|murder|mad scientist|mansion|strangulation|nylons"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2076,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Bharathan Effect",
+      "score": 0.2059,
+      "genres": "Science Fiction",
+      "keywords": "inventor|experiment|anti-gravity"
+    },
+    {
+      "title": "Masterchef Uruguay",
+      "score": 0.2046,
+      "genres": "Reality",
+      "keywords": "competition|food"
+    },
+    {
+      "title": "Strange Behavior",
+      "score": 0.2004,
+      "genres": "Science Fiction|Horror|Mystery",
+      "keywords": "experiment|new zealand|son|mind control|murder"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "bb1f2a9d72c5cb1980c0656763b730b0"
+}

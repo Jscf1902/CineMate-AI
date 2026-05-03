@@ -1,0 +1,50 @@
+{
+  "session_id": "77066d84-37ac-4c2a-a865-821c2d7b27f5",
+  "user_id": "573110515691",
+  "created_at": "2026-05-02T05:24:04.910389",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T05:32:27.605855",
+      "query": "romance en época antigua",
+      "routed_query": "romance en época antigua",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 377.781,
+      "scores": [
+        0.7693,
+        0.7653,
+        0.7625,
+        0.7596,
+        0.7537
+      ],
+      "titles": [
+        "Tastefully Yours",
+        "Flower Shop Without Rose",
+        "A Korean Odyssey",
+        "The Fierce Wife",
+        "Pobre novio"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Tastefully Yours",
+      "Flower Shop Without Rose",
+      "A Korean Odyssey",
+      "The Fierce Wife",
+      "Pobre novio"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

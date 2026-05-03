@@ -1,0 +1,50 @@
+{
+  "session_id": "c18b2756-3a1d-4c8a-a38c-17b2888f82f5",
+  "user_id": "573119038743",
+  "created_at": "2026-05-03T00:41:28.406906",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T00:49:53.784884",
+      "query": "terror con tensión y sin mucho gore",
+      "routed_query": "terror con tensión y sin mucho gore",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 366.993,
+      "scores": [
+        0.3828,
+        0.3793,
+        0.3656,
+        0.3477,
+        0.3395
+      ],
+      "titles": [
+        "Hunting Creatures",
+        "The Moro Affair",
+        "Lucky Sky Diamond",
+        "Sweet Home",
+        "Dying Beyond Their Means"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Hunting Creatures",
+      "The Moro Affair",
+      "Lucky Sky Diamond",
+      "Sweet Home",
+      "Dying Beyond Their Means"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

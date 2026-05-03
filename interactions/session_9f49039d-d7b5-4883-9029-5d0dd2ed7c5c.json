@@ -1,0 +1,50 @@
+{
+  "session_id": "9f49039d-d7b5-4883-9029-5d0dd2ed7c5c",
+  "user_id": "573195052782",
+  "created_at": "2026-05-03T08:05:01.758937",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T08:12:51.227002",
+      "query": "algo para ver ya",
+      "routed_query": "algo para ver ya",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 346.294,
+      "scores": [
+        0.464,
+        0.4091,
+        0.3812,
+        0.2956,
+        0.2911
+      ],
+      "titles": [
+        "Para Gases... los mios",
+        "Para - We Are King",
+        "Una Horca Para El Texano",
+        "Inside the Ambulance",
+        "Bios: Os Paralamas do Sucesso"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Para Gases... los mios",
+      "Para - We Are King",
+      "Una Horca Para El Texano",
+      "Inside the Ambulance",
+      "Bios: Os Paralamas do Sucesso"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

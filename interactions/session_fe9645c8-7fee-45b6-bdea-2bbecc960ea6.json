@@ -1,0 +1,111 @@
+{
+  "session_id": "fe9645c8-7fee-45b6-bdea-2bbecc960ea6",
+  "user_id": "573131228026",
+  "created_at": "2026-05-03T03:22:53.583853",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T03:28:28.679129",
+      "query": "algo bueno de ver",
+      "routed_query": "algo bueno de ver",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 225.155,
+      "scores": [
+        0.2279,
+        0.2268,
+        0.223,
+        0.2212,
+        0.221
+      ],
+      "titles": [
+        "Nobody knows anything",
+        "El país más feliz del mundo",
+        "Bahía Blanca",
+        "Tiro Certo - Rio em Chamas",
+        "Capoeiras"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Nobody knows anything",
+      "El país más feliz del mundo",
+      "Bahía Blanca",
+      "Tiro Certo - Rio em Chamas",
+      "Capoeiras"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Nobody knows anything",
+      "score": 0.2279,
+      "genres": "Comedy",
+      "keywords": "samanté"
+    },
+    {
+      "title": "El país más feliz del mundo",
+      "score": 0.2268,
+      "genres": "Comedy",
+      "keywords": "colombian"
+    },
+    {
+      "title": "Bahía Blanca",
+      "score": 0.223,
+      "genres": "Drama|Thriller",
+      "keywords": NaN
+    },
+    {
+      "title": "Tiro Certo - Rio em Chamas",
+      "score": 0.2212,
+      "genres": "Action|Crime|Thriller|Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Capoeiras",
+      "score": 0.221,
+      "genres": "Action & Adventure",
+      "keywords": NaN
+    },
+    {
+      "title": "El Buki",
+      "score": 0.2191,
+      "genres": "Documentary",
+      "keywords": NaN
+    },
+    {
+      "title": "Try Knights",
+      "score": 0.2184,
+      "genres": "Comedy|Animation",
+      "keywords": "anime|bukatsu"
+    },
+    {
+      "title": "La terra e il vento",
+      "score": 0.2183,
+      "genres": "Comedy|Drama",
+      "keywords": NaN
+    },
+    {
+      "title": "Supremo",
+      "score": 0.2175,
+      "genres": "Drama|History",
+      "keywords": "philippines"
+    },
+    {
+      "title": "Romário, o Cara",
+      "score": 0.2171,
+      "genres": "Documentary",
+      "keywords": NaN
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2e30567ce780cb2c965710b8e28f4bf1"
+}

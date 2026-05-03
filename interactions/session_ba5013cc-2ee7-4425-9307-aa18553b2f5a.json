@@ -1,0 +1,111 @@
+{
+  "session_id": "ba5013cc-2ee7-4425-9307-aa18553b2f5a",
+  "user_id": "573196321629",
+  "created_at": "2026-05-03T04:54:30.092305",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T05:01:14.969736",
+      "query": "una peli normal",
+      "routed_query": "una peli normal",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 291.403,
+      "scores": [
+        0.2409,
+        0.2391,
+        0.2377,
+        0.2297,
+        0.2268
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "¡Qué madre, tan padre!",
+        "Illiterate",
+        "Por la gloria de sus padres",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "¡Qué madre, tan padre!",
+      "Illiterate",
+      "Por la gloria de sus padres",
+      "Anche se è amore non si vede"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2409,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2391,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2377,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2297,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2268,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2248,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2222,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "The Game of Keys",
+      "score": 0.2198,
+      "genres": "Drama",
+      "keywords": "lgbt|serie mexicana"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2186,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Mystrio (Uno... Dos... Tres Pilyos!)",
+      "score": 0.2184,
+      "genres": "Drama|Comedy",
+      "keywords": "philippines"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "ae06c0776e6f20584d2144034b27956d"
+}

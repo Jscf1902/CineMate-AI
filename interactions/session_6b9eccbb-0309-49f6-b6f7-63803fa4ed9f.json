@@ -1,0 +1,50 @@
+{
+  "session_id": "6b9eccbb-0309-49f6-b6f7-63803fa4ed9f",
+  "user_id": "573181333033",
+  "created_at": "2026-05-03T12:18:54.733982",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T12:33:59.996996",
+      "query": "algo que sea interesante sin ser complicado",
+      "routed_query": "algo que sea interesante sin ser complicado",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 268.222,
+      "scores": [
+        0.4546,
+        0.4147,
+        0.3327,
+        0.3013,
+        0.2528
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Sea of Love",
+        "¡Qué madre, tan padre!",
+        "Changing Seas",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Sea of Love",
+      "¡Qué madre, tan padre!",
+      "Changing Seas",
+      "Anche se è amore non si vede"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

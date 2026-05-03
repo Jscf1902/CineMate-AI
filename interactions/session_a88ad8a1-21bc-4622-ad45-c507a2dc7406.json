@@ -1,0 +1,50 @@
+{
+  "session_id": "a88ad8a1-21bc-4622-ad45-c507a2dc7406",
+  "user_id": "573177292458",
+  "created_at": "2026-05-02T21:22:53.594876",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T21:31:24.533768",
+      "query": "acción con persecuciones y buena trama",
+      "routed_query": "acción con persecuciones y buena trama",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 371.529,
+      "scores": [
+        0.2789,
+        0.2321,
+        0.2227,
+        0.2156,
+        0.2125
+      ],
+      "titles": [
+        "Sin compasión",
+        "Juro que te amo",
+        "La Casa de los Famosos México",
+        "Por la gloria de sus padres",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Sin compasión",
+      "Juro que te amo",
+      "La Casa de los Famosos México",
+      "Por la gloria de sus padres",
+      "Mama Drama"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

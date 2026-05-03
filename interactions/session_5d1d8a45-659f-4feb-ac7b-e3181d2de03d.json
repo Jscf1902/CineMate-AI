@@ -1,0 +1,50 @@
+{
+  "session_id": "5d1d8a45-659f-4feb-ac7b-e3181d2de03d",
+  "user_id": "573143333552",
+  "created_at": "2026-05-03T14:54:13.053514",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T15:31:33.803507",
+      "query": "quiero algo que sea interesante pero no pesado",
+      "routed_query": "quiero algo que sea interesante pero no pesado",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 2066.837,
+      "scores": [
+        0.4731,
+        0.3246,
+        0.2346,
+        0.2346,
+        0.2295
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "The World's Gold",
+        "Por la gloria de sus padres",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "The World's Gold",
+      "Por la gloria de sus padres",
+      "Anche se è amore non si vede"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

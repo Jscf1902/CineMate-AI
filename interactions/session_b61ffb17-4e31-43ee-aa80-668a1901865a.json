@@ -1,0 +1,111 @@
+{
+  "session_id": "b61ffb17-4e31-43ee-aa80-668a1901865a",
+  "user_id": "573199401939",
+  "created_at": "2026-05-02T20:56:29.427621",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T21:04:13.288024",
+      "query": "ciencia ficción con aliens pero enfoque humano",
+      "routed_query": "ciencia ficción con aliens pero enfoque humano",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 289.157,
+      "scores": [
+        0.4573,
+        0.3488,
+        0.278,
+        0.2447,
+        0.2431
+      ],
+      "titles": [
+        "Jeff and Some Aliens",
+        "Ancient Aliens: Origins",
+        "Gray Matter",
+        "È questa la vita che sognavo da bambino?",
+        "Alien TV"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Jeff and Some Aliens",
+      "Ancient Aliens: Origins",
+      "Gray Matter",
+      "È questa la vita che sognavo da bambino?",
+      "Alien TV"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Jeff and Some Aliens",
+      "score": 0.4573,
+      "genres": "Animation",
+      "keywords": "alien|humanity"
+    },
+    {
+      "title": "Ancient Aliens: Origins",
+      "score": 0.3488,
+      "genres": "Documentary",
+      "keywords": "extraterrestrial"
+    },
+    {
+      "title": "Gray Matter",
+      "score": 0.278,
+      "genres": "Science Fiction",
+      "keywords": "extraterrestrial|alien|meteorite|infestation|abducted"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2447,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Alien TV",
+      "score": 0.2431,
+      "genres": "Animation|Comedy|Family|Kids",
+      "keywords": "alien"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2396,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Horizon",
+      "score": 0.231,
+      "genres": "Adventure|Drama|Science Fiction|Thriller",
+      "keywords": "alien"
+    },
+    {
+      "title": "The Man Who Loved UFOs",
+      "score": 0.2237,
+      "genres": "Drama|Comedy|Fantasy",
+      "keywords": "journalist|ufo|argentina|1980s"
+    },
+    {
+      "title": "The Hot Spot",
+      "score": 0.2236,
+      "genres": "Comedy|Sci-Fi & Fantasy",
+      "keywords": "alien|human comedy"
+    },
+    {
+      "title": "Parasyte: The Grey",
+      "score": 0.2191,
+      "genres": "Sci-Fi & Fantasy|Action & Adventure|Drama",
+      "keywords": "alien|based on manga|mysterious|aggressive|horror"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "5f3f06a0606c27b77145ba81be6424b9"
+}

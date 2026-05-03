@@ -1,0 +1,50 @@
+{
+  "session_id": "6c204ca5-72d6-4370-8a33-ac86d51b03cf",
+  "user_id": "573148030086",
+  "created_at": "2026-05-02T08:50:45.774669",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T08:55:44.480222",
+      "query": "películas de acción rápidas",
+      "routed_query": "películas de acción rápidas",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 184.432,
+      "scores": [
+        0.1829,
+        0.1733,
+        0.1647,
+        0.158,
+        0.1529
+      ],
+      "titles": [
+        "Vacanze di Natale a Cortina",
+        "Muchachos, la película de la gente",
+        "Egypt: Secrets of the Pharaohs",
+        "The World's Gold",
+        "Blue Monkey"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Vacanze di Natale a Cortina",
+      "Muchachos, la película de la gente",
+      "Egypt: Secrets of the Pharaohs",
+      "The World's Gold",
+      "Blue Monkey"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

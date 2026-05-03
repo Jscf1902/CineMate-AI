@@ -1,0 +1,50 @@
+{
+  "session_id": "bc0a0f89-3fcf-49e4-9d0c-13441d7a5e9e",
+  "user_id": "573199143906",
+  "created_at": "2026-05-03T08:18:22.963266",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T08:25:54.618042",
+      "query": "quiero algo que me haga pensar pero que no sea tan complicado",
+      "routed_query": "quiero algo que me haga pensar pero que no sea tan complicado",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 319.826,
+      "scores": [
+        0.6676,
+        0.6619,
+        0.3006,
+        0.2936,
+        0.2417
+      ],
+      "titles": [
+        "¡Qué madre, tan padre!",
+        "Juro que te amo",
+        "El Gallo de Oro",
+        "È questa la vita che sognavo da bambino?",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "¡Qué madre, tan padre!",
+      "Juro que te amo",
+      "El Gallo de Oro",
+      "È questa la vita che sognavo da bambino?",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

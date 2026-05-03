@@ -1,0 +1,50 @@
+{
+  "session_id": "82ad5612-8800-41cb-88e0-a7539a059a1c",
+  "user_id": "573161632590",
+  "created_at": "2026-05-02T12:31:09.556824",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T12:39:23.757878",
+      "query": "me gustó La La Land, algo similar",
+      "routed_query": "me gustó La La Land, algo similar",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 344.494,
+      "scores": [
+        0.2629,
+        0.251,
+        0.2456,
+        0.2344,
+        0.2338
+      ],
+      "titles": [
+        "Still",
+        "Ang TV Movie: The Adarna Adventure",
+        "Camino a Arcadia",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+        "Tongue Thai'd with Pangina Heals"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Still",
+      "Ang TV Movie: The Adarna Adventure",
+      "Camino a Arcadia",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "Tongue Thai'd with Pangina Heals"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

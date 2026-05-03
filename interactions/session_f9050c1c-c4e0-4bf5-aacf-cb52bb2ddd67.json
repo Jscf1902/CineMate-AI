@@ -1,0 +1,50 @@
+{
+  "session_id": "f9050c1c-c4e0-4bf5-aacf-cb52bb2ddd67",
+  "user_id": "573193132468",
+  "created_at": "2026-05-02T08:30:41.876421",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T08:42:59.326157",
+      "query": "ciencia ficción con robots avanzados",
+      "routed_query": "ciencia ficción con robots avanzados",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 505.642,
+      "scores": [
+        0.373,
+        0.3541,
+        0.3536,
+        0.3287,
+        0.3286
+      ],
+      "titles": [
+        "Time of Eve",
+        "Real Humans",
+        "Transformers: BotBots",
+        "Robots",
+        "Broken Blade"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Time of Eve",
+      "Real Humans",
+      "Transformers: BotBots",
+      "Robots",
+      "Broken Blade"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

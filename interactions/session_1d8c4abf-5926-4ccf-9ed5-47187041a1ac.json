@@ -1,0 +1,111 @@
+{
+  "session_id": "1d8c4abf-5926-4ccf-9ed5-47187041a1ac",
+  "user_id": "573156117582",
+  "created_at": "2026-05-03T10:40:13.948889",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T11:15:44.022363",
+      "query": "una película que sea ligera pero interesante",
+      "routed_query": "una película que sea ligera pero interesante",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1997.205,
+      "scores": [
+        0.4239,
+        0.3371,
+        0.3042,
+        0.257,
+        0.2509
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Muchachos, la película de la gente",
+        "¡Qué madre, tan padre!",
+        "Changing Seas",
+        "El Gallo de Oro"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Muchachos, la película de la gente",
+      "¡Qué madre, tan padre!",
+      "Changing Seas",
+      "El Gallo de Oro"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4239,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.3371,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3042,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Changing Seas",
+      "score": 0.257,
+      "genres": "Documentary",
+      "keywords": "ocean|sea|nature|oceanography"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.2509,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2499,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2158,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2153,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2151,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2138,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "5850ad5f357e5621807d660e0f5cbb00"
+}

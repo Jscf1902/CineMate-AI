@@ -1,0 +1,50 @@
+{
+  "session_id": "537468d6-ddb1-4443-a6ae-0cd691b3c0a0",
+  "user_id": "573150186808",
+  "created_at": "2026-05-02T02:41:42.546635",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T02:48:19.830367",
+      "query": "películas de ciencia ficción con viajes en el tiempo",
+      "routed_query": "películas de ciencia ficción con viajes en el tiempo",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 235.248,
+      "scores": [
+        0.3931,
+        0.2832,
+        0.2559,
+        0.2482,
+        0.2479
+      ],
+      "titles": [
+        "Project Almanac",
+        "Anche se è amore non si vede",
+        "Illiterate",
+        "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+        "Anitta: Made in Honório"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Project Almanac",
+      "Anche se è amore non si vede",
+      "Illiterate",
+      "Chacrinha: Eu Vim para Confundir e Não para Explicar",
+      "Anitta: Made in Honório"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

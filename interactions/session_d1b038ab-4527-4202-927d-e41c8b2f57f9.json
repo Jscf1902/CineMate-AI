@@ -1,0 +1,111 @@
+{
+  "session_id": "d1b038ab-4527-4202-927d-e41c8b2f57f9",
+  "user_id": "573150484171",
+  "created_at": "2026-05-02T06:04:15.478249",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T06:12:33.921824",
+      "query": "terror con monstruos",
+      "routed_query": "terror con monstruos",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 282.626,
+      "scores": [
+        0.3496,
+        0.3433,
+        0.3378,
+        0.3305,
+        0.3285
+      ],
+      "titles": [
+        "Furia",
+        "Comando Txikia: muerte de un presidente",
+        "Carlos",
+        "The Family Man",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Furia",
+      "Comando Txikia: muerte de un presidente",
+      "Carlos",
+      "The Family Man",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Furia",
+      "score": 0.3496,
+      "genres": "Drama|Crime",
+      "keywords": "undercover agent|terrorism"
+    },
+    {
+      "title": "Comando Txikia: muerte de un presidente",
+      "score": 0.3433,
+      "genres": "Drama",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Carlos",
+      "score": 0.3378,
+      "genres": "Drama|Crime|War & Politics",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "The Family Man",
+      "score": 0.3305,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "terrorism|raw"
+    },
+    {
+      "title": "Complicit",
+      "score": 0.3285,
+      "genres": "Drama",
+      "keywords": "politics|terrorism"
+    },
+    {
+      "title": "White Terror",
+      "score": 0.3252,
+      "genres": "Drama|Horror|Mystery|Thriller",
+      "keywords": "dreams"
+    },
+    {
+      "title": "See You in Another Life",
+      "score": 0.3118,
+      "genres": "Drama|Crime",
+      "keywords": "multiple time frames|terrorism|thriller"
+    },
+    {
+      "title": "The Moro Affair",
+      "score": 0.3076,
+      "genres": "Drama|History",
+      "keywords": "politics|terrorism|years of lead|anni di piombo"
+    },
+    {
+      "title": "Sweet Home",
+      "score": 0.3057,
+      "genres": "Sci-Fi & Fantasy|Action & Adventure",
+      "keywords": "trauma|gore|survival|apocalypse|supernatural phenomena|isolationism|human nature|apartment|suspense|based on webcomic or webtoon|monsters"
+    },
+    {
+      "title": "Monsters, Inc.",
+      "score": 0.2987,
+      "genres": "Animation|Comedy|Family",
+      "keywords": "monster|cheating|kidnapping|door|infant|villain|panic|energy supply|portal|friends|rivalry|hijinks|best friend|chameleon|family|parallel world|conveyor belt|duringcreditsstinger|villain arrested|invisibility|energy company|conspirators"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "d9b302dab66601dc18e0095e863fcfd1"
+}

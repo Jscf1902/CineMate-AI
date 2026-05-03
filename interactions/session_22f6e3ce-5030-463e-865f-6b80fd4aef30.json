@@ -1,0 +1,111 @@
+{
+  "session_id": "22f6e3ce-5030-463e-865f-6b80fd4aef30",
+  "user_id": "573121727445",
+  "created_at": "2026-05-02T03:46:28.643888",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T03:54:55.027568",
+      "query": "terror con suspenso psicológico",
+      "routed_query": "terror con suspenso psicológico",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 371.192,
+      "scores": [
+        0.3578,
+        0.3445,
+        0.3362,
+        0.3347,
+        0.332
+      ],
+      "titles": [
+        "Utusan Iblis: Dia Yang Berada di Antara Kita",
+        "Piazza Fontana: The Italian Conspiracy",
+        "Furia",
+        "Carlos",
+        "Comando Txikia: muerte de un presidente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Utusan Iblis: Dia Yang Berada di Antara Kita",
+      "Piazza Fontana: The Italian Conspiracy",
+      "Furia",
+      "Carlos",
+      "Comando Txikia: muerte de un presidente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Utusan Iblis: Dia Yang Berada di Antara Kita",
+      "score": 0.3578,
+      "genres": "Horror|Mystery|Thriller",
+      "keywords": "haunting|psychologist|female protagonist|psychological thriller|devil|mental health|ghost|terror"
+    },
+    {
+      "title": "Piazza Fontana: The Italian Conspiracy",
+      "score": 0.3445,
+      "genres": "Drama|Crime|Mystery|History",
+      "keywords": "bomb|milan|anarchist|government conspiracy|years of lead|anni di piombo|state terrorism|far-right organization"
+    },
+    {
+      "title": "Furia",
+      "score": 0.3362,
+      "genres": "Drama|Crime",
+      "keywords": "undercover agent|terrorism"
+    },
+    {
+      "title": "Carlos",
+      "score": 0.3347,
+      "genres": "Drama|Crime|War & Politics",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "Comando Txikia: muerte de un presidente",
+      "score": 0.332,
+      "genres": "Drama",
+      "keywords": "terrorism"
+    },
+    {
+      "title": "The Moro Affair",
+      "score": 0.3278,
+      "genres": "Drama|History",
+      "keywords": "politics|terrorism|years of lead|anni di piombo"
+    },
+    {
+      "title": "Complicit",
+      "score": 0.3148,
+      "genres": "Drama",
+      "keywords": "politics|terrorism"
+    },
+    {
+      "title": "The Family Man",
+      "score": 0.2966,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "terrorism|raw"
+    },
+    {
+      "title": "Evil",
+      "score": 0.2898,
+      "genres": "Crime|Drama|Mystery",
+      "keywords": "new york city|possession|priest|psychologist|paranormal investigation|catholic|skeptic|demonic|demonology|night terrors|horror"
+    },
+    {
+      "title": "Police Story",
+      "score": 0.287,
+      "genres": "Crime|Action",
+      "keywords": "police|terrorism|sincere officer"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "a385c75221924c41facdb18fc4c41147"
+}

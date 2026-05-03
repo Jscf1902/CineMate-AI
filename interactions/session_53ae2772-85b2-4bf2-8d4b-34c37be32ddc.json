@@ -1,0 +1,50 @@
+{
+  "session_id": "53ae2772-85b2-4bf2-8d4b-34c37be32ddc",
+  "user_id": "573157056096",
+  "created_at": "2026-05-02T20:05:41.120457",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T20:12:55.695272",
+      "query": "acción con espionaje y tecnología",
+      "routed_query": "acción con espionaje y tecnología",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 263.926,
+      "scores": [
+        0.2842,
+        0.2386,
+        0.2364,
+        0.2358,
+        0.233
+      ],
+      "titles": [
+        "Illiterate",
+        "Bureau 749",
+        "Il turco in Italia - Teatro Real de Madrid",
+        "È questa la vita che sognavo da bambino?",
+        "The Metropolitan Opera: Puccini's La Rondine"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Illiterate",
+      "Bureau 749",
+      "Il turco in Italia - Teatro Real de Madrid",
+      "È questa la vita che sognavo da bambino?",
+      "The Metropolitan Opera: Puccini's La Rondine"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

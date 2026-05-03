@@ -1,0 +1,50 @@
+{
+  "session_id": "be7f21bc-ae54-43eb-891a-f5eee1a9ca82",
+  "user_id": "573125177049",
+  "created_at": "2026-05-02T06:56:23.615936",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T07:01:53.107616",
+      "query": "romance juvenil",
+      "routed_query": "romance juvenil",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 208.37,
+      "scores": [
+        0.7693,
+        0.7653,
+        0.7625,
+        0.7596,
+        0.7537
+      ],
+      "titles": [
+        "Tastefully Yours",
+        "Flower Shop Without Rose",
+        "A Korean Odyssey",
+        "The Fierce Wife",
+        "Pobre novio"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Tastefully Yours",
+      "Flower Shop Without Rose",
+      "A Korean Odyssey",
+      "The Fierce Wife",
+      "Pobre novio"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

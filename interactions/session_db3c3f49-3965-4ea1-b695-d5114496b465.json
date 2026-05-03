@@ -1,0 +1,50 @@
+{
+  "session_id": "db3c3f49-3965-4ea1-b695-d5114496b465",
+  "user_id": "573167405894",
+  "created_at": "2026-05-03T11:15:44.116095",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T11:27:03.638112",
+      "query": "algo que me atrape rápido pero no sea superficial",
+      "routed_query": "algo que me atrape rápido pero no sea superficial",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 284.354,
+      "scores": [
+        0.4374,
+        0.2925,
+        0.2521,
+        0.2496,
+        0.2413
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "È questa la vita che sognavo da bambino?",
+        "El Gallo de Oro",
+        "Changing Seas"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "È questa la vita che sognavo da bambino?",
+      "El Gallo de Oro",
+      "Changing Seas"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

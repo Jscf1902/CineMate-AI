@@ -1,0 +1,50 @@
+{
+  "session_id": "77e0a25f-b6ef-4912-a9b8-6b9d7f16c514",
+  "user_id": "573194602434",
+  "created_at": "2026-05-02T07:57:31.954328",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T08:05:37.515755",
+      "query": "terror con ambientes oscuros",
+      "routed_query": "terror con ambientes oscuros",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 337.665,
+      "scores": [
+        0.3258,
+        0.3018,
+        0.3008,
+        0.294,
+        0.2933
+      ],
+      "titles": [
+        "Furia",
+        "Carlos",
+        "Comando Txikia: muerte de un presidente",
+        "The Family Man",
+        "Complicit"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Furia",
+      "Carlos",
+      "Comando Txikia: muerte de un presidente",
+      "The Family Man",
+      "Complicit"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

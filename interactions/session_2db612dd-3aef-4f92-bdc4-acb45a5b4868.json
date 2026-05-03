@@ -1,0 +1,50 @@
+{
+  "session_id": "2db612dd-3aef-4f92-bdc4-acb45a5b4868",
+  "user_id": "573136382126",
+  "created_at": "2026-05-03T12:04:57.096189",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T12:10:51.444822",
+      "query": "algo que me guste aunque no sepa bien qué quiero",
+      "routed_query": "algo que me guste aunque no sepa bien qué quiero",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 225.697,
+      "scores": [
+        0.4255,
+        0.3981,
+        0.233,
+        0.2195,
+        0.1958
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "El Gallo de Oro",
+        "Mama Drama",
+        "The World's Gold"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "El Gallo de Oro",
+      "Mama Drama",
+      "The World's Gold"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

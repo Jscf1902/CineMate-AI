@@ -1,0 +1,50 @@
+{
+  "session_id": "f0cc0d46-51b5-4f6d-b2e7-650ff0b7ac2e",
+  "user_id": "573124123270",
+  "created_at": "2026-05-02T13:06:19.546433",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T13:17:19.013694",
+      "query": "algo como Gladiator",
+      "routed_query": "algo como Gladiator",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 319.118,
+      "scores": [
+        0.6498,
+        0.4442,
+        0.4052,
+        0.3994,
+        0.3799
+      ],
+      "titles": [
+        "Colossus of the Arena",
+        "The Arena",
+        "Spartacus: House of Ashur",
+        "Gladiator",
+        "KENGAN ASHURA"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Colossus of the Arena",
+      "The Arena",
+      "Spartacus: House of Ashur",
+      "Gladiator",
+      "KENGAN ASHURA"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "a8495d3b-720f-4c7a-87ae-ee6e9913b27a",
+  "user_id": "573193670093",
+  "created_at": "2026-05-03T06:20:07.374230",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T06:27:30.481795",
+      "query": "una película agradable",
+      "routed_query": "una película agradable",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 296.884,
+      "scores": [
+        0.371,
+        0.238,
+        0.2366,
+        0.2151,
+        0.2119
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "The World's Gold",
+        "È questa la vita che sognavo da bambino?",
+        "Illiterate",
+        "¡Qué madre, tan padre!"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "The World's Gold",
+      "È questa la vita che sognavo da bambino?",
+      "Illiterate",
+      "¡Qué madre, tan padre!"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.371,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.238,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2366,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2151,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2119,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2099,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2082,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "A Rooster for Esculapio",
+      "score": 0.2009,
+      "genres": "Drama|Mystery",
+      "keywords": "argentina|marginal"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.1994,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "El hombre cine mexicano: Pedro Infante, el mito",
+      "score": 0.1979,
+      "genres": "Documentary",
+      "keywords": "pedro infante"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2af9e05b0c9e86a0d95f223d71cef51a"
+}

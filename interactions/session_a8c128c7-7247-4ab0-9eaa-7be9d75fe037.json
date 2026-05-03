@@ -1,0 +1,111 @@
+{
+  "session_id": "a8c128c7-7247-4ab0-9eaa-7be9d75fe037",
+  "user_id": "573146735906",
+  "created_at": "2026-05-02T18:24:23.515375",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T18:33:04.355640",
+      "query": "romance juvenil pero no cursi",
+      "routed_query": "romance juvenil pero no cursi",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 364.77,
+      "scores": [
+        0.722,
+        0.6676,
+        0.6275,
+        0.6145,
+        0.6111
+      ],
+      "titles": [
+        "Romance en tres noches",
+        "FLAMES",
+        "Welcome to Wedding Hell",
+        "Queen of Tears",
+        "Love and Fortune"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Romance en tres noches",
+      "FLAMES",
+      "Welcome to Wedding Hell",
+      "Queen of Tears",
+      "Love and Fortune"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Romance en tres noches",
+      "score": 0.722,
+      "genres": "Romance|Comedy|Drama",
+      "keywords": "love at first sight|romance|dark past"
+    },
+    {
+      "title": "FLAMES",
+      "score": 0.6676,
+      "genres": "Comedy|Drama",
+      "keywords": "new love|friendship|romance|first crush"
+    },
+    {
+      "title": "Welcome to Wedding Hell",
+      "score": 0.6275,
+      "genres": "Drama",
+      "keywords": "love at first sight|marriage|romance|wedding|newlywed"
+    },
+    {
+      "title": "Queen of Tears",
+      "score": 0.6145,
+      "genres": "Drama|Comedy",
+      "keywords": "romance|slice of life|rich|illness|married life|married man|rich family|loving|chaebol|second chance romance|black comedy"
+    },
+    {
+      "title": "Love and Fortune",
+      "score": 0.6111,
+      "genres": "Drama",
+      "keywords": "love at first sight|infidelity|obsession|forbidden love|high school|romance|based on manga|mature|older woman younger man relationship"
+    },
+    {
+      "title": "Modern Love Tokyo",
+      "score": 0.6044,
+      "genres": "Drama",
+      "keywords": "romance|relationship drama"
+    },
+    {
+      "title": "Reunited Worlds",
+      "score": 0.6021,
+      "genres": "Drama",
+      "keywords": "love triangle|supernatural|deception|romance|melodrama"
+    },
+    {
+      "title": "Film Club",
+      "score": 0.6021,
+      "genres": "Drama|Comedy",
+      "keywords": "love|romance|lighthearted|excited"
+    },
+    {
+      "title": "Love Transit",
+      "score": 0.5977,
+      "genres": "Reality",
+      "keywords": "romance|slice of life|variety show|dating show|cohabitation|reality show|lovers reunited|ex-couple relationship"
+    },
+    {
+      "title": "Final Cut: Ladies and Gentlemen",
+      "score": 0.5976,
+      "genres": "Drama|Romance",
+      "keywords": "married couple|love|love affair|based on movie|searching for love|experimental film"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "0cfb46bc534d6392ce21c0a563196694"
+}

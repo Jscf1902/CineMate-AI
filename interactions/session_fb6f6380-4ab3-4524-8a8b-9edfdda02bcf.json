@@ -1,0 +1,50 @@
+{
+  "session_id": "fb6f6380-4ab3-4524-8a8b-9edfdda02bcf",
+  "user_id": "573191480647",
+  "created_at": "2026-05-03T17:39:54.787021",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T17:45:08.966262",
+      "query": "películas de fantasía con magia",
+      "routed_query": "películas de fantasía con magia",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 182.992,
+      "scores": [
+        0.3114,
+        0.2665,
+        0.2606,
+        0.2584,
+        0.236
+      ],
+      "titles": [
+        "The Metropolitan Opera: Puccini's La Rondine",
+        "The World's Gold",
+        "È questa la vita che sognavo da bambino?",
+        "Muchachos, la película de la gente",
+        "Enrico IV"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Metropolitan Opera: Puccini's La Rondine",
+      "The World's Gold",
+      "È questa la vita che sognavo da bambino?",
+      "Muchachos, la película de la gente",
+      "Enrico IV"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

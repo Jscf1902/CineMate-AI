@@ -1,0 +1,50 @@
+{
+  "session_id": "d44f2de6-e6a4-4672-b095-263d0f80e2c6",
+  "user_id": "573185098659",
+  "created_at": "2026-05-02T13:24:20.690286",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T13:32:50.736994",
+      "query": "me gustó It, algo parecido",
+      "routed_query": "me gustó It, algo parecido",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 322.85,
+      "scores": [
+        0.2311,
+        0.2267,
+        0.2252,
+        0.2216,
+        0.2206
+      ],
+      "titles": [
+        "Millonario a go-go",
+        "Aliados",
+        "Meekah",
+        "Juro que te amo",
+        "Vai Que Cola: O Filme"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Millonario a go-go",
+      "Aliados",
+      "Meekah",
+      "Juro que te amo",
+      "Vai Que Cola: O Filme"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

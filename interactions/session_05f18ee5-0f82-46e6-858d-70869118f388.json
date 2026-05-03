@@ -1,0 +1,111 @@
+{
+  "session_id": "05f18ee5-0f82-46e6-858d-70869118f388",
+  "user_id": "573180198010",
+  "created_at": "2026-05-02T15:50:36.226499",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T15:57:51.695885",
+      "query": "películas tipo Top Gun",
+      "routed_query": "películas tipo Top Gun",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 312.45,
+      "scores": [
+        0.4197,
+        0.2703,
+        0.2465,
+        0.2422,
+        0.2388
+      ],
+      "titles": [
+        "Aquile",
+        "The Lady in the Car with Glasses and a Gun",
+        "A Man Called Magnum",
+        "Who Killed the Prosecutor and Why?",
+        "Por mis pistolas"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Aquile",
+      "The Lady in the Car with Glasses and a Gun",
+      "A Man Called Magnum",
+      "Who Killed the Prosecutor and Why?",
+      "Por mis pistolas"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Aquile",
+      "score": 0.4197,
+      "genres": "Adventure|Drama|Comedy|Action",
+      "keywords": "air force|top gun"
+    },
+    {
+      "title": "The Lady in the Car with Glasses and a Gun",
+      "score": 0.2703,
+      "genres": "Mystery|Drama|Crime",
+      "keywords": "france|gun|secretary"
+    },
+    {
+      "title": "A Man Called Magnum",
+      "score": 0.2465,
+      "genres": "Crime|Action",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Who Killed the Prosecutor and Why?",
+      "score": 0.2422,
+      "genres": "Thriller",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Por mis pistolas",
+      "score": 0.2388,
+      "genres": "Adventure|Comedy|Western",
+      "keywords": "gun|saloon|arizona|horse|apache nation|native american|pistol duel|silver mine"
+    },
+    {
+      "title": "Los 80",
+      "score": 0.1856,
+      "genres": "Drama",
+      "keywords": "pinochet regime|1980s"
+    },
+    {
+      "title": "Battle Factory",
+      "score": 0.1831,
+      "genres": "Documentary",
+      "keywords": "weapons manufacturer"
+    },
+    {
+      "title": "Supremo",
+      "score": 0.1799,
+      "genres": "Drama|History",
+      "keywords": "philippines"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.1781,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Tunay na Tunay: Gets Mo? Gets Ko!",
+      "score": 0.1765,
+      "genres": "Romance|Action|Comedy",
+      "keywords": "philippines"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "8de6612dbccb08fe0d52d0258ef7f62f"
+}

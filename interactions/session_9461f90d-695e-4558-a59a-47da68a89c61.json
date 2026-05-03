@@ -1,0 +1,50 @@
+{
+  "session_id": "9461f90d-695e-4558-a59a-47da68a89c61",
+  "user_id": "573167142463",
+  "created_at": "2026-05-02T22:32:35.855090",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T22:39:15.086438",
+      "query": "acción con guerras pero centrada en personajes",
+      "routed_query": "acción con guerras pero centrada en personajes",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 210.784,
+      "scores": [
+        0.269,
+        0.2498,
+        0.2407,
+        0.2387,
+        -0.5971
+      ],
+      "titles": [
+        "Natural Born Narco",
+        "Juro que te amo",
+        "Cabo",
+        "Mama Drama",
+        "Una familia con suerte"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Natural Born Narco",
+      "Juro que te amo",
+      "Cabo",
+      "Mama Drama",
+      "Una familia con suerte"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

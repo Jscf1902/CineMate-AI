@@ -1,0 +1,111 @@
+{
+  "session_id": "914db23d-1199-440d-a3f0-6d80aa20f7a8",
+  "user_id": "573134871092",
+  "created_at": "2026-05-02T16:06:59.753575",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T16:17:21.795596",
+      "query": "algo como Pirates of the Caribbean",
+      "routed_query": "algo como Pirates of the Caribbean",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 455.696,
+      "scores": [
+        0.5788,
+        0.5751,
+        0.5355,
+        0.5351,
+        0.5093
+      ],
+      "titles": [
+        "Jake and the Never Land Pirates",
+        "The Lion of St. Mark",
+        "Pirates of the Caribbean: At World's End",
+        "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "Pirates of the Caribbean: Dead Men Tell No Tales"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Jake and the Never Land Pirates",
+      "The Lion of St. Mark",
+      "Pirates of the Caribbean: At World's End",
+      "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "Pirates of the Caribbean: Dead Men Tell No Tales"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Jake and the Never Land Pirates",
+      "score": 0.5788,
+      "genres": "Family|Animation|Action & Adventure",
+      "keywords": "pirate"
+    },
+    {
+      "title": "The Lion of St. Mark",
+      "score": 0.5751,
+      "genres": "Adventure|Action",
+      "keywords": "pirate"
+    },
+    {
+      "title": "Pirates of the Caribbean: At World's End",
+      "score": 0.5355,
+      "genres": "Adventure|Fantasy|Action",
+      "keywords": "exotic island|love of one's life|traitor|shipwreck|strong woman|singapore|afterlife|sword fight|pirate|monkey|swashbuckler|flying dutchman|rum|sailing ship|aftercreditsstinger|british navy|mass hanging|playful|whimsical|celebratory|joyful"
+    },
+    {
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "score": 0.5351,
+      "genres": "Adventure|Fantasy|Action",
+      "keywords": "exotic island|blacksmith|gold|jamaica|skeleton|british empire|governor|pirate|swashbuckler|18th century|caribbean sea|aftercreditsstinger|pirate ship|british navy|tortuga|based on theme park ride|hilarious|amused|brisk"
+    },
+    {
+      "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+      "score": 0.5093,
+      "genres": "Adventure|Action|Fantasy",
+      "keywords": "artifact|treasure map|pirate|swashbuckler|ghost|caribbean sea|trident|treasure hunting"
+    },
+    {
+      "title": "Pirates of the Caribbean: On Stranger Tides",
+      "score": 0.4988,
+      "genres": "Adventure|Action|Fantasy",
+      "keywords": "england|spain|sea|mutiny|sword|prime minister|sailing|silver|ship|duke|mermaid|pirate|soldier|battle|swashbuckler|18th century|aftercreditsstinger|blackbeard|whimsical"
+    },
+    {
+      "title": "Against All Flags",
+      "score": 0.4913,
+      "genres": "Drama|Adventure",
+      "keywords": "madagascar|princess|piracy|pirate|swashbuckler"
+    },
+    {
+      "title": "Black Sails",
+      "score": 0.4618,
+      "genres": "Drama|Action & Adventure",
+      "keywords": "pirate|historical fiction|period drama|swashbuckler"
+    },
+    {
+      "title": "Pirate's Passage",
+      "score": 0.4575,
+      "genres": "Adventure|Animation|Family",
+      "keywords": "pirate|adult animation"
+    },
+    {
+      "title": "A High Wind in Jamaica",
+      "score": 0.455,
+      "genres": "Adventure|Drama",
+      "keywords": "hurricane|jamaica|stowaway|sword fight|child in peril|pirate|storm|sailing ship|pirate ship|19th century|caribbean|1870s"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "dd1c4aa17676e0e080296c97234d1297"
+}

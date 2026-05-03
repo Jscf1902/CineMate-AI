@@ -1,0 +1,50 @@
+{
+  "session_id": "023b5b5d-ffb5-479e-b5c2-946af1a8407f",
+  "user_id": "573174588659",
+  "created_at": "2026-05-02T20:48:18.501169",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T20:56:29.336779",
+      "query": "acción con superhéroes pero más seria",
+      "routed_query": "acción con superhéroes pero más seria",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 382.66,
+      "scores": [
+        0.2915,
+        0.2828,
+        0.2794,
+        0.2792,
+        0.2743
+      ],
+      "titles": [
+        "Anche se è amore non si vede",
+        "Dark Days",
+        "Zero",
+        "PJ Masks: Music Videos",
+        "The Tick"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Anche se è amore non si vede",
+      "Dark Days",
+      "Zero",
+      "PJ Masks: Music Videos",
+      "The Tick"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "fc99b647-fda9-4158-961f-abcb962eb116",
+  "user_id": "573115188533",
+  "created_at": "2026-05-02T23:17:53.560941",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T23:30:03.901230",
+      "query": "ciencia ficción con experimentos y consecuencias",
+      "routed_query": "ciencia ficción con experimentos y consecuencias",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 614.235,
+      "scores": [
+        0.2736,
+        0.2622,
+        0.249,
+        0.2408,
+        0.2296
+      ],
+      "titles": [
+        "Jerrod Carmichael Reality Show",
+        "The Experiment",
+        "Magueyes",
+        "No Telling",
+        "May 15th in Paris"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Jerrod Carmichael Reality Show",
+      "The Experiment",
+      "Magueyes",
+      "No Telling",
+      "May 15th in Paris"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Jerrod Carmichael Reality Show",
+      "score": 0.2736,
+      "genres": "Documentary|Comedy|Reality",
+      "keywords": "experimental"
+    },
+    {
+      "title": "The Experiment",
+      "score": 0.2622,
+      "genres": "Thriller|Drama",
+      "keywords": "experiment|psychological thriller"
+    },
+    {
+      "title": "Magueyes",
+      "score": 0.249,
+      "genres": "War",
+      "keywords": "short film|experimental"
+    },
+    {
+      "title": "No Telling",
+      "score": 0.2408,
+      "genres": "Horror",
+      "keywords": "experiment|laboratory|medical research|animal research|cautionary"
+    },
+    {
+      "title": "May 15th in Paris",
+      "score": 0.2296,
+      "genres": "History",
+      "keywords": "experimental|french"
+    },
+    {
+      "title": "Nylon Noose",
+      "score": 0.2138,
+      "genres": "Crime",
+      "keywords": "experiment|murder|mad scientist|mansion|strangulation|nylons"
+    },
+    {
+      "title": "Bharathan Effect",
+      "score": 0.2088,
+      "genres": "Science Fiction",
+      "keywords": "inventor|experiment|anti-gravity"
+    },
+    {
+      "title": "Pinky and the Brain",
+      "score": 0.207,
+      "genres": "Animation|Comedy|Family|Sci-Fi & Fantasy|Kids",
+      "keywords": "experiment|friends|laboratory|cartoon mouse|world domination"
+    },
+    {
+      "title": "Strange Behavior",
+      "score": 0.2064,
+      "genres": "Science Fiction|Horror|Mystery",
+      "keywords": "experiment|new zealand|son|mind control|murder"
+    },
+    {
+      "title": "Masterchef Uruguay",
+      "score": 0.2018,
+      "genres": "Reality",
+      "keywords": "competition|food"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "c0031e430c8ce82143ee1c968fdbe4c5"
+}

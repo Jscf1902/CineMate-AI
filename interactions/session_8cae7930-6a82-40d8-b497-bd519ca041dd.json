@@ -1,0 +1,111 @@
+{
+  "session_id": "8cae7930-6a82-40d8-b497-bd519ca041dd",
+  "user_id": "573166571571",
+  "created_at": "2026-05-03T00:29:44.441953",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T00:41:28.302515",
+      "query": "ciencia ficción con viajes espaciales y drama",
+      "routed_query": "ciencia ficción con viajes espaciales y drama",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 356.705,
+      "scores": [
+        0.7501,
+        0.7487,
+        0.6972,
+        0.682,
+        0.6778
+      ],
+      "titles": [
+        "Traición",
+        "Hush Hush",
+        "Bramwell",
+        "A World of Ours",
+        "Divided Youth"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Traición",
+      "Hush Hush",
+      "Bramwell",
+      "A World of Ours",
+      "Divided Youth"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Traición",
+      "score": 0.7501,
+      "genres": "Drama|Mystery",
+      "keywords": "drama"
+    },
+    {
+      "title": "Hush Hush",
+      "score": 0.7487,
+      "genres": "Drama",
+      "keywords": "drama"
+    },
+    {
+      "title": "Bramwell",
+      "score": 0.6972,
+      "genres": "Drama",
+      "keywords": "period drama"
+    },
+    {
+      "title": "A World of Ours",
+      "score": 0.682,
+      "genres": "Crime|Drama|Thriller",
+      "keywords": "family drama"
+    },
+    {
+      "title": "Divided Youth",
+      "score": 0.6778,
+      "genres": "Drama",
+      "keywords": "teen drama"
+    },
+    {
+      "title": "The New Nurses",
+      "score": 0.6645,
+      "genres": "Drama",
+      "keywords": "period drama"
+    },
+    {
+      "title": "Vida por vida",
+      "score": 0.6568,
+      "genres": "Drama",
+      "keywords": "medical drama"
+    },
+    {
+      "title": "Goliath",
+      "score": 0.6438,
+      "genres": "Crime|Drama",
+      "keywords": "courtroom drama"
+    },
+    {
+      "title": "Reasonable Doubt",
+      "score": 0.643,
+      "genres": "Drama",
+      "keywords": "legal drama"
+    },
+    {
+      "title": "Analog Squad",
+      "score": 0.6391,
+      "genres": "Drama",
+      "keywords": "dramatic"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "5ae00f2b26e87951eb5acd86fa7dc30a"
+}

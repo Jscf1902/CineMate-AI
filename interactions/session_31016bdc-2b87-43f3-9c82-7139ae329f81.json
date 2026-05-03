@@ -1,0 +1,111 @@
+{
+  "session_id": "31016bdc-2b87-43f3-9c82-7139ae329f81",
+  "user_id": "573170129130",
+  "created_at": "2026-05-02T12:03:11.514754",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T12:09:48.448626",
+      "query": "me gustó Twilight, algo parecido",
+      "routed_query": "me gustó Twilight, algo parecido",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 281.158,
+      "scores": [
+        0.2614,
+        0.2503,
+        0.2405,
+        0.2393,
+        0.2321
+      ],
+      "titles": [
+        "Gathering Storm",
+        "Blood-C: The Last Mind",
+        "Vai Que Cola: O Filme",
+        "Anne Rice: Birth of the Vampire",
+        "Biss zur großen Pause - Das Highschool Vampir Grusical"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Gathering Storm",
+      "Blood-C: The Last Mind",
+      "Vai Que Cola: O Filme",
+      "Anne Rice: Birth of the Vampire",
+      "Biss zur großen Pause - Das Highschool Vampir Grusical"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Gathering Storm",
+      "score": 0.2614,
+      "genres": "Documentary",
+      "keywords": "storm"
+    },
+    {
+      "title": "Blood-C: The Last Mind",
+      "score": 0.2503,
+      "genres": "Horror|Fantasy|Drama|Action",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Vai Que Cola: O Filme",
+      "score": 0.2405,
+      "genres": "Comedy",
+      "keywords": "cheerful"
+    },
+    {
+      "title": "Anne Rice: Birth of the Vampire",
+      "score": 0.2393,
+      "genres": "Documentary",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Biss zur großen Pause - Das Highschool Vampir Grusical",
+      "score": 0.2321,
+      "genres": "Comedy|Mystery|Music|Horror",
+      "keywords": "vampire"
+    },
+    {
+      "title": "The Living NEET",
+      "score": 0.2307,
+      "genres": "Comedy|Drama",
+      "keywords": "dark comedy"
+    },
+    {
+      "title": "Camino a Arcadia",
+      "score": 0.2295,
+      "genres": "Drama",
+      "keywords": "dark past|canary islands"
+    },
+    {
+      "title": "Meekah",
+      "score": 0.2282,
+      "genres": NaN,
+      "keywords": "cheerful"
+    },
+    {
+      "title": "Vampires: Thirst for the Truth",
+      "score": 0.2277,
+      "genres": "Documentary",
+      "keywords": "vampire"
+    },
+    {
+      "title": "Delico's Nursery",
+      "score": 0.2241,
+      "genres": "Animation|Mystery|Sci-Fi & Fantasy",
+      "keywords": "vampire|gothic|anime"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "23423ced3c77fefa0e4c45868c0ce394"
+}

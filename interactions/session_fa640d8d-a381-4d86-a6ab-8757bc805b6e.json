@@ -1,0 +1,111 @@
+{
+  "session_id": "fa640d8d-a381-4d86-a6ab-8757bc805b6e",
+  "user_id": "573111003990",
+  "created_at": "2026-05-02T11:46:54.177503",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T11:57:24.253762",
+      "query": "algo como Toy Story",
+      "routed_query": "algo como Toy Story",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 443.776,
+      "scores": [
+        0.5063,
+        0.5014,
+        0.4767,
+        0.4745,
+        0.4725
+      ],
+      "titles": [
+        "Toy Story 2",
+        "Silent Night, Deadly Night 5: The Toy Maker",
+        "The Toys That Made Us",
+        "Toy Story 4",
+        "Toy Story"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Toy Story 2",
+      "Silent Night, Deadly Night 5: The Toy Maker",
+      "The Toys That Made Us",
+      "Toy Story 4",
+      "Toy Story"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Toy Story 2",
+      "score": 0.5063,
+      "genres": "Animation|Comedy|Family",
+      "keywords": "museum|prosecution|villain|identity crisis|airplane|flea market|collector|friendship|sequel|buddy|rescue team|prospector|garage sale|duringcreditsstinger|toy comes to life|personification|inanimate objects come to life|comforting"
+    },
+    {
+      "title": "Silent Night, Deadly Night 5: The Toy Maker",
+      "score": 0.5014,
+      "genres": "Horror|Science Fiction",
+      "keywords": "killer robot|santa claus|sequel|robot|toy maker|christmas horror|toy comes to life|christmas|toymaker"
+    },
+    {
+      "title": "The Toys That Made Us",
+      "score": 0.4767,
+      "genres": "Documentary",
+      "keywords": "interview|rise and fall|based on toy|toy store|toy maker|toy factory|toymaker|social & cultural documentary|toy brand|industrial documentary|toys"
+    },
+    {
+      "title": "Toy Story 4",
+      "score": 0.4745,
+      "genres": "Family|Comedy|Animation|Adventure",
+      "keywords": "friendship|cartoon|sequel|rescue mission|anti villain|buddy|cowboy|duringcreditsstinger|toy comes to life|dedication|awestruck"
+    },
+    {
+      "title": "Toy Story",
+      "score": 0.4725,
+      "genres": "Family|Comedy|Animation|Adventure",
+      "keywords": "jealousy|villain|friendship|bullying|elementary school|friends|rivalry|rescue|computer animation|mission|anthropomorphism|buddy|walkie talkie|toy car|boy next door|new toy|neighborhood|toy comes to life|resourcefulness|toy|pixar"
+    },
+    {
+      "title": "Toy Story 5",
+      "score": 0.4695,
+      "genres": "Animation|Family|Comedy|Adventure",
+      "keywords": "sequel|rivalry|buddy comedy|toy comes to life|replacement|toy|3d animation|tablet computer"
+    },
+    {
+      "title": "Toy Story 3",
+      "score": 0.4634,
+      "genres": "Animation|Family|Comedy",
+      "keywords": "hostage|villain|college|sequel|escape|buddy|daycare|teddy bear|duringcreditsstinger|toy comes to life|personification|inanimate objects come to life|derogatory"
+    },
+    {
+      "title": "Go! Go! Cory Carson",
+      "score": 0.4592,
+      "genres": "Animation|Kids",
+      "keywords": "toy car"
+    },
+    {
+      "title": "Transformers One",
+      "score": 0.4237,
+      "genres": "Animation|Science Fiction|Adventure|Family",
+      "keywords": "based on toy|giant robot|aftercreditsstinger|duringcreditsstinger|buddy movie|brothers-in-arms relationship|origin story|alien robot"
+    },
+    {
+      "title": "Roofman",
+      "score": 0.4167,
+      "genres": "Crime|Comedy|Drama",
+      "keywords": "based on true story|true crime|toy store|escaped prisoner|charlotte, north carolina"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "e2220c0b389ee6c73f76548313e68835"
+}

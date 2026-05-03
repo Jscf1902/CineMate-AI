@@ -1,0 +1,50 @@
+{
+  "session_id": "7449fb08-2594-48e7-8ec7-a288352e296c",
+  "user_id": "573141085967",
+  "created_at": "2026-05-03T07:40:02.256966",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T07:44:58.691885",
+      "query": "algo para ver ahora",
+      "routed_query": "algo para ver ahora",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 198.479,
+      "scores": [
+        0.454,
+        0.3624,
+        0.2608,
+        0.2315,
+        0.2252
+      ],
+      "titles": [
+        "Para Gases... los mios",
+        "Para - We Are King",
+        "Shobhayatra",
+        "¡Qué madre, tan padre!",
+        "Juro que te amo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Para Gases... los mios",
+      "Para - We Are King",
+      "Shobhayatra",
+      "¡Qué madre, tan padre!",
+      "Juro que te amo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

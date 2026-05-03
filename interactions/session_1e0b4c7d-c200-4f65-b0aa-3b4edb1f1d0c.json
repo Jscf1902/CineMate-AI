@@ -1,0 +1,111 @@
+{
+  "session_id": "1e0b4c7d-c200-4f65-b0aa-3b4edb1f1d0c",
+  "user_id": "573172252197",
+  "created_at": "2026-05-03T14:17:59.358291",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T14:25:01.291213",
+      "query": "algo que tenga sentido pero que también entretenga",
+      "routed_query": "algo que tenga sentido pero que también entretenga",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 309.233,
+      "scores": [
+        0.6692,
+        0.4331,
+        0.2442,
+        0.2348,
+        0.2185
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Mama Drama",
+        "Helga y Flora",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Mama Drama",
+      "Helga y Flora",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.6692,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.4331,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2442,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2348,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2185,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Como Perros de la Calle",
+      "score": 0.2183,
+      "genres": "Action",
+      "keywords": "mexico|mexploitation"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2113,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2049,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2013,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Cardo",
+      "score": 0.1969,
+      "genres": "Comedy|Drama",
+      "keywords": "madrid, spain"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2ddfb0966e5637eb1c9615729185c095"
+}

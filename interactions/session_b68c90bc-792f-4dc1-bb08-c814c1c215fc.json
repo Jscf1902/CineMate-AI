@@ -1,0 +1,50 @@
+{
+  "session_id": "b68c90bc-792f-4dc1-bb08-c814c1c215fc",
+  "user_id": "573198783473",
+  "created_at": "2026-05-02T04:08:54.328585",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T04:15:14.535658",
+      "query": "películas dramáticas basadas en la vida real",
+      "routed_query": "películas dramáticas basadas en la vida real",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 251.16,
+      "scores": [
+        -0.6066,
+        -0.6136,
+        -0.6418,
+        -0.6486,
+        -0.6547
+      ],
+      "titles": [
+        "Mi Vida Eres Tú",
+        "La doble vida de Estela Carrillo",
+        "Amor Real",
+        "Olvidarte Jamás",
+        "Cadenas de amargura"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Mi Vida Eres Tú",
+      "La doble vida de Estela Carrillo",
+      "Amor Real",
+      "Olvidarte Jamás",
+      "Cadenas de amargura"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

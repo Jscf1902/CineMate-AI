@@ -1,0 +1,111 @@
+{
+  "session_id": "e81b9f1a-e8bb-4b70-9415-db166e5882ec",
+  "user_id": "573112353367",
+  "created_at": "2026-05-02T05:16:42.365205",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T05:24:04.686499",
+      "query": "películas de acción con persecuciones",
+      "routed_query": "películas de acción con persecuciones",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 331.243,
+      "scores": [
+        0.2044,
+        0.1991,
+        0.1917,
+        0.1871,
+        0.1853
+      ],
+      "titles": [
+        "Después de… Primera parte: no se os puede dejar solos",
+        "Extermineitors III: The Final Fight",
+        "Anche se è amore non si vede",
+        "Spain: A Country Divided",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Después de… Primera parte: no se os puede dejar solos",
+      "Extermineitors III: The Final Fight",
+      "Anche se è amore non si vede",
+      "Spain: A Country Divided",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Después de… Primera parte: no se os puede dejar solos",
+      "score": 0.2044,
+      "genres": "Documentary",
+      "keywords": "1970s|franco regime (francoism)|social documentary|communist party|spanish transition|1980s|spanish history|social democracy|spanish politics"
+    },
+    {
+      "title": "Extermineitors III: The Final Fight",
+      "score": 0.1991,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.1917,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Spain: A Country Divided",
+      "score": 0.1871,
+      "genres": "Documentary|TV Movie",
+      "keywords": "nationalism|political activism|spanish civil war (1936-39)|social activism|economic crisis|spanish history|political struggle|spanish politics|catalan nationalism"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.1853,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Though You May Not Know",
+      "score": 0.1785,
+      "genres": "Documentary",
+      "keywords": "poetry|biography|poet|songwriter|poetry reading|portrait of an artist|spanish literature|literature history"
+    },
+    {
+      "title": "My Straight Son",
+      "score": 0.1785,
+      "genres": "Drama",
+      "keywords": "venezuela|gay parent|lgbt|hate crime|father son reconciliation"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1706,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.1586,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "score": 0.157,
+      "genres": "Comedy",
+      "keywords": "island|fountain|central america|vomiting|football (soccer) team|vegetarianism|drug testing"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "32dd84e30ff620a6ae20316786f3df0d"
+}

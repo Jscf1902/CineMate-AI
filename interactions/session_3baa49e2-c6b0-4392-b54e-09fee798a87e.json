@@ -1,0 +1,111 @@
+{
+  "session_id": "3baa49e2-c6b0-4392-b54e-09fee798a87e",
+  "user_id": "573173483528",
+  "created_at": "2026-05-02T02:07:00.665111",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T02:12:42.295764",
+      "query": "películas románticas en el espacio",
+      "routed_query": "películas románticas en el espacio",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 208.882,
+      "scores": [
+        0.3153,
+        0.2966,
+        -0.7002,
+        -0.7043,
+        -0.7048
+      ],
+      "titles": [
+        "Along came Love",
+        "Sweetheart",
+        "Amor en silencio",
+        "Entre el amor y el odio",
+        "El Manantial"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Along came Love",
+      "Sweetheart",
+      "Amor en silencio",
+      "Entre el amor y el odio",
+      "El Manantial"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Along came Love",
+      "score": 0.3153,
+      "genres": "Drama",
+      "keywords": "romance|veio o amor"
+    },
+    {
+      "title": "Sweetheart",
+      "score": 0.2966,
+      "genres": "Comedy",
+      "keywords": "italian|dramatic|romantic"
+    },
+    {
+      "title": "Amor en silencio",
+      "score": -0.7002,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Entre el amor y el odio",
+      "score": -0.7043,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "El Manantial",
+      "score": -0.7048,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Apuesta por un amor",
+      "score": -0.7068,
+      "genres": "Drama|Soap",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Corazón Esmeralda",
+      "score": -0.7071,
+      "genres": "Drama|Soap",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Amor Cautivo",
+      "score": -0.7081,
+      "genres": "Drama|Mystery",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Amores de Fin de Siglo",
+      "score": -0.7084,
+      "genres": "Drama",
+      "keywords": "romance|telenovela"
+    },
+    {
+      "title": "Voltea pa' que te enamores",
+      "score": -0.7098,
+      "genres": "Drama|Soap",
+      "keywords": "romance|telenovela"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "3204349712ec481c439fd685a3b4bf9c"
+}

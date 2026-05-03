@@ -1,0 +1,50 @@
+{
+  "session_id": "93281da9-0e7f-4fb2-b6d4-08e944c5431f",
+  "user_id": "573153720380",
+  "created_at": "2026-05-02T07:28:21.431064",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T07:36:28.362915",
+      "query": "películas de acción con misiones",
+      "routed_query": "películas de acción con misiones",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 370.468,
+      "scores": [
+        0.2367,
+        0.1726,
+        0.1678,
+        0.1653,
+        0.161
+      ],
+      "titles": [
+        "A Rooster for Esculapio",
+        "Extermineitors III: The Final Fight",
+        "Después de… Primera parte: no se os puede dejar solos",
+        "Ebre, del bressol a la batalla",
+        "Anche se è amore non si vede"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "A Rooster for Esculapio",
+      "Extermineitors III: The Final Fight",
+      "Después de… Primera parte: no se os puede dejar solos",
+      "Ebre, del bressol a la batalla",
+      "Anche se è amore non si vede"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "ace06706-9e66-428b-b632-1e2465e70a82",
+  "user_id": "573121336233",
+  "created_at": "2026-05-03T15:40:53.575822",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T15:46:43.811475",
+      "query": "algo que me haga disfrutar sin tener que analizar mucho",
+      "routed_query": "algo que me haga disfrutar sin tener que analizar mucho",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 229.18,
+      "scores": [
+        0.6319,
+        0.4043,
+        0.3086,
+        0.2781,
+        0.2201
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "È questa la vita che sognavo da bambino?",
+        "Rigoletto",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "È questa la vita che sognavo da bambino?",
+      "Rigoletto",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,50 @@
+{
+  "session_id": "0b1ea98b-6625-4d83-8de8-e2e754b175d4",
+  "user_id": "573198008108",
+  "created_at": "2026-05-02T05:08:26.016786",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T05:16:42.268237",
+      "query": "terror con posesiones",
+      "routed_query": "terror con posesiones",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 359.457,
+      "scores": [
+        0.458,
+        0.3316,
+        0.3297,
+        0.3257,
+        0.3215
+      ],
+      "titles": [
+        "Ercole in Polesine",
+        "Hercules in the Haunted World",
+        "KAOS",
+        "Hercules and the Captive Women",
+        "Porco Rosso"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Ercole in Polesine",
+      "Hercules in the Haunted World",
+      "KAOS",
+      "Hercules and the Captive Women",
+      "Porco Rosso"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

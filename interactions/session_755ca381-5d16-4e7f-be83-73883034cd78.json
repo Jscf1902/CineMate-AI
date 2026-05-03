@@ -1,0 +1,111 @@
+{
+  "session_id": "755ca381-5d16-4e7f-be83-73883034cd78",
+  "user_id": "573152028844",
+  "created_at": "2026-05-03T15:31:33.926913",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T15:40:53.329087",
+      "query": "una peli que tenga emoción pero sin exagerar",
+      "routed_query": "una peli que tenga emoción pero sin exagerar",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 309.987,
+      "scores": [
+        0.4374,
+        0.3386,
+        0.2804,
+        0.2651,
+        0.26
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Illiterate",
+        "Anche se è amore non si vede",
+        "È questa la vita che sognavo da bambino?"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Illiterate",
+      "Anche se è amore non si vede",
+      "È questa la vita che sognavo da bambino?"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4374,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.3386,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2804,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2651,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.26,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Kidung Cinta",
+      "score": 0.2465,
+      "genres": "Drama",
+      "keywords": "kidung cinta"
+    },
+    {
+      "title": "Overcoming heartbreak",
+      "score": 0.2298,
+      "genres": "Soap|Drama",
+      "keywords": "vencer o desamor"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.229,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2264,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2104,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "7c154b8e78a1dd562ee0dbebab352087"
+}

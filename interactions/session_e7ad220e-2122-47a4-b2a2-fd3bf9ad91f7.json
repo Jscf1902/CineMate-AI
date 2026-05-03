@@ -1,0 +1,50 @@
+{
+  "session_id": "e7ad220e-2122-47a4-b2a2-fd3bf9ad91f7",
+  "user_id": "573165580667",
+  "created_at": "2026-05-02T15:42:20.148796",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T15:50:36.134491",
+      "query": "algo como Bohemian Rhapsody",
+      "routed_query": "algo como Bohemian Rhapsody",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 345.639,
+      "scores": [
+        0.6422,
+        0.3988,
+        0.3902,
+        0.3574,
+        0.349
+      ],
+      "titles": [
+        "Bohemian Rhapsody",
+        "Rocketman",
+        "Young Soul Rebels",
+        "How to Survive a Plague",
+        "The Freddie Mercury Story: Who Wants to Live Forever?"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Bohemian Rhapsody",
+      "Rocketman",
+      "Young Soul Rebels",
+      "How to Survive a Plague",
+      "The Freddie Mercury Story: Who Wants to Live Forever?"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

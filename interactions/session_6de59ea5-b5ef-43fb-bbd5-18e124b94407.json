@@ -1,0 +1,50 @@
+{
+  "session_id": "6de59ea5-b5ef-43fb-bbd5-18e124b94407",
+  "user_id": "573117519626",
+  "created_at": "2026-05-03T06:14:13.766321",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T06:20:07.284031",
+      "query": "algo para desconectar",
+      "routed_query": "algo para desconectar",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 183.892,
+      "scores": [
+        0.3253,
+        0.2226,
+        0.2183,
+        0.1979,
+        0.1879
+      ],
+      "titles": [
+        "Para - We Are King",
+        "Paradise",
+        "Inside the Ambulance",
+        "Overcoming heartbreak",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Para - We Are King",
+      "Paradise",
+      "Inside the Ambulance",
+      "Overcoming heartbreak",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

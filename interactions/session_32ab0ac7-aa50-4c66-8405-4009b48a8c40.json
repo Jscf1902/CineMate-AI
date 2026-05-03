@@ -1,0 +1,111 @@
+{
+  "session_id": "32ab0ac7-aa50-4c66-8405-4009b48a8c40",
+  "user_id": "573114444262",
+  "created_at": "2026-05-02T15:09:13.010001",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T15:21:35.481526",
+      "query": "algo como The Wolf of Wall Street",
+      "routed_query": "algo como The Wolf of Wall Street",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 633.04,
+      "scores": [
+        0.561,
+        0.4573,
+        0.4244,
+        0.3934,
+        0.3857
+      ],
+      "titles": [
+        "Wall Street",
+        "BMF",
+        "Taxi Driver",
+        "Catch Me If You Can",
+        "Pulp Fiction"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Wall Street",
+      "BMF",
+      "Taxi Driver",
+      "Catch Me If You Can",
+      "Pulp Fiction"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Wall Street",
+      "score": 0.561,
+      "genres": "Crime|Drama",
+      "keywords": "new york city|fraud|broker|wall street|finances|stockbroker|lawyer|union|millionaire|manhattan, new york city|stock market|stocks|1980s|black monday|high finance"
+    },
+    {
+      "title": "BMF",
+      "score": 0.4573,
+      "genres": "Drama|Crime",
+      "keywords": "hip-hop|crime boss|organized crime|mafia|drug lord|kingpin|legal drama"
+    },
+    {
+      "title": "Taxi Driver",
+      "score": 0.4244,
+      "genres": "Crime|Drama",
+      "keywords": "new york city|vietnam veteran|taxi|pornography|1970s|obsession|pimp|taxi driver|drug dealer|observer|politician|firearm|vigilante|junk food|alienation|misanthrophy|political campaign|cynical|illegal prostitution|urban decay|character study|loner|manhattan, new york city|meditative|neo-noir|child prostitution|complex|new hollywood|dreary|cautionary|drives|provocative|antagonistic|audacious|callous"
+    },
+    {
+      "title": "Catch Me If You Can",
+      "score": 0.3934,
+      "genres": "Drama|Crime",
+      "keywords": "fbi|con man|biography|based on true story|con artist|chameleon|attempted jailbreak|engagement party|mislaid trust|christmas|bank fraud|conman|fraudster|amused|assertive|compassionate|excited"
+    },
+    {
+      "title": "Pulp Fiction",
+      "score": 0.3857,
+      "genres": "Thriller|Crime|Comedy",
+      "keywords": "drug crime|drug dealer|stolen money|crime boss|redemption|los angeles, california|theft|nonlinear timeline|multiple storylines|neo-noir|dramatic|amused"
+    },
+    {
+      "title": "Black Mass",
+      "score": 0.3834,
+      "genres": "Drama|Crime|History",
+      "keywords": "corruption|prostitute|boston, massachusetts|fbi|senator|gangster|irish mob|based on true story|murder|organized crime|pay phone|extortion|beaten to death|brutality|informant|illness|1980s"
+    },
+    {
+      "title": "Undercover",
+      "score": 0.3798,
+      "genres": "Crime|Drama",
+      "keywords": "drug dealer|based on true story|undercover cop|drugs|illegal drugs|weapons dealer"
+    },
+    {
+      "title": "Boardwalk Empire",
+      "score": 0.379,
+      "genres": "Crime|Drama",
+      "keywords": "new jersey|prohibition era|gangster|atlantic city|bootlegging|mobster|bordello|historical fiction|period drama|historical|political corruption|government corruption|whorehouse|revenge killing|graft|costume drama|1920s|gambling racket|simulated sex|political|american history|systemic corruption|corrupt police officials|corrupt businessman|modern history|political drama|dramatic|italian mafia|defiant|hitmen"
+    },
+    {
+      "title": "American Gangster",
+      "score": 0.3784,
+      "genres": "Drama|Crime",
+      "keywords": "new york city|drug trafficking|nightclub|junkie|ghetto|heroin|vietnam|gangster|drug smuggling|society|ambition|rise and fall|cop|organized crime|drug dealing|police corruption|wedding|police detective|family|surveillance|bribery|law enforcement|aftercreditsstinger|dishonesty|1960s|provocative|violence|suspenseful|intense|brisk"
+    },
+    {
+      "title": "Vincenzo",
+      "score": 0.3769,
+      "genres": "Action & Adventure|Comedy|Drama|Crime",
+      "keywords": "corruption|dark comedy|mafia|lawyer|raised abroad|chaebol|adoring"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "6df77b0116635f30f2b7f4435235a476"
+}

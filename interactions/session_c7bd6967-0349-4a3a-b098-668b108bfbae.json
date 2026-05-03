@@ -1,0 +1,111 @@
+{
+  "session_id": "c7bd6967-0349-4a3a-b098-668b108bfbae",
+  "user_id": "573175810492",
+  "created_at": "2026-05-02T02:33:43.050191",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T02:41:42.384888",
+      "query": "comedias familiares divertidas",
+      "routed_query": "comedias familiares divertidas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 264.282,
+      "scores": [
+        0.1736,
+        0.1722,
+        0.1585,
+        0.1561,
+        0.1542
+      ],
+      "titles": [
+        "È questa la vita che sognavo da bambino?",
+        "Egypt: Secrets of the Pharaohs",
+        "Illiterate",
+        "Overcoming heartbreak",
+        "Dil Dosti Dilemma"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "È questa la vita che sognavo da bambino?",
+      "Egypt: Secrets of the Pharaohs",
+      "Illiterate",
+      "Overcoming heartbreak",
+      "Dil Dosti Dilemma"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.1736,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Egypt: Secrets of the Pharaohs",
+      "score": 0.1722,
+      "genres": "Documentary|History",
+      "keywords": "egipto|faraones|pirámide"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.1585,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Overcoming heartbreak",
+      "score": 0.1561,
+      "genres": "Soap|Drama",
+      "keywords": "vencer o desamor"
+    },
+    {
+      "title": "Dil Dosti Dilemma",
+      "score": 0.1542,
+      "genres": "Comedy|Drama",
+      "keywords": "coming of age"
+    },
+    {
+      "title": "A Man Called Magnum",
+      "score": 0.1484,
+      "genres": "Crime|Action",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.148,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "Instinto",
+      "score": 0.1471,
+      "genres": "Mystery|Drama",
+      "keywords": "instinct|instinto"
+    },
+    {
+      "title": "That One Word - Feyenoord",
+      "score": 0.1462,
+      "genres": "Documentary",
+      "keywords": "voetbal"
+    },
+    {
+      "title": "BACK ARROW",
+      "score": 0.1455,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "amnesia|mecha|battle|anime"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "41dfd08ba6373c156e7c1ac82ce46efd"
+}

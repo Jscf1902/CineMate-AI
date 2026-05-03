@@ -1,0 +1,111 @@
+{
+  "session_id": "f9006061-fd6a-4a5f-9148-3ed6fc9c23d1",
+  "user_id": "573129928043",
+  "created_at": "2026-05-02T19:56:20.980259",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T20:05:41.026621",
+      "query": "romance dramático pero esperanzador",
+      "routed_query": "romance dramático pero esperanzador",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 357.636,
+      "scores": [
+        0.7693,
+        0.7653,
+        0.7625,
+        0.7596,
+        0.7537
+      ],
+      "titles": [
+        "Tastefully Yours",
+        "Flower Shop Without Rose",
+        "A Korean Odyssey",
+        "The Fierce Wife",
+        "Pobre novio"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Tastefully Yours",
+      "Flower Shop Without Rose",
+      "A Korean Odyssey",
+      "The Fierce Wife",
+      "Pobre novio"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Tastefully Yours",
+      "score": 0.7693,
+      "genres": "Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Flower Shop Without Rose",
+      "score": 0.7653,
+      "genres": "Drama|Family",
+      "keywords": "romance"
+    },
+    {
+      "title": "A Korean Odyssey",
+      "score": 0.7625,
+      "genres": "Comedy|Mystery|Sci-Fi & Fantasy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "The Fierce Wife",
+      "score": 0.7596,
+      "genres": "Drama|Family",
+      "keywords": "romance"
+    },
+    {
+      "title": "Pobre novio",
+      "score": 0.7537,
+      "genres": "Soap|Comedy|Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Soundtrack #2",
+      "score": 0.7499,
+      "genres": "Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Fukuyadou Honpo: Kyoto Love Story",
+      "score": 0.7478,
+      "genres": "Comedy|Family",
+      "keywords": "romance"
+    },
+    {
+      "title": "Marmalade Boy",
+      "score": 0.7439,
+      "genres": "Animation|Drama|Comedy",
+      "keywords": "romance"
+    },
+    {
+      "title": "Sullivan's Crossing",
+      "score": 0.7414,
+      "genres": "Drama",
+      "keywords": "romance"
+    },
+    {
+      "title": "Link: Eat, Love, Kill",
+      "score": 0.7371,
+      "genres": "Drama|Mystery",
+      "keywords": "romance"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "52061d5c8ff2bf1b7106fb860047cd3d"
+}

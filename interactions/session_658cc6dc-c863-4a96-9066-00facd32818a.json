@@ -1,0 +1,111 @@
+{
+  "session_id": "658cc6dc-c863-4a96-9066-00facd32818a",
+  "user_id": "573115823075",
+  "created_at": "2026-05-02T14:19:39.151955",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T14:33:51.819334",
+      "query": "algo como The Martian",
+      "routed_query": "algo como The Martian",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 469.599,
+      "scores": [
+        0.4067,
+        0.3839,
+        0.3813,
+        0.3794,
+        0.3787
+      ],
+      "titles": [
+        "The Expanse",
+        "Star Trek: Strange New Worlds",
+        "Star Trek: Voyager",
+        "Astra Lost in Space",
+        "Aliens"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The Expanse",
+      "Star Trek: Strange New Worlds",
+      "Star Trek: Voyager",
+      "Astra Lost in Space",
+      "Aliens"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The Expanse",
+      "score": 0.4067,
+      "genres": "Drama|Mystery|Sci-Fi & Fantasy",
+      "keywords": "planet mars|spacecraft|space battle|future|space colony|space travel|space|conspiracy|space station|space opera|hard sci-fi"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds",
+      "score": 0.3839,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "exploration|prequel|space|alien|nostalgic|space adventure|ship's crew|playful|explore|whimsical|apathetic|farcical"
+    },
+    {
+      "title": "Star Trek: Voyager",
+      "score": 0.3813,
+      "genres": "Sci-Fi & Fantasy|Drama|Action & Adventure",
+      "keywords": "time warp|spacecraft|hologram|space travel|galaxy|space|alien|alien planet|mission|alien contact|space opera|speculative|trapped in space|meditative|distant  planet|philosophical|imaginative|spaceship|introspective|serious|exciting|hilarious|adventure|bold|compassionate|complicated|empathetic|optimistic"
+    },
+    {
+      "title": "Astra Lost in Space",
+      "score": 0.3794,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy|Mystery",
+      "keywords": "spacecraft|space colony|space travel|friendship|space|alien|betrayal|survival|conspiracy|disaster|based on manga|space exploration|shounen|anime|suspense|adventure"
+    },
+    {
+      "title": "Aliens",
+      "score": 0.3787,
+      "genres": "Action|Thriller|Science Fiction",
+      "keywords": "android|extraterrestrial technology|space marine|spaceman|cryogenics|vacuum|space colony|warrior woman|settler|space travel|colony|space|alien|female protagonist|creature|desolate|female hero|aggressive|military sci-fi|desolate planet|critical|sinister|sci-fi horror|assertive|commanding|empathetic|exhilarated|action horror|sci-fi action"
+    },
+    {
+      "title": "Star Trek",
+      "score": 0.3776,
+      "genres": "Sci-Fi & Fantasy|Drama",
+      "keywords": "space travel|exploration|friendship|space|alien|romulans|trek|space opera|space adventure|distant  planet|imaginative|23rd century|explore|suspenseful|exciting|adventure"
+    },
+    {
+      "title": "Scavengers Reign",
+      "score": 0.3768,
+      "genres": "Sci-Fi & Fantasy|Drama|Animation",
+      "keywords": "surreal|space travel|stranded|alien|survival|escape|adult animation|based on short film|introspective|science fiction|cerebral"
+    },
+    {
+      "title": "Interstellar",
+      "score": 0.3754,
+      "genres": "Adventure|Drama|Science Fiction",
+      "keywords": "artificial intelligence (a.i.)|nasa|time warp|spacecraft|expedition|future|wormhole|space travel|famine|black hole|dystopia|race against time|hibernation|quantum mechanics|space|rescue|family relationships|robot|astronaut|scientist|single father|farmer|space station|space adventure|time paradox|time-manipulation|cryonics|father daughter relationship|2060s|cornfield|ambiguous"
+    },
+    {
+      "title": "Star Trek: Discovery",
+      "score": 0.3717,
+      "genres": "Sci-Fi & Fantasy|Action & Adventure|Drama",
+      "keywords": "artificial intelligence (a.i.)|space war|space travel|dystopia|prequel|space|alien|adopted daughter"
+    },
+    {
+      "title": "Alien",
+      "score": 0.3705,
+      "genres": "Horror|Science Fiction",
+      "keywords": "android|spacecraft|countdown|space marine|space suit|beheading|space travel|dystopia|biology|cowardice|space|alien|female protagonist|parasite|space opera|cosmos"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "838785fa1a68922e2342c6fa97e27f85"
+}

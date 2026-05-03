@@ -1,0 +1,111 @@
+{
+  "session_id": "6929d705-d6f9-406c-8d34-9a284b66cc43",
+  "user_id": "573199077595",
+  "created_at": "2026-05-03T10:26:46.023619",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T10:34:04.552254",
+      "query": "una peli que tenga suspenso pero que se entienda bien",
+      "routed_query": "una peli que tenga suspenso pero que se entienda bien",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 303.577,
+      "scores": [
+        0.6442,
+        0.4393,
+        0.2963,
+        0.2301,
+        0.2162
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "È questa la vita che sognavo da bambino?",
+        "Muchachos, la película de la gente",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "È questa la vita che sognavo da bambino?",
+      "Muchachos, la película de la gente",
+      "Mama Drama"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.6442,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.4393,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2963,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2301,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2162,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2131,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2106,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.1986,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.1906,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Kidung Cinta",
+      "score": 0.1888,
+      "genres": "Drama",
+      "keywords": "kidung cinta"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "bc5509366320395d23348c16c86d9088"
+}

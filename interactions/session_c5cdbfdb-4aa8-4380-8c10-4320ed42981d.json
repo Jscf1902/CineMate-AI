@@ -1,0 +1,111 @@
+{
+  "session_id": "c5cdbfdb-4aa8-4380-8c10-4320ed42981d",
+  "user_id": "573112710867",
+  "created_at": "2026-05-03T04:00:13.854388",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T04:08:07.328208",
+      "query": "algo que esté bien",
+      "routed_query": "algo que esté bien",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 306.385,
+      "scores": [
+        0.4794,
+        0.4081,
+        0.2821,
+        0.2626,
+        0.258
+      ],
+      "titles": [
+        "Juro que te amo",
+        "¡Qué madre, tan padre!",
+        "Muchachos, la película de la gente",
+        "Mama Drama",
+        "Illiterate"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "¡Qué madre, tan padre!",
+      "Muchachos, la película de la gente",
+      "Mama Drama",
+      "Illiterate"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4794,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.4081,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2821,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2626,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.258,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2567,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2519,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2381,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "El país más feliz del mundo",
+      "score": 0.2286,
+      "genres": "Comedy",
+      "keywords": "colombian"
+    },
+    {
+      "title": "Che Kopete: The Movie",
+      "score": 0.227,
+      "genres": "Comedy",
+      "keywords": "humor|cine chileno"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "2c78b78925120acbbd682507a04774b2"
+}

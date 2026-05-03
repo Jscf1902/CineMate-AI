@@ -1,0 +1,50 @@
+{
+  "session_id": "2f43905c-0115-4989-bbe5-7ba5a2a9d231",
+  "user_id": "573133933337",
+  "created_at": "2026-05-03T03:00:47.295896",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T03:07:05.471963",
+      "query": "una película cualquiera",
+      "routed_query": "una película cualquiera",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 234.718,
+      "scores": [
+        0.4183,
+        0.2662,
+        0.2614,
+        0.2606,
+        0.2439
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Illiterate",
+        "The World's Gold",
+        "Vacanze di Natale a Cortina",
+        "Helga y Flora"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Illiterate",
+      "The World's Gold",
+      "Vacanze di Natale a Cortina",
+      "Helga y Flora"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

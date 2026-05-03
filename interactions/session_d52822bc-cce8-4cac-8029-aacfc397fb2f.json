@@ -1,0 +1,111 @@
+{
+  "session_id": "d52822bc-cce8-4cac-8029-aacfc397fb2f",
+  "user_id": "573175515909",
+  "created_at": "2026-05-02T18:06:58.324153",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T18:13:10.679398",
+      "query": "ciencia ficción pero fácil de entender",
+      "routed_query": "ciencia ficción pero fácil de entender",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 236.214,
+      "scores": [
+        0.2769,
+        0.2571,
+        0.2507,
+        0.2497,
+        0.2414
+      ],
+      "titles": [
+        "The World's Gold",
+        "È questa la vita che sognavo da bambino?",
+        "Anche se è amore non si vede",
+        "Juro que te amo",
+        "Muchachos, la película de la gente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "The World's Gold",
+      "È questa la vita che sognavo da bambino?",
+      "Anche se è amore non si vede",
+      "Juro que te amo",
+      "Muchachos, la película de la gente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "The World's Gold",
+      "score": 0.2769,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2571,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.2507,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2497,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2414,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2277,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2184,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "The Metropolitan Opera: Puccini's La Rondine",
+      "score": 0.207,
+      "genres": "Music",
+      "keywords": "opera|puccini"
+    },
+    {
+      "title": "Ask God For Forgiveness... Not Me",
+      "score": -0.7444,
+      "genres": "Drama|Soap",
+      "keywords": "telenovela|que te perdoe deus"
+    },
+    {
+      "title": "Tarde lo conocí",
+      "score": -0.763,
+      "genres": "Drama|Soap",
+      "keywords": "telenovela|telenovela colombiana"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "945a16d767a661fa850d89498f388e95"
+}

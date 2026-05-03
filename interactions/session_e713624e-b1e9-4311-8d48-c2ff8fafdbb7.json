@@ -1,0 +1,111 @@
+{
+  "session_id": "e713624e-b1e9-4311-8d48-c2ff8fafdbb7",
+  "user_id": "573171263569",
+  "created_at": "2026-05-02T08:05:37.603673",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T08:13:33.422490",
+      "query": "películas de acción intensas",
+      "routed_query": "películas de acción intensas",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 194.204,
+      "scores": [
+        0.1688,
+        0.1661,
+        0.1658,
+        0.1488,
+        0.1465
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Vacanze di Natale a Cortina",
+        "The World's Gold",
+        "Enrico IV",
+        "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Vacanze di Natale a Cortina",
+      "The World's Gold",
+      "Enrico IV",
+      "Club de Cuervos Presents: The Ballad of Hugo Sánchez"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1688,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Vacanze di Natale a Cortina",
+      "score": 0.1661,
+      "genres": "Comedy",
+      "keywords": "cinepanettone"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.1658,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Enrico IV",
+      "score": 0.1488,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Club de Cuervos Presents: The Ballad of Hugo Sánchez",
+      "score": 0.1465,
+      "genres": "Comedy",
+      "keywords": "island|fountain|central america|vomiting|football (soccer) team|vegetarianism|drug testing"
+    },
+    {
+      "title": "Amar es para siempre",
+      "score": 0.1444,
+      "genres": "Drama|History|Family",
+      "keywords": "spain|1970s|franco regime (francoism)|neighborhood|1980s|1960s"
+    },
+    {
+      "title": "Extermineitors III: The Final Fight",
+      "score": 0.1399,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    },
+    {
+      "title": "Blue Monkey",
+      "score": 0.1398,
+      "genres": "Horror|Science Fiction",
+      "keywords": "insect|plant|infection|creature|bug|virus|canuxploitation|bacteria"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.1388,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "The Extermineitors 2: The Dragon Vengance",
+      "score": 0.1386,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "6f87aaee8a50816a1b917cce4224e70c"
+}

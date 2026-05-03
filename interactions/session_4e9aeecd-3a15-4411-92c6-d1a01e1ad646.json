@@ -1,0 +1,50 @@
+{
+  "session_id": "4e9aeecd-3a15-4411-92c6-d1a01e1ad646",
+  "user_id": "573187079180",
+  "created_at": "2026-05-03T05:14:36.993256",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T05:23:26.501455",
+      "query": "algo que enganche",
+      "routed_query": "algo que enganche",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 284.237,
+      "scores": [
+        0.4714,
+        0.4256,
+        0.4139,
+        0.4133,
+        0.3866
+      ],
+      "titles": [
+        "I Spit on Your Grave: Déjà Vu",
+        "Savage Vengeance",
+        "Veronika",
+        "Hidden Murder",
+        "Strange Darling"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "I Spit on Your Grave: Déjà Vu",
+      "Savage Vengeance",
+      "Veronika",
+      "Hidden Murder",
+      "Strange Darling"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

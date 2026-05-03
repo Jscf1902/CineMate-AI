@@ -1,0 +1,50 @@
+{
+  "session_id": "df959dee-1d11-4238-8d6e-6e14a88fac6c",
+  "user_id": "573176531730",
+  "created_at": "2026-05-03T14:10:58.170421",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T14:17:59.260992",
+      "query": "quiero una película que fluya bien y no se sienta larga",
+      "routed_query": "quiero una película que fluya bien y no se sienta larga",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 290.502,
+      "scores": [
+        0.3901,
+        0.361,
+        0.3412,
+        0.2239,
+        0.2172
+      ],
+      "titles": [
+        "Juro que te amo",
+        "Muchachos, la película de la gente",
+        "¡Qué madre, tan padre!",
+        "Illiterate",
+        "Mama Drama"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "Muchachos, la película de la gente",
+      "¡Qué madre, tan padre!",
+      "Illiterate",
+      "Mama Drama"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

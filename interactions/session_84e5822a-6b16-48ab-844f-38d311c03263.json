@@ -1,0 +1,111 @@
+{
+  "session_id": "84e5822a-6b16-48ab-844f-38d311c03263",
+  "user_id": "573155811457",
+  "created_at": "2026-05-02T22:00:44.035460",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T22:08:39.481908",
+      "query": "ciencia ficción con inteligencia artificial y dilemas éticos",
+      "routed_query": "ciencia ficción con inteligencia artificial y dilemas éticos",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 338.964,
+      "scores": [
+        0.3452,
+        0.3275,
+        0.3211,
+        0.3139,
+        0.3079
+      ],
+      "titles": [
+        "Parallel Minds",
+        "The Gene of AI",
+        "Pantheon",
+        "Humans",
+        "A.I.C.O. -Incarnation-"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Parallel Minds",
+      "The Gene of AI",
+      "Pantheon",
+      "Humans",
+      "A.I.C.O. -Incarnation-"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Parallel Minds",
+      "score": 0.3452,
+      "genres": "Science Fiction|Thriller",
+      "keywords": "artificial intelligence (a.i.)|indigenous|murder mystery"
+    },
+    {
+      "title": "The Gene of AI",
+      "score": 0.3275,
+      "genres": "Animation|Drama|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|based on manga|shounen|anime|psychological"
+    },
+    {
+      "title": "Pantheon",
+      "score": 0.3211,
+      "genres": "Animation|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|virtual reality|conspiracy|philosophical|inspirational"
+    },
+    {
+      "title": "Humans",
+      "score": 0.3139,
+      "genres": "Sci-Fi & Fantasy|Drama|Mystery",
+      "keywords": "artificial intelligence (a.i.)|technology|robot"
+    },
+    {
+      "title": "A.I.C.O. -Incarnation-",
+      "score": 0.3079,
+      "genres": "Animation|Action & Adventure|Sci-Fi & Fantasy",
+      "keywords": "artificial intelligence (a.i.)|anime|original net animation (ona)"
+    },
+    {
+      "title": "Alma-chan Wants to Be a Family!",
+      "score": 0.3002,
+      "genres": "Animation|Comedy",
+      "keywords": "artificial intelligence (a.i.)|android|slice of life|based on manga|family|seinen|anime|robot girl|comedy"
+    },
+    {
+      "title": "M3GAN 2.0",
+      "score": 0.2999,
+      "genres": "Action|Science Fiction|Thriller",
+      "keywords": "artificial intelligence (a.i.)|android|killer robot|fight|beheading|electromagnetic pulse|sequel|evil doll|wingsuit|robot|doll|spear throwing|synthetic human|robot fighting|exoskeleton|creepy doll|satirical|smart home|possessed doll|action|fbi operation|neural chip|android horror"
+    },
+    {
+      "title": "Time of Eve",
+      "score": 0.2994,
+      "genres": "Animation|Sci-Fi & Fantasy|Drama",
+      "keywords": "artificial intelligence (a.i.)|detective|android|future|dystopia|surrealism|slice of life|cyberpunk|maid|robot|cafe|seinen|anime|three laws of robotics"
+    },
+    {
+      "title": "The Creator",
+      "score": 0.29,
+      "genres": "Science Fiction|Action|Adventure",
+      "keywords": "artificial intelligence (a.i.)|asia|cyberpunk|robot|space station|kids|ex special forces|humanoid robot|missing wife|near future|war against machines|dystopian sci-fi"
+    },
+    {
+      "title": "The Last Bus",
+      "score": 0.2853,
+      "genres": "Sci-Fi & Fantasy|Family",
+      "keywords": "artificial intelligence (a.i.)|bus|travel|school|kids"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "ab413b13d2409c8697c87cd90e6c159d"
+}

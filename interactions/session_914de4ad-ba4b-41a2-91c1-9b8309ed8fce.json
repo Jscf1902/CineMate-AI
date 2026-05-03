@@ -1,0 +1,50 @@
+{
+  "session_id": "914de4ad-ba4b-41a2-91c1-9b8309ed8fce",
+  "user_id": "573172817249",
+  "created_at": "2026-05-03T05:01:15.062904",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T05:07:57.987177",
+      "query": "algo fácil de ver",
+      "routed_query": "algo fácil de ver",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 272.846,
+      "scores": [
+        0.4256,
+        0.2179,
+        0.2161,
+        0.2143,
+        0.2138
+      ],
+      "titles": [
+        "Fácil",
+        "Love Is Gay, Love Is Sad",
+        "Credo in un solo padre",
+        "Rhythm + Flow Italy",
+        "Falco: Damn It, We're Still Alive!"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Fácil",
+      "Love Is Gay, Love Is Sad",
+      "Credo in un solo padre",
+      "Rhythm + Flow Italy",
+      "Falco: Damn It, We're Still Alive!"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

@@ -1,0 +1,111 @@
+{
+  "session_id": "b42556ec-b45f-4aa1-a013-f892bc51f8d0",
+  "user_id": "573164828258",
+  "created_at": "2026-05-02T10:12:37.334778",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T10:19:44.954229",
+      "query": "pelis parecidas a Avatar",
+      "routed_query": "pelis parecidas a Avatar",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 304.521,
+      "scores": [
+        0.2294,
+        0.2178,
+        0.2161,
+        0.2125,
+        0.2043
+      ],
+      "titles": [
+        "Enrico IV",
+        "Bomba Star",
+        "Muchachos, la película de la gente",
+        "Barbie Vlogs",
+        "Pepper Ann"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Enrico IV",
+      "Bomba Star",
+      "Muchachos, la película de la gente",
+      "Barbie Vlogs",
+      "Pepper Ann"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Enrico IV",
+      "score": 0.2294,
+      "genres": "TV Movie|Drama",
+      "keywords": "pirandello"
+    },
+    {
+      "title": "Bomba Star",
+      "score": 0.2178,
+      "genres": "Drama",
+      "keywords": "movie star"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.2161,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Barbie Vlogs",
+      "score": 0.2125,
+      "genres": NaN,
+      "keywords": "female protagonist|3d animation"
+    },
+    {
+      "title": "Pepper Ann",
+      "score": 0.2043,
+      "genres": "Animation|Comedy|Family|Kids",
+      "keywords": "ana pimentinha"
+    },
+    {
+      "title": "How to Die in Cinema",
+      "score": 0.2033,
+      "genres": "Documentary",
+      "keywords": "vidas secas"
+    },
+    {
+      "title": "Virtua Fighter",
+      "score": 0.2023,
+      "genres": "Animation",
+      "keywords": "based on video game|anime|المقاتل النبيل"
+    },
+    {
+      "title": "Ana",
+      "score": 0.2022,
+      "genres": "Comedy|Drama",
+      "keywords": "ana"
+    },
+    {
+      "title": "Sevgilim Artist Olunca",
+      "score": 0.2019,
+      "genres": "Romance|Drama",
+      "keywords": "artist|sevgilim|olunca"
+    },
+    {
+      "title": "Barbie: It Takes Two",
+      "score": 0.2,
+      "genres": "Family|Kids|Animation|Comedy",
+      "keywords": "female protagonist|3d animation"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "e5f90976aab4fed77781a9b6b7462960"
+}

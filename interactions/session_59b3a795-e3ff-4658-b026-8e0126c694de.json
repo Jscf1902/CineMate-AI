@@ -1,0 +1,111 @@
+{
+  "session_id": "59b3a795-e3ff-4658-b026-8e0126c694de",
+  "user_id": "573186807351",
+  "created_at": "2026-05-03T14:47:53.854175",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T14:54:12.959109",
+      "query": "algo que sea envolvente pero fácil de seguir",
+      "routed_query": "algo que sea envolvente pero fácil de seguir",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 224.569,
+      "scores": [
+        0.4472,
+        0.269,
+        0.2619,
+        0.2373,
+        0.22
+      ],
+      "titles": [
+        "Juro que te amo",
+        "El Gallo de Oro",
+        "È questa la vita che sognavo da bambino?",
+        "The World's Gold",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Juro que te amo",
+      "El Gallo de Oro",
+      "È questa la vita che sognavo da bambino?",
+      "The World's Gold",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Juro que te amo",
+      "score": 0.4472,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "El Gallo de Oro",
+      "score": 0.269,
+      "genres": "Drama",
+      "keywords": "mexico|juan rulfo|lucero"
+    },
+    {
+      "title": "È questa la vita che sognavo da bambino?",
+      "score": 0.2619,
+      "genres": "Documentary",
+      "keywords": "art|intrattenimento e cultura"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2373,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.22,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Overcoming heartbreak",
+      "score": 0.2175,
+      "genres": "Soap|Drama",
+      "keywords": "vencer o desamor"
+    },
+    {
+      "title": "Anche se è amore non si vede",
+      "score": 0.217,
+      "genres": "Comedy",
+      "keywords": "picone|ficarra|ficarra e picone"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2104,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2088,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2069,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "1d2d0d9dc8e0499b07cd783124e5dd27"
+}

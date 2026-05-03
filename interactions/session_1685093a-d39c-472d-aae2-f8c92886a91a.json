@@ -1,0 +1,50 @@
+{
+  "session_id": "1685093a-d39c-472d-aae2-f8c92886a91a",
+  "user_id": "573191760431",
+  "created_at": "2026-05-02T03:22:09.009909",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T03:30:17.271200",
+      "query": "ciencia ficción con aliens",
+      "routed_query": "ciencia ficción con aliens",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 230.838,
+      "scores": [
+        0.4356,
+        0.3649,
+        0.3109,
+        0.3045,
+        0.276
+      ],
+      "titles": [
+        "Jeff and Some Aliens",
+        "Ancient Aliens: Origins",
+        "Anche se è amore non si vede",
+        "Illiterate",
+        "The World's Gold"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Jeff and Some Aliens",
+      "Ancient Aliens: Origins",
+      "Anche se è amore non si vede",
+      "Illiterate",
+      "The World's Gold"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

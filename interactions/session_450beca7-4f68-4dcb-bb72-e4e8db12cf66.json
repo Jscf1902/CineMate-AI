@@ -1,0 +1,50 @@
+{
+  "session_id": "450beca7-4f68-4dcb-bb72-e4e8db12cf66",
+  "user_id": "573117940053",
+  "created_at": "2026-05-03T01:35:14.887197",
+  "mode": "DIRECT",
+  "use_rag": false,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T01:49:08.465010",
+      "query": "algo para ver hoy",
+      "routed_query": "algo para ver hoy",
+      "mode": "DIRECT",
+      "use_rag": false,
+      "used_cache": false,
+      "latency": 274.006,
+      "scores": [
+        0.8188,
+        0.3943,
+        0.3791,
+        0.2966,
+        0.2891
+      ],
+      "titles": [
+        "Hoy Voy a Cambiar",
+        "Una Horca Para El Texano",
+        "Para - We Are King",
+        "Hormiga negra",
+        "Tres huchas para Oriente"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Hoy Voy a Cambiar",
+      "Una Horca Para El Texano",
+      "Para - We Are King",
+      "Hormiga negra",
+      "Tres huchas para Oriente"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [],
+  "current_index": 0,
+  "last_query_signature": ""
+}

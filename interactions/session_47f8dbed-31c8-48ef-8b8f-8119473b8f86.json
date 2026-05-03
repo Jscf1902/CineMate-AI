@@ -1,0 +1,111 @@
+{
+  "session_id": "47f8dbed-31c8-48ef-8b8f-8119473b8f86",
+  "user_id": "573141295996",
+  "created_at": "2026-05-03T06:33:31.860604",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-03T06:57:57.757642",
+      "query": "una peli cualquiera buena",
+      "routed_query": "una peli cualquiera buena",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 1296.082,
+      "scores": [
+        0.31,
+        0.2861,
+        0.2806,
+        0.2756,
+        0.2722
+      ],
+      "titles": [
+        "Muchachos, la película de la gente",
+        "Illiterate",
+        "Mama Drama",
+        "¡Qué madre, tan padre!",
+        "Por la gloria de sus padres"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "Muchachos, la película de la gente",
+      "Illiterate",
+      "Mama Drama",
+      "¡Qué madre, tan padre!",
+      "Por la gloria de sus padres"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.31,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "Illiterate",
+      "score": 0.2861,
+      "genres": "Drama",
+      "keywords": "cine chileno"
+    },
+    {
+      "title": "Mama Drama",
+      "score": 0.2806,
+      "genres": "Comedy|Drama",
+      "keywords": "serie mexicana"
+    },
+    {
+      "title": "¡Qué madre, tan padre!",
+      "score": 0.2756,
+      "genres": "Comedy|Drama",
+      "keywords": "que madre tan padre"
+    },
+    {
+      "title": "Por la gloria de sus padres",
+      "score": 0.2722,
+      "genres": "Documentary",
+      "keywords": "camino de santiago|gonzalo mozas"
+    },
+    {
+      "title": "Helga y Flora",
+      "score": 0.2707,
+      "genres": "Drama|Mystery|Crime",
+      "keywords": "serie chilena"
+    },
+    {
+      "title": "Juro que te amo",
+      "score": 0.2588,
+      "genres": "Soap",
+      "keywords": "juro que te amo"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.2543,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "Natural Born Narco",
+      "score": 0.2501,
+      "genres": "Crime|Drama",
+      "keywords": "narco|aurelio|el señor de los cielos"
+    },
+    {
+      "title": "Extermineitors III: The Final Fight",
+      "score": 0.2477,
+      "genres": "Action|Comedy",
+      "keywords": "argentina|cine argentino"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "3e46f85b6ba840e962b2e000cfd36ad0"
+}

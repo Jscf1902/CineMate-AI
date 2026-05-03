@@ -1,0 +1,111 @@
+{
+  "session_id": "f459e39f-e3d2-4dfe-876f-d418021e5951",
+  "user_id": "573120405617",
+  "created_at": "2026-05-02T08:20:09.359279",
+  "mode": "RAG",
+  "use_rag": true,
+  "interactions": [
+    {
+      "timestamp": "2026-05-02T08:30:41.779316",
+      "query": "películas de intriga política",
+      "routed_query": "películas de intriga política",
+      "mode": "RAG",
+      "use_rag": true,
+      "used_cache": false,
+      "latency": 298.7,
+      "scores": [
+        0.2374,
+        0.2224,
+        0.2081,
+        0.2053,
+        0.2017
+      ],
+      "titles": [
+        "A Man Called Magnum",
+        "Who Killed the Prosecutor and Why?",
+        "The Moro Affair",
+        "Después de… Primera parte: no se os puede dejar solos",
+        "José Aparecido de Oliveira – O Maior Mineiro do Mundo"
+      ],
+      "results_count": 5
+    }
+  ],
+  "feedback": null,
+  "memory": {
+    "last_movies": [
+      "A Man Called Magnum",
+      "Who Killed the Prosecutor and Why?",
+      "The Moro Affair",
+      "Después de… Primera parte: no se os puede dejar solos",
+      "José Aparecido de Oliveira – O Maior Mineiro do Mundo"
+    ],
+    "preferences": {
+      "genres": [],
+      "keywords": []
+    }
+  },
+  "candidates": [
+    {
+      "title": "A Man Called Magnum",
+      "score": 0.2374,
+      "genres": "Crime|Action",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "Who Killed the Prosecutor and Why?",
+      "score": 0.2224,
+      "genres": "Thriller",
+      "keywords": "poliziottesco"
+    },
+    {
+      "title": "The Moro Affair",
+      "score": 0.2081,
+      "genres": "Drama|History",
+      "keywords": "politics|terrorism|years of lead|anni di piombo"
+    },
+    {
+      "title": "Después de… Primera parte: no se os puede dejar solos",
+      "score": 0.2053,
+      "genres": "Documentary",
+      "keywords": "1970s|franco regime (francoism)|social documentary|communist party|spanish transition|1980s|spanish history|social democracy|spanish politics"
+    },
+    {
+      "title": "José Aparecido de Oliveira – O Maior Mineiro do Mundo",
+      "score": 0.2017,
+      "genres": "Documentary",
+      "keywords": "political leader"
+    },
+    {
+      "title": "What the Future Holds",
+      "score": 0.1986,
+      "genres": "Drama",
+      "keywords": "barcelona, spain|franco regime (francoism)|informant|communist party"
+    },
+    {
+      "title": "Muchachos, la película de la gente",
+      "score": 0.1985,
+      "genres": "Documentary",
+      "keywords": "cine argentino"
+    },
+    {
+      "title": "The World's Gold",
+      "score": 0.1961,
+      "genres": "Music|Comedy",
+      "keywords": "franco e ciccio"
+    },
+    {
+      "title": "General Report",
+      "score": 0.1952,
+      "genres": "Documentary",
+      "keywords": "spain|1970s|political instability|franco regime (francoism)|labor union|communist party|dictatorship aftermath|political struggle|exiled spanish republican"
+    },
+    {
+      "title": "Amar es para siempre",
+      "score": 0.19,
+      "genres": "Drama|History|Family",
+      "keywords": "spain|1970s|franco regime (francoism)|neighborhood|1980s|1960s"
+    }
+  ],
+  "current_index": 1,
+  "last_query_signature": "7ea63960a468000dc75d1381bf569f8e"
+}
